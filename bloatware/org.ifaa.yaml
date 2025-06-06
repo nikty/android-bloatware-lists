@@ -1,0 +1,7 @@
+---
+- description: |-
+    IfaaManagerService
+    IFAA = (China’s) Internet Finance Authentication Alliance
+    Provides biometric authentication for Alipay. Probably safe to disable if you don't use it.
+  id: org.ifaa.aidl.manager
+  removal: recommended

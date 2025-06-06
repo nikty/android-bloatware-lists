@@ -1,0 +1,6 @@
+---
+- description: |-
+    VtsTouchscreenCheck
+    It's testing things app.
+  id: com.touchscreen.vtstouchscreencheck
+  removal: recommended

@@ -1,0 +1,16 @@
+---
+- description: |-
+    ORoaming
+    Lets you buy RedTeaMobile data plan to access Internet in foreign country with a virtual SIM card
+    See https://support.oppo.com/uk/answer/?aid=neu9139
+    Pithus analysis: https://beta.pithus.org/report/d017d4f6623bf8e71456e6bffe551ef6f3ff3095c62cef3df6d968354898c097
+  id: com.redteamobile.roaming
+  removal: recommended
+- description: |-
+    ORoaming
+    Redtea Roaming service deamon for com.redteamobile.roaming
+  id: com.redteamobile.roaming.deamon
+  removal: recommended
+- description: It's for vsim = virtual sim
+  id: com.redteamobile.virtual.softsim
+  removal: recommended

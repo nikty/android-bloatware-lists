@@ -1,0 +1,114 @@
+---
+- description: |
+    Sony gallery app (https://play.google.com/store/apps/details?id=com.sonyericsson.album)
+  id: com.sonyericsson.album
+  removal: advanced
+- description: |
+    Sony Creative effect
+    Gives options for various photographic toning effects in the Sony camera app.
+    I'm not 100% sure for this one. Can someone confirm ? 
+  id: com.sonyericsson.android.addoncamera.artfilter
+  removal: advanced
+- description: |
+    Sony camera app (on older phones)
+  id: com.sonyericsson.android.camera3d
+  removal: advanced
+- description: |-
+    Sony's default messages (SMS) app
+    https://www.apkmirror.com/apk/sony-mobile-communications/messaging-sony-mobile-communications/messaging-sony-mobile-communications-29-3-a-6-12-release/messaging-29-3-a-6-12-android-apk-download
+  id: com.sonyericsson.android.conversations
+  removal: expert
+- description: 'Theres only Drm License Activity, only downloads license, also japanese'
+  id: com.sonyericsson.android.drm.drmlicenseservice
+  removal: recommended
+- description: |
+    omacp = OMA Client Provisioning. It is a protocol specified by the Open Mobile Alliance (OMA).
+    It is used by carrier to send "configuration SMS" which can setup network settings (such as APN).
+    In my case, it was automatic and I never needed configuration messages. I'm pretty sure that in France this package is useless.
+    Maybe it's useful if carriers change their APN... but you still can change it manually, it's not difficult.
+    These special "configuration SMS" can be abused : 
+    https://www.zdnet.fr/actualites/les-smartphones-samsung-huawei-lg-et-sony-vulnerables-a-des-attaques-par-provisioning-39890045.htm
+    https://www.csoonline.com/article/3435729/sms-based-provisioning-messages-enable-advanced-phishing-on-android-phones.html
+  id: com.sonyericsson.android.omacp
+  removal: advanced
+- description: |
+    Used to display a overlay notification (= on top of others app) when you receive a SMS with Sony SMS app ?
+  id: com.sonyericsson.conversations.res.overlay
+  removal: advanced
+- description: Used to display a overlay notification (= on top of others app) when you receive a SMS with Sony SMS app ?
+  id: com.sonyericsson.conversations.res.overlay_305
+  removal: recommended
+- description: |-
+    Anonymous Usage Stats
+    Used to send "anonymous" information about how you use your Sony Smartphone to Sony servers.
+    It remains unclear exactly how this information is anonymized.
+  id: com.sonyericsson.idd.agent
+  removal: recommended
+- description: |-
+    MTP extension service
+    Needed to transfer data from phone to PC through MTP? (Media Transfer Protocol)
+  id: com.sonyericsson.mtp
+  removal: expert
+- description: |-
+    Backup/Restore Sony feature.
+    Enables you to backup contacts, call logs, text messages, calendar, settings, bookmarks & media files.
+    NOTE: I don't think this feature can backup your messages or calendars for instance if you don't use the Sony stock app.
+    https://support.sonymobile.com/global-en/xperiaz2/userguide/backing-up-and-restoring-content-on-a-device/
+  id: com.sonyericsson.mtp.extension.backuprestore
+  removal: advanced
+- description: |-
+    Update service for MTP Extension.
+    Updates something for the MTP extension?
+  id: com.sonyericsson.mtp.extension.update
+  removal: expert
+- description: |
+    Sony music player (https://play.google.com/store/apps/details?id=com.sonyericsson.music)
+  id: com.sonyericsson.music
+  removal: advanced
+- description: 'Some overlay for settings? Overlays are usually themes.'
+  id: com.sonyericsson.settings.res.overlay_305
+  removal: expert
+- description: |
+    Startup Flag Service
+    Used during the production of the phone to verify that the touch input works. 
+    It can be triggered when a specific TA-parameter is not set. This should never be triggered and if it does well it doesn't have any use for you.
+    
+    TA means Timing Advance and its value correspond to the length of time a signal takes to reach the base station from a mobile phone.
+    https://www.telecomhall.net/t/parameter-timing-advance-ta/6390
+  id: com.sonyericsson.startupflagservice
+  removal: recommended
+- description: |
+    Sony chinese keyboard
+  id: com.sonyericsson.textinput.chinese
+  removal: recommended
+- description: |-
+    Some overlay for TrackID. Overlays are usually themes.
+    TrackID was(now discontinued) a music and audio search engine (like Shazam).
+  id: com.sonyericsson.trackid.res.overlay
+  removal: expert
+- description: |-
+    Overlay for TrackID. Overlays are usually themes.
+    TrackID was(now discontinued) a music and audio search engine (like Shazam).
+  id: com.sonyericsson.trackid.res.overlay_305
+  removal: expert
+- description: |
+    Given its name, I think it displays a notification when you insert a headset not compatible with your phone.
+  id: com.sonyericsson.unsupportedheadsetnotifier
+  removal: advanced
+- description: |
+    WAP Push
+    Used to display annoying WAP push.
+    WAP push is a type of text message that contains a direct link to a particular Web page. 
+    When a user is sent a WAP-push message, he receives an alert, once clicked, directs him to the Web page via his browser.
+    Personally, I don't like this. URLs are now recognized by the SMS instant messaging apps and you just have to click on it.
+  id: com.sonyericsson.wappush
+  removal: recommended
+- description: Lets you see some info about your warranty and how long it will last.
+  id: com.sonyericsson.warrantytime
+  removal: recommended
+- description: |
+    Sony Xperia Lounge (discontinued by Sony on August 2019)
+    The Xperia Lounge app was meant to provide loyal fans with various rewards for their Xperia smartphones, 
+    such as exclusive Xperia Themes and wallpapers, as well as competitions.
+  id: com.sonyericsson.xhs
+  removal: recommended

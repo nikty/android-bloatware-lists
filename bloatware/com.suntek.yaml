@@ -1,0 +1,4 @@
+---
+- description: 'RCS service, contains a lot of Chinese.'
+  id: com.suntek.mway.rcs.app.service
+  removal: recommended

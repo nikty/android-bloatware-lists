@@ -1,0 +1,31 @@
+---
+- description: it's app for testing things.
+  id: com.goodix.deltadiff
+  removal: recommended
+- description: |-
+    GFManager
+    Fingerprint test? This app don't have any code.
+  id: com.goodix.fingerprint
+  removal: recommended
+- description: |-
+    Fingerprint test
+    Hidden Fingerprint testing not available for normal users.
+  id: com.goodix.fingerprint.producttest
+  removal: recommended
+- description: |-
+    Fingerprint test
+    Hidden Fingerprint testing not available for normal users.
+  id: com.goodix.fingerprint.sampling
+  removal: recommended
+- description: |-
+    In-Display Fingerprint test
+    Hidden testing Fingerprint not available for normal users.
+  id: com.goodix.fingerprint.setting
+  removal: recommended
+- description: |-
+    Fingerprint test
+    Hidden app that tests your fingerprint. Not available for users.
+  id: com.goodix.gftest
+- description: 'DrawLineTest, Raw Data Test.'
+  id: com.goodix.rawdata
+  removal: recommended

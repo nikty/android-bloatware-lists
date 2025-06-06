@@ -1,0 +1,4 @@
+---
+- description: Chinese Ximalaya.
+  id: com.ximalaya.ting.android
+  removal: recommended

@@ -1,0 +1,11 @@
+---
+- description: |-
+    Swiftkey Keyboard (https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)
+    Keyboard app by TouchType, a Microsoft subsidiary (https://en.wikipedia.org/wiki/SwiftKey)
+    4 Trackers + 11 Permissions: https://reports.exodus-privacy.eu.org/en/reports/com.touchtype.swiftkey/latest/
+    NOTE: default keyboard on some Nokia and Huawei phones. Make sure you have another keyboard app before disabling this.
+  id: com.touchtype.swiftkey
+  removal: advanced
+- description: 'Some overlay for Swiftkey? Overlays are usually themes, but not sure about this one.'
+  id: com.touchtype.swiftkey.res.overlay
+  removal: expert

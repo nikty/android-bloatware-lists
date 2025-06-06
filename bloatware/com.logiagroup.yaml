@@ -1,0 +1,8 @@
+---
+- description: |
+    Mobile Services Manager
+    Seems to be a spyware. 
+    Good explanation from someone who worked for carrier : 
+    https://www.reddit.com/r/lgv20/comments/6u0wnf/what_is_mobile_services_manager_did_i_catch_a/
+  id: com.LogiaGroup.LogiaDeck
+  removal: recommended

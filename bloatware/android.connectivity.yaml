@@ -1,0 +1,7 @@
+---
+- description: |-
+    CaptivePortalLogin overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    https://source.android.com/docs/core/runtime/rros
+  id: android.connectivity.base.overlay
+  removal: expert

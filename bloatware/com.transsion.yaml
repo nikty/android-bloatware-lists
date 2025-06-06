@@ -1,0 +1,451 @@
+---
+- description: |-
+    Launcher with ads, tracking.
+    After remove you will lose recent apps.
+  id: com.transsion.XOSLauncher
+  removal: expert
+- description: 'Hidden camera tests, calibration.'
+  id: com.transsion.aftersalecalibrationtool
+  removal: recommended
+- description: 'Another test mode, aging setting. secret code 2828, 2829, 2830'
+  id: com.transsion.agingfunction
+  removal: recommended
+- description: |-
+    Adds a shortcut on the Settings app that lets you manage your Folax AI (com.transsion.aivoiceassistant) settings. If you have already removed that package, it just displays a blank page.
+    This can also be safely removed without issues.
+  id: com.transsion.aisettings
+  removal: recommended
+- description: |-
+    Very shady voice assistant called 'Folax' that comes preinstalled in Infinix phones, and is also packed with ads in the main ui. It needs every permission, and access to everything on your phone to run. It uses OpenAI as its backend.
+    It constantly runs in the background after boot, and periodically phones home.
+    You don't want this on your phone.
+    This can be safely removed without issues.
+  id: com.transsion.aivoiceassistant
+  removal: recommended
+- description: |-
+    Mediocre AI Wallpaper Generator.
+    Can be accessed from (Settings > Personalization).
+    You can safely remove this without any issues if you don't use it.
+  id: com.transsion.aiwallpaper
+  removal: recommended
+- description: AlwaysOnDisplay
+  id: com.transsion.aod
+  removal: recommended
+- description: |-
+    AppLock
+    Provides the only way to hide files and lock apps when using Transsion launchers (which the Transsion devices require for certain functionality like multiapps not working with other launchers). These are the only apps that hide files and lock apps with them.
+  id: com.transsion.applock
+  removal: advanced
+- description: |-
+    Audio Share
+    Allows you to share your device’s Bluetooth audio with wireless headphones or bluetooth speakers, allowing to listen to the same music with multiple people
+    Pithus analysis: https://beta.pithus.org/report/0f21ba3944663e53da1d37be3c4253c2e89c3685fbff841127fed2a98e0000ec
+  id: com.transsion.audioshare
+  removal: recommended
+- description: |-
+    Driving Mode
+    Driving Mode app.
+  id: com.transsion.auto
+  removal: recommended
+- description: Factory. Testing Hardware Things.
+  id: com.transsion.autotest.factory
+  removal: recommended
+- description: "Is this for T-moji avatar services? it's useless."
+  id: com.transsion.avatar
+  removal: recommended
+- description: |-
+    Supposed to improve battery life but logs especially lots of usage info and bind it to your unique android advertiser id...The app tries to send data to a server. The POST request URL and content is obfuscated and I don't have the time to dig deeper. According to a user, no battery impact after months of usage after uninstalling it.
+    
+    Pithus analysis: https://beta.pithus.org/report/7ef2b186a74102828346f23b094ab2aaaad2c57806c7c18e7a23a494f3cc982c
+  id: com.transsion.batterylab
+  removal: recommended
+- description: |-
+    Power Marathon
+    It's only icon app.
+  id: com.transsion.batterylab.icon
+  removal: advanced
+- description: |-
+    Ringtone Maker
+    Require Google Play Services.
+    Record media sound and edit or set it as ringtone.
+  id: com.transsion.beezedit
+  removal: recommended
+- description: |-
+    Airlink
+    Bluetooth still work without this.
+    (not sure if its needed for transfer files using bluetooth)
+  id: com.transsion.bluetooth
+  removal: advanced
+- description: |-
+    Calculator
+    Stock Calculator app. Lot of telemetry and are completely replaceable.
+  id: com.transsion.calculator
+  removal: recommended
+- description: |-
+    Calendar
+    Stock Calendar app
+  id: com.transsion.calendar
+  removal: advanced
+- description: |-
+    Camera
+    Stock camera app
+  id: com.transsion.camera
+  removal: advanced
+- description: |-
+    Carlcare (https://play.google.com/store/apps/details?id=com.transsion.carlcare)
+    After-sales Service app. Lets you check spare parts price,warranty,repair status and nearest service center. Full of trackers. Talks with Facebook (https://reports.exodus-privacy.eu.org/fr/reports/com.transsion.carlcare/latest/)
+  id: com.transsion.carlcare
+  removal: recommended
+- description: |-
+    Kids Mode
+    Phone monitoring app to control what the user the can do on the phone. Intrusive and use Firebase so it's sends data back to Google servers.
+    
+    Pithus analysis: https://beta.pithus.org/report/ca30c6d1d7c7625e0850c4114dfea5aab5118d391191d2c074cde1414bbccd8c
+  id: com.transsion.childmode
+  removal: recommended
+- description: Unused overlay to childmode.
+  id: com.transsion.childmode.resoverlay
+  removal: recommended
+- description: |-
+    Chrome Assistant
+    Customizes HomePage and uses Advertising ID.
+  id: com.transsion.chromecustomization
+  removal: recommended
+- description: "it's something for cast setting, file transfer setting, smart connect to pc by TCCP"
+  id: com.transsion.connectx.mirror.source
+  removal: recommended
+- description: |-
+    Backup and Restore
+    Backup Contacts.
+  id: com.transsion.datatransfer
+  removal: recommended
+- description: |-
+    DeadCycleTest
+    Hidden tests.
+  id: com.transsion.deadcycletest
+  removal: recommended
+- description: |-
+    Clock
+    Can manage alarms by this app.
+  id: com.transsion.deskclock
+  removal: advanced
+- description: |-
+    Improves audio quality depending on your surrounding environment and your headphones.
+    Has the GET_TASKS/REAL_GET_TASKS permission which allows it to retrieve information about currently and recently running processes. Not sure why it needs this permission though.
+    https://www.dirac.com/
+    Pithus analysis: https://beta.pithus.org/report/b2cf41f579c586468faa0270bf63699cca2b500887dba3a699ddd5e35507a1a9
+  id: com.transsion.dirac
+  removal: advanced
+- description: |-
+    DTS Sound
+    Very safe to disable and just serves as a way to modify audio playing and runs in the background and has telemetry can be replaced by other better apps
+  id: com.transsion.dtsaudio
+  removal: recommended
+- description: |-
+    Dual App
+    Needed for Dual Apps.
+  id: com.transsion.dualapp
+  removal: recommended
+- description: Needed for Face Unlock lock screen.
+  id: com.transsion.faceid
+  removal: expert
+- description: |-
+    Face Unlock
+    Safe to remove if unused.
+  id: com.transsion.faceidsub
+  removal: advanced
+- description: |-
+    File Manager App (https://play.google.com/store/apps/details?id=com.transsion.filemanagerx)
+    Comes with 3 analytics/ads trackers (https://reports.exodus-privacy.eu.org/fr/reports/com.transsion.filemanagerx/latest/)
+    It doesn't break anything upon disable, and uses telemetry. Similar to Google Files. Probably safe to disable. Further testing needed.
+  id: com.transsion.filemanagerx
+  removal: recommended
+- description: |-
+    WOW FM
+    App for FM RADIO.
+  id: com.transsion.fmradio
+  removal: advanced
+- description: |-
+    It seems to be an "aftersales user experience logging app". Really shady app with questionable code (judgeWhiteUser() function. See https://github.com/0x192/universal-android-debloater/pull/112).
+    
+    Start at boot and can access phone number and IMEI (READ_PHONE_STATE).
+    
+    Pithus analysis: https://beta.pithus.org/report/35fd79ebbe51808196605146a62aaef13bc654477d917078a3ae5d3f06ba8836
+  id: com.transsion.hamal
+  removal: recommended
+- description: |-
+    Tecno health app. Sends your personal data to Firebase google servers and Tecno servers. Those data can be shared with TRANSSION affiliated companies (see https://cdn.shalltry.com/transsionholdings/en/policy.html)
+    Pithus analysis: https://beta.pithus.org/report/2b7cd35081a9fbc82a1da1741cb476d1edaa3262d46a204ea8456c99c4e1b976
+  id: com.transsion.health
+  removal: recommended
+- description: |-
+    My Health
+    Provides you with interesting and professional analyses of running, steps, weight management etc.
+    https://play.google.com/store/apps/details?id=com.transsion.healthlife
+  id: com.transsion.healthlife
+  removal: recommended
+- description: |-
+    HiOS Launcher
+    It have google analytics and it's so bloated.
+    The recent apps button does not work after uninstallation.
+  id: com.transsion.hilauncher
+  removal: unsafe
+- description: |-
+    Hi Party
+    Allows you to synchronize and play the same song across multiple *supported* devices. The app creates a wifi hotspot. You can connect up to 6 devices via QR code to simultaneously broadcast music.
+    
+    Needs permissions you probably doesn't want to give : READ_PHONE_STATE (can read phone number and IMEI) and ACCESS_FINE_LOCATION.
+    Pithus analysis: https://beta.pithus.org/report/154ee6107d3f5bbb0819719fc7ce5fd17474135081f576f56c29bd26ed70ca14
+  id: com.transsion.hiparty
+  removal: recommended
+- description: |-
+    Pre-installed social network app:
+    https://www.infinix.club/
+  id: com.transsion.infinix.xclub
+  removal: recommended
+- description: |-
+    WelinkService
+    PC Connect unneccessary things
+  id: com.transsion.iotservice
+  removal: recommended
+- description: |-
+    Manual Guide
+    Has guides to phone.
+  id: com.transsion.itel.manual
+  removal: advanced
+- description: it's for testing things and debugging.
+  id: com.transsion.kolun.aiservice
+  removal: recommended
+- description: |-
+    Smart Assistant App
+    Nearly no code in the APK I got. Weird
+    Pithus analysis: https://beta.pithus.org/report/7fbf0abbb2c28de4c976a388e04d206a88db9e6a42a740914c9e893589fd493b
+  id: com.transsion.kolun.assistant
+  removal: recommended
+- description: |-
+    Mobile Cloner
+    it's probably useful when you switch to other phone to move your apps.
+  id: com.transsion.letswitch
+  removal: recommended
+- description: |-
+    Tranquil Blue live wallpaper
+    specific live wallpaper
+  id: com.transsion.livewallpaper.volcano
+  removal: advanced
+- description: Specific Live Wallpaper.
+  id: com.transsion.livewallpaper.wakeup_mirror
+  removal: advanced
+- description: |-
+    Shows trending news, games and wallpapers on the lockscreen. Talks to ads services
+    Pithus analysis: https://beta.pithus.org/report/fcda43fab1ed9cdc95281cdb96b77938afc8ca4b6e0ada418cac282a78f0cc9f
+  id: com.transsion.magazineservice.hios
+  removal: recommended
+- description: |-
+    Magazine Lockscreen XOS
+    Resource-hog bloatware that uses a lot of telemetry. For lock screen to look at pictures... https://play.google.com/store/apps/details?id=com.transsion.magazineservice.xos
+  id: com.transsion.magazineservice.xos
+  removal: recommended
+- description: |-
+    Magic Fonts (https://play.google.com/store/apps/details?id=com.transsion.magicfont)
+    Fonts installer with a lot of trackers obviously (https://reports.exodus-privacy.eu.org/fr/reports/com.transsion.magicfont/latest/). For Transsion devices I'm pretty sure this is the only way you can install fonts, even Zfont uses this app to install fonts. Breaks or well, removes functionality of changing fonts if removed.
+  id: com.transsion.magicfont
+  removal: advanced
+- description: |-
+    (Bad) video Player with Ads and weak security (including an unsecured WebView implementation that can lead to XSS attacks.
+    Pithus analysis: https://beta.pithus.org/report/33cd478cc18f3a2c0d5f7fd33c7350127ee2cff7acdf87f70641ca21dd2b2dcb
+  id: com.transsion.magicshow
+  removal: recommended
+- description: |-
+    Digital version of your phone manual.
+    You can view it from (Settings > System > Manual Guide)
+    Can be safely removed if you don't need it.
+  id: com.transsion.manualguide
+  removal: recommended
+- description: |-
+    Micro Intelligence
+    Provides features like tap to awake, awake on device raise, etc. Disabling this app makes you unable to use specific settings like Gesture Navigation and Action & Gesture along with other phone features. I recommend using RUN_IN_BACKGROUND ignore if you wanna keep them.
+    Pithus analysis: https://beta.pithus.org/report/f7358ad68b27d9fa75a8e742ad43c64f2710b4ba5378ee825215ebbd08549275
+  id: com.transsion.microintelligence
+  removal: advanced
+- description: |-
+    Ella Translate
+    Unknown translator.
+  id: com.transsion.mol
+  removal: recommended
+- description: |-
+    Multi Window
+    Needed for multi window.
+  id: com.transsion.multiwindow
+  removal: advanced
+- description: |-
+    App provides custom quality settings to game: pubg, call of duty.
+    Not very useful.
+  id: com.transsion.nephilim
+  removal: recommended
+- description: Chinese useless frameworks.
+  id: com.transsion.netphilim
+  removal: recommended
+- description: |-
+    Notepad app
+    These apps have telemetry on them and are completely replaceable.
+  id: com.transsion.notebook
+  removal: recommended
+- description: |-
+    FontManager
+    Not sure if it's needed or not.
+  id: com.transsion.os.typeface
+  removal: expert
+- description: |-
+    OSSettings
+    it's needed for some settings and probably it's important app.
+  id: com.transsion.ossettingsext
+  removal: expert
+- description: it's needed only on first-boot setup.
+  id: com.transsion.overlaysuw
+  removal: recommended
+- description: Overlay to 'com.transsion.overlaysuw' safe to remove because it's for first-boot setup.
+  id: com.transsion.overlaysuw.resoverlay
+  removal: recommended
+- description: |-
+    Phoenix Browser
+    https://play.google.com/store/apps/details?id=com.transsion.phoenix&hl=en
+  id: com.transsion.phoenix
+  removal: recommended
+- description: |-
+    PhoneMaster Services
+    Another useless frameworks.
+  id: com.transsion.phonemanager
+  removal: recommended
+- description: |-
+    Phone Master.
+    Provides features like ram cleaning, storage optimisation, data usage analyser, etc. Has embedded Facebook and Google ads trackers. Has 45 permissions and makes request data to many different companies servers. There even is the usesCleartextTraffic=true flag in the Manifest meaning trafic may not even be encrypted
+    
+    Pithus analysis: https://beta.pithus.org/report/a5346fb5ea4fba5b73a891eae064b2bdecefbc7de4f9a13e3dcf94b0a81a20af
+  id: com.transsion.phonemaster
+  removal: recommended
+- description: |-
+    App Update
+    Used to update apps installed from the Palm Store. Uses insecure encryption algorithm.
+    Notables permissions: ACCESS_FINE_LOCATION and GET_TASKS (allows to see which apps are running on the phone). Useless background memory hogs if you don't use apps from the Palm Store
+    
+    Pithus analysis: https://beta.pithus.org/report/2584e9529e0988c1c2f9d657c5e2c55d1770e451d4120c176b5a505f2ee1033d
+  id: com.transsion.plat.appupdate
+  removal: recommended
+- description: |-
+    power
+    Has WhatsApp mode and ultra powersaving mode.
+  id: com.transsion.powercenter
+  removal: advanced
+- description: Launcher Activity Test
+  id: com.transsion.quicktools
+  removal: recommended
+- description: |-
+    E-warranty Card
+    For Chinese users-only.
+  id: com.transsion.repaircard
+  removal: recommended
+- description: |-
+    Smart Scanner
+    App contains telemetry and is completely replaceable.
+  id: com.transsion.scanningrecharger
+  removal: recommended
+- description: Needed for screenshots.
+  id: com.transsion.screencapture
+  removal: expert
+- description: |-
+    Secure Keyboard
+    Useless Secure Keyboard.
+  id: com.transsion.sk
+  removal: recommended
+- description: Bloated Messages app with a lot of features.
+  id: com.transsion.smartmessage
+  removal: advanced
+- description: |-
+    Smart Panel (Settings -> Smart Assistant)
+    Provides "easy" access to your most used apps + features like gamemode and videoAssistant. Collects data and talks with the outside
+    
+    Pithus analysis: https://beta.pithus.org/report/40d4b527fc650a9029e596d14aff7d640a6289e7aa50f471b142391b55eefe4a
+  id: com.transsion.smartpanel
+  removal: recommended
+- description: |-
+    Sound Recorder
+    Contains telemetry and is completely replaceable.
+  id: com.transsion.soundrecorder
+  removal: recommended
+- description: |-
+    Sends after-sales telemetry data (including at least the phone number and the IMSI). You don't want this. This app can be launched from this secret dialer code: 862016
+    
+    Pithus analysis: https://beta.pithus.org/report/35fa58c779ac80bcf44875e279cc4a6ba08678b0004e9c8f0816426cf0c584ab
+  id: com.transsion.stasticalsales
+  removal: recommended
+- description: Sales Statistics
+  id: com.transsion.statisticalsales
+  removal: recommended
+- description: |-
+    System Update
+    Provides System Updates
+  id: com.transsion.systemupdate
+  removal: expert
+- description: |-
+    APPIOT
+    Unused frameworks to permissions app.
+  id: com.transsion.tabe
+  removal: recommended
+- description: |-
+    TECNO SPOT (https://play.google.com/store/apps/details?id=com.transsion.tecnospot)
+    Tecno official app to access the Tecno forum. Useless and full of trackers (https://reports.exodus-privacy.eu.org/fr/reports/com.transsion.tecnospot/latest/)
+  id: com.transsion.tecnospot
+  removal: recommended
+- description: it's app for testing and logs
+  id: com.transsion.teop
+  removal: recommended
+- description: 'Has basic apps icons, not sure if needed.'
+  id: com.transsion.theme.icon
+  removal: advanced
+- description: |-
+    Lightning Multi-Window
+    Multi-Window feature for apps.
+  id: com.transsion.thunderback
+  removal: expert
+- description: |-
+    Tips
+    App for tips.
+  id: com.transsion.tips
+  removal: recommended
+- description: |-
+    ControlTower test
+    Testing things app.
+  id: com.transsion.tower
+  removal: recommended
+- description: |-
+    Telemetry. Makes requests (with weak crypto) to the Shalltry CDN (https://mi-test.shalltry.com). Collects IMEI, all the apps installed, localisation...
+    Pithus analysis: https://beta.pithus.org/report/9be13b57bde5620d2ff1824782a2ccc1d6517d437543549c720bc70b6dd02aee
+  id: com.transsion.trancare
+  removal: recommended
+- description: Unused frameworks.
+  id: com.transsion.tranengine
+  removal: recommended
+- description: AI things to trancare
+  id: com.transsion.uxdetector
+  removal: recommended
+- description: |-
+    Applies beauty effect in WhatsApp video calls. Lots of permissions. Talks to Google ads service.
+    Pithus analysis: https://beta.pithus.org/report/47bebb911e9b5b9202030ce599805ebe3e47eb45054264f49cf85971e232bbce
+  id: com.transsion.videocallenhancer
+  removal: recommended
+- description: |-
+    Visha Player
+    Needed to run videos.
+  id: com.transsion.vishaplayerhd
+  removal: advanced
+- description: Related to 'Gaming Mode' and 'Palm Store'
+  id: com.transsion.wezone
+  removal: recommended
+- description: Play music together over Wi-Fi
+  id: com.transsion.wifiplaytogether
+  removal: recommended
+- description: |-
+    Za-Hooc
+    it's for secure card and Theft Alert.
+  id: com.transsion.zahooc
+  removal: recommended

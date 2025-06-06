@@ -1,0 +1,7 @@
+---
+- description: |-
+    Yelp (https://play.google.com/store/apps/details?id=com.yelp.android)
+    Yelp lets users post reviews and rate businesses.
+    Worth reading : https://en.wikipedia.org/wiki/Yelp#Controversy_and_litigation
+  id: com.yelp.android
+  removal: recommended

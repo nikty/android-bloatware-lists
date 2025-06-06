@@ -1,0 +1,7 @@
+---
+- description: |
+    SwiftKey factory settings
+    Used by commercial swiftkey partners to configure the SwiftKey app.
+    Swiftkey is a keyboard developed by TouchType, a Microsoft subsidiary (https://en.wikipedia.org/wiki/SwiftKey)
+  id: com.swiftkey.swiftkeyconfigurator
+  removal: recommended

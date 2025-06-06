@@ -1,0 +1,8 @@
+---
+- description: |-
+    TracPhone / StraightTalk application. It just shows IMEI, SIM, and phone number, as well as a way to see device properties.
+    Comes preinstalled with any TracPhone or StraightTalk device. It can be downloaded from the playstore if needed for whatever reason.
+    Has Approximate and Precise location permissions, and Device ID permission.
+    Runs in the background for them to collect data.
+  id: com.tracfone.preload.accountservices
+  removal: recommended

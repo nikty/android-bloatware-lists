@@ -1,0 +1,6 @@
+---
+- description: |-
+    Solitaire (https://play.google.com/store/apps/details?id=net.supertreat.solitaire)
+    Preinstalled game on some Samsung phones. 8 permissions, 17 trackers: https://reports.exodus-privacy.eu.org/reports/net.supertreat.solitaire/latest/
+  id: net.supertreat.solitaire
+  removal: recommended

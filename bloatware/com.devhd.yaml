@@ -1,0 +1,9 @@
+---
+- description: |
+    Feedly (https://play.google.com/store/apps/details?id=com.devhd.feedly)
+    News aggregator application (RSS)
+    RSS aggregator are great but Feedly is really bad, especially privacy-wise.
+    https://feedly.com/i/legal/privacy
+    Better Alternative : https://github.com/FreshRSS/FreshRSS
+  id: com.devhd.feedly
+  removal: recommended

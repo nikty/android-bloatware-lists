@@ -1,0 +1,6 @@
+---
+- description: |
+    AT&T Remote Support provided by aetherpal (was acquired by VMware)
+    Allows an AT&T Advanced Support representative to assist you by accessing your device remotely.
+  id: net.aetherpal.device
+  removal: recommended

@@ -1,0 +1,9 @@
+---
+- description: 'More+ is a social app with massive videos, images, opinions and tribes, where you can post your personal blogs, share funny moments, chat and make friends.'
+  id: com.transsnet.moreplus
+  removal: recommended
+- description: |-
+    Palm Store. App store with unsecure apps and probably malware. Has ads trackers and lot of intrusives permissions. Shows intrusive ads and popups.
+    Pithus analysis: https://beta.pithus.org/report/35d762b27c9e16703adf1731b74bef2c53a753b6a7475c425bced53b553758e5
+  id: com.transsnet.store
+  removal: recommended

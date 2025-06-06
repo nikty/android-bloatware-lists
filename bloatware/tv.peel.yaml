@@ -1,0 +1,13 @@
+---
+- description: |
+    Peel Universal Smart TV Remote Control (discontinued)
+    Lets you remotely control devices like your TV, DVD or Blu-ray player.
+  id: tv.peel.app
+  removal: recommended
+- description: |
+    Peel Smart Remote (WatchON)
+    It's an application that turns your smart phone or tablet into a TV remote. 
+    The app uses the IR Blaster of your device, so devices not equipped with that feature will not be able to use all of Peel Smart Remote's functions. 
+    https://www.samsung.com/za/support/mobile-devices/what-is-the-peel-smart-remote-application/
+  id: tv.peel.samsung.app
+  removal: recommended

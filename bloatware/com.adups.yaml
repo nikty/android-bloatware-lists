@@ -1,0 +1,15 @@
+---
+- description: |-
+    Wireless Update
+    (AKA System Update) FOTA = Firmware Over-the-air. Has a history of spying its users. If the installed version is below 5.4.x, it must be uninstalled.
+    https://www.malwarebytes.com/blog/news/2017/12/mobile-menace-monday-upping-the-ante-on-adups-fwupgradeprovider
+    https://www.cvedetails.com/vulnerability-list/vendor_id-16034/product_id-35606/year-2017/Adups-Adups-Fota.html
+  id: com.adups.fota
+  removal: expert
+- description: |-
+    UpgradeSys
+    FOTA = Firmware Over-the-air. Has a history of spying its users.
+    https://www.malwarebytes.com/blog/news/2017/12/mobile-menace-monday-upping-the-ante-on-adups-fwupgradeprovider
+    https://www.cvedetails.com/vulnerability-list/vendor_id-16034/product_id-35606/year-2017/Adups-Adups-Fota.html
+  id: com.adups.fota.sysoper
+  removal: recommended

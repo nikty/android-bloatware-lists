@@ -1,0 +1,7 @@
+---
+- description: |-
+    Display cutout.
+    A display cutout is an area on some devices that extends into the display surface. It allows for an edge-to-edge experience while providing space for important sensors on the front of the device.
+    https://developer.android.com/develop/ui/views/layout/display-cutout
+  id: oplus.frameworkres.overlay.display.product
+  removal: expert

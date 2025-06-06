@@ -1,0 +1,6 @@
+---
+- description: |-
+    ThinkIoT-UEM
+    It has remote service but probably it's unused.
+  id: com.thinkuem.motolc
+  removal: recommended

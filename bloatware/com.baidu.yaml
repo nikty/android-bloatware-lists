@@ -1,0 +1,40 @@
+---
+- description: Chinese Baidu Map.
+  id: com.baidu.BaiduMap
+  removal: recommended
+- description: |
+    Duer stuff from Baidu 
+    Duer is a virtual AI assistant.
+  id: com.baidu.duersdk.opensdk
+  removal: recommended
+- description: |
+    Woh! 51 permissions! 
+    Huawei chinese stock input keyboard. You probably shouldn't trust this closed-source keyboard with this much permissions...NOTE: Make sure to have another keyboard installed before removing this package!
+  id: com.baidu.input_huawei
+  removal: recommended
+- description: |
+    Baidu IME (Baidu keyboard)
+    YOU SHOULD NEVER USE A CLOSED-SOURCE KEYBOARD ! 
+    https://www.techrepublic.com/blog/asian-technology/japanese-government-warns-baidu-ime-is-spying-on-users/
+    Archive : https://web.archive.org/save/https://www.techrepublic.com/blog/asian-technology/japanese-government-warns-baidu-ime-is-spying-on-users/
+    NOTE: Make sure you have installed another keyboard before removing this package.
+  id: com.baidu.input_mi
+  removal: advanced
+- description: |-
+    Default keyboard (Baidu IME customized for Vivo devices).
+    The number of requested permissions for this keyboard is terrifying. You really should use another keyboard. Pithus analysis: https://beta.pithus.org/report/d4cdf8fedcd94436ade720cb8df9b4ef32aca6c7822cae6c8698937d68e20363
+  id: com.baidu.input_vivo
+  removal: advanced
+- description: |-
+    FusedLocation
+    Chinese baidu location.
+  id: com.baidu.location.fused
+  removal: recommended
+- description: Chinese Network location baidu. Only for China.
+  id: com.baidu.map.location
+  removal: recommended
+- description: |
+    百度 (https://play.google.com/store/apps/details?id=com.baidu.searchbox)
+    Baidu App search engine.
+  id: com.baidu.searchbox
+  removal: recommended

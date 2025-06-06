@@ -1,0 +1,8 @@
+---
+- description: |
+    T-mobile NAME ID by WhitePages (https://www.whitepages.com/)
+    Discontinued. Replaced by com.tmobile.services.nameid
+    https://www.fiercewireless.com/wireless/t-mobile-to-offer-name-id-service-from-whitepages
+    https://www.geekwire.com/2016/whitepages-spins-caller-id-spam-blocking-app-startup-hiya/
+  id: com.whitepages.nameid.tmobile
+  removal: recommended

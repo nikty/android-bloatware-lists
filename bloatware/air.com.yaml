@@ -1,0 +1,6 @@
+---
+- description: |-
+    Slotomania (https://play.google.com/store/apps/details?id=air.com.playtika.slotomania)
+    Preinstalled game on some Samsung phones. 31 permissions, 13 trackers: https://reports.exodus-privacy.eu.org/reports/air.com.playtika.slotomania/latest/
+  id: air.com.playtika.slotomania
+  removal: recommended

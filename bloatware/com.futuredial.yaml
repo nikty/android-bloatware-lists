@@ -1,0 +1,11 @@
+---
+- description: |-
+    ASUS Phone Clone
+    it's app to move your data to new or old phone.
+  id: com.futuredial.asusdatatransfer
+  removal: recommended
+- description: |-
+    ASUS Device backup
+    Contains Google Analytics and numerous permissions.
+  id: com.futuredial.asuslocalbackup
+  removal: recommended

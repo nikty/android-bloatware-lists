@@ -1,0 +1,19 @@
+---
+- description: |-
+    Emoji Keyboard
+    Have ads and it's not good for privacy.
+    WARNING: On Infinix phones, this package is a hard dependency to show keyboard after initial reboot/startup. Without it, even if you have another keyboard installed, no keyboard will show.
+    Don't remove if you're using an Infinix phone and need to enter password after boot.
+  id: com.facemoji.lite.transsion
+  removal: advanced
+- description: |-
+    Xiaomi keyboard
+    Have ads and analytics.
+    Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+  id: com.facemoji.lite.xiaomi
+  removal: recommended
+- description: |
+    Facemoji Keyboard Lite for Xiaomi - Emoji & Theme  (https://play.google.com/store/apps/details?id=com.facemoji.lite.xiaomi.gp)
+    Emoji keyboard
+  id: com.facemoji.lite.xiaomi.gp
+  removal: recommended

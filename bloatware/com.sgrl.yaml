@@ -1,0 +1,9 @@
+---
+- description: |-
+    FM Radio
+    Safe to remove if unused.
+  id: com.sgrl.fmradio
+  removal: advanced
+- description: 'FactoryMode, Calibration, Testing hardware things.'
+  id: com.sgrl.pjj.factorymode
+  removal: recommended

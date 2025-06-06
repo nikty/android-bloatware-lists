@@ -1,0 +1,7 @@
+---
+- description: |
+    Napster Music (https://play.google.com/store/apps/details?id=com.rhapsody)
+    Napster streaming app
+    https://en.wikipedia.org/wiki/Napster
+  id: com.rhapsody.vpl
+  removal: recommended

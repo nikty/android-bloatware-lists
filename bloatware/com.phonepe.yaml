@@ -1,0 +1,10 @@
+---
+- description: |
+    PhonePe (https://play.google.com/store/apps/details?id=com.phonepe.app)
+    PhonePe is a payment app that allows indian users to use BHIM UPI, your credit card and debit card or wallet to recharge your mobile phone, 
+    pay your utility bills and also make instant payments at offline and online stores.
+    PhonePe is an indian company (https://en.wikipedia.org/wiki/PhonePe)
+    BHIM = Bharat Interface for Money : https://en.wikipedia.org/wiki/BHIM
+    UPI = Unified Payement Interface : https://en.wikipedia.org/wiki/Unified_Payments_Interface
+  id: com.phonepe.app
+  removal: recommended

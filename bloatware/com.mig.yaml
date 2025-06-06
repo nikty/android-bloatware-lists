@@ -1,0 +1,7 @@
+---
+- description: |-
+    Funmax
+    Some kind of third-party game center bundled by Xiaomi.
+    Has lots of permissions by default.
+  id: com.mig.play.games
+  removal: recommended

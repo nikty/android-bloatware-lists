@@ -1,0 +1,2149 @@
+---
+- description: |-
+    Android System
+    Android system framework? Apk file name: framework-res
+    Could be THE core of the android system.
+    Probably very unsafe to disable.
+  id: android
+  removal: unsafe
+- description: |-
+    RRO = Runtime Resources Overlay. Used by OEMs to customize look and feel of certain applications.
+    https://source.android.com/devices/architecture/rros
+    https://code.tutsplus.com/tutorials/quick-tip-theme-android-with-the-runtime-resource-overlay-framework--cms-29708
+  id: android.auto_generated_rro_product__
+  removal: expert
+- description: |-
+    Clock
+    Vivo clock app. App for manage alarms.
+  id: com.android.BBKClock
+  removal: advanced
+- description: |-
+    Task timer
+    It's for scheduling tasks.
+  id: com.android.BBKCrontab
+  removal: recommended
+- description: |-
+    Using smartphone as webcam. Dependency for Private space on Pixel devices.
+    https://source.android.com/docs/security/features/private-space
+  id: com.android.DeviceAsWebcam
+  removal: advanced
+- description: |
+    The first time you turn your device on, a Welcome screen is displayed. It guides you through the basics of setting up your device.
+    It's the setup for LG services.
+  id: com.android.LGSetupWizard
+  removal: recommended
+- description: Threekey volume guide pictures.
+  id: com.android.SystemUIResOverlay
+  removal: expert
+- description: |-
+    i Video
+    Video player app for vivo phones.
+  id: com.android.VideoPlayer
+  removal: recommended
+- description: |-
+    MiCaliTool
+    Camera Calibration.
+  id: com.android.WingFactoryCamera
+  removal: recommended
+- description: |-
+    Android AdServices. Introduced in Android 13 privacy sandbox beta components disabled on default.
+    https://source.android.com/docs/core/ota/modular-system/adservices
+  id: com.android.adservices.api
+  removal: recommended
+- description: Have only empty main activity. it's not a joke.
+  id: com.android.angle
+  removal: recommended
+- description: |-
+    Support for NFC tags interactions (5 permissions, Contacts/Phone On by default).
+    NFC Tags are for instance used in buses to validate your transport card with your phone.
+    Other example: https://en.wikipedia.org/wiki/TecTile
+    You will still be able to connect to a NFC device (e.g a speaker) with this disabled.
+  id: com.android.apps.tag
+  removal: advanced
+- description: |
+    Xiaomi Backup and Restore feature (mislead package name).
+    This package was replaced by 'com.miui.backup' on newer models.
+  id: com.android.backup
+  removal: recommended
+- description: |-
+    Restores Google settings with Google Backup restore.
+    Displays confirmation popup when doing ADB backup. Disabling this package breaks ADB Backup.
+  id: com.android.backupconfirm
+  removal: expert
+- description: |-
+    Gets SMS and creates notifications:
+    https://android.googlesource.com/platform/packages/apps/BasicSmsReceiver/+/jb-dev/src/com/android/basicsmsreceiver/BasicSmsReceiverApp.java
+  id: com.android.basicsmsreceiver
+  removal: expert
+- description: |-
+    Lock
+    Needed for lockscreen?
+  id: com.android.bbk.lockscreen3
+  removal: expert
+- description: |-
+    Log Collection
+    Logs everything.
+  id: com.android.bbklog
+  removal: recommended
+- description: |-
+    i Music
+    Music app with Chinese trackers.
+  id: com.android.bbkmusic
+  removal: advanced
+- description: |
+    Handles facial regognition.
+  id: com.android.bio.face.service
+  removal: expert
+- description: |-
+    Default Print Service.
+    Generic printing service that should work with most printers.
+    Will break printing functionality if disabled, but other replacement print services can be downloaded from the Play Store.
+  id: com.android.bips
+  removal: advanced
+- description: 'Unused auto generated code: color icon code to print service.'
+  id: com.android.bips.auto_generated_rro_product__
+  removal: recommended
+- description: it's overlay only to icon color.
+  id: com.android.bips.overlay.pixel
+  removal: recommended
+- description: |
+    Bluetooth service
+  id: com.android.bluetooth
+  removal: expert
+- description: 'Random generated code app, in TECNO Phone found headphones images in the app to Settings.'
+  id: com.android.bluetooth.auto_generated_rro_product__
+  removal: advanced
+- description: |-
+    BtHelper
+    it's only for Apple Air Pods. it's used to check the battery level of AirPods headphones.
+  id: com.android.bluetooth.bthelper
+  removal: recommended
+- description: Overlay to 'com.android.bluetooth'.
+  id: com.android.bluetooth.oplus.overlay
+  removal: unsafe
+- description: |-
+    Not a standard package provided by the Android framework.
+    It seems to be a custom package specific to a particular Android device or custom ROM.
+    Based on the search results, there is no official documentation or information available about in the Android documentation or developer resources.
+    It is possible that this package contains custom overlays or modifications related to the Bluetooth functionality on a specific device or ROM.
+    Overlays are used to customize the behavior or appearance of the Android system without modifying the core framework.
+    These overlays can be provided by device manufacturers or custom ROM developers to add or modify features specific to their devices.
+  id: com.android.bluetooth.overlay
+  removal: unsafe
+- description: Overlays are usually themes.
+  id: com.android.bluetooth.overlay.common
+  removal: expert
+- description: |
+    Implementation of a improved bluetooth protocol (developed by french company Tempow)
+    https://www.tempow.com/tap
+    NOTE: This is NOT an AOSP package. It is OEMs who choose to implement this procotol or not.
+    For now, only TCL has this.
+  id: com.android.bluetooth.tempow
+  removal: unsafe
+- description: Provides classes for using the MIDI protocol over Bluetooth. Safe to remove if you don't plan to connect MIDI devices.
+  id: com.android.bluetoothmidiservice
+- description: |-
+    Only exists for compatibility reasons to prevent apps querying it from getting null cursors they do not expect and crash.
+    Disabling this on LDPlayer emulator crashes the default browser (`com.android.browser`).
+  id: com.android.bookmarkprovider
+  removal: advanced
+- description: |
+    Mi Browser and browser for the LDPlayer emulator
+    You really should use something else.
+    FYI https://www.xda-developers.com/xiaomi-mi-web-browser-pro-mint-collecting-browsing-data-incognito-mode/
+  id: com.android.browser
+  removal: advanced
+- description: "Old package (2014). Chrome bookmarks provider? Injects Picasa URL (http://picasaweb.google.com) in the Chrome browser's bookmarks in the browser."
+  id: com.android.browser.provider
+  removal: advanced
+- description: |-
+    AOSP calculator app
+    NOTE: Some OEMs (like Huawei & Xiaomi) use the same package name for their app.
+  id: com.android.calculator2
+  removal: advanced
+- description: |-
+    AOSP Calendar app
+    NOTE: Some OEMs (like Huawei & Xiaomi) use the same package name for their app.
+  id: com.android.calendar
+  removal: advanced
+- description: |-
+    Call Logs Backup/Restore feature.
+    Runs in the background.
+    https://android.googlesource.com/platform/packages/providers/CallLogProvider/+/refs/heads/master/src/com/android/calllogbackup
+  id: com.android.calllogbackup
+- description: |-
+    The stock AOSP camera app on many phones. However, on some Xiaomi phones, it is actually the Xiaomi Camera app. Deleting this will result in no camera app.
+    Try Open Camera as an open source alternative:
+    https://play.google.com/store/apps/details?id=net.sourceforge.opencamera&hl=en&gl=US
+  id: com.android.camera
+  removal: advanced
+- description: |-
+    Unused? In code found some sounds to camera app
+    and random images that looks like a calibration.
+  id: com.android.camera.overlay
+  removal: advanced
+- description: |
+    Xiaomi Camera (I don't know why they kept this package name. It's really confusing.)
+    It's a proprietary app based on the AOSP sources:
+    https://android.googlesource.com/platform/packages/apps/Camera2/+/master/src/com/android/camera
+  id: com.android.camera2
+  removal: advanced
+- description: |-
+    Configures default Qr Code component
+    com.google.android.gms .mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy. Not needed to camera or scan QR Code.
+  id: com.android.camerabigballconfig.overlay
+  removal: recommended
+- description: |-
+    CameraExtensionsProxy.
+    Camera-related third-party apps can call Android camera extensions such as Portrait, Night Mode, and HDR, which doesn't seem to work significantly on MIUI.
+  id: com.android.cameraextensions
+  removal: unknown
+- description: |-
+    Support for captive portal: https://en.wikipedia.org/wiki/Captive_portal
+    A captive portal login is a web page where users have to log in or accept terms of use. Common for public wifi networks.
+  id: com.android.captiveportallogin
+  removal: advanced
+- description: it's overlay only to icon color.
+  id: com.android.captiveportallogin.overlay
+  removal: recommended
+- description: |-
+    Dynamically provides configuration for the carrier network.
+    The config contains: Roaming networks, Voicemail settings, SMS/MMS settings, VoLTE/IMS settings, and more.
+    If a carrier app is installed it will be queried for overrides to these settings.
+    Seems to run on boot and when you swap SIM?
+    https://source.android.com/devices/tech/config/carrier
+    https://cs.android.com/android/platform/superproject/+/master:packages/apps/CarrierConfig/src/com/android/carrierconfig/DefaultCarrierConfigService.java
+  id: com.android.carrierconfig
+  removal: advanced
+- description: Needed for (com.android.carrierconfig).
+  id: com.android.carrierconfig.overlay.common
+  removal: advanced
+- description: Better keep this for LTE network.
+  id: com.android.carrierconfig.overlay.product
+  removal: unsafe
+- description: |-
+    This package is a generic solution that allows carriers to indicate when a device has run OOB(Out Of Balance). Android devices that are OOB need carrier mitigation protocols to allow select data through(like to notify users their data/balance is out, or allow them to buy more data through the carrier app).
+    Will probably break that functionality if disabled, but is otherwise safe to disable(should only affect users that are out of data/balance?).
+    https://source.android.com/devices/tech/connect/oob-users
+  id: com.android.carrierdefaultapp
+  removal: advanced
+- description: Unused overlay without code. Only for Test message.
+  id: com.android.cellbroadcast.overlay
+  removal: recommended
+- description: |-
+    Cell broadcast is designed to deliver messages to multiple users in an area.
+    This is notably used by ISPs to send Emergency/Government alerts.
+    Runs at boot time and is also triggered after exiting airplane mode.
+    https://en.wikipedia.org/wiki/Cell_Broadcast
+    https://www.androidcentral.com/amber-alerts-and-android-what-you-need-know
+    https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/refs/heads/master/src/com/android/cellbroadcastreceiver
+  id: com.android.cellbroadcastreceiver
+  removal: expert
+- description: Dark theme overlay for com.android.cellbroadcastreceiver
+  id: com.android.cellbroadcastreceiver.basiccolorblack.overlay
+  removal: expert
+- description: Light theme overlay for com.android.cellbroadcastreceiver
+  id: com.android.cellbroadcastreceiver.basiccolorwhite.overlay
+  removal: expert
+- description: |-
+    Same as com.android.cellbroadcastreceiver.
+    Cell broadcasting used to send emergency alerts.
+    https://en.wikipedia.org/wiki/Cell_Broadcast.
+  id: com.android.cellbroadcastreceiver.module
+  removal: expert
+- description: Nokia theme overlay for com.android.cellbroadcastreceiver
+  id: com.android.cellbroadcastreceiver.overlay.base.s600ww
+  removal: expert
+- description: |-
+    In code I found unused things: show_brazil_settings, show_cmas_settings, show_etws_settings.
+    it's unavailable and useless.
+  id: com.android.cellbroadcastreceiver.overlay.common
+  removal: recommended
+- description: Useless code to cellbroadcastreceiver
+  id: com.android.cellbroadcastreceiver.overlay.pixel
+  removal: recommended
+- description: |-
+    is designed to deliver messages to multiple users in an area.
+    This is notably used by ISPs to send Emergency/Government alerts.
+    Runs in the background.
+    https://en.wikipedia.org/wiki/Cell_Broadcast
+    https://www.androidcentral.com/amber-alerts-and-android-what-you-need-know
+  id: com.android.cellbroadcastservice
+  removal: expert
+- description: Unused overlay. Cross-SIM duplicate detection false.
+  id: com.android.cellbroadcastservice.overlay
+  removal: recommended
+- description: Useless code to cellbroadcastservice
+  id: com.android.cellbroadcastservice.overlay.pixel
+  removal: recommended
+- description: |-
+    Certificate installer
+    Used for accepting and revoking Internet certificates.
+    Certificates identify ownership of public keys, for use in secure communications.
+    Breaks Wi-Fi if disabled.
+  id: com.android.certinstaller
+  removal: unsafe
+- description: |-
+    Google Chrome (https://play.google.com/store/apps/details?id=com.android.chrome)
+    Occasionally runs in the background.
+    NOTE: Disabling or uninstalling Chrome may break functionality for creating and storing passkeys (https://fidoalliance.org/passkeys/) on your phone, so keep this enabled if you want to use that form of authentication. G Play Services can provide this functionality on some devices.
+    When Chrome is updated via the Play Store, the Trichrome Library is also updated automatically. If Chrome is disabled or removed, it may impact WebView functionality.
+    This is because Chrome, WebView, and the Trichrome Library work together as a bundle starting from Android 10 (API 29) and above.
+  id: com.android.chrome
+  removal: unknown
+- description: |-
+    Companion Device Manager
+    This handles connections to nearby (usually not remote) devices, desktop Operating Systems, etc...
+    WARNING: removing this package may result in the inability to read the SD card from your computer's file manager (via USB).
+  id: com.android.companiondevicemanager
+  removal: advanced
+- description: |-
+    CompOS
+    Has something to 'com.android.compos'.
+  id: com.android.compos.payload
+  removal: expert
+- description: |-
+    Network connectivity resources.
+    Cause BOOTLOOP.
+  id: com.android.connectivity.resources
+  removal: unsafe
+- description: WiFi configs. Better don't risk
+  id: com.android.connectivity.resources.nt.overlay
+  removal: unsafe
+- description: |-
+    Cause bootloop?
+    Found in TECNO phone, in overlay there's a notification saying 'No Internet As Dialog When High Priority'.
+    Can someone test it?
+  id: com.android.connectivity.resources.overlay
+  removal: unsafe
+- description: |-
+    AOSP Contacts
+    Some OEMs(for example Xiaomi) use the same package name for their app.
+  id: com.android.contacts
+  removal: advanced
+- description: |-
+    Credential Manager
+    Manages with Passwords, passkeys.
+  id: com.android.credentialmanager
+  removal: advanced
+- description: |-
+    Compatibility Test Suite
+    Used by manufacturer to test your copy of the device for performance. It just exists and doesn't run in background. More info:
+    https://source.android.com/docs/compatibility/cts
+  id: com.android.cts.ctsshim
+  removal: advanced
+- description: |-
+    Compatibility Test Service. Verifies certain upgrade scenarios. Disabling could mess with OTA updates.
+    A shim is basically a compatibility layer for an API, that makes sure anything that uses the API does so correctly.
+    https://android.googlesource.com/platform/frameworks/base/+/51e458e/packages/CtsShim
+    https://en.wikipedia.org/wiki/Shim_(computing)
+  id: com.android.cts.priv.ctsshim
+  removal: expert
+- description: |-
+    Package Access Helper
+    Determines the recommended install location for packages and if there is enough free space for the package.
+  id: com.android.defcontainer
+  removal: unsafe
+- description: |
+    AOSP Clock app
+    Some OEMs (like Huawei & Xiaomi) use the same package name for their app.
+  id: com.android.deskclock
+  removal: advanced
+- description: |-
+    This app can't be uninstalled or disabled.
+    Can restrict this device if the owner doesn't make payments per month for the new phone.
+  id: com.android.devicelockcontroller
+  removal: unsafe
+- description: |-
+    AOSP Dialer/Phone app
+    Default phone app on some older phones(like Oneplus 3).
+  id: com.android.dialer
+  removal: advanced
+- description: Dark theme overlay for AOSP Dialer?
+  id: com.android.dialer.basiccolorblack.overlay
+  removal: expert
+- description: Light theme overlay for AOSP Dialer?
+  id: com.android.dialer.basiccolorwhite.overlay
+  removal: expert
+- description: Screen cast OPPO.
+  id: com.android.dlna.service
+  removal: advanced
+- description: |-
+    Occasionally runs in the background.
+    File selector for other apps.
+    Storage Access Framework (SAF) will break if this is disabled.
+  id: com.android.documentsui
+  removal: unsafe
+- description: Some overlay for for "Files"?
+  id: com.android.documentsui.a_overlay
+  removal: expert
+- description: |-
+    Daydream (not Google Daydream VR) is an interactive screensaver mode built into Android.
+    With it turned on, it activates and shows the screensaver of your choice when you dock or charge your device.
+    Can display the time, weather, quotes, photos, news, tweets, or anything else Daydream app developers can think of.
+    https://developer.android.com/reference/android/service/dreams/DreamService
+  id: com.android.dreams.basic
+  removal: advanced
+- description: Overlay to 'com.android.dreams.basic' has icons png.
+  id: com.android.dreams.overlay.basic
+  removal: advanced
+- description: Overlay to 'com.android.dreams.phototable' has icons png.
+  id: com.android.dreams.overlay.phototable
+  removal: advanced
+- description: |-
+    Photographic screensavers
+    Daydream stuff, see com.android.dreams.basic
+  id: com.android.dreams.phototable
+  removal: advanced
+- description: 'Overlay for the phototable daydream? Overlays are usually themes, but not sure about this one.'
+  id: com.android.dreams.phototable.overlay
+  removal: advanced
+- description: |-
+    Dynamic System Updates
+    Runs on boot, but doesn't seem to run in the background beyond that.
+    Treble gives the ability to boot an AOSP Generic System Image (GSI) on any supported device.
+    Dynamic System Updates allows to boot into a Generic System Image (GSI) without interfering with the current installation.
+    That means the bootloader doesn’t need to be unlocked and the user data doesn’t need to be wiped.
+    https://developer.android.com/topic/dsu
+  id: com.android.dynsystem
+  removal: expert
+- description: Android's easter egg feature (spam-tap on the android version in the settings)
+  id: com.android.egg
+  removal: unknown
+- description: |
+    Xiaomi closed-source email app based on the AOSP version. Really confusing package name.
+  id: com.android.email
+  removal: recommended
+- description: |-
+    Lets Google partners (OEM in most of the case) to customize the default email settings.
+    The manufacturer often changes the default signature displayed at the end of each of your mail (e.g "Sent from my Nokia phone")
+  id: com.android.email.partnerprovider
+  removal: recommended
+- description: Theme overlay for partnerprovider?
+  id: com.android.email.partnerprovider.overlay
+  removal: recommended
+- description: |-
+    Emergency rescue
+    Shows emergency info on lockscreen and power menu. Safe to disable if you don't want it.
+    Loads on device unlock/lockscreen and power menu, so it's basically always cached in RAM, but shouldn't use much/any battery, so the main thing gained from disabling this package is the ~9MB RAM it uses.
+  id: com.android.emergency
+  removal: advanced
+- description: Dark theme for Emergency rescue?
+  id: com.android.emergency.basiccolorblack.overlay
+  removal: expert
+- description: Dark theme for Emergency rescue?
+  id: com.android.emergency.basiccolorwhite.overlay
+  removal: expert
+- description: |
+    Handles all aspects of starting, maintaining, and stopping the various sync adapters for the email accounts.
+    Is it only needed for the email stock app?
+  id: com.android.exchange
+  removal: advanced
+- description: |-
+    Another component of Android AdServices.
+    Introduced in Android 14.
+    https://source.android.com/docs/core/ota/modular-system/adservices
+  id: com.android.ext.adservices.api
+  removal: recommended
+- description: Needed by apps to access external storage (like memory cards).
+  id: com.android.externalstorage
+  removal: expert
+- description: |-
+    Face Unlock
+    Safe to remove if you don't use Face Unlock.
+  id: com.android.facelock
+  removal: advanced
+- description: |-
+    FederatedCompute
+    Another component of OnDevicePersonalization. But this app learns things about users.
+    Introduced in Android 14(`com.google.android.federatedcompute` Introduced in Android 13).
+    https://source.android.com/docs/core/ota/modular-system/ondevicepersonalization
+  id: com.android.federatedcompute.services
+  removal: recommended
+- description: |
+    Xiaomi/Mi File Explorer (Again it's a really poor choice for a package name considering it is not the AOSP File explorer)
+    It's a Closed-source app based on the AOSP version.
+  id: com.android.fileexplorer
+  removal: advanced
+- description: "it's for softsim? No activities, looks like a useless framework."
+  id: com.android.flyme.bridge.softsim
+  removal: recommended
+- description: |
+    FM Radio
+     Plug in Head phones & listen to the Radio!
+  id: com.android.fmradio
+  removal: unknown
+- description: |-
+    There is not much info but others seem to have disabled this and similar, see:
+    https://forum.xda-developers.com/t/guide-list-of-bloatware-safe-to-remove-how-to-do-it.3866647.
+  id: com.android.frameworkhwext
+  removal: expert
+- description: |-
+    Required components of the androidhwext.
+    Basic functionality of Huawei Phones.
+  id: com.android.frameworkhwext.dark
+  removal: unsafe
+- description: |-
+    Required components of the androidhwext.
+    Basic functionality of Huawei Phones.
+  id: com.android.frameworkhwext.honor
+  removal: unsafe
+- description: Framework necessary for Themes app to launch
+  id: com.android.frameworkhwnext.honor
+  removal: expert
+- description: |-
+    Runtime Resource Overlay
+    This framework provides the ability to replace application resources while the application is running. More info:
+    https://source.android.com/docs/core/runtime/rros
+  id: com.android.frameworkres.overlay
+  removal: expert
+- description: |
+    Built-in Dynamic wallpaper
+  id: com.android.galaxy4
+  removal: recommended
+- description: |-
+    Huawei Gallery app and the AOSP Gallery app
+    It may appear on Chinese OEMs as documented.
+  id: com.android.gallery3d
+  removal: advanced
+- description: ''
+  id: com.android.gallery3d.refocus
+  removal: expert
+- description: Xiaomi File Explorer/Manager.
+  id: com.android.globalFileexplorer
+  removal: recommended
+- description: |-
+    Its app for calibration screen and debugging.
+    HBM SV is unknown.
+  id: com.android.hbmsvmanager
+  removal: advanced
+- description: "unused png files, calibration. it's from (com.android.hbmsvmanager)"
+  id: com.android.hbmsvmanager.auto_generated_rro_product__
+  removal: recommended
+- description: Backups data from Health Connect app.
+  id: com.android.health.connect.backuprestore
+  removal: recommended
+- description: |-
+    Health Connect
+    Manage the health and fitness data on your phone, and control which apps can access it.
+  id: com.android.healthconnect.controller
+  removal: recommended
+- description: |
+    Provides wifi tethering (lets you share your mobile device's Internet connection with other devices)
+    https://en.wikipedia.org/wiki/Tethering)
+  id: com.android.hotspot2
+  removal: expert
+- description: The sole purpose of the OsuLogin App is to provision credentials from the Wi-Fi network to the device and allow them to connect to Wi-Fi Hotspot 2.0. See https://hackanons.com/2021/07/osulogin-android-everything-you-need-to-know.html for more information.
+  id: com.android.hotspot2.osulogin
+  removal: advanced
+- description: '"OK Google" detection service.'
+  id: com.android.hotwordenrollment.okgoogle
+  removal: recommended
+- description: |
+    "OK Google" detection service.
+  id: com.android.hotwordenrollment.xgoogle
+  removal: recommended
+- description: |-
+    Allows apps to load URLs into the WebView, which allows web content to be displayed directly in the app.
+    WARNING: Removing this causes a bootloop on some MIUI 12.5.4+ phones.
+  id: com.android.htmlviewer
+  removal: expert
+- description: It's for debugging camera. Has all camera features and report.
+  id: com.android.huawei.HiMediaEngine
+  removal: recommended
+- description: |-
+    ProjectMenu
+    Hidden settings not available for users. it's useless.
+  id: com.android.huawei.projectmenu
+  removal: recommended
+- description: |
+    Mirror
+    Lets you use your phone as a mirror...
+  id: com.android.hwmirror
+  removal: recommended
+- description: |-
+    Party Mode
+    Party Mode lets you sync music playback across multiple devices.
+  id: com.android.imedia.syncplay
+  removal: advanced
+- description: It's needed for WiFi calling.
+  id: com.android.imsserviceentitlement
+  removal: expert
+- description: |-
+    Xiaomi Phone 11
+    Xiaomi's phone (dialer, incallui, etc.) app. Fetches APN lists on some phones. Package name is highly misleading.
+  id: com.android.incallui
+  removal: expert
+- description: App without code and safe to remove.
+  id: com.android.incallui.overlay
+  removal: recommended
+- description: |-
+    Only contains a receiver named "Android keyboard", possibly for an external keyboard.
+    Locates available keyboard layouts. Apps can offer additional keyboard layouts to the user by declaring a suitable broadcast receiver in their manifest.
+    WARNING: If you are using the default Samsung keyboard, then deleting this package on some phones may cause the keyboard to completely stop working. You may get locked out of your phone if the only method to authenticate yourself is using password.
+  id: com.android.inputdevices
+  removal: expert
+- description: |-
+    The AOSP keyboard app
+    Mame sure you have another installed before you disable.
+  id: com.android.inputmethod.latin
+  removal: advanced
+- description: It is the built in software keyboard for LDPlayer. Getting rid of this breaks any keyboard input including from PC hardware keyboard.
+  id: com.android.inputmethod.pinyin
+  removal: expert
+- description: Keyboard demo found. It's something to miinput unused Chinese!
+  id: com.android.inputsettings.overlay.miui
+  removal: recommended
+- description: "'Share' functionality will be disabled after uninstalling this package on Android 14 and up. Additionally, motion photos will become broken."
+  id: com.android.intentresolver
+  removal: expert
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.corner
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.double
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.hole
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/develop/ui/views/layout/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.narrow
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.noCutout
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.tall
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.waterfall
+  removal: unsafe
+- description: |-
+    Display cutout variant
+    https://developer.android.com/guide/topics/display-cutout
+    https://source.android.com/devices/tech/display/display-cutouts
+    Cause bootloop after removal.
+  id: com.android.internal.display.cutout.emulation.wide
+  removal: unsafe
+- description: |-
+    Gesture navigation
+    Lets you use swipes and other actions to navigate your device, rather than buttons.
+    https://android-developers.googleblog.com/2019/08/gesture-navigation-backstory.html
+  id: com.android.internal.systemui.navbar.gestural
+  removal: expert
+- description: Enables a setting increasing how far you need to move your finger to trigger the back gesture.
+  id: com.android.internal.systemui.navbar.gestural_extra_wide_back
+  removal: expert
+- description: Enables a setting decreasing how far you need to move your finger to trigger the back gesture.
+  id: com.android.internal.systemui.navbar.gestural_narrow_back
+  removal: expert
+- description: Enables a setting increasing how far you need to move your finger to trigger the back gesture.
+  id: com.android.internal.systemui.navbar.gestural_wide_back
+  removal: expert
+- description: Allows 'Gesture hint' to be disabled in Navigation bar > Swipe gestures.
+  id: com.android.internal.systemui.navbar.hidegestural
+  removal: expert
+- description: "The default system navbar? It's what you use when you don't use gesture navigation."
+  id: com.android.internal.systemui.navbar.threebutton
+  removal: expert
+- description: Allows 'Transparent navigation bar' to be enabled in Developer options.
+  id: com.android.internal.systemui.navbar.transparent
+  removal: expert
+- description: Enables a setting for using just 2 buttons in the system navbar?
+  id: com.android.internal.systemui.navbar.twobutton
+  removal: expert
+- description: |-
+    one-handed mode, which can be found in the settings.
+    one-handed mode will not work. Safe to remove if you dont use these setting.
+  id: com.android.internal.systemui.onehanded.gestural
+  removal: advanced
+- description: |
+    Enables apps to use system wide credential KeyChain (shared credentials between apps)
+    https://security.stackexchange.com/questions/216716/android-keychain-what-is-a-system-wide-credential
+  id: com.android.keychain
+  removal: unsafe
+- description: |-2
+    
+    Huawei magazine unlock
+    It's a proprietary app based on the AOSP package called com.android.keyguard. That's not clever at all.
+    https://consumer.huawei.com/en/support/content/en-us00206571/
+    Lets you customize your lock screen wallpapers
+    https://forum.xda-developers.com/honor-6x/how-to/guide-list-bloat-software-emui-safe-to-t3700814
+    Additional information were taken from https://forum.xda-developers.com/huawei-p40-pro/how-to/adb-debloating-t4088633
+    If you have EMUI 10 or older, check the AOSP file, as Huawei uses AOSP package name for their own app. WARNING: breaks home and recents button on Xiaomi Mi Pad:
+    https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/330
+  id: com.android.keyguard
+  removal: recommended
+- description: |-
+    OPPO Launcher
+    Breaks swipe up gestures after remove.
+  id: com.android.launcher
+  removal: expert
+- description: |-
+    The AOSP launcher. OEMs frequently use this to deliver their own launcher.
+    You need to install another launcher before removing it.
+  id: com.android.launcher3
+  removal: expert
+- description: |-
+    TV
+    Not sure if it's useless frameworks or for the launcher or TV launcher.
+  id: com.android.launcher3.tv
+  removal: expert
+- description: |-
+    LD Gaming Appstore
+    LDPlayer is an Android Gaming emulator for PC (https://ldplayer.net/)
+  id: com.android.ld.appstore
+  removal: recommended
+- description: |-
+    Backup transport for stashing stuff into a known location on disk, and later restoring from there.
+    Needed for storing backup data locally on a device?
+    This package also provides the backup confirmation UI.
+    https://developer.android.com/guide/topics/data/testingbackup
+  id: com.android.localtransport
+  removal: unsafe
+- description: 'Manages underlying location technologies, such as GPS and Wi-Fi.'
+  id: com.android.location.fused
+  removal: unsafe
+- description: |
+    "Magic smoke" Live wallpaper.
+  id: com.android.magicsmoke
+  removal: recommended
+- description: |-
+    Work Setup/Work profile setup
+    Manages Android user account profiles.
+    The typical use-case is setting up a corporate profile that is controlled by the employer on an employee's personal device, to keep personal and work data separate.
+    https://support.google.com/work/android/answer/6191949?
+    https://developers.google.com/android/work/requirements/work-profile
+    Needed for sandbox's apps like Shelter/Island.
+  id: com.android.managedprovisioning
+  removal: expert
+- description: Random useless code to com.android.managedprovisioning
+  id: com.android.managedprovisioning.overlay
+  removal: recommended
+- description: |
+    Huawei music app. (Yeah they messed up with the package name)
+  id: com.android.mediacenter
+  removal: recommended
+- description: Android default messaging app
+  id: com.android.messaging
+  removal: advanced
+- description: empty app that has permission to MANAGE VIRTUAL MACHINE.
+  id: com.android.microdroid.empty_payload
+  removal: recommended
+- description: |
+    Mi Drive 
+    Misleading package name. It is indeed a closed-source Xiaomi application.
+    Allow for cloud storage (on Mi Cloud) and syncing across multiple Android devices.
+  id: com.android.midrive
+  removal: recommended
+- description: |
+    Not an AOSP package at all
+    Hidden MMI test app 
+    MMI = Man Machine Interface ?
+  id: com.android.mmi
+  removal: unsafe
+- description: |-
+    FM Radio_wrh
+    It looks like unused FM Radio stuff without activity, adding favorite channels.
+  id: com.android.mmifm
+  removal: recommended
+- description: |-
+    P-Sensor Calibration
+    It's useless and hidden.
+  id: com.android.mmisubtest
+  removal: recommended
+- description: |-
+    Hardware Testing
+    Hidden testing hardware things.
+  id: com.android.mmitest
+  removal: recommended
+- description: |-
+    AOSP SMS app.
+    Occasionally runs in the background.
+    Some OEMs (like Huawei, Xiaomi, Vivo, Oppo) use the same package name for their app.
+    QKSMS is a good FOSS replacement: https://f-droid.org/en/packages/com.moez.QKSMS/
+  id: com.android.mms
+  removal: advanced
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.mms.overlay.cmcc
+  removal: expert
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.mms.overlay.ct
+  removal: expert
+- description: |-
+    Provides support for sending MMS.
+    It doesn't cause bootloop.
+  id: com.android.mms.service
+  removal: expert
+- description: Useless plugin for logs
+  id: com.android.mms.service.plugin.UaProfUrl
+  removal: recommended
+- description: Useless plugin for logs. Collects data.
+  id: com.android.mms.service.plugin.UserAgent
+  removal: recommended
+- description: |-
+    Modem Info
+    Hidden Modem Info? Used for logs.
+  id: com.android.modemnotifier
+  removal: recommended
+- description: "It's used to manage and store metadata about installed modules, and is accessed by the system server. Breaks some core functionality if disabled."
+  id: com.android.modulemetadata
+  removal: unsafe
+- description: |-
+    MTP Host
+    Handles MTP(Media Transfer Protocol), a protocol for transfering files between the device and a connected PC.
+  id: com.android.mtp
+  removal: unsafe
+- description: Audio EQ(equalizer). Some 3rd-party music apps can use it to provide you EQ features.
+  id: com.android.musicfx
+  removal: advanced
+- description: |
+    Music Visualization Wallpapers
+  id: com.android.musicvis
+  removal: recommended
+- description: |-
+    Useless frameworks to Wi-Fi connections, USB tethering, auto, usage.
+    Every version has random code and the app is not running in the background.
+  id: com.android.nearby.halfsheet
+  removal: recommended
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.networksettings.overlay.ct
+  removal: expert
+- description: |-
+    Related to the Network Stack module, which is an updatable Mainline module that ensures Android can adapt to evolving network standards and allows for interoperability with new implementations
+    https://source.android.com/docs/core/ota/modular-system/networking
+  id: com.android.networkstack.inprocess
+  removal: unsafe
+- description: |-
+    Related to the Network Stack module,
+    which is an updatable Mainline module that ensures Android can adapt to evolving network standards and allows for interoperability with new implementations
+    https://source.android.com/docs/core/ota/modular-system/networking
+  id: com.android.networkstack.inprocess.overlay
+  removal: unsafe
+- description: WiFi will not work after remove.
+  id: com.android.networkstack.overlay
+  removal: unsafe
+- description: |-
+    Network Stack Permission Configuration
+    Defines a permission that enables modules to perform network-related tasks.
+    https://source.android.com/devices/architecture/modular-system/networking
+  id: com.android.networkstack.permissionconfig
+  removal: unsafe
+- description: |-
+    Related to the Tethering module,
+    which allows an Android device to share its internet connection with other connected client devices.
+    This package contains classes and components that are used for in-process overlay functionality within the Tethering module.
+    https://source.android.com/docs/core/ota/modular-system/tethering
+  id: com.android.networkstack.tethering.inprocess.overlay
+  removal: unsafe
+- description: |-
+    Component of the Network, Tethering module.
+    Package is not a publicly documented.
+  id: com.android.networkstack.tethering.overlay
+  removal: unsafe
+- description: |-
+    NFC Service
+    Runs in the background as part of the System.
+    I assume NFC breaks when disabled.
+    Will probably run even if disabled, like most system packages. So disabling/uninstalling is probably pointless.
+  id: com.android.nfc
+  removal: expert
+- description: Random useless code to com.android.nfc
+  id: com.android.nfc.auto_generated_rro_product__
+  removal: recommended
+- description: Random useless code to com.android.nfc
+  id: com.android.nfc.auto_generated_rro_vendor__
+  removal: recommended
+- description: |
+    "Noise filed" live wallpaper.
+  id: com.android.noisefield
+  removal: recommended
+- description: |-
+    Oma Device Management, There are carrier tools, no firmware update found.
+    The code also includes Subscription Index and configures FOTA.
+  id: com.android.omadm.service
+  removal: advanced
+- description: Useless config metrics code
+  id: com.android.omadm.service.auto_generated_rro_product__
+  removal: recommended
+- description: Useless devinfo model
+  id: com.android.omadm.service.auto_generated_rro_vendor__
+  removal: recommended
+- description: |-
+    OnDevicePersonalization. Another thing to AdServices privacy sandbox.
+    Introduced in Android 13.
+    https://source.android.com/docs/core/ota/modular-system/ondevicepersonalization
+  id: com.android.ondevicepersonalization.services
+  removal: recommended
+- description: |-
+    Opportunistic Network Service
+    From what I can glean in the source code it seems like this provides a list of available networks and assigns each network a priority.
+    I've never seen it run on its own, so this might be part of some automatic network switching setting that I have turned off.
+    https://cs.android.com/android/platform/superproject/+/master:packages/services/AlternativeNetworkAccess/src/com/android/ons/OpportunisticNetworkService.java
+    https://developer.android.com/reference/android/telephony/AvailableNetworkInfo
+    https://cs.android.com/android/platform/superproject/+/master:frameworks/base/telephony/java/android/telephony/AvailableNetworkInfo.java
+  id: com.android.ons
+  removal: expert
+- description: |-
+    Optimized Setup Wizard Integration Sample code.
+    Can be used to create a custom setup wizard, such as one created by a manufacturer that runs after the initial Android Setup Wizard.
+    Does not appear to actually run. It is sample code and should be able to be removed safely.
+  id: com.android.opasuwintegrationsample
+  removal: recommended
+- description: |-
+    OTA Access Point Configuration
+    OTA (Over the air) is the method used by OEMs to push updates to your device.
+    An OTA access point is used to run system software updates over a special gateway. This package is most likely customized by your OEM.
+  id: com.android.otaprovisioningclient
+  removal: expert
+- description: Overlay to 'com.android.calendar' logo calendar icons.
+  id: com.android.overlay.calendar
+  removal: advanced
+- description: Overlay to 'com.android.camera2' png icons.
+  id: com.android.overlay.camera2
+  removal: advanced
+- description: Overlay to 'com.android.contacts' png icons.
+  id: com.android.overlay.contacts
+  removal: advanced
+- description: Overlay to 'com.android.dialer' png icons.
+  id: com.android.overlay.dialer
+  removal: advanced
+- description: "Overlay to 'com.android.launcher3' calendar, clock component name."
+  id: com.android.overlay.dynamiciconconfig
+  removal: expert
+- description: Overlay to 'com.android.email' icons png.
+  id: com.android.overlay.email
+  removal: recommended
+- description: Overlay to 'com.android.emergency' icons png.
+  id: com.android.overlay.emergency
+  removal: advanced
+- description: Overlay to 'com.android.fmradio' icons png.
+  id: com.android.overlay.fmradio
+  removal: advanced
+- description: Overlay to 'com.android.gallery3d' icons png.
+  id: com.android.overlay.gallery3d
+  removal: advanced
+- description: |-
+    Checked in miui 14.
+    Incorrect named thing to sync metadata contacts or gms?
+    metadata_sync_pacakge com.google.android.gms
+    No effects after remove.
+    (detected on miui 14 with android 13 phones)
+    it's an unused overlay.
+  id: com.android.overlay.gmscontactprovider
+  removal: unknown
+- description: |-
+    Checked in miui 14.
+    Have some stuff about google gms: backup.BackupTransportService.
+    Useless backup things, without it backup and cloud work.
+    Maybe it's used for backup settings, but probably not, and if it is, I don't think you need it.
+    (detected on miui 14 with android 13 phones)
+    It's an unused overlay.
+  id: com.android.overlay.gmssettingprovider
+  removal: unknown
+- description: Unused overlay to 'com.google.android.apps.safetyhub'.
+  id: com.android.overlay.gmssettings
+  removal: unknown
+- description: "Overlay app to 'com.google.android.dialer', 'com.android.incallui'."
+  id: com.android.overlay.gmstelecomm
+  removal: unknown
+- description: "Overlay app to 'com.google.android.dialer', 'com.google.android.gms'."
+  id: com.android.overlay.gmstelephony
+  removal: unknown
+- description: Overlay to 'com.android.launcher3' icons png.
+  id: com.android.overlay.launcher3
+  removal: expert
+- description: Overlay to 'com.android.wallpaper.livepicker' icons png.
+  id: com.android.overlay.livepicker
+  removal: recommended
+- description: Overlay to 'com.android.logmanager' icons png.
+  id: com.android.overlay.logmanager
+  removal: recommended
+- description: Overlay to 'com.android.messaging' icons png.
+  id: com.android.overlay.messaging
+  removal: advanced
+- description: Overlay to 'com.android.music' icons png.
+  id: com.android.overlay.music
+  removal: recommended
+- description: Overlay to 'com.android.quicksearchbox' icons png.
+  id: com.android.overlay.quicksearchbox
+  removal: advanced
+- description: Overlay to 'com.android.settings' icons png.
+  id: com.android.overlay.settings
+  removal: expert
+- description: Overlay to 'com.android.soundrecorder' icons png.
+  id: com.android.overlay.soundrecorder
+  removal: recommended
+- description: Overlay to 'com.android.stk' icons png.
+  id: com.android.overlay.stk
+  removal: advanced
+- description: |-
+    On some phones, it is an overlay to app "com.google.android.apps.safetyhub".
+    Check out this app code and think about it.
+  id: com.android.overlay.systemui
+  removal: expert
+- description: Overlay to 'com.android.wallpaper' icons png.
+  id: com.android.overlay.wallpaper
+  removal: advanced
+- description: |
+    Handles installation, upgrade, and removal of applications.
+  id: com.android.packageinstaller
+  removal: unsafe
+- description: |-
+    PAC (Proxy Auto-Config) is a file which defines how an app can automatically find the correct proxy server for fetching an URL.
+    Should be safe to remove if you don't use Auto-proxy (with PAC file config)
+    https://en.wikipedia.org/wiki/Proxy_auto-config
+  id: com.android.pacprocessor
+  removal: expert
+- description: Theme overlay for some browser customization?
+  id: com.android.partnerbrowsercustomizations.btl.s600ww.overlay
+  removal: expert
+- description: |
+    Horrible stuff for Google Chrome. This package bypass your DNS settings (for letting pass Google ads)
+  id: com.android.partnerbrowsercustomizations.chromeHomepage
+  removal: recommended
+- description: "The proprietary application of the mobile operator T-Mobile, presumably displays ads, is responsible for the operation of some of the operator's settings"
+  id: com.android.partnerbrowsercustomizations.tmobile
+  removal: recommended
+- id: com.android.partnerbrowsercustomizations
+  description: TODO
+- description: |-
+    Pedometer
+    It's for displaying steps probably.
+  id: com.android.pedometer
+  removal: recommended
+- description: |
+    "Phase beam" live wallpaper
+  id: com.android.phasebeam
+  removal: recommended
+- description: |-
+    AOSP Dialer
+    Removing this package breaks the software update/download and install screen on Samsung. WARNING: for me, it breaks the phone app completely with call routing enabled. Not sure about other cases.
+  id: com.android.phone
+  removal: expert
+- description: |-
+    AOSP code for dialer app features.
+    SIM card will not be detected if disabled.
+  id: com.android.phone.a_overlay
+  removal: unsafe
+- description: Configs to phone auto generated but better keep.
+  id: com.android.phone.auto_generated_rro_product__
+  removal: unsafe
+- description: Configs to phone auto generated but better keep.
+  id: com.android.phone.auto_generated_rro_vendor__
+  removal: unsafe
+- description: Dark theme for phone app?
+  id: com.android.phone.basiccolorblack.overlay
+  removal: expert
+- description: Light theme for phone app?
+  id: com.android.phone.basiccolorwhite.overlay
+  removal: expert
+- description: |-
+    Possibly safe, or useless as removal doesn't seem to change anything.
+    It's a very small APK, it's a single class which only assigns a constant numeric value to a variable called 'telephony_injection'
+  id: com.android.phone.injection
+  removal: advanced
+- description: |-
+    Overlay to (com.google.android.carrier)
+    Anyway, this app doesn't exist on your phone I guess.
+  id: com.android.phone.overlay.carriersettings
+  removal: expert
+- description: Location and dialer things.
+  id: com.android.phone.overlay.common
+  removal: unsafe
+- description: Contains specific modifications and enhancements made by MIUI to the phone app's user interface and functionality.
+  id: com.android.phone.overlay.miui
+  removal: unsafe
+- description: Related to Motorola's custom overlay for Phone and other UI elements.
+  id: com.android.phone.overlay.motcommon
+  removal: advanced
+- description: |-
+    AOSP Call recorder function. Most of the time OEM use their own code for this.
+    NOTE: Some OEMs (like Huawei & Xiaomi) use the same package name for their app.
+  id: com.android.phone.recorder
+  removal: advanced
+- description: I found only lockDevice and Shutdown Phone Animation
+  id: com.android.poweroffhandlerapp
+  removal: recommended
+- description: |-
+    Moto Power Touch
+    lets you customize the double tap power button gesture to launch an app or shortcut of your choice.
+  id: com.android.powertouch
+  removal: recommended
+- description: Recommends 3rd-party print services apps in the PlayStore. Printing will probably still works without (by using the default print service).
+  id: com.android.printservice.recommendation
+  removal: advanced
+- description: |-
+    Print Spooler
+    Manages the printing process.
+    Runs on boot, but not beyond that.
+    WARNING: Disabling breaks the connection preferences submenu in the settings app on most devices, but other than that it only breaks printing functionality and is safe to disable.
+  id: com.android.printspooler
+  removal: expert
+- description: |-
+    Home screen tips
+    Runs on boot.
+    The tip popups you get on the homescreen.
+  id: com.android.protips
+  removal: recommended
+- description: |-
+    Provides a list of installed applications.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.applications
+  removal: unsafe
+- description: |-
+    Handles blocked number storage.
+    On some devices this seems to be tied to the recent apps menu (see https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/6)
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.blockednumber
+  removal: expert
+- description: |-
+    Calendar Storage
+    Necessary for the stock Calendar app to work correctly.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.calendar
+  removal: expert
+- description: Some overlay for a content provider package. Overlays are usually themes.
+  id: com.android.providers.calendar.overlay.base.s600ww
+  removal: expert
+- description: |-
+    Contacts Storage
+    Provider for contact data.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+    Breaks contact functionality if disabled. Not recommended to disable if you plan to use your device as a phone.
+  id: com.android.providers.contacts
+  removal: expert
+- description: |-
+    Incorrect named thing to sync metadata gms?
+    metadata_sync_pacakge com.google.android.gms
+    No effects after remove.
+  id: com.android.providers.contacts.auto_generated_rro_product__
+  removal: recommended
+- description: 'in overlay found: metadata_sync_pacakge: com.google.android.gms. Not needed.'
+  id: com.android.providers.contacts.overlay.pixel
+  removal: recommended
+- description: |-
+    Downloads Manager
+    Provider for downloaded files.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.downloads
+  removal: unsafe
+- description: |-
+    Downloads
+    User interface for downloads.
+    On some OEM's this app has ads, tracking things.
+  id: com.android.providers.downloads.ui
+  removal: advanced
+- description: |-
+    DRM Protected Content Storage
+    Manages DRM storage on the device?
+    Probably required for some forms of DRM; disabling might break things like Netflix streaming, which relies on DRM to function.
+    https://en.wikipedia.org/wiki/Digital_rights_management
+  id: com.android.providers.drm
+  removal: expert
+- description: |-
+    Provider of media files (images, videos and such).
+    Scans the device for media files and allows permitted apps access to them.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.media
+  removal: expert
+- description: Useless code to photos cloudpicker.
+  id: com.android.providers.media.overlay.pixel
+  removal: recommended
+- description: |
+    Provides bookmarks about partners of Google in Chrome.
+  id: com.android.providers.partnerbookmarks
+  removal: recommended
+- description: It has permission protect and logs.
+  id: com.android.providers.privacyprotection
+  removal: recommended
+- description: |-
+    Provider for settings app data.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.settings
+  removal: unsafe
+- description: Useless overlay to Backup google. Backup works without it.
+  id: com.android.providers.settings.auto_generated_rro_product__
+  removal: recommended
+- description: |-
+    rro = Runtime Resources Overlay.
+    Changes values of a package config, based in the overlay definitions (heavily used by OEMs to customize the look and feel of Android).
+  id: com.android.providers.settings.auto_generated_rro_vendor__
+  removal: advanced
+- description: Some overlay for a content provider package. Overlays are usually themes.
+  id: com.android.providers.settings.btl.s600ww.overlay
+  removal: expert
+- description: Some overlay for a content provider package. Overlays are usually themes.
+  id: com.android.providers.settings.overlay.base.s600ww
+  removal: expert
+- description: "Better keep this for acceleration? Better don't risk."
+  id: com.android.providers.settings.overlay.common
+  removal: unsafe
+- description: ''
+  id: com.android.providers.tctdatahubprovider
+  removal: expert
+- description: |-
+    Provider for telephony data.
+    Handles phone-related data such as text messages, APN list, etc.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.android.providers.telephony
+  removal: unsafe
+- description: Configs to providers telephony auto generated but better keep.
+  id: com.android.providers.telephony.auto_generated_rro_product__
+  removal: unsafe
+- description: |-
+    Overlay to (com.google.android.carrier)
+    Anyway, this app doesn't exist on your phone I guess.
+  id: com.android.providers.telephony.overlay.carriersettings
+  removal: expert
+- description: |-
+    TV Storage
+    Provides TV listings.
+  id: com.android.providers.tv
+  removal: unsafe
+- description: |-
+    Handles user dictionary for keyboard apps.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html. WARNING: Removing this package may cause settings menu to crash on some Huawei phones
+  id: com.android.providers.userdictionary
+  removal: expert
+- description: |
+    Provisioning is the process of setting up a network connection that will allow new users. 
+    This service is for example needed when the user's phone moves from one cell-tower to another.
+  id: com.android.provision
+  removal: unsafe
+- description: |-
+    Handles proxy config.
+    Safe to remove if you don't use a proxy.
+  id: com.android.proxyhandler
+  removal: expert
+- description: 'Apn service, emergency calling, not sure how useful this app is.'
+  id: com.android.qns
+  removal: expert
+- description: Google quick search box. OEMs (e.g. Xiaomi) can modify this for their use.
+  id: com.android.quicksearchbox
+  removal: recommended
+- description: |-
+    RemoteProvisioner. Have random stuff: security, notifications, accessibility, test modes, data usage, metrics, logs.
+    Its something new introduced in Android 13.
+    At this time this app is not available for users.
+    And looks very useless.
+  id: com.android.remoteprovisioner
+  removal: recommended
+- description: |-
+    Theme overlay for Retail demonstration mode?
+    https://en.wikipedia.org/wiki/Demo_mode
+  id: com.android.retaildemo.overlay.base.s600ww
+  removal: expert
+- description: |-
+    RemoteProvisioner. Have random stuff: security, notifications, accessibility, test modes, data usage, metrics, logs.
+    Introduced in android 14(it's the same app like `com.android.remoteprovisioner` Introduced in android 13).
+    Again this app is not available for users.
+    And looks very useless.
+  id: com.android.rkpdapp
+  removal: unknown
+- description: |
+    Notes Role enabled
+    Unknown overlay, sets default notes. Breaks seamlessly disabling and enabling developer options on Google Pixel(s).
+  id: com.android.role.notes.enabled
+  removal: unknown
+- description: |
+    DDR Test
+    RAM Stress tester
+    Can be run from the bootloader
+    NOTE: I'm not sure it's really from AOSP (seen in TCL Plex phone)
+  id: com.android.runintest.ddrtest
+  removal: recommended
+- description: |-
+    Google Safety Center.
+    Probably affects malware detection in new app installs, Gmail, and Chrome. This will also revert back the "Security & privacy" look to the old style.
+    You can use a libre spam-blocking and DNS-blocking solution instead of this.
+    https://safety.google
+  id: com.android.safetycenter.resources
+  removal: recommended
+- description: |-
+    Safety Center overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    Safety Center provides redirection entries so that users can access specific security and privacy settings. Safety Center also identifies issues that users can fix on their devices or accounts, by combining dynamic data received from multiple sources. This data provides users with a general safety status with specific recommendations.
+    https://source.android.com/docs/core/runtime/rros
+    https://source.android.com/docs/security/safety-center/overview
+  id: com.android.safetycenter.resources.overlay
+  removal: advanced
+- description: |-
+    Safety Center styles overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    Safety Center provides redirection entries so that users can access specific security and privacy settings. Safety Center also identifies issues that users can fix on their devices or accounts, by combining dynamic data received from multiple sources. This data provides users with a general safety status with specific recommendations.
+    https://source.android.com/docs/core/runtime/rros
+    https://source.android.com/docs/security/safety-center/overview
+  id: com.android.safetycenter.styles.overlay
+  removal: recommended
+- description: |-
+    Unused? This is what you can find probably in settings:
+    setSavePassword, setSaveFormData, setBlockNetworkLoads, setJavaScriptEnabled.
+  id: com.android.safetyregulatoryinfo
+  removal: advanced
+- description: Useless unused Chinese images.
+  id: com.android.safetyregulatoryinfo.auto_generated_rro_product__
+  removal: recommended
+- description: Default android screenshot tool
+  id: com.android.screenshot
+  removal: advanced
+- description: |-
+    Introduced in Android 13 privacy sandbox beta disabled on default.
+    Causes bootloop. Maybe this component is not only for privacy... (I think it's for testing privacy sandbox using Android Studio.)
+    https://source.android.com/docs/core/ota/modular-system/adservices
+    Cause BOOTLOOP.
+  id: com.android.sdksandbox
+  removal: unsafe
+- description: |-
+    ConnMO
+    Notifications for video calling?
+    Also Apn Service.
+  id: com.android.sdm.plugins.connmo
+  removal: advanced
+- description: |-
+    Carrier OMADM
+    Another thing to VoLTE.
+  id: com.android.sdm.plugins.dcmo
+  removal: advanced
+- description: |-
+    diagnostic plugin
+    it's app for hidden diagnostics.
+  id: com.android.sdm.plugins.diagmon
+  removal: recommended
+- description: |-
+    SecureElementApplication
+    Runs in the background as part of the system.
+    NOTE: ColorOS password lock requires this package.
+    Underlying implementation for the OMAPI SE service.
+    Enables apps to use the OpenMobile API to access secure elements(SE) to enable smart-card payments and other secure services.
+    
+    An SE is a special chip (e.g SIM-card) for storing cryptographic secrets in a way that makes illicit use hard.
+    The Open Mobile Alliance (OPA) is a standards organization which develops open standards for the mobile phone industry.
+  id: com.android.se
+  removal: expert
+- description: Looks like needed to 'com.android.se'.
+  id: com.android.se.overlay.target
+  removal: advanced
+- description: |-
+    SecretCode
+    Hidden app shows some secret codes.
+  id: com.android.secretcode
+  removal: recommended
+- description: Network configurations.
+  id: com.android.server.NetworkPermissionConfig
+  removal: unsafe
+- description: |-
+    DeviceConfigServiceResources (Server*?). Part of com.android.configinfrastructure. Resources for the device's default server config.
+    https://cs.android.com/android/platform/superproject/main/+/main:packages/modules/ConfigInfrastructure/service/ServiceResources/Android.bp
+  id: com.android.server.deviceconfig.resources
+  removal: expert
+- description: Manages calls via your network provider or SIM and controls the phone modem?
+  id: com.android.server.telecom
+  removal: unsafe
+- description: Overlay for com.android.server.telecom?
+  id: com.android.server.telecom.a_overlay
+  removal: unsafe
+- description: Configs to server telecom auto generated but better keep.
+  id: com.android.server.telecom.auto_generated_rro_product__
+  removal: unsafe
+- description: Dark theme for something related to call network management?
+  id: com.android.server.telecom.basiccolorblack.overlay
+  removal: expert
+- description: Light theme for something related to call network management?
+  id: com.android.server.telecom.basiccolorwhite.overlay
+  removal: expert
+- description: Location and dialer things.
+  id: com.android.server.telecom.overlay.common
+  removal: unsafe
+- description: |-
+    Manage calls
+    it's used for manage calls ui.
+    it's important overlay to calling.
+  id: com.android.server.telecom.overlay.miui
+  removal: unsafe
+- description: It's for subscribing to the presence information using RCS.
+  id: com.android.service.ims
+  removal: advanced
+- description: |-
+    Accessibility settings
+    It should be important for settings.
+  id: com.android.settingaccessibility
+  removal: expert
+- description: AOSP Settings app.
+  id: com.android.settings
+  removal: unsafe
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.auto_generated_rro_product__
+  removal: unsafe
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.auto_generated_rro_vendor__
+  removal: unsafe
+- description: Dark theme overlay for the Settings app?
+  id: com.android.settings.basiccolorblack.overlay
+  removal: expert
+- description: Light theme overlay for the Settings app?
+  id: com.android.settings.basiccolorwhite.overlay
+  removal: expert
+- description: |-
+    Settings Suggestions
+    Handles the search and suggestions features in the settings app.
+    Disabling this package makes the Settings app crash when you tap on search.
+    Doesn't run in the background, so there's little benefit in disabling.
+    https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/51
+  id: com.android.settings.intelligence
+  removal: expert
+- description: Dark theme overlay for the search functionality in the Settings app?
+  id: com.android.settings.intelligence.basiccolorblack.overlay
+  removal: expert
+- description: Light theme overlay for the search functionality in the Settings app?
+  id: com.android.settings.intelligence.basiccolorwhite.overlay
+  removal: expert
+- description: "Looks unused, but not confirmed. Found in app 'icon file download', Vibration switch. Icon user found, overlay to 'com.android.settings'."
+  id: com.android.settings.os.overlay
+  removal: expert
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.overlay.SettingsFuture
+  removal: unsafe
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.settings.overlay.cmcc
+  removal: expert
+- description: |-
+    Color mode config you can find it in settings
+    it's something about: natural, boosted, saturated, adaptive.
+  id: com.android.settings.overlay.common
+  removal: unsafe
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.settings.overlay.ct
+  removal: expert
+- description: Useless overlay to Google Files.
+  id: com.android.settings.overlay.filesgoogle
+  removal: recommended
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.overlay.g1azg
+  removal: unsafe
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.overlay.gb17l
+  removal: unsafe
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.overlay.gb62z
+  removal: unsafe
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.overlay.gx7as
+  removal: unsafe
+- description: This app is without code and safe to remove.
+  id: com.android.settings.overlay.miui
+  removal: recommended
+- description: 'Useless overlay to personalsafety, safetyhub'
+  id: com.android.settings.overlay.personalsafety
+  removal: recommended
+- description: Configs to settings auto generated but better keep.
+  id: com.android.settings.overlay.pixel2021
+  removal: unsafe
+- description: "Useless overlay to images phone white and black, it's for camera MP info."
+  id: com.android.settings.overlay.product
+  removal: recommended
+- description: "Useless overlay to smart battery images, videos. And it's probably unused."
+  id: com.android.settings.overlay.turbo
+  removal: recommended
+- description: |-
+    Found in the code "Declaration of Conformity" on the TECNO phone, is probably unused, as it cannot be found in the Settings or anywhere else.
+    It can be safely removed, the Settings still work without this app.
+  id: com.android.settings.resoverlay
+  removal: advanced
+- description: |-
+    Accessibility settings (tools for vision, hearing and physical impairments)
+    Sometimes, third-party apps may require special permissions in the accessibility settings in order to work properly.
+  id: com.android.settingsaccessibility
+  removal: expert
+- description: It's needed only on first-boot setup.
+  id: com.android.setupwizard.overlay
+  removal: recommended
+- description: Useless overlay to welcome image First-boot setup.
+  id: com.android.setupwizard.overlay.ontim
+  removal: recommended
+- description: |-
+    Used during backup. Backs up the shared storage? (files accessible by every app with STORAGE permission)
+    Things have changed with Android 10. Don't know if this package is still relevant for new phones.
+    https://blog.mindorks.com/understanding-the-scoped-storage-in-android.
+  id: com.android.sharedstoragebackup
+  removal: advanced
+- description: |-
+    Shell
+    Unix shell that receives ADB commands sent from a PC.
+    This is what UAD-ng uses to execute commands on Android devices. Proobably a bad idea to disable ;)
+  id: com.android.shell
+  removal: unsafe
+- description: |-
+    Sim App Dialog
+    Creates a pop-up asking if the user wants to install the carrier app when a SIM is inserted. Seems to be event-triggered, i.e: doesn't run in the background.
+    https://android.googlesource.com/platform/frameworks/base/+/master/packages/SimAppDialog/src/com/android/simappdialog/InstallCarrierAppActivity.java
+  id: com.android.simappdialog
+  removal: expert
+- description: Useless overlay to simappdialog.
+  id: com.android.simappdialog.auto_generated_rro_product__
+  removal: recommended
+- description: |-
+    This service is used to push/send specially formatted SMS messages that display an alert message to the user, and give them the option of connecting directly to a particular app.
+    For instance, an SMS notifying the user of a new e-mail, with a URL link to connect directly to the e-mail app.
+    https://web.archive.org/web/20200915164901/https://www.nowsms.com/doc/submitting-sms-messages/sending-wap-push-messages
+  id: com.android.smspush
+  removal: advanced
+- description: |-
+    Google Sounds. Needed to pick up a phone ringtone. No weird permissions.
+    
+    Pithus analysis: https://beta.pithus.org/report/f5f7c265c6d98666c78267b91643bbfb635021d5d4f85c93407079ba4aad88ee
+  id: com.android.soundpicker
+  removal: expert
+- description: 'Has colors, dialog things, autogenerated code, but someone can confirm that app is safe to remove?'
+  id: com.android.soundpicker.auto_generated_rro_product__
+  removal: expert
+- description: |-
+    AOSP Sound recorder
+    OEMs often use their own solution
+    NOTE: On some phones, Huawei & Xiaomi also use this package name for their own browser app.
+  id: com.android.soundrecorder
+  removal: recommended
+- description: |
+    Lets you access hidden features tests/settings (you need to type a special code in the dialer)
+    https://bestcellular.com/dial-codes/
+  id: com.android.sprint.hiddenmenuapp
+  removal: recommended
+- description: |-
+    Intent Filter Verification Service
+    A Statement protocol allows websites to certify that some assets represent them. Android package can to subscribe to handling chosen URIs. This package will then be called to query the website and verify that it allows this. Android package can subscribe to handling chosen URIs. This package will then be called to query the website and verify that it allows this. Sources:
+    - https://developer.android.com/reference/android/content/Intent
+    - https://developer.android.com/guide/components/intents-filters
+     - https://android.stackexchange.com/questions/191163/what-does-the-intent-filter-verification-service-app-from-google-do
+     - https://github.com/google/digitalassetlinks/blob/master/well-known/details.md
+     - https://android.googlesource.com/platform/frameworks/base/+/6a34bb2
+  id: com.android.statementservice
+  removal: unsafe
+- description: |-
+    SIM toolkit
+    Enables carriers to initiate "value-added services". Basically, some operators provide SIM-cards with applications installed on them.
+    https://en.wikipedia.org/wiki/SIM_Application_Toolkit#cite_note-CellularZA-1
+    Has been abused:
+    - SimJacker: https://thehackernews.com/2019/09/simjacker-mobile-hacking.html
+    - WIBattack: https://www.zdnet.com/article/new-sim-card-attack-disclosed-similar-to-simjacker/
+    WARNING: do mind that disabling/uninstalling this package will break mobile identity management which could be used by apps (for example your Bank) to authenticate you. See https://en.wikipedia.org/wiki/Mobile_identity_management
+    NOTE: removing this package removes the launcher icon. `com.android.stk` relies on `com.android.stk2` and vice-versa.
+  id: com.android.stk
+  removal: advanced
+- description: "'SIM Toolkit' name app only found."
+  id: com.android.stk.overlay.miui
+  removal: recommended
+- description: |-
+    SIM toolkit
+    Special package for dual-sim devices?
+    Enables carriers to initiate "value-added services". Basically, some operators provide SIM-cards with applications installed on them.
+    https://en.wikipedia.org/wiki/SIM_Application_Toolkit#cite_note-CellularZA-1
+    Has been abused:
+    - SimJacker: https://thehackernews.com/2019/09/simjacker-mobile-hacking.html
+    - WIBattack: https://www.zdnet.com/article/new-sim-card-attack-disclosed-similar-to-simjacker/
+    WARNING: do mind that disabling/uninstalling this package will break mobile identity management which could be used by apps (for example your Bank) to authenticate you. See https://en.wikipedia.org/wiki/Mobile_identity_management
+    NOTE: removing this package removes the launcher icon. `com.android.stk2` relies on `com.android.stk` and vice-versa.
+  id: com.android.stk2
+  removal: advanced
+- description: |
+    Storage manager (Maintenance/Storage panel in the settings)
+    Clean up unused files, show size of files regrouped by categories...
+  id: com.android.storagemanager
+  removal: advanced
+- description: An app called TCL Mobile that you cannot disable and just opens up a link to the OEM in the browser.
+  id: com.android.store
+  removal: recommended
+- description: |-
+    SUPL20Service
+    GPS still works without it. Probably needed to location in China.
+  id: com.android.supl
+  removal: recommended
+- description: |
+    Everything you see in Android that's not an app. User interface of Android
+  id: com.android.systemui
+  removal: unsafe
+- description: |-
+    Hidden menu that only shows 2 buttons:
+    Large buttons - that increases size of accessibility menu buttons,
+    and Help - that redirects to support google com site accessibility.
+  id: com.android.systemui.accessibility.accessibilitymenu
+- description: Product RRO for Accessibility menu.
+  id: com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__
+  removal: advanced
+- description: Configs to systemui auto generated but better keep.
+  id: com.android.systemui.auto_generated_rro_product__
+  removal: unsafe
+- description: Configs to systemui auto generated but better keep.
+  id: com.android.systemui.auto_generated_rro_vendor__
+  removal: unsafe
+- description: |-
+    It looks like a very important app.
+    Important configs to android?
+  id: com.android.systemui.feature_cover
+  removal: unsafe
+- description: Configurations to navigation bar.
+  id: com.android.systemui.gesture.line.overlay
+  removal: unsafe
+- description: In code found configs icon mask.
+  id: com.android.systemui.icon.overlay
+  removal: expert
+- description: |-
+    In the code founded: navigationcolor to red.
+    Unused overlay.
+  id: com.android.systemui.miui.optimization.overlay
+  removal: recommended
+- description: Configurations to navigation bar.
+  id: com.android.systemui.navigation.bar.overlay
+  removal: unsafe
+- description: |-
+    It have something to Display Cutout. Better dont touch it.
+    Important configs to display.
+  id: com.android.systemui.notch.overlay
+  removal: unsafe
+- description: "Icon user found, overlay to 'com.android.systemui'."
+  id: com.android.systemui.os.overlay
+  removal: expert
+- description: System UI Overlay. DO NOT remove this.
+  id: com.android.systemui.overlay
+  removal: unsafe
+- description: Charging phone animation from a lot of PNG files
+  id: com.android.systemui.overlay.charging.anim.alita_supervooc2
+  removal: recommended
+- description: Wireless charging animation for OnePlus phones.
+  id: com.android.systemui.overlay.charging.anim.siphon_wireless
+  removal: advanced
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.systemui.overlay.cmcc
+  removal: expert
+- description: Has something related to Google Wellbeing first time setup quick settings. Safe to remove.
+  id: com.android.systemui.overlay.common
+  removal: recommended
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: com.android.systemui.overlay.ct
+  removal: expert
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.ccyh
+  removal: recommended
+- description: Fingerprint Animation Cosmos when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.cosmos
+  removal: advanced
+- description: Fingerprint Animation Fireworks when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.fireworks
+  removal: advanced
+- description: Fingerprint Animation Fy when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.fy
+  removal: advanced
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.jhsy
+  removal: recommended
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.jslz
+  removal: recommended
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.lgsy
+  removal: recommended
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.nlgs
+  removal: recommended
+- description: Fingerprint Animation None when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.none
+  removal: advanced
+- description: Fingerprint Animation Ripple when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.ripple
+  removal: advanced
+- description: Fingerprint Animation Stripe when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.stripe
+  removal: advanced
+- description: Fingerprint Animation Sw when unlocking phone.
+  id: com.android.systemui.overlay.fingerprint.anim.sw
+  removal: advanced
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.tyjw
+  removal: recommended
+- description: Fingerprint animation from a lot of PNG files
+  id: com.android.systemui.overlay.fingerprint.anim.xklc
+  removal: recommended
+- description: Useless overlay to systemui gms
+  id: com.android.systemui.overlay.gms
+  removal: recommended
+- description: App without code and safe to remove.
+  id: com.android.systemui.overlay.miui
+  removal: recommended
+- description: "Better keep this for config temperature? Better don't risk."
+  id: com.android.systemui.overlay.pong
+  removal: unsafe
+- description: "Better keep this for config temperature? Better don't risk."
+  id: com.android.systemui.overlay.spacewar
+  removal: unsafe
+- description: |-
+    Apk file name: QuickAccessWallet
+    This is the Google Pay widget in the power menu(hold power button for 1sec to show this menu), below the Emergency, Power off and Reboot buttons.
+  id: com.android.systemui.plugin.globalactions.wallet
+  removal: recommended
+- description: Enables you to use Android dark theme.
+  id: com.android.systemui.theme.dark
+  removal: expert
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.amethyst
+  removal: advanced
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.aquamarine
+  removal: advanced
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.black
+  removal: recommended
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.cinnamon
+  removal: recommended
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.darklake
+  removal: advanced
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.dorange
+  removal: advanced
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.dpurple
+  removal: advanced
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.green
+  removal: recommended
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.lgreen
+  removal: advanced
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.ocean
+  removal: recommended
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.orchid
+  removal: recommended
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.parasailing
+  removal: advanced
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.purple
+  removal: recommended
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.saffron
+  removal: advanced
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.sand
+  removal: advanced
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.slate
+  removal: advanced
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.color.space
+  removal: recommended
+- description: Android color accent only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.color.tangerine
+  removal: advanced
+- description: Font ArchivoSemiBold
+  id: com.android.theme.font.ArchivoSemiBold
+  removal: recommended
+- description: Font Exo2Regular
+  id: com.android.theme.font.Exo2Regular
+  removal: recommended
+- description: Font RobotoSlabRegular
+  id: com.android.theme.font.RobotoSlabRegular
+  removal: recommended
+- description: Font RookeryRegular
+  id: com.android.theme.font.RookeryRegular
+  removal: recommended
+- description: Noto Serif / Source Sans Pro
+  id: com.android.theme.font.notoserifsource
+  removal: unknown
+- description: Android icon shape only for google pixel or aosp or motorola
+  id: com.android.theme.icon.circle
+  removal: recommended
+- description: Android icon shape only for google pixel or aosp or motorola
+  id: com.android.theme.icon.pebble
+  removal: recommended
+- description: Android icon shape only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon.round
+  removal: recommended
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.icon.roundedrect
+  removal: advanced
+- description: Android icon shape only for google pixel or aosp or motorola
+  id: com.android.theme.icon.square
+  removal: recommended
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.icon.squircle
+  removal: advanced
+- description: Android icon shape only for google pixel or aosp or motorola
+  id: com.android.theme.icon.taperedrect
+  removal: recommended
+- description: Android color accent only for google pixel or aosp or motorola
+  id: com.android.theme.icon.teardrop
+  removal: advanced
+- description: Android icon shape only for google pixel or aosp or motorola
+  id: com.android.theme.icon.vessel
+  removal: recommended
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.circular.android
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.circular.launcher
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.circular.settings
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.circular.systemui
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.circular.themepicker
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.filled.android
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.filled.launcher
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.filled.settings
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.filled.systemui
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.filled.themepicker
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.kai.android
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.kai.launcher
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.kai.settings
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.kai.systemui
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.kai.themepicker
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.rounded.android
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.rounded.launcher
+  removal: advanced
+- description: Android icon pack only for google pixel or aosp or motorola
+  id: com.android.theme.icon_pack.rounded.settings
+  removal: advanced
+- description: |-
+    Android icons pack [Rounded].
+    Safe to remove if you don't use them, but there's no point in doing so as they are simple data containers with no permissions.
+  id: com.android.theme.icon_pack.rounded.systemui
+  removal: recommended
+- description: |-
+    Obviously related to the "rounded" icon pack but the full package is strange. A themepicker class only for a specific icon package?
+    Safe to remove if you don't use them, but there's no point in doing so.
+  id: com.android.theme.icon_pack.rounded.themepicker
+  removal: recommended
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.sam.android
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.sam.launcher
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.sam.settings
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.sam.systemui
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.sam.themepicker
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.victor.android
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.victor.launcher
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.victor.settings
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.victor.systemui
+  removal: advanced
+- description: Android icon pack only for Google Pixel or AOSP or Motorola
+  id: com.android.theme.icon_pack.victor.themepicker
+  removal: advanced
+- description: |-
+    MIUI Themes (manager)
+    Xiaomi seems to love confusing package names.
+    Lets you select and apply themes provided by Xiaomi.
+    NOTE: Disabling will break the ability to change the lock-screen wallpaper and ringtones in the OEM clock app.
+    Has a lot trackers. Running in the background.
+  id: com.android.thememanager
+  removal: advanced
+- description: |-
+    Blacklist of some wallpaper names. Useless.
+    This app is not exist on miui china rom.
+  id: com.android.thememanager.gliobal_config.config.overlay
+  removal: recommended
+- description: Something related to Xiaomi's theme manager?
+  id: com.android.thememanager.module
+  removal: expert
+- description: |
+    Time Zone Updater
+    Automatically updates the clock to correspond to your current time zone
+    This *may* cause a bootloop if removed. Timezone packages often causes that. 
+  id: com.android.timezone.updater
+  removal: expert
+- description: |-
+    System Tracing
+    Recording device activity over a short period of time is known as system tracing. System tracing produces a trace file that can be used to generate a system report.
+    Not useful if you're not a developer.
+    https://developer.android.com/topic/performance/tracing
+  id: com.android.traceur
+  removal: unknown
+- description: useless configs to traceur auto generated.
+  id: com.android.traceur.auto_generated_rro_product__
+  removal: unknown
+- description: useless configs to traceur auto generated.
+  id: com.android.traceur.auto_generated_rro_vendor__
+  removal: unknown
+- description: Unused colors to 5G
+  id: com.android.traceur.overlay.pixel
+  removal: unknown
+- description: |-
+    Activity Stub
+    Hard to say by code, has browser provider and SQLite content.
+  id: com.android.tv.frameworkpackagestubs
+  removal: expert
+- description: Needed for settings.
+  id: com.android.tv.settings
+  removal: unsafe
+- description: Unisoc 4G and 5G drivers. Removal will break incoming calls. https://xdaforums.com/t/oukitel-wp23-pro-unlocking-bootloader-rooting-gsi.4642483/#post-89239693
+  id: com.android.unisoc.telephony.server
+  removal: expert
+- description: |-
+    Mi Updater
+    Provides system updates
+    REMOVING THIS WILL BOOTLOOP YOUR DEVICE! Doesn't bootloop on MIUI 13 and above.
+  id: com.android.updater
+  removal: expert
+- description: |-
+    Ultra-wideband (UWB) communication feature.
+    UWB is a radio technology that enables precise ranging between devices,
+    Allowing for accurate location measurements with an accuracy of 10 cm.
+    https://developer.android.com/develop/connectivity/uwb
+    https://source.android.com/docs/core/connect/uwb
+  id: com.android.uwb.resources
+  removal: unsafe
+- description: Google Play Store
+  id: com.android.vending
+  removal: recommended
+- description: Needed for virtual SIM.
+  id: com.android.vendors.bridge.softsim
+  removal: recommended
+- description: |-
+    unknown app with no code that only has permissions to Use, Manage, Debug: Virtual Machine.
+    Introduced in Android 14.
+  id: com.android.virtualmachine.res
+  removal: unknown
+- description: |-
+    TWS
+    It's for Vivo TWS earphones.
+  id: com.android.vivo.tws.vivotws
+  removal: recommended
+- description: |
+    AOSP Voice dialer. Lets you call someone or open an app with your voice from the dialer.
+    OEM often use their own code (embeded in their voice-controlled digital assistant)
+    NOTE: On some phones Huawei & Xiaomi also use this package name for their own voice dialer app.
+  id: com.android.voicedialer
+  removal: advanced
+- description: |-
+    Voicemail
+    Voicemail? I think no one uses that.
+  id: com.android.voicemailomtp
+  removal: recommended
+- description: |
+    Provide VPN support to Android
+    https://en.wikipedia.org/wiki/Dialog_(software)
+    Safe to remove if you don't plan to use a VPN.
+  id: com.android.vpndialogs
+  removal: expert
+- description: |-
+    Styles editor
+    Needed for editing style UI
+  id: com.android.wallpaper
+  removal: advanced
+- description: |
+    "Holo spiral" Live wallpaper.
+  id: com.android.wallpaper.holospiral
+  removal: advanced
+- description: Enables you to pick a live wallpaper. Removing it will break some weather applications (especially ones with widgets) and wallpaper applications like Muzei.
+  id: com.android.wallpaper.livepicker
+  removal: advanced
+- description: 'Overlay for live wallpaper picker? Overlays are usually themes, but not sure about this one.'
+  id: com.android.wallpaper.livepicker.overlay
+  removal: advanced
+- description: |-
+    Wallpaper Backup
+    Backs up and restores wallpaper and metadata related to it.
+    This agent has its own package because it does full backup as opposed to SystemBackupAgent which does key/value backup.
+    This class stages wallpaper files for backup by copying them into its own directory because of the following reasons:
+    Non-system users don't have permission to read the directory that the system stores the wallpaper files in
+    BackupAgent enforces that backed up files must live inside the package's getFilesDir()
+    There are 3 files to back up:
+    The "wallpaper info"  file which contains metadata like the crop applied to the wallpaper or the live wallpaper component name.
+    The "system" wallpaper file.
+    An optional "lock" wallpaper, which is shown on the lockscreen instead of the system wallpaper if set.
+    On restore, the metadata file is parsed and WallpaperManager APIs are used to set the wallpaper.
+    Note that if there's a live wallpaper, the live wallpaper package name will be part of the metadata file and the wallpaper will be applied when the package it's installed.
+    https://android.googlesource.com/platform/frameworks/base/+/master/packages/WallpaperBackup/src/com/android/wallpaperbackup/WallpaperBackupAgent.java
+  id: com.android.wallpaperbackup
+  removal: advanced
+- description: |
+    Wallpaper cropper.
+  id: com.android.wallpapercropper
+  removal: advanced
+- description: |
+    Enables you to pick a wallpaper.
+  id: com.android.wallpaperpicker
+  removal: advanced
+- description: Hidden IMEI tests.
+  id: com.android.watermark
+  removal: recommended
+- description: |-
+    Android System WebView (https://play.google.com/store/apps/details?id=com.google.android.webview) enables Android apps to display web content within the app itself, based on Chrome.
+    No root? Don't uninstall.
+    Root? If you delete WebView, make sure to install a replacement.
+    Many third-party apps, such as banks, VPNs, GitHub, Discord and Reddit use web-based content and will crash without it.
+  id: com.android.webview
+  removal: expert
+- description: |-
+    Needed for wifi dialogs.
+    Can brick basic functionality android.
+  id: com.android.wifi.dialog
+  removal: unsafe
+- description: |-
+    Related to the Wi-Fi module in the AOSP. The Wi-Fi module is a part of Project Mainline,
+    Which allows for updates to specific system components outside of the normal Android release cycle.
+    The package contains resources and overlays that are used to customize the Wi-Fi module.
+    These overlays can be used to override default configurations and customize the behavior of the Wi-Fi module
+    https://source.android.com/docs/core/ota/modular-system/wifi
+    https://www.xda-developers.com/android-project-mainline-modules-explanation
+  id: com.android.wifi.mainline.resources.overlay
+  removal: unsafe
+- description: System Wi-Fi resources
+  id: com.android.wifi.resources
+  removal: unsafe
+- description: |-
+    Contains resources that can be overlaid or customized to modify the behavior of the Wi-Fi module.
+    https://source.android.com/docs/core/ota/modular-system/wifi
+  id: com.android.wifi.resources.overlay
+  removal: unsafe
+- description: |-
+    Config to support wifi 6 Ghz? Any wifi have this?
+    If you don't have 6 Ghz wifi then it's safe to disable.
+  id: com.android.wifi.resources.overlay.WifiRes6GhzEnable
+  removal: recommended
+- description: 5 GHz WiFi support.
+  id: com.android.wifi.resources.overlay.WifiResDualStaApEnable
+  removal: unsafe
+- description: Related to overlay for Wi-Fi scanning for country code.
+  id: com.android.wifi.resources.overlay.WifiResScanCountryCode
+  removal: advanced
+- description: Important configs to wifi.
+  id: com.android.wifi.resources.overlay.WifiResSoftap80211axEnable
+  removal: unsafe
+- description: |-
+    System Wi-Fi resources Theme pack
+    Guessing it's a pack of themes for some Wi-Fi related system UI, based on the name.
+  id: com.android.wifi.resources.overlay.common
+  removal: unsafe
+- description: Needed for WiFi.
+  id: com.android.wifi.resources.overlay.kalama
+  removal: unsafe
+- description: Related to Motorola's custom overlay for Wi-Fi connections.
+  id: com.android.wifi.resources.overlay.motCommon
+  removal: advanced
+- description: Wi-Fi configs
+  id: com.android.wifi.resources.overlay.oplus
+  removal: unsafe
+- description: |-
+    A runtime resource overlay (RRO) is a package that changes the resource values of a target package at runtime. For example, an app installed on the system image might change its behavior based upon the value of a resource. Rather than hardcoding the resource value at build time, an RRO installed on a different partition can change the values of the app's resources at runtime.
+    RROs can be enabled or disabled. You can programmatically set the enable/disable state to toggle an RRO's ability to change resource values. RROs are disabled by default (however, static RROs are enabled by default).
+    https://source.android.com/docs/core/runtime/rros
+  id: com.android.wifi.resources.overlay.pineapple
+  removal: unsafe
+- description: |-
+    In code founded wifi configs.
+    Important configs to WiFi.
+  id: com.android.wifi.resources.overlay.target
+  removal: unsafe
+- description: "Better keep this for config wifi? Better don't risk."
+  id: com.android.wifi.resources.overlay.taro
+  removal: unsafe
+- description: |-
+    Have some configs to network about: disconnected scan interval schedule
+    wifi11axsupportoverride, config_wifi_tcp_buffers
+    you should keep this because it's maybe from settings.
+  id: com.android.wifi.resources.xiaomi
+  removal: unsafe
+- description: |-
+    Related to the Wi-Fi module and its resources overlay.
+    The Wi-Fi module in Android is updatable, meaning it can receive updates to functionality outside of the normal Android release cycle.
+    The module provides a consistent Wi-Fi experience across Android devices and allows for fixes to interoperability issues through module updates
+    https://source.android.com/docs/core/ota/modular-system/wifi
+  id: com.android.wifi.system.mainline.resources.overlay
+  removal: expert
+- description: |-
+    Contains resources that can be overlaid to customize the Wi-Fi module's behavior.
+    https://source.android.com/docs/core/ota/modular-system/wifi
+  id: com.android.wifi.system.resources.overlay
+  removal: expert
+- description: "Profile installer? App looks like a 'com.android.shell'."
+  id: com.android.wm.shell
+  removal: unsafe
+- description: 'Disclaimer show to user, feedback, first boot setup.'
+  id: com.android.yadayada
+  removal: recommended
+- description: |-
+    ScreenCapture
+    Needed for screenshots.
+  id: com.android.ztescreenshot
+  removal: expert

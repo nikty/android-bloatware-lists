@@ -1,0 +1,8 @@
+---
+- description: |-
+    SmartMmsPlugin
+    Connects to Chinese maps.
+    Loads Flight, Train, Movie information.
+    It's only for China.
+  id: com.xy.smartmmsplugin.remote
+  removal: recommended

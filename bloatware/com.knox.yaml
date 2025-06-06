@@ -1,0 +1,6 @@
+---
+- description: |-
+    Samsung Knox allows business and personal content to "securely" coexist on the same handset.
+    This package handles proxies alongside KNOX.
+  id: com.knox.vpn.proxyhandler
+  removal: recommended

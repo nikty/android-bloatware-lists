@@ -1,0 +1,6 @@
+---
+- description: |-
+    MyApps
+    it's probably for install apps but it's useless.
+  id: com.altice.android.myapps
+  removal: recommended

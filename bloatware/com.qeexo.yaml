@@ -1,0 +1,6 @@
+---
+- description: |-
+    Smart Screenshots
+    Smart Screenshots? Disable it doesnt affecting normal screenshots.
+  id: com.qeexo.smartshot
+  removal: recommended

@@ -1,0 +1,47 @@
+---
+- description: |-
+    Lenovo Application Center 应用中心
+    Lenovo chinese app store
+  id: com.lenovo.leos.appstore
+  removal: recommended
+- description: |-
+    SYNCit
+    Lenovo cloud
+  id: com.lenovo.leos.cloud.sync
+  removal: recommended
+- description: |-
+    AI Live Caption
+    Caption Settings.
+  id: com.lenovo.levoice.caption
+  removal: recommended
+- description: Wake up with voice
+  id: com.lenovo.levoice.trigger
+  removal: recommended
+- description: |-
+    Voice unlock screen
+    Voice unlock screen? Another chinese accessibility things.
+  id: com.lenovo.levoice_agent
+  removal: recommended
+- description: |-
+    AI Notes
+    Another AI things lenovo.
+  id: com.lenovo.levoice_notes
+  removal: recommended
+- description: |
+    Lenovo ID adds an option in Settings>Accounts where you can login to a Lenovo ID account.
+    Features include "exclusive features directly from Lenovo and our partners" and "syncing users information across devices"
+    lsf = Lenovo Service Framework
+  id: com.lenovo.lsf.user
+  removal: recommended
+- description: |-
+    User Experience Program
+    Analytics stuff. Displays an annoying notification after every reboot prompting you to join Lenovo's user experience program.
+    NOTE: Removing this package may cause a hard reboot after unlocking the device. If USB debugging is still active you can safely reinstall the package and the device will start working again, but if USB debugging is disabled you might fail to do so - what leaves you no option other than to perform a factory reset. See:
+    https://github.com/0x192/universal-android-debloater/issues/713
+  id: com.lenovo.ue.device
+  removal: unsafe
+- description: |-
+    Widget Weather
+    Lenovo ZUI Weather center
+  id: com.lenovo.weathercenter
+  removal: recommended

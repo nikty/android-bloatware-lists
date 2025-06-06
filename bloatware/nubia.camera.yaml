@@ -1,0 +1,4 @@
+---
+- description: Dual Camera Test
+  id: nubia.camera.dualcamtest
+  removal: recommended

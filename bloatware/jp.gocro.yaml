@@ -1,0 +1,7 @@
+---
+- description: |
+    SmartNews: Local Breaking News (https://play.google.com/store/apps/details?id=jp.gocro.smartnews.android)
+    Delivers the top trending news stories from others publishers (NBC News, The Verges etc...)
+    7 Trackers + 10 permissions (https://reports.exodus-privacy.eu.org/en/reports/jp.gocro.smartnews.android/latest/)
+  id: jp.gocro.smartnews.android
+  removal: recommended

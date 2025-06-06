@@ -1,0 +1,4 @@
+---
+- description: Fingerprint Test App.
+  id: com.cdfinger.factorytest
+  removal: recommended

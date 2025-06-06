@@ -1,0 +1,7 @@
+---
+- description: |
+    NextRadio (https://play.google.com/store/apps/details?id=com.nextradioapp.nextradio)
+    3-party app which lets you experience live and local FM radio on your smartphone.
+    https://nextradioapp.com/
+  id: com.nextradioapp.nextradio
+  removal: recommended

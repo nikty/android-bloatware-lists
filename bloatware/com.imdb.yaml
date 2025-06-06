@@ -1,0 +1,5 @@
+---
+- description: |
+    IMDb mobile app (https://play.google.com/store/apps/details?id=com.imdb.mobile)
+  id: com.imdb.mobile
+  removal: recommended

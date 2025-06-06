@@ -1,0 +1,7 @@
+---
+- description: |
+    Republic (https://play.google.com/store/apps/details?id=com.republicwireless.tel&hl)
+    Lets you manage your Republic wireless account.
+    Republic Wireless is an american mobile virtual network operator (https://en.wikipedia.org/wiki/Republic_Wireless)
+  id: com.republicwireless.tel
+  removal: recommended

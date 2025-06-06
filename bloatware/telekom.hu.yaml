@@ -1,0 +1,6 @@
+---
+- description: |-
+    Mobile shopping
+    App for shopping or paying, so bloated and from T-Mobile
+  id: telekom.hu.android.mobilvasarlas
+  removal: recommended

@@ -1,0 +1,6 @@
+---
+- description: |-
+    FuntouchUIEngine
+    Needed for themes probably
+  id: com.funtouch.uiengine
+  removal: expert

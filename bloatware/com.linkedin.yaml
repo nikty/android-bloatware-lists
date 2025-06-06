@@ -1,0 +1,5 @@
+---
+- description: |
+    Linkedin app (https://play.google.com/store/apps/details?id=com.linkedin.android)
+  id: com.linkedin.android
+  removal: recommended

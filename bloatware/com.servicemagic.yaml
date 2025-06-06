@@ -1,0 +1,8 @@
+---
+- description: |
+    HomeAdvisor: Contractors for Home Improvement (https://play.google.com/store/apps/details?id=com.servicemagic.consumer)
+    Helps you find local contractors from the service Home Advisor network
+    HomeAdvisor collects users data when a request is made and then sells that data to local contractors in exchange for money.
+    Worth Reading: https://en.wikipedia.org/wiki/HomeAdvisor#Critism
+  id: com.servicemagic.consumer
+  removal: recommended

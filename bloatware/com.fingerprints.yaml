@@ -1,0 +1,30 @@
+---
+- description: |-
+    FingerprintExtensionService
+    Needed for fingerprint sensor test.
+  id: com.fingerprints.extension.service
+  removal: recommended
+- description: |-
+    Sensor Test Tool
+    Provides hidden fingerprint test menu. Type *#806# in OnePlus dialer to open.
+  id: com.fingerprints.fingerprintsensortest
+  removal: recommended
+- description: Fingerprint test
+  id: com.fingerprints.fpctest
+  removal: recommended
+- description: it's hidden image collection of fingerprint and sensor test.
+  id: com.fingerprints.imagecollection
+  removal: recommended
+- description: |-
+    Optical Test Tool
+    Testing things.
+  id: com.fingerprints.optical
+  removal: recommended
+- description: |
+    Sensor Test Tool
+    Hidden test app used to test working of the fingerprint sensors.
+  id: com.fingerprints.sensortesttool
+  removal: unknown
+- description: 'Fingerprint test, fingerprint authentication.'
+  id: com.fingerprints.serviceext
+  removal: recommended

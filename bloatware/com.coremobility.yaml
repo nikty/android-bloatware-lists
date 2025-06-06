@@ -1,0 +1,4 @@
+---
+- description: Voicemail App?
+  id: com.coremobility.app.vnotes
+  removal: advanced

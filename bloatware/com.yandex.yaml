@@ -1,0 +1,10 @@
+---
+- description: |-
+    Yandex' browser
+    May be installed with Samsung firmware update to comply with http://publication.pravo.gov.ru/Document/View/0001202011230051 if you're Russian. Can be installed manually from Google Play.
+  id: com.yandex.browser
+  removal: recommended
+- id: com.yandex.searchapp
+  description: |
+    Yandex Search
+  removal: recommended

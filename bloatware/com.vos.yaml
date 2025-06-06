@@ -1,0 +1,7 @@
+---
+- description: App for testing things.
+  id: com.vos.as.vit
+  removal: advanced
+- description: App for testing things.
+  id: com.vos.user.vit
+  removal: recommended

@@ -1,0 +1,8 @@
+---
+- description: |-
+    Mobicore is now Trustonic
+    Trustonic is a small OS running on the CPU providing a TEE, an isolated environment that runs in parallel with the operating system, guaranteeing code and data loaded inside to be protected.
+    Sounds great, but it's closed source and "normal" devs can't use it for their apps.
+    See "com.trustonic.tuiservice"
+  id: com.gd.mobicore.pa
+  removal: advanced

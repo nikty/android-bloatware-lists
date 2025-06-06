@@ -1,0 +1,4 @@
+---
+- description: Provides first time setup for Wiko mobile
+  id: com.ironsoure.appcloud.oobe.wiko
+  removal: recommended

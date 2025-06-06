@@ -1,0 +1,4 @@
+---
+- description: Audio test frequency(KHz) to com.vivo.bsptest.
+  id: com.nt36xxxtouchscreen.deltadiff
+  removal: recommended

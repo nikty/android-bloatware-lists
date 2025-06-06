@@ -1,0 +1,53 @@
+---
+- description: |-
+    AT&T Hub
+    App from AT&T. Installs apps on oobe and its maded by advertising company 'ironSource'.
+  id: com.aura.jet.att
+  removal: recommended
+- description: |-
+    AppCloud
+    App from AT&T. Installs apps on oobe and its maded by advertising company 'ironSource'.
+  id: com.aura.oobe.att
+  removal: recommended
+- description: |-
+    Appcloud
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some Xiaomi phones
+    Safe to remove.
+  id: com.aura.oobe.kbdi
+  removal: recommended
+- description: |-
+    MotoApps
+    It's something to install apps, but it's an advertising company.
+  id: com.aura.oobe.motorola
+  removal: recommended
+- description: |-
+    AppCloud
+    It offers the "Aura Out-Of-the-Box Experience" (OOBE)
+    It is some kind of post-install recommended apps setup from the carrier. Asks for your age and gender and then recommends you to install popular apps.
+    Developed by IronSource, an Israeli advertising company.
+    https://en.wikipedia.org/wiki/IronSource
+    https://aura.ironsrc.com/tools/drive-app-downloads/
+    https://arxiv.org/pdf/2010.10088.pdf
+    Has way too many permissions.
+    See https://github.com/0x192/universal-android-debloater/issues/278
+  id: com.aura.oobe.samsung
+  removal: recommended
+- description: |-
+    AppCloud
+    It offers the "Aura Out-Of-the-Box Experience" (OOBE)
+    It is some kind of post-install recommended apps setup from the carrier. Asks for your age and gender and then recommends you to install popular apps.
+    Developed by IronSource, an Israeli advertising company.
+    https://en.wikipedia.org/wiki/IronSource
+    https://aura.ironsrc.com/tools/drive-app-downloads/
+    https://arxiv.org/pdf/2010.10088.pdf
+    Has way too many permissions.
+    See https://github.com/0x192/universal-android-debloater/issues/278
+  id: com.aura.oobe.samsung.gl
+  removal: recommended
+- description: |-
+    Vodafone AppBox
+    It is some kind of post-install recommended apps setup from the carrier.
+    Asks for your age and gender and then recommends you to install popular apps.
+    Developped by IronSource, an Israeli advertising company.
+  id: com.aura.oobe.vodafone
+  removal: recommended

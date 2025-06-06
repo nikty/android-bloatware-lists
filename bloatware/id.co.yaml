@@ -1,0 +1,6 @@
+---
+- description: |
+    BaBe (https://play.google.com/store/apps/details?id=id.co.babe)
+    Indonesian news app.
+  id: id.co.babe
+  removal: recommended

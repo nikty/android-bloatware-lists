@@ -1,0 +1,5 @@
+---
+- description: |
+    Cartoon network App (https://play.google.com/store/apps/details?id=com.turner.cnvideoapp)
+  id: com.turner.cnvideoapp
+  removal: recommended

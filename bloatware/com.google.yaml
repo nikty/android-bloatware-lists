@@ -1,0 +1,1526 @@
+---
+- description: May break calls after remove.
+  id: com.google.RilConfigService
+  removal: expert
+- description: |-
+    SubSystem Restart Service, Collects ram dump, crash count.
+    Still unknown.
+  id: com.google.SSRestartDetector
+  removal: advanced
+- description: Access and use your Android phone's apps from your Chromebook
+  id: com.google.ambient.streaming
+  removal: recommended
+- description: Google Camera (https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera)
+  id: com.google.android.GoogleCamera
+  removal: advanced
+- description: Accessibility sound amplifier (https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier)
+  id: com.google.android.accessibility.soundamplifier
+  removal: recommended
+- description: |-
+    Switch Access: Control your phone or tablet using switches or the front camera.
+    https://play.google.com/store/apps/details?id=com.google.android.accessibility.switchaccess&hl=en_US
+  id: com.google.android.accessibility.switchaccess
+  removal: unknown
+- description: |-
+    Introduced in Android 13 privacy sandbox beta components disabled on default.
+    https://source.android.com/docs/core/ota/modular-system/adservices
+  id: com.google.android.adservices.api
+  removal: recommended
+- description: |-
+    AI Core
+    Looks like AI things but code means nothing about AI or Performance.
+    https://developer.android.com/ml/aicore Android apps can access this package for Google Gemini.
+  id: com.google.android.aicore
+  removal: advanced
+- description: |-
+    Assistant Android Work
+    Not needed, theres only user consent activity about that:
+    (Your organization controls your device and keeps it secure)
+  id: com.google.android.androidforwork
+  removal: recommended
+- description: |
+    Google Wifi app (https://play.google.com/store/apps/details?id=com.google.android.apps.access.wifi.consumer)
+  id: com.google.android.apps.access.wifi.consumer
+  removal: recommended
+- description: |-
+    Voice Access
+    Helps anyone who has difficulty manipulating a touch screen (e.g. due to paralysis, tremor, or temporary injury) use their Android device by voice.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess
+  id: com.google.android.apps.accessibility.voiceaccess
+  removal: recommended
+- description: |
+    Google Find my device app (https://play.google.com/store/apps/details?id=com.google.android.apps.adm)
+  id: com.google.android.apps.adm
+  removal: recommended
+- description: |
+    Google Adsense app (https://play.google.com/store/apps/details?id=com.google.android.apps.ads.publisher) 
+  id: com.google.android.apps.ads.publisher
+  removal: recommended
+- description: |
+    Google Ads app (https://play.google.com/store/apps/details?id=com.google.android.apps.adwords)
+  id: com.google.android.apps.adwords
+  removal: recommended
+- description: |-
+    Google Assistant Go (https://play.google.com/store/apps/details?id=com.google.android.apps.assistant)
+    Go apps are lite-versions of their normal counterparts, made for low-RAM devices.
+  id: com.google.android.apps.assistant
+  removal: recommended
+- description: |
+    Google Authenticator app (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+  id: com.google.android.apps.authenticator2
+  removal: recommended
+- description: |-
+    Android Beta Feedback
+    Available on Beta Android Pixel Phones.
+  id: com.google.android.apps.betterbug
+  removal: recommended
+- description: |
+    Google blogger app (https://play.google.com/store/apps/details?id=com.google.android.apps.blogger)
+  id: com.google.android.apps.blogger
+  removal: recommended
+- description: |
+    Google Play Books (https://play.google.com/store/apps/details?id=com.google.android.apps.books)
+  id: com.google.android.apps.books
+  removal: recommended
+- description: |-
+    Pixel Camera Services
+    Experimental stuff, Camera Calibration.
+  id: com.google.android.apps.camera.services
+  removal: advanced
+- description: |-
+    WiFi Provisioner
+    On the code I found only:
+    OpenRoaming is a network of free and secure Wi-Fi hotspots. Require google account and google play services.
+    It can be also for wifi calling.
+  id: com.google.android.apps.carrier.carrierwifi
+  removal: advanced
+- description: |-
+    Carrier App Logging
+    Require google play services
+    Logs everything.
+  id: com.google.android.apps.carrier.log
+  removal: recommended
+- description: |-
+    it's used for spying on you. (citizen broadband network monitor)
+    Require google play services and have location permission.
+  id: com.google.android.apps.cbrsnetworkmonitor
+  removal: recommended
+- description: Google Home (https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app)
+  id: com.google.android.apps.chromecast.app
+  removal: recommended
+- description: |
+    Cloud print (https://play.google.com/store/apps/details?id=com.google.android.apps.cloudprint)
+  id: com.google.android.apps.cloudprint
+  removal: recommended
+- description: Google Arts & Culture (https://play.google.com/store/apps/details?id=com.google.android.apps.cultural)
+  id: com.google.android.apps.cultural
+  removal: recommended
+- description: |
+    Google Currents (discontinued)
+  id: com.google.android.apps.currents
+  removal: recommended
+- description: Basic 4 colors
+  id: com.google.android.apps.customization.pixel
+  removal: expert
+- description: |-
+    DiagnosticTool
+    Hidden testing components.
+  id: com.google.android.apps.diagnostictool
+  removal: recommended
+- description: Google Drive (https://play.google.com/store/apps/details?id=com.google.android.apps.docs)
+  id: com.google.android.apps.docs
+  removal: recommended
+- description: |
+    Google Docs (https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs)
+  id: com.google.android.apps.docs.editors.docs
+  removal: recommended
+- description: Google Sheets (https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets)
+  id: com.google.android.apps.docs.editors.sheets
+  removal: recommended
+- description: Google Slides (https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.slides)
+  id: com.google.android.apps.docs.editors.slides
+  removal: recommended
+- description: 'Pixel Stand, Google Pixel AI wallpaper.'
+  id: com.google.android.apps.dreamliner
+  removal: advanced
+- description: Hangout chat (discontinued) (https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite)
+  id: com.google.android.apps.dynamite
+  removal: recommended
+- description: |
+    Google Admin (https://play.google.com/store/apps/details?id=com.google.android.apps.enterprise.cpanel)
+  id: com.google.android.apps.enterprise.cpanel
+  removal: recommended
+- description: |
+    Google apps device policy (https://play.google.com/store/apps/details?id=com.google.android.apps.enterprise.dmagent)
+  id: com.google.android.apps.enterprise.dmagent
+  removal: recommended
+- description: |
+    Google Allo (discontinued)
+  id: com.google.android.apps.fireball
+  removal: recommended
+- description: |
+    Google Fit (https://play.google.com/store/apps/details?id=com.google.android.apps.fitness)
+  id: com.google.android.apps.fitness
+  removal: recommended
+- description: |
+    Google Datally (discontinued)
+  id: com.google.android.apps.freighter
+  removal: recommended
+- description: |
+    Google Analytics (https://play.google.com/store/apps/details?id=com.google.android.apps.giant)
+  id: com.google.android.apps.giant
+  removal: recommended
+- description: Google Assistant (https://play.google.com/store/apps/details?id=com.google.android.apps.googleassistant)
+  id: com.google.android.apps.googleassistant
+  removal: recommended
+- description: |-
+    ApertureLensLauncher
+    Not sure how it works but redirects to google app lens `com.google.android.googlequicksearchbox`.
+  id: com.google.android.apps.googlecamera.fishfood
+  removal: recommended
+- description: |
+    Google Handwriting Input (https://play.google.com/store/apps/details?id=com.google.android.apps.handwriting.ime)
+  id: com.google.android.apps.handwriting.ime
+  removal: recommended
+- description: |
+    Google Hangout Dialer (https://play.google.com/store/apps/details?id=com.google.android.apps.hangoutsdialer)
+  id: com.google.android.apps.hangoutsdialer
+  removal: recommended
+- description: Useless frameworks and it's not needed for Health Connect.
+  id: com.google.android.apps.healthdata
+  removal: recommended
+- description: |-
+    Google Support Services
+    Allows you to share your Android device screen with a Google customer support agent for a personalized support experience.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.helprtc
+  id: com.google.android.apps.helprtc
+  removal: recommended
+- description: Inbox by Gmail (Discontinued)
+  id: com.google.android.apps.inbox
+  removal: recommended
+- description: |
+    Google Keyboard + Hinndi characters (https://play.google.com/store/apps/details?id=com.google.android.apps.inputmethod.hindi)
+  id: com.google.android.apps.inputmethod.hindi
+  removal: advanced
+- description: |-
+    betterbug
+    betterbug? All of these code means nothing.
+    also have a lot of permissions and nexuslogger permission.
+  id: com.google.android.apps.internal.betterbug
+  removal: recommended
+- description: Google Family Link (https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink)
+  id: com.google.android.apps.kids.familylink
+  removal: recommended
+- description: |
+    Google Family Link for children & teens (https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylinkhelper)
+  id: com.google.android.apps.kids.familylinkhelper
+  removal: recommended
+- description: |
+    Google My Maps (https://play.google.com/store/apps/details?id=com.google.android.apps.m4b)
+    It is NOT Google Maps
+  id: com.google.android.apps.m4b
+  removal: recommended
+- description: |
+    Google News (https://play.google.com/store/apps/details?id=com.google.android.apps.magazines)
+  id: com.google.android.apps.magazines
+  removal: recommended
+- description: Google Maps (https://play.google.com/store/apps/details?id=com.google.android.apps.maps)
+  id: com.google.android.apps.maps
+  removal: recommended
+- description: |
+    Google Maps Go (lite web app of Maps) (https://play.google.com/store/apps/details?id=com.google.android.apps.mapslite)
+  id: com.google.android.apps.mapslite
+  removal: recommended
+- description: |-
+    Entertainment Space
+    All-in-one application for entertainment purposes like movies, games, books etc.
+  id: com.google.android.apps.mediahome.launcher
+  removal: recommended
+- description: |-
+    Chromecast built-in
+    Needed to support broadcast?
+    https://play.google.com/store/apps/details?id=com.google.android.apps.mediashell&hl=en&gl=US
+  id: com.google.android.apps.mediashell
+  removal: expert
+- description: Hangout Meet (discontinued) (https://play.google.com/store/apps/details?id=com.google.android.apps.meetings)
+  id: com.google.android.apps.meetings
+  removal: recommended
+- description: |-
+    Google Messages (https://play.google.com/store/apps/details?id=com.google.android.apps.messaging)
+    SMS and RCS app.
+    NOTE: possibly a global dependency for SMS, MMS, RCS, OTP, and other services/verifications.
+    WARNING: once disabled/uninstalled, even if reinstalled, a factory reset may be required to re-obtain full functionality.
+  id: com.google.android.apps.messaging
+  removal: advanced
+- description: Google Maps GPS (https://play.google.com/store/apps/details?id=com.google.android.apps.navlite)
+  id: com.google.android.apps.navlite
+  removal: recommended
+- description: |-
+    Files by Google (https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files)
+    Runs in the background.
+  id: com.google.android.apps.nbu.files
+  removal: recommended
+- description: |-
+    Google Pay (https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user)
+    Digital wallet and payment system
+    List of all the information collected and associated to your Google account : https://support.google.com/googlepay/answer/10223752?hl=en&co=GENIE.Platform%3DAndroid#zippy=%2Cinfo-that-google-may-collect
+    You really should not trust Google not to sell your data (even if they claim the contrary): https://venturebeat.com/2020/11/20/probeat-google-will-eventually-sell-ads-against-your-financial-data/
+    
+    The app itself has a LOT of permissions. See the Pithus analysis: https://beta.pithus.org/report/36b22c539b5f25c27a7699516c906351a25ba2daa2894eed08ae22f7a2a72c0e
+  id: com.google.android.apps.nbu.paisa.user
+  removal: recommended
+- description: |-
+    Pixel Launcher (https://play.google.com/store/apps/details?id=com.google.android.apps.nexuslauncher)
+    Used to be called Nexus Launcher(back when Google's phones were called Nexus, not Pixel).
+    A launcher is basically your homescreen.
+    DON'T REMOVE IF YOU HAVEN'T INSTALLED ANOTHER LAUNCHER! Nova Launcher is usually the go-to custom launcher.
+  id: com.google.android.apps.nexuslauncher
+  removal: expert
+- description: |
+    Google Opinion Rewards (https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks)
+  id: com.google.android.apps.paidtasks
+  removal: recommended
+- description: |-
+    Google PDF Viewer
+    Shouldn't run in the background, so no reason to disable.
+    Discontinued, but still works perfectly on Android 11. In fact, this is the best standalone PDF-viewer I've found. The default PDF-viewer in recent Android releases is now integrated into Google Drive.
+  id: com.google.android.apps.pdfviewer
+  removal: advanced
+- description: Google Photos (https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
+  id: com.google.android.apps.photos
+  removal: recommended
+- description: Google PhotoScan (https://play.google.com/store/apps/details?id=com.google.android.apps.photos.scanner)
+  id: com.google.android.apps.photos.scanner
+  removal: recommended
+- description: |-
+    Pixel Troubleshooting
+    There's Battery diagnostics also google, tiktok? account load.
+  id: com.google.android.apps.pixel.support
+  removal: recommended
+- description: |-
+    Data Transfer Tool
+    It's probably restore apps on setup wizard first-boot setup.
+  id: com.google.android.apps.pixelmigrate
+  removal: recommended
+- description: Google+ (discontinued)
+  id: com.google.android.apps.plus
+  removal: recommended
+- description: |
+    Google Podcasts (https://play.google.com/store/apps/details?id=com.google.android.apps.podcasts)
+  id: com.google.android.apps.podcasts
+  removal: recommended
+- description: VPN by Google One. Discontinued. Succeeded by VPN by Google and Google Fi VPN.
+  id: com.google.android.apps.privacy.wildlife
+  removal: recommended
+- description: Google (audio)Recorder (https://play.google.com/store/apps/details?id=com.google.android.apps.recorder)
+  id: com.google.android.apps.recorder
+  removal: recommended
+- description: |-
+    The backup restore wizard used for pulling Android system backups from your Google account.
+    Runs on boot.
+    You only need this if you factory restore, in which case it’s automatically re-enabled for you.
+  id: com.google.android.apps.restore
+  removal: recommended
+- description: |-
+    Retail Demo Services
+    Should not be used for normal users.
+  id: com.google.android.apps.retaildemo.preload
+  removal: recommended
+- description: |-
+    Personal Safety (https://play.google.com/store/apps/details?id=com.google.android.apps.safetyhub)
+    Personal Safety is a Pixel app that helps you prepare and react in an emergency by quickly calling emergency services (e.g if your phone detects that you've been in a car crash, it can call for help automatically)
+    
+    This app has obviously a lot of dangerous permissions due to its operation.
+    
+    Pithus analysis: https://beta.pithus.org/report/e207f7d0f59d9df268154b90fc10cd861d0483465e30bbac8f68a7b12340c67f
+  id: com.google.android.apps.safetyhub
+  removal: unknown
+- description: Google Santa Tracker (discontinued)
+  id: com.google.android.apps.santatracker
+  removal: recommended
+- description: Automatically switches basebands between LTE and 5G on demand
+  id: com.google.android.apps.scone
+  removal: recommended
+- description: |-
+    Google Go (https://play.google.com/store/apps/details?id=com.google.android.apps.searchlite)
+    Go apps are lite-versions of their normal counterparts, made for low-RAM devices.
+  id: com.google.android.apps.searchlite
+  removal: recommended
+- description: |-
+    Checks security your phone(you can find it in settings). Not very useful.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.security.securityhub
+  id: com.google.android.apps.security.securityhub
+  removal: recommended
+- description: |-
+    Search engine selector
+    The search selection screen in the setupwizard you see on new/factory reset phones.
+    Runs on boot, but doesn't seem to run in the background beyond that.
+  id: com.google.android.apps.setupwizard.searchselector
+  removal: recommended
+- description: |-
+    Google One (https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red)
+    Lets you manage your Google cloud storage.
+    Occasionally runs in the background.
+  id: com.google.android.apps.subscriptions.red
+  removal: recommended
+- description: |
+    Google Duo (Video Calls) (https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon)
+  id: com.google.android.apps.tachyon
+  removal: recommended
+- description: |
+    Google Task (TODO list) (https://play.google.com/store/apps/details?id=com.google.android.apps.tasks)
+  id: com.google.android.apps.tasks
+  removal: recommended
+- description: |-
+    Pixel Tips
+    a lot bloated.
+  id: com.google.android.apps.tips
+  removal: recommended
+- description: |
+    Google Translate (https://play.google.com/store/apps/details?id=com.google.android.apps.translate)
+  id: com.google.android.apps.translate
+  removal: recommended
+- description: |
+    Google Trip (discontinued)
+  id: com.google.android.apps.travel.onthego
+  removal: recommended
+- description: |-
+    Device Health Services.
+    Breaks battery settings.
+  id: com.google.android.apps.turbo
+  removal: expert
+- description: |-
+    Ambient Mode
+    Running wallpapers from this app like a slideshow.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.tv.dreamx&hl=en&gl=US
+  id: com.google.android.apps.tv.dreamx
+  removal: recommended
+- description: |-
+    Google TV
+    Launcher to TV, there's no replace probably.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.tv.launcherx&hl=en&gl=US
+  id: com.google.android.apps.tv.launcherx
+  removal: expert
+- description: |-
+    Connectivity Diagnostics
+    Diagnoses not only connectivity but also time, not needed.
+  id: com.google.android.apps.tv.netoscope
+  removal: recommended
+- description: |-
+    Google Fi Wireless
+    https://play.google.com/store/apps/details?id=com.google.android.apps.tycho
+  id: com.google.android.apps.tycho
+  removal: recommended
+- description: |
+    Picasa Uploader (discontinued)
+  id: com.google.android.apps.uploader
+  removal: recommended
+- description: |
+    Google My Business (https://play.google.com/store/apps/details?id=com.google.android.apps.vega)
+  id: com.google.android.apps.vega
+  removal: recommended
+- description: |
+    Google Pay (https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel)
+  id: com.google.android.apps.walletnfcrel
+  removal: recommended
+- description: |
+    Google Wallpapers (https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper)
+  id: com.google.android.apps.wallpaper
+  removal: recommended
+- description: 'Demo mode - you see it in the stores (the video playing while idle).'
+  id: com.google.android.apps.wearable.retailattractloop
+  removal: recommended
+- description: WearOS settings
+  id: com.google.android.apps.wearable.settings
+  removal: expert
+- description: |-
+    Google Pixel Buds
+    Set up and manage your Pixel Buds right from your Android 6.0+ device with the Google Pixel Buds app.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.wearables.maestro.companion
+  id: com.google.android.apps.wearables.maestro.companion
+  removal: recommended
+- description: |-
+    The new Weather app by Google. If removed, "At a Glance" and the lock screen will still redirect to the Google app (like before).
+    https://play.google.com/store/apps/details?id=com.google.android.apps.weather
+  id: com.google.android.apps.weather
+  removal: recommended
+- description: |-
+    Digital Wellbeing (https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing)
+    Lets you track device and app usage and set usage limits.
+    WARNING: It is now a hard dependency for the Settings app on Android 12+ for Pixel phones. After uninstalling, there will be an empty entry on Settings. Rebooting should make it disappear..
+  id: com.google.android.apps.wellbeing
+  removal: advanced
+- description: |-
+    Device Policy
+    work apps handling
+  id: com.google.android.apps.work.clouddpc
+  removal: recommended
+- description: |-
+    Device Setup
+    Sets up device to be managed by EMM (Enterprise Mobility Management), which "allows organizations to securely enable employee use of mobile devices".
+    Might also be what does the actual management on your device, if you set it up as a work device.
+    Only seems to run on boot(not in the background after boot) if you haven't set up your device as a work device.
+    I tried to disable it through UAD-ng, but nothing happens? Seems immune to disabling?
+    https://bayton.org/2020/11/google-announce-big-changes-to-zero-touch/
+    https://bayton.org/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/
+    Contains 4 services: GcmJobService, GservicesChangedObserverService, AppMeasurementService and FirebaseInstanceIdService.
+    GCM(Google Cloud Messaging) was the backend for Android's push messaging system 2012-2019, after which it was replaced by FCM(Firebase Cloud Messaging). I assume the GCM/Firebase connection is for Push notification functionality.
+    The MANAGE_CARRIER_OEM_UNLOCK_STATE permission hints at doing something with carrier locks?
+    Needs Google Play Services to function?
+  id: com.google.android.apps.work.oobconfig
+  removal: advanced
+- description: |
+    YouTube Studio (https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.creator)
+  id: com.google.android.apps.youtube.creator
+  removal: recommended
+- description: |
+    YouTube Gaming -(discontinued in March 2019, features integrated in main youtube app)
+  id: com.google.android.apps.youtube.gaming
+  removal: recommended
+- description: |
+    YouTube Kids (https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.kids)
+  id: com.google.android.apps.youtube.kids
+  removal: recommended
+- description: |-
+    YouTube Go (https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.mango)
+    Lite version of the YouTube app. Shutdown by Google in august 2022.
+    https://support.google.com/youtube/thread/162222567/youtube-go-is-going-away-in-august-of-this-year
+  id: com.google.android.apps.youtube.mango
+  removal: recommended
+- description: |
+    YouTube Music (https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
+  id: com.google.android.apps.youtube.music
+  removal: recommended
+- description: |-
+    YT Music Setup Wizard
+    YT Music Setup Wizard?! Everything is possible.
+    I found only that they want to give you a free trial or premium.
+  id: com.google.android.apps.youtube.music.setupwizard
+  removal: recommended
+- description: |
+    YouTube VR (https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.vr)
+  id: com.google.android.apps.youtube.vr
+  removal: recommended
+- description: |-
+    AppSearch is an on-device search library for managing locally stored structured data, with APIs for indexing data and retrieving data using full-text search. Use it to build custom in-app search capabilities for your users.
+    https://developer.android.com/jetpack/androidx/releases/appsearch
+  id: com.google.android.appsearch.apk
+  removal: expert
+- description: |-
+    Android System Intelligence (previously Device Personalization Services) (https://play.google.com/store/apps/details?id=com.google.android.as)
+    Runs in the background.
+    "Enables intelligent features across Android", like: Live Caption, Screen Attention, Improved Copy-Paste, App Predictions in the launcher, Notification Smart Actions, Smart Text Selection and Linkifying text in apps.
+    Also known as device learning, e.g. enhanced keyboard auto suggestions, keeps the screen on when looking at it (with help of the camera), smart replies.
+    https://milaq.net/android-bloatware
+  id: com.google.android.as
+  removal: recommended
+- description: |-
+    Private Compute Services. On-device behavior analysis
+    Enables live caption, music recognition and smart replies.
+    Seems to be a dependency of System Intelligence.
+    https://play.google.com/store/apps/details?id=com.google.android.as.oss
+    https://milaq.net/android-bloatware
+  id: com.google.android.as.oss
+  removal: recommended
+- description: |-
+    Needed for screensaver.
+    https://play.google.com/store/apps/details?id=com.google.android.backdrop&hl=en&gl=US
+  id: com.google.android.backdrop
+  removal: recommended
+- description: Allows Android apps to back up their data on Google servers. (On Android 4.2)
+  id: com.google.android.backup
+  removal: recommended
+- description: |
+    Allows Android apps to back up their data on Google servers.
+  id: com.google.android.backuptransport
+  removal: advanced
+- description: |
+    Google Calculator (https://play.google.com/store/apps/details?id=com.google.android.calculator)
+  id: com.google.android.calculator
+  removal: recommended
+- description: |
+    Google Calendar (https://play.google.com/store/apps/details?id=com.google.android.calendar)
+  id: com.google.android.calendar
+  removal: recommended
+- description: |-
+    it's the same as (com.android.captiveportallogin). Support for captive portal.
+    A captive portal login is a web page where the users have to input their login information or accept the displayed terms of use. 
+    Some networks (typically public wifi network) use the captive portal login to block access until the user inputs 
+    some necessary information
+    NOTE : This package is a now a mandatory mainline module
+    https://en.wikipedia.org/wiki/Captive_portal
+    https://www.xda-developers.com/android-project-mainline-modules-explanation
+  id: com.google.android.captiveportallogin
+  removal: advanced
+- description: |-
+    Carrier Settings
+    Google Api Activity, requires GMS, totally random api's.
+    Required for 4G, but does not cause bootloop after removal.
+  id: com.google.android.carrier
+  removal: unsafe
+- description: |-
+    Same as com.android.carrierconfig? Here's that description:
+    Dynamically provides configuration for the carrier network.
+    The config contains: Roaming networks, Voicemail settings, SMS/MMS settings, VoLTE/IMS settings, and more.
+    If a carrier app is installed it will be queried for overrides to these settings.
+    Seems to run on boot and when you swap SIM card?
+    https://source.android.com/devices/tech/config/carrier
+    https://cs.android.com/android/platform/superproject/+/master:packages/apps/CarrierConfig/src/com/android/carrierconfig/DefaultCarrierConfigService.java
+  id: com.google.android.carrierconfig
+  removal: advanced
+- description: Sharing location to carrier.
+  id: com.google.android.carrierlocation
+  removal: expert
+- description: it's only needed on first-boot setup
+  id: com.google.android.carriersetup
+  removal: recommended
+- description: |-
+    Wireless emergency alerts
+    Cell broadcast is designed to deliver messages to multiple users in an area.
+    This is notably used by ISP to send Emergency/Government alerts.
+    Runs at boot and is also triggered after exiting airplane mode.
+    https://en.wikipedia.org/wiki/Cell_Broadcast
+    https://www.androidcentral.com/amber-alerts-and-android-what-you-need-know
+    https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/refs/heads/master/src/com/android/cellbroadcastreceiver
+  id: com.google.android.cellbroadcastreceiver
+  removal: expert
+- description: |-
+    CellBroadcastReceiver overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    The CellBroadcastReceiver app is a default system app that handles emergency and nonemergency alerts (such as amber and presidential alerts) and presents the information to end users based on carrier and regional regulations.
+    https://source.android.com/docs/core/runtime/rros
+    https://source.android.com/docs/core/ota/modular-system/cellbroadcast
+  id: com.google.android.cellbroadcastreceiver.overlay
+  removal: expert
+- description: 'Disable opt out dialog to cellbroadcastreceiver? I never seen that. Unused.'
+  id: com.google.android.cellbroadcastreceiver.overlay.miui
+  removal: recommended
+- description: Useless overlay code for cellbroadcastreceiver
+  id: com.google.android.cellbroadcastreceiver.rro_common
+  removal: recommended
+- description: |-
+    Cell broadcast is designed to deliver messages to multiple users in an area.
+    This is notably used by ISP to send Emergency/Government alerts.
+    https://en.wikipedia.org/wiki/Cell_Broadcast
+    https://www.androidcentral.com/amber-alerts-and-android-what-you-need-know
+  id: com.google.android.cellbroadcastservice
+  removal: expert
+- description: |-
+    CellBroadcastService overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    The CellBroadcastService service supports CellBroadcast SMS decoding, geofencing for wireless emergency alert (WEA) 3.0, message duplication checks, and broadcasting messages to apps. It's a one-to-many geotargeted and geofenced messaging service designed to deliver messages to multiple mobile phone users, in a defined area, at the same time. The service is defined by the [ETSI](https://www.etsi.org/about) GSM committee, [3GPP](https://www.3gpp.org/about-3gpp), and is a part of the telecommunication standards.
+    https://source.android.com/docs/core/runtime/rros
+    https://source.android.com/docs/core/ota/modular-system/cellbroadcast
+  id: com.google.android.cellbroadcastservice.overlay
+  removal: expert
+- description: 'cross sim duplicate detection disable? I never seen this. Unused.'
+  id: com.google.android.cellbroadcastservice.overlay.miui
+  removal: recommended
+- description: Useless overlay code for cellbroadcastservice
+  id: com.google.android.cellbroadcastservice.rro_common
+  removal: recommended
+- description: Needed for broadcast support?
+  id: com.google.android.chromecast.chromecastservice
+  removal: expert
+- description: Needed for Chromecast setup.
+  id: com.google.android.chromecast.setupcustomization
+  removal: advanced
+- description: "Installs carrier apps after the first time setup. Haven't noticed any consequences after uninstalling. I also saw some similar bloatware packages on the net, ending with clockwork.gestures.tutorial - first time use tutorial or clockwork.flashlight, clockwork.nfc, clockwork.brightness"
+  id: com.google.android.clockwork.oemsetup
+  removal: recommended
+- description: |-
+    Config Update
+    Intents used to provide unbundled updates of system data. All require the UPDATE_CONFIG permission. Updates:
+    - system wide certificate pins for TLS connections.
+    - System wide Intent firewall.
+    - List of permium SMS short codes.
+    - List of carrier provisioning URLs.
+    - Set of trusted logs used for Certificate Transparency support for TLS connections language detection model file
+    - Smart selection model file
+    - Conversation actions model file
+    - Network watchlist config file
+    - Intent action indicating that the updated carrier id config is available
+    - The emergency number database into the devices
+    - An integer to indicate the numeric version of the new data -- devices should only install if the update version is newer than the current one
+    - Hash of the database, which is encoded by base-16 SHA512.
+    https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/os/ConfigUpdate.java
+  id: com.google.android.configupdater
+  removal: expert
+- description: |-
+    Network connectivity resources.
+    Removing this packages causes a bootloop.
+  id: com.google.android.connectivity.resources
+  removal: unsafe
+- description: Useless default configs (?)
+  id: com.google.android.connectivity.resources.overlay
+  removal: expert
+- description: 'Needed for network, may cause bootloop.'
+  id: com.google.android.connectivity.resources.overlay.oplus
+  removal: unsafe
+- description: powersaving?
+  id: com.google.android.connectivitythermalpowermanager
+  removal: expert
+- description: |-
+    Google Contacts (https://play.google.com/store/apps/details?id=com.google.android.contacts)
+    Occasionally runs in the background.
+  id: com.google.android.contacts
+  removal: advanced
+- description: |-
+    Google clock app (https://play.google.com/store/apps/details?id=com.google.android.deskclock)
+    
+    WARNING: on some phones, removing this makes it so alarms and notifications only vibrate and don't make any sound (via any installed app), and makes the 'Alarm' section unavailable in 'Settings > Sound & Vibration'.
+  id: com.google.android.deskclock
+  removal: advanced
+- description: |-
+    Google Dialer (https://play.google.com/store/apps/details?id=com.google.android.dialer)
+    Default dialer on some phones.
+    Google Analytics are embedded in the app, assume everything is datamined.
+    https://www.virustotal.com/gui/file/a978d90f27d5947dca33ed59b73bd8efbac67253f9ef7a343beb9197c8913d1a/details
+  id: com.google.android.dialer
+  removal: advanced
+- description: Useless overlay code for Google Dialer
+  id: com.google.android.dialer.rro_common
+  removal: recommended
+- description: |-
+    Occasionally runs in the background.
+    File selector for other apps.
+    Storage Access Framework (SAF) will break if this is disabled.
+  id: com.google.android.documentsui
+  removal: unsafe
+- description: Another useless icon overlay.
+  id: com.google.android.documentsui.icon_overlay
+  removal: recommended
+- description: Useless code to documentsui.
+  id: com.google.android.documentsui.theme.pixel
+  removal: recommended
+- description: |-
+    Dock Updater
+    Updates to Dreamliner(Google Pixel AI wallpaper).
+  id: com.google.android.dreamlinerupdater
+  removal: advanced
+- description: |-
+    AOSP Mail client
+    Newer versions of AOSP Mail are renamed to com.android.email and Gmail was migrated to com.google.android.gm
+  id: com.google.android.email
+  removal: recommended
+- description: |-
+    eUICC (embedded UICC) refers to the architectural standards for eSIM, a device used to securely store one or more SIM card profiles, which are the unique identifiers and cryptographic keys used by cellular network service providers to uniquely identify and securely connect to mobile network devices.
+    Breaks SIM Manager.
+  id: com.google.android.euicc
+  removal: expert
+- description: 'Partner customization on first boot Setup, overlay.'
+  id: com.google.android.euiccoverlay
+  removal: recommended
+- description: |-
+    The ExtServices module updates framework components for core OS functionality such as notification ranking, autofill text-matching strategies, storage cache, package watchdog, and other services that run continually. This module is updatable, meaning it can receive updates to functionality outside of the normal Android release cycle.
+    Can run before the user unlocks the device (direct-boot aware) and Android 9+ version have internet and location permissions.
+    
+    WARNING: Causes bootloop on most Android 11+ phones. This module is related to the Android mainline project (which is a useful project).There is no reason to mess with this.
+    
+    Sources:
+    https://source.android.com/devices/architecture/modular-system/extservices
+    https://arstechnica.com/gadgets/2016/11/android-extensions-could-be-googles-plan-to-make-android-updates-suck-less/
+    Pithus analysis (Android 11): https://beta.pithus.org/report/e5e4a181082b88baf55e19aab0f9cb62e131d612eeaa73cddb510a52e0ff5c1a
+  id: com.google.android.ext.services
+  removal: unsafe
+- description: |-
+    Android Shared Library.
+    Maybe people thinking it's safe to remove or it's useless because it's empty.
+    but it cause bootloop on my miui 14.
+  id: com.google.android.ext.shared
+  removal: unsafe
+- description: |-
+    Factory OTA Mode
+    it's for testing OTA.
+  id: com.google.android.factoryota
+  removal: recommended
+- description: |-
+    FederatedCompute.
+    Another component of OnDevicePersonalization. But this app learns things about users.
+    Introduced in Android 13.
+    https://source.android.com/docs/core/ota/modular-system/ondevicepersonalization
+  id: com.google.android.federatedcompute
+  removal: recommended
+- description: |-
+    This is the package that sends crash-report feedback to the Play Store? The crash pop-up still happens with this disabled.
+    Doesn't seem to run on its own.
+    Has permission to access system logs and package usage stats. Only connects to 4 Google domains. App developers likely have to go through the Play Store to access any sent data.
+    https://beta.pithus.org/report/7041823ff880c207ed2ddacdc92e5ed803b1eb105e4483696d2152bea44903aa
+  id: com.google.android.feedback
+  removal: recommended
+- description: |-
+    Extreme Battery Saver
+    It can be found in settings, lets you to choose which app are important to you to use when this feature is enabled.
+  id: com.google.android.flipendo
+  removal: expert
+- description: "Data connection 5G? it's for extreme battery saver."
+  id: com.google.android.flipendo.auto_generated_rro_product__
+  removal: unsafe
+- description: "Data connection 5G? it's for extreme battery saver."
+  id: com.google.android.flipendo.auto_generated_rro_vendor__
+  removal: unsafe
+- description: |-
+    Built-in Gallery app.
+    The ID could be "recycled" by OEMs for their own gallery implementations.
+  id: com.google.android.gallery3d
+  removal: advanced
+- description: Gmail (https://play.google.com/store/apps/details?id=com.google.android.gm)
+  id: com.google.android.gm
+  removal: recommended
+- description: |-
+    Gmail Go (https://play.google.com/store/apps/details?id=com.google.android.gm.lite)
+    Lite version of the Gmail app (hah! Because the base one is too bloated?). Don't use this app
+  id: com.google.android.gm.lite
+  removal: recommended
+- description: |-
+    Google Play Services
+    GMS = Google Mobile Services.
+    It is a layer that sits on top of the OS and provides a lot of proprietary Google APIs, giving apps access to various Google Services, such as: "fused"-location (internet and GPS chip), QR Code scanner, 2FA, G-Drive storage, Firebase API, Cloud Messaging, etc...
+    If you remove it, all the apps relying on it will either:
+    - detect the lack of Play-Services and refuse to run
+    - detect the lack of Play-Services but allow you to run (improperly) by dismissing an annoying popup
+    Removing Google Play Services can boot-loop some devices, so be careful.
+    Disabling this package will improve battery life significantly, as it always runs in the background.
+    IMPORTANT: You need to uncheck "Find My Device" from the "Device admin apps" settings panel to be able to disable this package.
+    Search "admin" in the Settings-app search bar, or go to the Security category.
+  id: com.google.android.gms
+  removal: expert
+- description: |-
+    Google Location History
+    This app has nothing in the code. Only png logo google and name.
+  id: com.google.android.gms.location.history
+  removal: unknown
+- description: |-
+    Not sure what purpose it has, but it gets some network and phone data and connects to some Google domains, but never on its own; it has no permissions and never runs on its own, it likely exists as a helper package for other Google services.
+    Doesn't seem to exist in newer versions of Android; it's not in Android 11, but it is in 9.
+    Needs a Google Account and Google Play Services to work.
+    Given its name it could be related to Android auto?
+    Seems safe to remove, noticed no breakage (didn't test Android Auto tho).
+    https://beta.pithus.org/report/60835b97f38d9e64d4f554a73dab71c892153486a8e0fd81461c3d85359d9fae
+  id: com.google.android.gms.policy_sidecar_aps
+  removal: advanced
+- description: |-
+    Family Link parental controls
+    It has something to Family Link parental controls.
+    Introduced in android 13.
+    https://play.google.com/store/apps/details?id=com.google.android.gms.supervision
+  id: com.google.android.gms.supervision
+  removal: unknown
+- description: it's Google Sample Home Screen. Useless.
+  id: com.google.android.gmsintegration
+  removal: recommended
+- description: |-
+    Google Search box (https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox)
+    Runs in the background.
+    Pointless. If you need a shortcut to Google on your homescreen just use a web-browser shortcut. Does also remove the Google Sound Search widget, but you can get that functionality from an app like Shazam, that additionally doesn't run in the background constantly like this package does.
+    This app also powers the Google Discover page (the news 'widget' when you go to the left of the home screen) and the app symbol called 'Google'.
+    WARNING: disabling this package also breaks the Ok Google Search functionality as well as Google Lens.
+  id: com.google.android.googlequicksearchbox
+  removal: recommended
+- description: 'Has too much random logging, metrics stuff.'
+  id: com.google.android.grilservice
+  removal: recommended
+- description: |-
+    Google Services Framework
+    Supports the Play Services application in application updates, user authentication, location services, user searches & more.
+    https://android.stackexchange.com/questions/216176/what-is-the-exact-functionality-of-google-play-services-google-services-framew
+    https://stackoverflow.com/questions/37337448/what-is-the-difference-between-google-service-frameworkgsfgoogle-mobile-servi
+    Same recommendation as com.google.android.gms except I've never seen a bootloop because of deleting this package.
+  id: com.google.android.gsf
+  removal: expert
+- description: |-
+    Support for managing Google accounts.
+    Safe to remove if you don't use a Google account.
+  id: com.google.android.gsf.login
+  removal: advanced
+- description: |-
+    Has a lot statistics and takes info about device.
+    Requires Google Play Services, also assumes call notifications?
+  id: com.google.android.hardwareinfo
+  removal: advanced
+- description: Health Connect for Android backup/restore.
+  id: com.google.android.health.connect.backuprestore
+  removal: advanced
+- description: |-
+    Health Connect by Android gives you a simple way to share data between your health, fitness, and wellbeing apps without compromising on privacy.
+    Once you've downloaded Health Connect, you can access it through your settings by going to Settings > Apps > Health Connect, or from your Quick Settings menu.
+    https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata
+  id: com.google.android.healthconnect.controller
+  removal: advanced
+- description: The sole purpose of the OsuLogin App is to provision credentials from the Wi-Fi network to the device and allow them to connect to Wi-Fi Hotspot 2.0. See https://hackanons.com/2021/07/osulogin-android-everything-you-need-to-know.html for more information.
+  id: com.google.android.hotspot2.osulogin
+  removal: advanced
+- description: |-
+    Carrier Services (https://play.google.com/store/apps/details?id=com.google.android.ims)
+    Runs in the background.
+    Play store description claims power savings in addition to the features, but I don't see how that could be the case.
+    IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+    Safe to remove.
+  id: com.google.android.ims
+  removal: advanced
+- description: |
+    Google Keyboard + Japanese characters (https://play.google.com/store/apps/details?id=com.google.android.inputmethod.japanese)
+  id: com.google.android.inputmethod.japanese
+  removal: advanced
+- description: |
+    Google Keyboard + Korean characters (https://play.google.com/store/apps/details?id=com.google.android.inputmethod.korean)
+  id: com.google.android.inputmethod.korean
+  removal: advanced
+- description: |-
+    Gboard – the Google Keyboard (https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
+    Sometimes the only keyboard app on a phone; Make sure you have another installed before you disable.
+  id: com.google.android.inputmethod.latin
+  removal: advanced
+- description: |-
+    Google Keyboard + Pinyin (Chinese) characters
+    (https://play.google.com/store/apps/details?id=com.google.android.inputmethod.pinyin)
+  id: com.google.android.inputmethod.pinyin
+  removal: advanced
+- description: |
+    Lets you try new games directly on Google Play.
+    https://www.zdnet.com/article/googles-instant-apps-goes-live-now-you-can-try-android-apps-before-installing-them/
+  id: com.google.android.instantapps.supervisor
+  removal: recommended
+- description: |-
+    Google app, no replacement?
+    https://play.google.com/store/apps/details?id=com.google.android.katniss&hl=en&gl=US
+  id: com.google.android.katniss
+  removal: advanced
+- description: |
+    Google Keep (https://play.google.com/store/apps/details?id=com.google.android.keep)
+  id: com.google.android.keep
+  removal: recommended
+- description: |
+    Google Now Launcher (https://play.google.com/store/apps/details?id=com.google.android.launcher)
+    DO NOT REMOVE THIS IF YOU DON'T HAVE ANOTHER LAUNCHER INSTALLED.
+  id: com.google.android.launcher
+  removal: advanced
+- description: Handles location services on older devices. On newer ones Google location services is part of Google Play Services and Android location service is provided by com.android.location.fused or com.android.location.
+  id: com.google.android.location
+  removal: advanced
+- description: |
+    Google Markup app made for modifying pictures, shipped by default on every Pie+ device.
+  id: com.google.android.markup
+  removal: recommended
+- description: |
+    Android Accessibility Suite (https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback)
+    Helps blind and vision-impaired users.
+  id: com.google.android.marvin.talkback
+  removal: unknown
+- description: |-
+    Module that contains metadata about the list of modules on the device. And that’s about it.
+    I wouldn't advise you to mess with it as it could break important modules (see #37)
+    Good explanation of what android modules are : https://www.xda-developers.com/android-project-mainline-modules-explanation/
+  id: com.google.android.modulemetadata
+  removal: unsafe
+- description: Google Play Music (discontinued) (https://play.google.com/store/apps/details?id=com.google.android.music)
+  id: com.google.android.music
+  removal: recommended
+- description: |-
+    Useless frameworks to Wi-Fi connections, USB tethering, auto, usage.
+    Every version has random code and the app is not running in the background.
+  id: com.google.android.nearby.halfsheet
+  removal: recommended
+- description: |
+    Network Stack Components
+    https://source.android.com/devices/architecture/modular-system/networking
+    Provides common IP services, network connectivity monitoring, and captive login portal detection.
+  id: com.google.android.networkstack
+  removal: unsafe
+- description: WiFi will not work after remove.
+  id: com.google.android.networkstack.overlay
+  removal: unsafe
+- description: |
+    Network Stack Permission Configuration
+    Defines a permission that enables modules to perform network-related tasks.
+    https://source.android.com/devices/architecture/modular-system/networking
+  id: com.google.android.networkstack.permissionconfig
+  removal: unsafe
+- description: Used for USB and/or Wi-Fi tethering?
+  id: com.google.android.networkstack.tethering
+  removal: expert
+- description: |-
+    it's needed for tethering?. I found: arrays.xml
+    array name (config_tether_usb_regexs)
+    item rndis d
+    item usb d
+  id: com.google.android.networkstack.tethering.overlay
+  removal: unsafe
+- description: Useless hotspot configs (?)
+  id: com.google.android.networkstack.tethering.overlay2021
+  removal: expert
+- description: |-
+    Google Play Protect Service
+    Google Play Protect Service?
+    it have only third party notices activity
+    and useless frameworks
+  id: com.google.android.odad
+  removal: recommended
+- description: |-
+    OnDevicePersonalization.
+    Another thing to AdServices privacy sandbox.
+    Introduced in Android 13.
+    https://source.android.com/docs/core/ota/modular-system/ondevicepersonalization
+  id: com.google.android.ondevicepersonalization.services
+  removal: recommended
+- description: |
+    Provides first time setup, safe to remove.
+  id: com.google.android.onetimeinitializer
+  removal: unknown
+- description: Unused colors to 5G
+  id: com.google.android.overlay.flipendo
+  removal: expert
+- description: |-
+    Useless configurations about webview, wifi and bluetooth to scan for better location. Everything works without it.
+    WARNING: causes the Galaxy App to force-close after a few seconds on a Samsung N960F running Android Q.
+  id: com.google.android.overlay.gmsconfig
+  removal: advanced
+- description: |-
+    it's another component of
+    Android System Intelligence (previously Device Personalization Services)
+  id: com.google.android.overlay.gmsconfig.asi
+  removal: recommended
+- description: "If you delete this package, you won't be able to log in to your Google account on a Google app. But if you don't need to log in to a Google account, you can safely remove this."
+  id: com.google.android.overlay.gmsconfig.common
+  removal: expert
+- description: |-
+    Useless configurations dialer, sms, contacts Google(GApps)
+    everything works without it.
+  id: com.google.android.overlay.gmsconfig.comms
+  removal: expert
+- description: |-
+    Provides Geolocation Time Zone detection.
+    and it's used by (com.google.android.overlay.gmsconfig.common)?
+    No effects after remove.
+  id: com.google.android.overlay.gmsconfig.geotz
+  removal: expert
+- description: |-
+    configures default assistant? And have config to allow disabling assist disclosure?
+    I think it doesn't affect anything.
+    Safe to remove if you removed (com.google.android.googlequicksearchbox).
+  id: com.google.android.overlay.gmsconfig.gsa
+  removal: advanced
+- description: Useless overlay gmsconfig to Health Connect
+  id: com.google.android.overlay.gmsconfig.healthconnect
+  removal: recommended
+- description: 'Has no safety center in the code? Weird. Not needed.'
+  id: com.google.android.overlay.gmsconfig.nosafetycenter
+  removal: recommended
+- description: Not needed for (com.google.android.apps.safetyhub).
+  id: com.google.android.overlay.gmsconfig.personalsafety
+  removal: expert
+- description: |-
+    overlay to
+    config_systemGallery to com.google.android.apps.photos in Motorola. It's also installed on some Samsung Galaxy devices. Useless.
+  id: com.google.android.overlay.gmsconfig.photos
+  removal: recommended
+- description: Useless gmsconfig. it's config default launcher but not needed.
+  id: com.google.android.overlay.gmsconfig.searchlauncherqs
+  removal: recommended
+- description: Not needed for (com.google.android.apps.setupwizard.searchselector).
+  id: com.google.android.overlay.gmsconfig.searchselector
+  removal: recommended
+- description: Useless overlay gmsconfig to tetheringentitlement. No effects after remove
+  id: com.google.android.overlay.gmsconfig.tetheringentitlement
+  removal: recommended
+- description: Has random set to default google apps and vivo gallery.
+  id: com.google.android.overlay.gmsconfig.tier1
+  removal: advanced
+- description: useless unused overlay gmsconfig to family link.
+  id: com.google.android.overlay.gmsconfig.ww
+  removal: recommended
+- description: 'Not needed overlay, only has code to set `googlequicksearchbox`(Google App) as default assistant'
+  id: com.google.android.overlay.gmsgsaconfig
+  removal: recommended
+- description: Once configs all default things to google. Bricks google login functionality.
+  id: com.google.android.overlay.googleconfig
+  removal: unsafe
+- description: Once configs webview default to google. Bricks google login functionality.
+  id: com.google.android.overlay.googlewebview
+  removal: unsafe
+- description: Overlay to 'com.google.android.apps.healthdata'.
+  id: com.google.android.overlay.healthconnect
+  removal: recommended
+- description: |-
+    In code I have seen lists of some system apps and stuff of `managedprovisioning` user.
+    Safe to remove if you removed `com.android.managedprovisioning`.
+    But it probably doesn't affect anything.
+  id: com.google.android.overlay.managedprovisioning
+  removal: expert
+- description: |-
+    Configs default captiveportallogin. (not needed)
+    No effects after remove.
+  id: com.google.android.overlay.modules.captiveportallogin.forframework
+  removal: unknown
+- description: Overlay (theme/notification) module for com.google.android.cellbroadcastreceiver
+  id: com.google.android.overlay.modules.cellbroadcastreceiver
+  removal: expert
+- description: ''
+  id: com.google.android.overlay.modules.cellbroadcastservice
+  removal: expert
+- description: |-
+    In code only found: `is_launcher_enabled` false
+    On pixel phones this app overlay not exist.
+    it's only made to hide app icon (com.google.android.documentsui)
+    No effects after remove(so icon will be not back), it's useless.
+  id: com.google.android.overlay.modules.documentsui
+  removal: unknown
+- description: |-
+    it's overlay that depends on (com.google.android.ext.services)
+    Cause bootloop.
+  id: com.google.android.overlay.modules.ext.services
+  removal: unsafe
+- description: "If you remove this package, your phone has an extremely large chance of bootlooping. Just don't mess around with this package. Tested on a Samsung A34 5G."
+  id: com.google.android.overlay.modules.modulemetadata.forframework
+  removal: unsafe
+- description: Package installer ui changes to the classic after uninstallation.
+  id: com.google.android.overlay.modules.packageinstaller
+  removal: advanced
+- description: |-
+    I only detect on this app: help_app_permissions (link below). It looks very useless, not needed.
+    It doesnt affect com.google.android.permissioncontroller
+    https://support.google.com/googleplay/answer/6270602
+    WARNING: when disabling this package on a Samsung N960F running Android Q, the pop-up UI reverts. Disabling this package (as it's an overlay) will also put the pop-up UI to (like full-screen notification) to the center instead of the bottom.
+  id: com.google.android.overlay.modules.permissioncontroller
+  removal: unknown
+- description: |-
+    config_incidentReportApproverPackage
+    It looks very useless.
+    Not needed, it doesnt affect on (com.google.android.permissioncontroller)
+  id: com.google.android.overlay.modules.permissioncontroller.forframework
+  removal: expert
+- description: |-
+    Breaks Google Play System updates (GPSu), related to Project Mainline. Page on Settings will crash altogether, or ask Play Store to be updated.
+    https://support.google.com/product-documentation/answer/14343500
+  id: com.google.android.overlay.permissioncontroller
+  removal: advanced
+- description: "Useless default configs? You can lose some basic functionality so it's not worth touching it."
+  id: com.google.android.overlay.pixelconfig2018
+  removal: unsafe
+- description: "Useless default configs? You can lose some basic functionality so it's not worth touching it."
+  id: com.google.android.overlay.pixelconfig2019
+  removal: unsafe
+- description: "Useless default configs? You can lose some basic functionality so it's not worth touching it."
+  id: com.google.android.overlay.pixelconfig2019midyear
+  removal: unsafe
+- description: "Useless default configs? You can lose some basic functionality so it's not worth touching it."
+  id: com.google.android.overlay.pixelconfigcommon
+  removal: unsafe
+- description: |-
+    Have some stuff about google gms: backup.BackupTransportService.
+    Useless backup things, without it backup and cloud work.
+    Maybe it's used for backup settings, but probably not, and if it is, I don't think you need it.
+  id: com.google.android.overlay.settingsProvider
+  removal: recommended
+- description: Configs to fingerprints FRP auto generated.
+  id: com.google.android.overlay.udfpsoverlay
+  removal: recommended
+- description: |-
+    Google package installer. Seems to replace com.android.packageinstaller on newer phones. It is strangely not needed on older devices (you can still install APKs without it by using the AOSP package installer) but since Android 9, it also handles permissions control and could bootloop your device if removed.
+    On Android 8.1, disabling the app also disabled the 'Permissions' settings within all the apps. Besides that, I couldn't install an '.apk' file download from outside the Play Store.
+    Source: https://source.android.com/docs/core/architecture/modular-system/permissioncontroller.
+  id: com.google.android.packageinstaller
+  removal: unsafe
+- description: |
+    Gives ability to install, update or remove applications on the device.
+    If you delete this package, your phone will probably bootloop.
+  id: com.google.android.packageinstaller.a_overlay
+  removal: unsafe
+- description: |-
+    Google Partner Setup
+    Occasionally runs in the background.
+    Based on an unclear explanation online: "Enables applications to interact with your Google account/apps, for example: adding a Google Calendar event from a To-Do app."
+    Probably safe to disable; haven't noticed any consequences of disabling from weeks of use.
+  id: com.google.android.partnersetup
+  removal: advanced
+- description: |-
+    Permission controller
+    Controls app permissions.
+    https://source.android.com/devices/architecture/modular-system/permissioncontroller
+  id: com.google.android.permissioncontroller
+  removal: unsafe
+- description: Better keep this for permissioncontroller. Better don't risk
+  id: com.google.android.permissioncontroller.overlay.nothing
+  removal: unsafe
+- description: |-
+    Permission controller overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    https://source.android.com/docs/core/runtime/rros
+  id: com.google.android.permissioncontroller.overlay.oplus
+  removal: expert
+- description: |-
+    Photo picker
+    Provides a browsable interface that presents the user with their media library, sorted by date from newest to oldest. Safe, built-in way for users to grant your app access to only selected images and videos, instead of their entire media library.
+    https://developer.android.com/training/data-storage/shared/photopicker
+  id: com.google.android.photopicker
+  removal: expert
+- description: |-
+    It's the basic configuration setup guides you through the basics of setting up Google features on your device.
+    The second package is only present on Pixel phones.
+    Breaks the Google Play System update page found on "Security & privacy", for whatever reason...
+  id: com.google.android.pixel.setupwizard
+  removal: advanced
+- description: Useless first-boot setup configs
+  id: com.google.android.pixel.setupwizard.auto_generated_rro_product__
+  removal: recommended
+- description: Useless first-boot setup configs
+  id: com.google.android.pixel.setupwizard.overlay
+  removal: recommended
+- description: Useless first-boot setup configs
+  id: com.google.android.pixel.setupwizard.overlay2019
+  removal: recommended
+- description: Useless first-boot setup configs
+  id: com.google.android.pixel.setupwizard.overlay2021
+  removal: recommended
+- description: |-
+    Application that checks the SKU of a Pixel device to Region Lock the Felica chip (Japanese NFC technology used in E-money cards) of the phone to prevent non-Japanese people from using it.
+    Removing it will make the Osaifu-Keitai crash upon start-up but will not cause any bootloop.
+    Patching it (ROOT), however allows people with a Felica Chip to add IC cards to their phone and use it to pay while in Japan.
+  id: com.google.android.pixelnfc
+  removal: advanced
+- description: |
+    Google Play Games (https://play.google.com/store/apps/details?id=com.google.android.play.games)
+  id: com.google.android.play.games
+  removal: recommended
+- description: |-
+    I think this has to do with recommending a printservice app you can get from the Play store.
+    I think printing still works with this off.
+  id: com.google.android.printservice.recommendation
+  removal: advanced
+- description: Android Auto (https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead)
+  id: com.google.android.projection.gearhead
+  removal: unknown
+- description: |-
+    Media Storage
+    In Android 11 this is literally what provides access to files.
+    Safe to disable, but NOT recommended; breaks file browsers and other forms of file access.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.google.android.providers.media.module
+  removal: expert
+- description: 'Repair mode to Pixel, not sure how it works.'
+  id: com.google.android.repairmode
+  removal: advanced
+- description: |-
+    Google Safety Center.
+    Google Safe Browsing.
+    Crashes Security and Privacy settings if removed.
+    https://www.android.com/safety/
+  id: com.google.android.safetycenter.resources
+  removal: unknown
+- description: |-
+    Introduced in Android 13 privacy sandbox beta disabled on default.
+    Causes bootloop. Maybe this component is not only for privacy... (I think it's for testing privacy sandbox using Android Studio.)
+    https://source.android.com/docs/core/ota/modular-system/adservices
+    Cause BOOTLOOP.
+  id: com.google.android.sdksandbox
+  removal: unsafe
+- description: Needed to face unlock.
+  id: com.google.android.settings.future.biometrics.faceenroll
+  removal: advanced
+- description: |-
+    Android Setup
+    The factory reset device basic configuration setup guides you through the basics of setting up your device.
+    WARNING: Oddly enough, disabling/uninstalling this package will break mobile identity management which could be used by apps (for example your bank) to authenticate you. Also breaks syncing of Google accounts setup after this package is removed.
+    See https://en.wikipedia.org/wiki/Mobile_identity_management for Mobile Identity Management.
+  id: com.google.android.setupwizard
+  removal: advanced
+- description: Overlay for setupwizard?
+  id: com.google.android.setupwizard.a_overlay
+  removal: recommended
+- description: |
+    Google Sounds. Removable if you already have another media select service.
+  id: com.google.android.soundpicker
+  removal: recommended
+- description: |-
+    PumpkinService
+    Has something to speech.
+  id: com.google.android.speech.pumpkin
+  removal: advanced
+- description: |-
+    Second Screen Setup Auth Bridge
+    There's google api's used on first boot setup.
+  id: com.google.android.sss.authbridge
+  removal: recommended
+- description: Configs to settings auto generated but better keep.
+  id: com.google.android.storagemanager.auto_generated_rro_product__
+  removal: unsafe
+- description: Configs to settings auto generated but better keep.
+  id: com.google.android.storagemanager.auto_generated_rro_vendor__
+  removal: unsafe
+- description: |
+    Google Street View (https://play.google.com/store/apps/details?id=com.google.android.street)
+  id: com.google.android.street
+  removal: recommended
+- description: |
+    Synchronisation for Google Chrome bookmarks
+  id: com.google.android.syncadapters.bookmarks
+  removal: recommended
+- description: |
+    Synchronisation for Google Calendar.
+  id: com.google.android.syncadapters.calendar
+  removal: advanced
+- description: |
+    Synchronisation for Google Contacts.
+  id: com.google.android.syncadapters.contacts
+  removal: advanced
+- description: Configs to systemui auto generated but better keep.
+  id: com.google.android.systemui.gxoverlay
+  removal: unsafe
+- description: |
+    Support for NFC tags interactions (5 permissions : Contacts/Phone On by default).
+    NFC Tags are for instance used in bus to let you validate your transport card with your phone
+    Other example: https://en.wikipedia.org/wiki/TecTile
+    You will still be able to connect to an NFC device (e.g a speaker) if removed.
+  id: com.google.android.tag
+  removal: recommended
+- description: |
+    Google Hangouts (https://play.google.com/store/apps/details?id=com.google.android.talk)
+  id: com.google.android.talk
+  removal: recommended
+- description: |-
+    Speech Recognition and Synthesis from Google (https://play.google.com/store/apps/details?id=com.google.android.tts)
+    Default Text To Speech (TTS) engine on most of Android devices. It enables apps to convert text into voice.
+    
+    Pithus analysis (2024-03-03): https://beta.pithus.org/report/f0a2303e1c1bd049bf1cdc5a3454dfe19b2aaf26008662c7a307aaec2538558b
+    
+    Note: Many navigation and health/sports apps rely on a TTS engine to provide speech services. Open-source TTS engines available on Android exists but, as of the end of 2022, there is only RHVoice (https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) and it doesn't support a lot of languages. Mimic3 (https://mycroft.ai/mimic-3/) is probably the future of IoT open-source TTS engine but there is no Android support yet
+  id: com.google.android.tts
+  removal: advanced
+- description: |-
+    First boot setup TV.
+    https://play.google.com/store/apps/details?id=com.google.android.tungsten.setupwraith&hl=en&gl=US
+  id: com.google.android.tungsten.setupwraith
+  removal: recommended
+- description: |-
+    Device Health Services Adapter
+    Another app for Device Health Services(discontinued)
+  id: com.google.android.turboadapter
+  removal: recommended
+- description: |-
+    Live Channels
+    TV tuner and watching stuff, sadly has google analytics.
+  id: com.google.android.tv
+  removal: expert
+- description: |-
+    Android TV Infrared Service
+    Needed for volume setup.
+  id: com.google.android.tv.axel
+  removal: expert
+- description: |-
+    BugReportSender
+    Bug reports app.
+  id: com.google.android.tv.bugreportsender
+  removal: recommended
+- description: Remote Control Update Service.
+  id: com.google.android.tv.dfuservice
+  removal: expert
+- description: |-
+    Activity Stub
+    Weird app that probably needed for SQLite, webview browser.
+  id: com.google.android.tv.frameworkpackagestubs
+  removal: expert
+- description: |
+    Android TV remote control (https://play.google.com/store/apps/details?id=com.google.android.tv.remote)
+  id: com.google.android.tv.remote
+  removal: recommended
+- description: |-
+    Android TV Remote Service, pairing requests from your phone.
+    https://play.google.com/store/apps/details?id=com.google.android.tv.remote.service&hl=en&gl=US
+  id: com.google.android.tv.remote.service
+  removal: recommended
+- description: Needed for logging?
+  id: com.google.android.tv.remotecontrol.logging
+  removal: expert
+- description: |-
+    Android TV Home
+    https://play.google.com/store/apps/details?id=com.google.android.tvlauncher&hl=en&gl=US
+  id: com.google.android.tvlauncher
+  removal: expert
+- description: |-
+    Android TV Core Services
+    Sometimes has only Notification to Android11UpgradeReceiver,
+    and on some TV's has a lot frameworks, it's weird.
+    https://play.google.com/store/apps/details?id=com.google.android.tvrecommendations&hl=en&gl=US
+  id: com.google.android.tvrecommendations
+  removal: expert
+- description: |-
+    UvExposureReporter, logs, VendorAtom.
+    Unknown.
+  id: com.google.android.uvexposurereporter
+  removal: advanced
+- description: |
+    Google Movie Studio (discontinued)
+  id: com.google.android.videoeditor
+  removal: recommended
+- description: Google TV (previously Google Play Movies & TV) (https://play.google.com/store/apps/details?id=com.google.android.videos)
+  id: com.google.android.videos
+  removal: recommended
+- description: |
+    Google Voice Search (Speech-To-Text)
+  id: com.google.android.voicesearch
+  removal: recommended
+- description: |
+    Daydream (VR stuff) (https://play.google.com/store/apps/details?id=com.google.android.vr.home)
+  id: com.google.android.vr.home
+  removal: recommended
+- description: |
+    Daydream virtual keyboard (VR stuff) (https://play.google.com/store/apps/details?id=com.google.android.vr.inputmethod)
+  id: com.google.android.vr.inputmethod
+  removal: recommended
+- description: "It's like doze on Android phones. Not recommended to disable, as this package reduces battery drain when idle."
+  id: com.google.android.wearable.ambient
+  removal: expert
+- description: |
+    Wear OS Smartwatch (https://play.google.com/store/apps/details?id=com.google.android.wearable.app)
+  id: com.google.android.wearable.app
+  removal: recommended
+- description: |-
+    Google Assistant for Android wearables (https://play.google.com/store/apps/details?id=com.google.android.wearable.assistant)
+    
+    Has obviously all the dangerous permissions: https://beta.pithus.org/report/efccf27aa68d9c263e4288d38af76f855b5fd4156034ebdaabeb185d8c4f1411
+  id: com.google.android.wearable.assistant
+  removal: advanced
+- description: "It's used to manage battery-related things on Android smartwatches, like monitoring the battery level, managing power consumption (auto battery saving I think), and handling battery-related events (pop-up when battery at 15%, etc.). It is typically used by developers to create battery-aware applications for wearable devices."
+  id: com.google.android.wearable.batteryservices
+  removal: expert
+- description: |-
+    Health Services by Google
+     (https://play.google.com/store/apps/details?id=com.google.android.wearable.healthservices)
+    
+    Disabling this on a Watch5 broke heart rate measuring and some workouts.
+  id: com.google.android.wearable.healthservices
+  removal: expert
+- description: |-
+    Android System WebView (https://play.google.com/store/apps/details?id=com.google.android.webview) enables Android apps to display web content within the app itself, based on Chrome.
+    No root? Don't uninstall.
+    Root? If you delete WebView, make sure to install a replacement.
+    Many third-party apps, such as banks, VPNs, GitHub, Discord and Reddit use web-based content and will crash without it.
+  id: com.google.android.webview
+  removal: expert
+- description: |-
+    Carrier Setup
+    Needed for IMS, WiFi calling and have emergency things.
+  id: com.google.android.wfcactivation
+  removal: advanced
+- description: |-
+    Wi-Fi dialog. App to launch user dialogs requested by the Wi-Fi service is stored here. Contains the Activity the dialogs are launched from.
+    https://source.android.com/docs/core/ota/modular-system/wifi
+    https://android.googlesource.com/platform/packages/apps/Settings/+/refs/heads/main/src/com/android/settings/wifi/WifiDialog.java
+    https://android.googlesource.com/platform/packages/apps/Settings/+/refs/heads/main/src/com/android/settings/wifi/WifiDialog2.kt
+  id: com.google.android.wifi.dialog
+  removal: expert
+- description: |-
+    Wi-Fi Service Resources. Overlay APK manifest is stored here. Extracts Wi-Fi configs.
+    https://source.android.com/docs/core/ota/modular-system/wifi
+  id: com.google.android.wifi.resources
+  removal: unsafe
+- description: WiFi configs
+  id: com.google.android.wifi.resources.pixel
+  removal: unsafe
+- description: YouTube (https://play.google.com/store/apps/details?id=com.google.android.youtube)
+  id: com.google.android.youtube
+  removal: recommended
+- description: |-
+    YouTube app
+    https://play.google.com/store/apps/details?id=com.google.android.youtube.tv&hl=en_US
+  id: com.google.android.youtube.tv
+  removal: recommended
+- description: |-
+    YouTube Music
+    https://play.google.com/store/apps/details?id=com.google.android.youtube.tvmusic&hl=en&gl=US
+  id: com.google.android.youtube.tvmusic
+  removal: recommended
+- description: |-
+    Google Play Services for AR (Augmented Reality) (https://play.google.com/store/apps/details?id=com.google.ar.core)
+    Note: Disabling it can mess with apps that use it, like Pokemon GO.
+    https://beta.pithus.org/report/99ea324529f950fe351d22724f8b894cce19c16607fcc9c2855bc906b1f8e644
+  id: com.google.ar.core
+  removal: recommended
+- description: |
+    Google Lens (for AR too) (https://play.google.com/store/apps/details?id=com.google.ar.lens)
+  id: com.google.ar.lens
+  removal: recommended
+- description: |
+    Live Transcribe & Sound Notifications (https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe)
+    Provides push notifications for critical sounds around you. This feature can be helpful for people with hearing loss.
+    https://blog.google/products/android/new-sound-notifications-on-android/
+    Works offline
+  id: com.google.audio.hearing.visualization.accessibility.scribe
+  removal: recommended
+- description: |
+    Chrome Remote Desktop (https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop)
+  id: com.google.chromeremotedesktop
+  removal: recommended
+- description: |
+    Google Earth (https://play.google.com/store/apps/details?id=com.google.earth)
+  id: com.google.earth
+  removal: recommended
+- description: 'NFC, eSE, eSIM firmware updater'
+  id: com.google.euiccpixel
+  removal: advanced
+- description: 'Overlay to (com.google.euiccpixel) NFC, eSE, eSIM firmware updater'
+  id: com.google.euiccpixel.overlay.gs101
+  removal: advanced
+- description: |-
+    Adservices Train Version Package. AdServices too.
+    uses ondevicepersonalization.
+    Introduced in Android 13
+    NOTE: This package is a mandatory mainline module, which is also not documented. I don't trust it when it comes to adservices.
+  id: com.google.mainline.adservices
+  removal: recommended
+- description: |-
+    Contains data on which versions of modules are installed. Google Play uses this data to determine if updates are available for the modules, and to show which security patch is installed.
+    This module doesn’t contain active code and has no functionality on its own.
+    Anyway I wont trust it when adservices are also in mainline.
+    https://www.xda-developers.com/android-project-mainline-modules-explanation/
+    https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/27#note_410012436
+  id: com.google.mainline.telemetry
+  removal: advanced
+- description: |
+    Android Accessibility Suite (https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback)
+  id: com.google.marvin.talkback
+  removal: recommended
+- description: |-
+    OemDmTrigger
+    OMA Device Managment Verizon.
+  id: com.google.omadm.trigger
+  removal: recommended
+- description: |-
+    CameraIDRemapper and a lot Debug stuff. Dependency for Private space on Pixel devices.
+    https://source.android.com/docs/security/features/private-space
+  id: com.google.pixel.camera.services
+  removal: advanced
+- description: |-
+    CccDkTimeSyncService, IBluetoothCcc.
+    Unknown app to car connectivity.
+  id: com.google.pixel.digitalkey.timesync
+  removal: recommended
+- description: |-
+    Pixel live wallpaper
+    Have a lot of wallpapers.
+  id: com.google.pixel.livewallpaper
+  removal: advanced
+- description: |
+    Google Cardboard (VR stuff) (https://play.google.com/store/apps/details?id=com.google.samples.apps.cardboarddemo)
+  id: com.google.samples.apps.cardboarddemo
+  removal: recommended
+- description: |
+    Google Measure (https://play.google.com/store/apps/details?id=com.google.tango.measure)
+  id: com.google.tango.measure
+  removal: recommended
+- description: |
+    Google Cardboard Camera (VR stuff) (https://play.google.com/store/apps/details?id=com.google.vr.cyclops)
+  id: com.google.vr.cyclops
+  removal: recommended
+- description: |
+    Google Expedition (VR stuff) (https://play.google.com/store/apps/details?id=com.google.vr.expeditions)
+  id: com.google.vr.expeditions
+  removal: recommended
+- description: |
+    Google VR services (https://play.google.com/store/apps/details?id=com.google.vr.vrcore)
+  id: com.google.vr.vrcore
+  removal: advanced
+- description: Google Barcode Scanner (discontinued) (https://play.google.com/store/apps/details?id=com.google.zxing.client.android)
+  id: com.google.zxing.client.android
+  removal: recommended

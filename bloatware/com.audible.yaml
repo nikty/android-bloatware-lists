@@ -1,0 +1,5 @@
+---
+- description: |
+    Cover Audible Audiobooks (https://play.google.com/store/apps/details?id=com.audible.application)
+  id: com.audible.application
+  removal: recommended

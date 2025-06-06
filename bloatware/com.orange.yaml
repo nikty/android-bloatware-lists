@@ -1,0 +1,58 @@
+---
+- description: |
+    Orange Manual Selector
+    Makes unnecessary notifications
+  id: com.orange.aura.oobe
+  removal: recommended
+- description: |
+    Mail Orange (https://play.google.com/store/apps/details?id=com.orange.mail.fr)
+  id: com.orange.mail.fr
+  removal: recommended
+- description: |
+    Lets you access to your Orange account
+  id: com.orange.miorange
+  removal: recommended
+- description: |
+    Ma Livebox (https://play.google.com/store/apps/details?id=com.orange.mylivebox.fr)
+    Lets you manage your livebox from your phone.
+  id: com.orange.mylivebox.fr
+  removal: recommended
+- description: |
+    My Sosh (https://play.google.com/store/apps/details?id=com.orange.mysosh)
+    Lets you access to your Sosh account
+  id: com.orange.mysosh
+  removal: recommended
+- description: |
+    Orange Et Moi (https://play.google.com/store/apps/details?id=com.orange.orangeetmoi)
+    Orange customer space
+  id: com.orange.orangeetmoi
+  removal: recommended
+- description: |
+    TV d'Orange (https://play.google.com/store/apps/details?id=com.orange.owtv)
+    Lets you watch TV/VOD on your phone.
+  id: com.orange.owtv
+  removal: recommended
+- description: |
+    Transfert de données (https://play.google.com/store/apps/details?id=com.orange.tdd)
+    Lets you transfer wirelessly: contacts, SMS, call log, calendar, photos, videos, audio files, etc., all from your old Android
+  id: com.orange.tdd
+  removal: recommended
+- description: |
+    Handles Orange apps updates.
+  id: com.orange.update
+  removal: recommended
+- description: |
+    Obviously related to update...
+  id: com.orange.update.OrangeUpdateApplication
+  removal: recommended
+- description: |
+    Messagerie vocale visuelle (https://play.google.com/store/apps/details?id=com.orange.vvm)
+    Lets you manage your voicemail with an app.
+  id: com.orange.vvm
+  removal: recommended
+- description: |
+    Mon Réseau (https://play.google.com/store/apps/details?id=com.orange.wifiorange)
+    Lets you measure your speed connection and find better Orange wifi hotspots.
+    Informs you also about near network incidents.
+  id: com.orange.wifiorange
+  removal: recommended

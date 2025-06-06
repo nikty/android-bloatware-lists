@@ -1,0 +1,517 @@
+---
+- description: Account Center. Required for most OnePlus features. Removal gets rid of Login with OnePlus Account notification.
+  id: com.oplus.account
+  removal: advanced
+- description: |-
+    AIUnit
+    System service related to the intelligence function. It's safe to remove but also breaks the Smart Cutout, AI Editor, and potentially other gallery features.
+  id: com.oplus.aiunit
+  removal: advanced
+- description: |-
+    Overlay to vendor required apps?
+    Theres google apps and some not important oppo apps on the lists, not needed.
+  id: com.oplus.android.overlay.gmsconfig.common
+  removal: recommended
+- description: 'Useless overlay to documentsui bools.xml: is_launcher_enabled true'
+  id: com.oplus.android.overlay.modules.documentsui
+  removal: recommended
+- description: |-
+    Aod
+    Multiple sources say that AOD doesnt work without tons of extra services, but on some devices it works without extra services
+    https://droidwin.com/remove-bloatware-debloat-oneplus-10-pro-no-root/#OnePlus_10_Pro_List_of_Bloatware_Apps
+  id: com.oplus.aod
+  removal: recommended
+- description: Secure app installation
+  id: com.oplus.appdetail
+  removal: recommended
+- description: |-
+    App Services
+    Might be renamed package of com.heytap.appplatform which is related to Oppo's Heytap account services. Provides a RomUpdateService. Probably not safe to remove.
+    
+    Pithus analysis: https://beta.pithus.org/report/2025ceb69d9379a01771de71ff00051eb0f0c7f44226a72c2066db9649b6dcd2
+    Causes bootloop on some phones after uninstall.
+  id: com.oplus.appplatform
+  removal: unsafe
+- description: Recover system apps
+  id: com.oplus.apprecover
+  removal: advanced
+- description: |-
+    OnePlus background process manager. Removing it will solve the notification delay you can have but will disable the virtual ram expansion feature (swap RAM to disk) and the 'close all' button in the 'recent apps' page.
+    Removing this app may deteriorate battery performance.
+  id: com.oplus.athena
+  removal: expert
+- description: |-
+    atlasService
+    Separate app sound and individual app volumes.
+    https://beta.pithus.org/report/6d0f9433431cd34a8e9aaef99b329b3623118a1699033be36032f64653dab3d0
+  id: com.oplus.atlas
+  removal: expert
+- description: |-
+    AudioEffectCenter
+    Dolby support for Chinese apps and some Google. It's so bloated.
+  id: com.oplus.audio.effectcenter
+  removal: recommended
+- description: |-
+    Battery
+    Needed for power managment in settings?
+    https://xdaforums.com/t/how-to-fix-oneplus-11-thermal-throttling.4560085/post-89255314
+    Better test it.
+  id: com.oplus.battery
+  removal: expert
+- description: |-
+    Battery warning.
+    Uses accessbility, GPS and Wi-Fi.
+  id: com.oplus.batterywarning
+  removal: advanced
+- description: |-
+    Block & filter
+    Call blocking app that's tied with device caller app, contains fuction to look caller location on Google Maps, potentially untrusted.
+  id: com.oplus.blacklistapp
+  removal: advanced
+- description: All the blur effects in the system UI will be removed and replaced with completely transparent if you remove this package.
+  id: com.oplus.blur
+  removal: expert
+- description: |-
+    BTtestmode
+    Bluetooth SAR Signaling, Scene Test
+  id: com.oplus.bttestmode
+  removal: recommended
+- description: Camera app
+  id: com.oplus.camera
+  removal: expert
+- description: |-
+    Screencast
+    Phone casting (casting phone screen to other devices).
+  id: com.oplus.cast
+  removal: expert
+- description: |-
+    APP Enhancement Services
+    If enabled, connects to OPPO servers (icosa-service-eu.allawnos.com) every time a new app is installed. Seems to be mostly focused on gaming performance optimisation according to the settings description:
+    '[...] a service that optimises phone performance for specific apps and game scenarios. [...] frame rates, battery usage, touch sensitivity, network connection, vibration and gameplay assistance features.'
+    
+    Can be disabled via hidden setting (Settings -> Search 'App Enhancement Services' -> App Enhancement Services).
+    Note: removing this package prevents the OnePlus Game Center to detect games.
+    Cannot be uninstalled but it can be disabled. Note: removing this package prevents the OnePlus Game Center to detect games.
+    Pithus analysis: https://beta.pithus.org/report/f55e935357865f4647e59c98afb5a3a46aba22a48844d80d2819d122781e3fde.
+  id: com.oplus.cosa
+  removal: recommended
+- description: |-
+    Carrier software updater?
+    Looks like software updater for carrier phones.
+  id: com.oplus.cota
+  removal: expert
+- description: |-
+    Sends system failure data to developers. Automatically runs at boot.
+    
+    Pithus analysis: https://beta.pithus.org/report/6031048af7434e9cfe3435244dd105ac70e3bfe1f25ecdcca9b2a40b356590a2
+  id: com.oplus.crashbox
+  removal: recommended
+- description: Useless frameworks
+  id: com.oplus.customize.coreapp
+  removal: recommended
+- description: |-
+    Smart Capability Services
+    seems to open some common apps in the background, which may increase power consumption. Remove it on ColorOS 12.0 or above will cause the battery menu to not show the power consumption curve. This can cause a bootloop.
+  id: com.oplus.deepthinker
+  removal: expert
+- description: |-
+    Deactivate Traffic Management
+    Fusion search service?
+  id: com.oplus.dmp
+  removal: recommended
+- description: |-
+    Eid-Service
+    It's something about card chips or online identity? Useless. China.
+  id: com.oplus.eid
+  removal: recommended
+- description: |-
+    Private Safe
+    After uninstalling, the option to use the file safe in the privacy settings disappears. There is also a section left in the settings that does nothing when clicked.
+  id: com.oplus.encryption
+  removal: recommended
+- description: |-
+    EngineerCamera
+    Testing camera things.
+  id: com.oplus.engineercamera
+  removal: recommended
+- description: |-
+    EngineerMode
+    Testing phone things(like audio, bluetooth, etc.).
+  id: com.oplus.engineermode
+  removal: recommended
+- description: |-
+    Engineermode2
+    This is app for get flipkartAddress and ShowSarImeiReceiver.
+    I found some info: This phone is part of Flipkart Smart Plan and not eligible for release till any instant advance amount availed is repaid.
+  id: com.oplus.engineermodeforflipkart
+  removal: recommended
+- description: |-
+    EngineerNetwork
+    Testing network things.
+  id: com.oplus.engineernetwork
+  removal: recommended
+- description: |-
+    Gesture Motion Services
+    Is related to gesture navigation 'com.oplus.gesture'.
+  id: com.oplus.exserviceui
+  removal: expert
+- description: '[NEED MORE INFO / APK NEEDED] Lots of permissions. The screenshot function will stop working when the app is disabled.'
+  id: com.oplus.exsystemservice
+  removal: expert
+- description: |-
+    Eye protection mode
+    Safe to remove if you dont use this feature. It can be found in the settings.
+  id: com.oplus.eyeprotect
+  removal: recommended
+- description: |-
+    A runtime resource overlay (RRO) is a package that changes the resource values of a target package at runtime. For example, an app installed on the system image might change its behavior based upon the value of a resource. Rather than hardcoding the resource value at build time, an RRO installed on a different partition can change the values of the app's resources at runtime.
+    RROs can be enabled or disabled. You can programmatically set the enable/disable state to toggle an RRO's ability to change resource values. RROs are disabled by default (however, static RROs are enabled by default).
+    https://source.android.com/docs/core/runtime/rros
+  id: com.oplus.framework.rro.oneplus
+  removal: expert
+- description: Needed to bluetooth?
+  id: com.oplus.framework_bluetooth.overlay
+  removal: expert
+- description: |-
+    Games (https://play.google.com/store/apps/details?id=com.oplus.games)
+    Occasionally runs in the background as part of the system.
+    Allows you to launch your game library, check game stats(such as playtime), activate game overlay features and performance settings to tweak game/battery performance during gaming.
+    This is the only way to access the recording buffer functionality (records the last X seconds into RAM and saves them when you tap save), so keep enabled if you need that or any of the other features.Note: new package name of com.oneplus.gamespace (since the merge between Oppo and OnePlus. Oplus = Oppo+OnePlus
+  id: com.oplus.games
+  removal: recommended
+- description: Always-on screen gestures.
+  id: com.oplus.gesture
+  removal: expert
+- description: |-
+    Vision Enhance
+    Useless things about color maybe to wallpaper?
+  id: com.oplus.hamlet
+  removal: recommended
+- description: |-
+    healthservice
+    Some health function, needed for correct work of fitness trackers and pedometer from realme. When deleted, it does not seem to affect the operation of the phone.
+  id: com.oplus.healthservice
+  removal: recommended
+- description: |-
+    InterconnectCollectKit
+    It may have something to do with the device's fast connection by name. BUT I see only it collects system logs and it has something to com.heytap.accessory.
+  id: com.oplus.interconnectcollectkit
+  removal: recommended
+- description: |-
+    Chinese pay service? Safe to remove but no documentation found online
+    [APK NEEDED]
+  id: com.oplus.kekepay
+  removal: recommended
+- description: The clock style available in the lock screen and the theme manager.
+  id: com.oplus.keyguard.clock.base
+  removal: expert
+- description: The clock style available in the lock screen and the theme manager.
+  id: com.oplus.keyguard.clock.gallery
+  removal: expert
+- description: The clock style available in the lock screen and the theme manager.
+  id: com.oplus.keyguard.clock.graffiti
+  removal: expert
+- description: The clock style available in the lock screen and the theme manager.
+  id: com.oplus.keyguard.clock.magazine
+  removal: expert
+- description: |-
+    Seems to be related to the the logging suite.
+    
+    Pithus analysis: https://beta.pithus.org/report/0542dbdbe10fd3a868ea497ec92670619670f574bbce37d949975dc109cd316f
+  id: com.oplus.lfeh
+  removal: recommended
+- description: |-
+    OPSynergy
+    Used for the Synergy app to link your phone to your PC (It doesn't work well beyond controlling your phone from your PC).
+  id: com.oplus.linker
+  removal: recommended
+- description: Chinese location. Have China MCC. Useless
+  id: com.oplus.location
+  removal: recommended
+- description: |-
+    Carrier Location Services
+    Extra location telemetry, not related to any GPS functions.
+  id: com.oplus.locationproxy
+  removal: recommended
+- description: |-
+    Logs service and bug reporting app
+    Safe to remove if you don't report bugs to OEM
+  id: com.oplus.logkit
+  removal: recommended
+- description: |-
+    Media Controller.
+    Responsible for the Dynamic Island feature for music applications and showing the 'Now playing' notification on lockscreen.
+  id: com.oplus.mediacontroller
+  removal: expert
+- description: |-
+    Wireless Earphones
+    Wireless headset advanced configuration related (after uninstallation some Bluetooth headset setting options will be missing items, if you do not have headset setting problems, it is recommended to uninstall)
+    https://play.google.com/store/apps/details?id=com.oplus.melody
+  id: com.oplus.melody
+  removal: advanced
+- description: |-
+    Metis
+    User Behavior Records. Hidden with no activities. Collects data.
+  id: com.oplus.metis
+  removal: recommended
+- description: |-
+    App Cloner. Allows to clone an app. Have access to all installed apps. Is bundled with OnePlus analytics
+    
+    Pithus analysis: https://beta.pithus.org/report/8a1d0783debb405ebadb3fc52507de5f69ecb55f499732b7331dac74ad69ffd7
+  id: com.oplus.multiapp
+  removal: advanced
+- description: |-
+    NetworkAssistSys
+    Needed for network I guess by dialogs found in code. Has location & phone permission, can read your call logs. Runs in background. After disabling, no issues occured (OxygenOS 14, OnePlus 11).
+  id: com.oplus.nas
+  removal: advanced
+- description: |-
+    DSF
+    Provides the ability to authenticate your identity when you connect your device.
+    For the 'Device Connection Security Service' to work properly, it needs to collect
+    information about your HeyTap account to support automatic connection to different
+    devices with the same account and connect to the Internet to verify the security of your HeyTap account.
+  id: com.oplus.ndsf
+  removal: advanced
+- description: |-
+    NetworkHealthService
+    (Uninstallation may cause the power saving mode optimization option of turning off 5G to be disabled, only briefly, after which it will automatically return to 5G) needs more testing.
+  id: com.oplus.nhs
+  removal: expert
+- description: Notification management will not work when uninstalled/disabled.
+  id: com.oplus.notificationmanager
+  removal: unsafe
+- description: |-
+    OplusNrModeControl
+    Required for Smart 5G.
+  id: com.oplus.nrMode
+  removal: expert
+- description: |-
+    OBrain
+    Log component, domestic special, the key to a MIDAS service, looking at the dex content is also to catch log.
+  id: com.oplus.obrain
+  removal: recommended
+- description: Has something related to wallet smart card
+  id: com.oplus.oca
+  removal: recommended
+- description: |-
+    Car+
+     Related to Oppo's car app [APK NEEDED]
+  id: com.oplus.ocar
+  removal: recommended
+- description: Its not about cloud but a lot logs.
+  id: com.oplus.ocloud
+  removal: recommended
+- description: |-
+    OpenCapabilityService
+    Chinese unique identifier privacy hazard.
+  id: com.oplus.ocs
+  removal: recommended
+- description: |-
+    Olc
+    Logger, a new appearance in F.05, the domestic special, and all say that they are log core.
+  id: com.oplus.olc
+  removal: recommended
+- description: |-
+    Omoji
+    Avatar editing app.
+  id: com.oplus.omoji
+  removal: recommended
+- description: |-
+    ONet
+    Useless frameworks. To secure keyboard, grant permissions. It's not needed.
+  id: com.oplus.onet
+  removal: recommended
+- description: |-
+    OneTrace
+    Logging component, may be used for feedback toolkit log capture, domestic specials.
+  id: com.oplus.onetrace
+  removal: recommended
+- description: Useless frameworks security.
+  id: com.oplus.oscenter
+  removal: recommended
+- description: |-
+    Software update
+    Provides System Updates.
+  id: com.oplus.ota
+  removal: expert
+- description: Voice assistant related
+  id: com.oplus.ovoicemanager
+  removal: recommended
+- description: 'Weird app that has time sync and start/stop Monitor Wifi Connectivity, also has oplus statistics component to tracking events.'
+  id: com.oplus.owkservice
+  removal: expert
+- description: It has pad settings and multi-screen connect.
+  id: com.oplus.padconnect
+  removal: advanced
+- description: |-
+    Ubiquitous Manager Service
+    A service required for Fluid Cloud (Dynamic Island clone) feature in OxygenOS/ColorOS/RealmeUI (Android 14). Runs in background. After disabling, no issues occurred but there's a little empty space between clock and recent notification icons on the right.
+  id: com.oplus.pantanal.ums
+  removal: advanced
+- description: |-
+    Secure Payment
+    Lets you pay with your phone. Privacy issue aside, you should probably not trust their security: https://www.bitdefender.com/blog/hotforsecurity/hackers-attack-oneplus-again-this-time-stealing-customer-details
+    some users cant uninstall this app
+  id: com.oplus.pay
+  removal: recommended
+- description: |-
+    Number Origin
+    Not yet uninstalled but is related to phone calling function, need to check deeply...
+  id: com.oplus.phonenoareainquire
+  removal: expert
+- description: |-
+    Canvas
+    An additional feature for AOD that allows you to further personalize the disabled screen. If not used, you can delete it.
+  id: com.oplus.portrait
+  removal: recommended
+- description: 'Calibration, scan QR code test'
+  id: com.oplus.postmanservice
+  removal: recommended
+- description: |-
+    Power monitor
+    Logging component to upload temperature control logs.
+  id: com.oplus.powermonitor
+  removal: recommended
+- description: |-
+    Open Canvas
+    Split-screen feature, see:
+    https://community.oneplus.com/thread/1484307668276346883.
+  id: com.oplus.pscanvas
+  removal: expert
+- description: |-
+    QualityProtect
+    Logs about system usage, some apps, not useful.
+  id: com.oplus.qualityprotect
+  removal: recommended
+- description: |-
+    Update Service
+    If you wanna remove it to keep ram, it's a bad idea. Better remove com.oplus.ota too if you don't plan to update system.
+  id: com.oplus.romupdate
+  removal: expert
+- description: |-
+    Security Center
+    It breaks 'display over other apps' permission and also breaks screen lock on OnePlus Android 14
+  id: com.oplus.safecenter
+  removal: unsafe
+- description: |-
+    SAUHelper
+    It's very much a placeholder app with no real functionality, but it can't be uninstalled or deactivated, and it can be SUSPENDED.
+  id: com.oplus.sauhelper
+  removal: recommended
+- description: Screenrecorder
+  id: com.oplus.screenrecorder
+  removal: advanced
+- description: |-
+    Screenshot
+    Needed for screenshots. Very useful app.
+  id: com.oplus.screenshot
+  removal: expert
+- description: |-
+    Secure Keyboard
+    Keyboard that appears only when typing a password on apps and webpages, if enabled on Keyboard and Input settings
+  id: com.oplus.securitykeyboard
+  removal: recommended
+- description: |-
+    Permission manager
+    If removed, in some players (and not only), it will not be possible to enable picture-in-picture capability due to lack of customization: Settings -> Manage apps -> Top of other apps.
+  id: com.oplus.securitypermission
+  removal: unsafe
+- description: "It appears to be an app used for testing, no internet access, very few intents, shouldn't have self-started, should run on demand. Some people have reported it as a support component for speedcards, some speedcards won't load after uninstalling."
+  id: com.oplus.smartengine
+  removal: expert
+- description: Emergency Alert service by clicking power button 5 times. It will automatically call contacts (and/or send a SMS) you designated as emergency contacts
+  id: com.oplus.sos
+  removal: advanced
+- description: |-
+    User Experience Program
+    Intrusive telemetry. Runs at boot and constantly stays in background
+    
+    Pithus analysis: https://beta.pithus.org/report/7720549a5b4bc305a15e19b3e17ba6857a52e6e12db94006677c59f2fad84331
+  id: com.oplus.statistics.rom
+  removal: recommended
+- description: |-
+    StdID
+    Needed for tracking battery usage on per app basis. Dependency for GameSpace
+    
+     [MORE INFO NEEDED / APK NEEDED]
+  id: com.oplus.stdid
+  removal: advanced
+- description: |-
+    Device Security Service
+    it's a basic service module that helps users discover security risks in their devices and generate appropriate security policies. Detect xposed, and log suite related, needless to say, deactivate.
+  id: com.oplus.stdsp
+  removal: recommended
+- description: Its app for virtual communication. Depends on 'com.oplus.virtualcomm'.
+  id: com.oplus.subsys
+  removal: advanced
+- description: |-
+    HeySynergy
+    Provides the screencasting feature and OPPO's PC Connect (https://connect.oppo.com/). Don't bother downloading 'PC Connect Desktop' if the 'Phone Connect' Quick Settings tile isn't available on your phone.
+    
+    Pithus analysis: https://beta.pithus.org/report/16d9ea536683291fbffe46dedd3c655379b5fcfdb473ec1cab5290cf5af27fba
+  id: com.oplus.synergy
+  removal: advanced
+- description: |-
+    Theme Store
+    To change fonts, wallpapers, etc. of your device. Note that you can download but you can't apply unless you have registered for/sign in with HeyTap account.
+  id: com.oplus.themestore
+  removal: recommended
+- description: |-
+    Compatibility problem solving
+    Third party related.
+  id: com.oplus.thirdkit
+  removal: recommended
+- description: |-
+    OnePlus Data usage
+    Oneplus traffic monitor (monthly data usage, etc). If removed, the 'Data Usage' option under 'Mobile network' will not work. Also App Info screen's 'Data usage' option will disappear
+  id: com.oplus.trafficmonitor
+  removal: advanced
+- description: 'Needed for themes? I found a lot of gameloading things, Proguard?, lists of apps idk for what. Remove it not bricks anything probably.'
+  id: com.oplus.uiengine
+  removal: expert
+- description: |-
+    Wallpapers & style
+    Needed for changing wallpaper.
+  id: com.oplus.uxdesign
+  removal: advanced
+- description: It's an app used to convert nearby devices into virtual hardware resources for the central device. Require internet to transfer data across devices.
+  id: com.oplus.vdc
+  removal: advanced
+- description: |-
+    ViewTalk
+    Application for recognizing text in an image and reading it out loud.
+    Did not figure out how it works.
+  id: com.oplus.viewtalk
+  removal: advanced
+- description: |-
+    My OPPO
+    https://play.google.com/store/apps/details?id=com.oplus.vip
+  id: com.oplus.vip
+  removal: recommended
+- description: |-
+    It's probably virtual communications.
+    Also about these it's in the code.
+  id: com.oplus.virtualcomm
+  removal: advanced
+- description: |-
+    Wallpapers
+    Needed for wallpapers.
+  id: com.oplus.wallpapers
+  removal: advanced
+- description: |-
+    Lets you backup your wifi credentials to the cloud. This app has obviously access to your wifi credential and have the INTERNET permission.
+    
+    Pithus analysis: https://beta.pithus.org/report/76e43cf4dc55452f39d9b6117074f4072189d3c8ad9cb295a86e49438545f7aa
+  id: com.oplus.wifibackuprestore
+  removal: recommended
+- description: |-
+    wifitest
+    Just a testing mode accessed through phone dialing code.
+  id: com.oplus.wifitest
+  removal: recommended
+- description: |-
+    DCSSDK
+    Wireless settings.
+  id: com.oplus.wirelesssettings
+  removal: unsafe

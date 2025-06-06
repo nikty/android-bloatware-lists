@@ -1,0 +1,8 @@
+---
+- description: |-
+    AONService. ColorOS Smart Features.
+    App run with AI and phone sensors to recognize what best scenario for run privacy protection and the smart features OPPO offer.
+     1. Smart Spying Prevention, 2. Smart Air Control, 3. Smart Rotation, 4. Smart Always On Display.
+    https://community.oppo.com/thread/1446120575440257025
+  id: com.aiunit.aon
+  removal: expert

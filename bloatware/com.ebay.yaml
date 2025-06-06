@@ -1,0 +1,9 @@
+---
+- description: |
+    Kind of weird ebay apps pre-installed by carriers.
+  id: com.ebay.carrier
+  removal: recommended
+- description: |
+    Ebay app (https://play.google.com/store/apps/details?id=com.ebay.mobile)
+  id: com.ebay.mobile
+  removal: recommended

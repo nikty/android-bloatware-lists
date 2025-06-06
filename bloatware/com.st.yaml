@@ -1,0 +1,6 @@
+---
+- description: |-
+    STNFCDta
+    Unknown checking app (NFC UID gen mode, NFC CDL value, CR version, Extended RF frame size, T4AT priority over P2P).
+  id: com.st.nfc.dta.mobile
+  removal: expert

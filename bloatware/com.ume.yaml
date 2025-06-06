@@ -1,0 +1,6 @@
+---
+- description: |
+    UME Web Browser (https://play.google.com/store/apps/details?id=com.ume.browser.northamerica)
+    Trackers and a LOT of permissions (https://reports.exodus-privacy.eu.org/en/reports/com.ume.browser.cust/latest/)
+  id: com.ume.browser.northamerica
+  removal: recommended

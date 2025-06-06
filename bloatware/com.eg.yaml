@@ -1,0 +1,4 @@
+---
+- description: Chinese Alipay app.
+  id: com.eg.android.AlipayGphone
+  removal: recommended

@@ -1,0 +1,4 @@
+---
+- description: 'Needed for iwlan? Very unknown app.'
+  id: product.lge.data.server.LgDataServiceMain
+  removal: expert

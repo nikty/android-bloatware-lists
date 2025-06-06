@@ -1,0 +1,4 @@
+---
+- description: tests touch screen
+  id: com.vivotouchscreen.synadeltadiff
+  removal: recommended

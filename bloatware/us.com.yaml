@@ -1,0 +1,7 @@
+---
+- description: |
+    App Source (discontinued)
+    This app aimed at organizing all of your existing apps on the phone by category and helping you discover 
+    new apps through search and recommendations.
+  id: us.com.dt.iq.appsource.tmobile
+  removal: recommended

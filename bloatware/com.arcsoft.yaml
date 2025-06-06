@@ -1,0 +1,14 @@
+---
+- description: |-
+    My Avatar
+    Avatar activities useless.
+  id: com.arcsoft.app.humanavatar
+  removal: recommended
+- description: |-
+    LGAvatarReource
+    It's probably for arcamera and it's for avatars. People removed that.
+  id: com.arcsoft.lg_avatar_resource
+  removal: recommended
+- description: it's app for photos
+  id: com.arcsoft.magicshotstudio
+  removal: recommended

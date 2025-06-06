@@ -1,0 +1,5 @@
+---
+- description: |
+    Hum Family Locator (https://play.google.com/store/apps/details?id=com.verizontelematics.verizonhum)
+  id: com.verizontelematics.verizonhum
+  removal: recommended

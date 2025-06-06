@@ -1,0 +1,4 @@
+---
+- description: Chinese location. Not needed for location.
+  id: com.amap.android.location
+  removal: recommended

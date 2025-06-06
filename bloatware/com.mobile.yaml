@@ -1,0 +1,8 @@
+---
+- description: |-
+    Data Store
+    Only useful if you need roaming mobile data when travelling overseas. Has a lot of dangerous permissions and phone home to Vivo domains.
+    
+    Pithus analysis: https://beta.pithus.org/report/d7cfa53942159a0e9c1bf3643b5f38496daee4c0225e8155249db9fdc979187c
+  id: com.mobile.iroaming
+  removal: advanced

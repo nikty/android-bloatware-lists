@@ -1,0 +1,33 @@
+---
+- description: |-
+    Kind of library for Verizon APN ?
+    REMINDER : https://developer.android.com/reference/android/telephony/data/ApnSetting
+    After uninstall phone won't allow to call or text(breaks WiFi calling), On Auto Optimization it cause auto reboots.
+  id: com.vzw.apnlib
+  removal: expert
+- description: |
+    APN Services.
+    REMINDER : https://developer.android.com/reference/android/telephony/data/ApnSetting
+  id: com.vzw.apnservice
+  removal: advanced
+- description: ''
+  id: com.vzw.easvalidation
+  removal: expert
+- description: |-
+    Verizon Call Filter (https://play.google.com/store/apps/details?id=com.vzw.ecid)
+    NOTE : Never trust a company which promotes call ID/spam blocking features.
+  id: com.vzw.ecid
+  removal: recommended
+- description: MyVerizon app
+  id: com.vzw.hss.myverizon
+  removal: recommended
+- description: |
+    My InfoZone Widget
+    Gives weekly tips, access to device info and account information.
+    https://www.droid-life.com/2013/02/12/verizon-introduces-my-infozone-widget-allows-easy-access-to-tips-device-info-and-account-information/
+  id: com.vzw.hss.widgets.infozone.large
+  removal: recommended
+- description: |
+    Logging stuff
+  id: com.vzw.qualitydatalog
+  removal: recommended

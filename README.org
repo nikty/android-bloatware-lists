@@ -1,0 +1,19 @@
+#+TITLE: Lists of Android (bloatware) apps
+
+This is an attempt to categorize bloatware apps that are installed on
+Android phones.
+
+Based on [[https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation][UAD-ng]].
+
+[[file:debloated.png]]
+
+* Objectives
+
+- Never brick your phone.
+- Do not uninstall apps that are not immediately recognized as bloatware.
+- Do not attempt to be a security expert (we are not).
+- Consider uninstalling Google Play and using F-Droid instead: https://f-droid.org
+
+* Contributing
+
+Please consider adding any missing apps.

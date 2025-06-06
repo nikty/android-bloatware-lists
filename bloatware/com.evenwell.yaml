@@ -1,0 +1,393 @@
+---
+- description: 'Apr Upload Service ???? [MORE INFO NEEDED]'
+  id: com.evenwell.AprUploadService
+  removal: expert
+- description: Theme overlay for Apr Upload Service?
+  id: com.evenwell.AprUploadService.data.overlay.base
+  removal: expert
+- description: Theme overlay for Apr Upload Service?
+  id: com.evenwell.AprUploadService.data.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Apr Upload Service?
+  id: com.evenwell.AprUploadService.data.overlay.base.s600ww
+  removal: expert
+- description: |
+    CP = Client Provisioning.
+    Surely used to push new carrier internet/MMS settings automatically
+    Maybe it's useful if carriers change their APN... but you still can change it manually, it's not difficult.
+  id: com.evenwell.CPClient
+  removal: advanced
+- description: Theme overlay for CPClient?
+  id: com.evenwell.CPClient.overlay.base
+  removal: expert
+- description: Theme overlay for CPClient?
+  id: com.evenwell.CPClient.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for CPClient?
+  id: com.evenwell.CPClient.overlay.base.s600ww
+  removal: expert
+- description: Debug Config Tool?
+  id: com.evenwell.DbgCfgTool
+  removal: recommended
+- description: Theme overlay for Debug Config Tool?
+  id: com.evenwell.DbgCfgTool.overlay.base
+  removal: expert
+- description: Theme overlay for Debug Config Tool?
+  id: com.evenwell.DbgCfgTool.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Debug Config Tool?
+  id: com.evenwell.DbgCfgTool.overlay.base.s600ww
+  removal: expert
+- description: Some form of device monitoring?
+  id: com.evenwell.DeviceMonitorControl
+  removal: advanced
+- description: Theme overlay for Device Monitor Control?
+  id: com.evenwell.DeviceMonitorControl.data.overlay.base
+  removal: expert
+- description: Theme overlay for Device Monitor Control?
+  id: com.evenwell.DeviceMonitorControl.data.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Device Monitor Control?
+  id: com.evenwell.DeviceMonitorControl.data.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for OTA Update UI?
+  id: com.evenwell.OTAUpdate.overlay.base.s600ww
+  removal: expert
+- description: Drains more battery than it saves.
+  id: com.evenwell.PowerMonitor
+  removal: recommended
+- description: Theme overlay for Power Monitor?
+  id: com.evenwell.PowerMonitor.overlay.base
+  removal: expert
+- description: Theme overlay for Power Monitor?
+  id: com.evenwell.PowerMonitor.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Power Monitor?
+  id: com.evenwell.PowerMonitor.overlay.base.s600ww
+  removal: expert
+- description: |
+    Settings utils
+    (crappy) Audio rendering. 
+    See https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/9#note_369056538
+  id: com.evenwell.SettingsUtils
+  removal: recommended
+- description: Theme overlay for SettingsUtils?
+  id: com.evenwell.SettingsUtils.overlay.base.s600ww
+  removal: expert
+- description: The first-boot device setup wizard for new/factory reset devices.
+  id: com.evenwell.SetupWizard
+  removal: recommended
+- description: Theme overlay for Setup Wizard?
+  id: com.evenwell.SetupWizard.overlay.base
+  removal: expert
+- description: Theme overlay for Setup Wizard?
+  id: com.evenwell.SetupWizard.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Setup Wizard?
+  id: com.evenwell.SetupWizard.overlay.d.base.s600ww
+  removal: expert
+- description: Logging stuff
+  id: com.evenwell.UsageStatsLogReceiver
+  removal: advanced
+- description: Theme overlay for Usage Stats Log?
+  id: com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
+  removal: expert
+- description: Theme overlay for Usage Stats Log?
+  id: com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
+  removal: expert
+- description: |-
+    Some overlay for an APN widget. Overlays are usually themes.
+    APN means Access Point Name and must be configured with carrier values in order for your device to acess the carrier's network.
+  id: com.evenwell.apnwidget.overlay.base.s600ww
+  removal: expert
+- description: |-
+    Spyware app which sends warranty details to China
+    https://milankragujevic.com/the-trade-of-privacy-for-convenience
+    https://archive.is/https://nitter.privacydev.net/drwetter/status/1108801189662130176
+  id: com.evenwell.autoregistration
+  removal: recommended
+- description: Theme overlay for a Spyware app?
+  id: com.evenwell.autoregistration.overlay.base
+  removal: expert
+- description: Theme overlay for a Spyware app?
+  id: com.evenwell.autoregistration.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for a Spyware app?
+  id: com.evenwell.autoregistration.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for a Spyware app?
+  id: com.evenwell.autoregistration.overlay.d.base.s600id
+  removal: expert
+- description: Theme overlay for a Spyware app?
+  id: com.evenwell.autoregistration.overlay.d.base.s600ww
+  removal: expert
+- description: |-
+    Battery protect is advertised to improve battery performance, but in practice it drains your battery and kills apps aggressively.
+    https://dontkillmyapp.com/nokia
+    Nokia decided to stop using this app-killer in the future:
+    https://www.androidpolice.com/2019/08/27/nokia-hmd-phones-disable-evenwell-background-process-app-killer/
+  id: com.evenwell.batteryprotect
+  removal: recommended
+- description: Theme overlay for Battery Protect?
+  id: com.evenwell.batteryprotect.overlay.base
+  removal: expert
+- description: Theme overlay for Battery Protect?
+  id: com.evenwell.batteryprotect.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Battery Protect?
+  id: com.evenwell.batteryprotect.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Battery Protect?
+  id: com.evenwell.batteryprotect.overlay.d.base.s600e0
+  removal: expert
+- description: '??? [MORE INFO NEEDED]'
+  id: com.evenwell.bboxsbox
+  removal: recommended
+- description: |
+    ????
+  id: com.evenwell.bboxsbox.app
+  removal: recommended
+- description: Probably related to adding fake bokeh (a focus blur effect) to photos.
+  id: com.evenwell.bokeheditor
+  removal: advanced
+- description: Theme overlay for Bokeh Editor?
+  id: com.evenwell.bokeheditor.overlay.base.s600ww
+  removal: expert
+- description: |
+    Nokia camera by evenwell (https://play.google.com/store/apps/details?id=com.evenwell.camera2)
+  id: com.evenwell.camera2
+  removal: advanced
+- description: |
+    Customer manager
+    Given its name I'd say it is useless but I don't have more info.
+  id: com.evenwell.custmanager
+  removal: advanced
+- description: Theme overlay for Customer Manager?
+  id: com.evenwell.custmanager.data.overlay.base
+  removal: expert
+- description: Theme overlay for Customer Manager?
+  id: com.evenwell.custmanager.data.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Customer Manager?
+  id: com.evenwell.custmanager.data.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Customer Feedback?
+  id: com.evenwell.customerfeedback.overlay.base.s600ww
+  removal: expert
+- description: |-
+    Data agent
+    Used for backup/restore? [MORE INFO NEEDED]
+  id: com.evenwell.dataagent
+  removal: advanced
+- description: Theme overlay for Data Agent?
+  id: com.evenwell.dataagent.overlay.base
+  removal: expert
+- description: Theme overlay for Data Agent?
+  id: com.evenwell.dataagent.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Data Agent?
+  id: com.evenwell.dataagent.overlay.base.s600ww
+  removal: expert
+- description: A theme overlay for selecting default apps or something?
+  id: com.evenwell.defaultappconfigure.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for email app?
+  id: com.evenwell.email.data.overlay.base.s600ww
+  removal: expert
+- description: Likely part of the first-boot device setup (new/factory reset device).
+  id: com.evenwell.factorywizard
+  removal: recommended
+- description: Theme overlay for setup wizard?
+  id: com.evenwell.factorywizard.overlay.base
+  removal: expert
+- description: Theme overlay for setup wizard?
+  id: com.evenwell.factorywizard.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Nokia radio app?
+  id: com.evenwell.fmradio.overlay.base.s600ww
+  removal: expert
+- description: |
+    Partner Launcher Customization
+    Related to the Nokia launcher
+  id: com.evenwell.foxlauncher.partner
+  removal: recommended
+- description: |
+    FQC is a secret test menu. It lets you test the hardware (touch screen, speakers, SD card, SIM card, camera...)
+    You need to type *#*#372733#*#* in the Nokia dialer
+  id: com.evenwell.fqc
+  removal: recommended
+- description: |
+    HDR Service (https://play.google.com/store/apps/details?id=com.evenwell.hdrservice)
+    Enhances contrast and sharpness for normal photos, games and videos dynamically.
+  id: com.evenwell.hdrservice
+  removal: advanced
+- description: Provides terms and conditions (legal notice)
+  id: com.evenwell.legalterm
+  removal: recommended
+- description: Theme overlay for some terms and conditions?
+  id: com.evenwell.legalterm.overlay.base.s600ww
+  removal: expert
+- description: "Nokia implementation of com.android.managedprovisioning? If so it manages Android user accounts, allowing you to add extra accounts. The typical use-case is setting up a corporate profile that is controlled by the employer on an employee's personal device, to keep personal and work data separate."
+  id: com.evenwell.managedprovisioning
+  removal: expert
+- description: Theme overlay for Managed Provisioning?
+  id: com.evenwell.managedprovisioning.overlay.base
+  removal: expert
+- description: Theme overlay for Managed Provisioning?
+  id: com.evenwell.managedprovisioning.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Managed Provisioning?
+  id: com.evenwell.managedprovisioning.overlay.base.s600ww
+  removal: expert
+- description: |
+    ????
+  id: com.evenwell.mappartner
+  removal: recommended
+- description: |-
+    Net Promoter Score
+    Preinstalled survey.
+  id: com.evenwell.nps
+  removal: recommended
+- description: Theme overlay for Net Promoter Score?
+  id: com.evenwell.nps.overlay.base
+  removal: expert
+- description: Theme overlay for Net Promoter Score?
+  id: com.evenwell.nps.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for Net Promoter Score?
+  id: com.evenwell.nps.overlay.base.s600ww
+  removal: expert
+- description: 'WTF is this? [MORE INFO NEEDED]'
+  id: com.evenwell.pandorasbox
+  removal: recommended
+- description: |
+    WTF is this?
+  id: com.evenwell.pandorasbox.app
+  removal: recommended
+- description: 'Adds something (Nokia-)partner-related to your browser? Probably adds bookmarks.'
+  id: com.evenwell.partnerbrowsercustomizations
+  removal: recommended
+- description: Theme overlay for some browser customization?
+  id: com.evenwell.partnerbrowsercustomizations.overlay.base
+  removal: expert
+- description: Theme overlay for some browser customization?
+  id: com.evenwell.partnerbrowsercustomizations.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for some browser customization?
+  id: com.evenwell.partnerbrowsercustomizations.overlay.base.s600ww
+  removal: expert
+- description: '???? [MORE INFO NEEDED]'
+  id: com.evenwell.permissiondetection
+  removal: expert
+- description: A theme overlay for some "permissiondetection" package?
+  id: com.evenwell.permissiondetection.overlay.base.s600ww
+  removal: expert
+- description: 'Some overlay for the dialer app? Overlays are usually themes.'
+  id: com.evenwell.phone.overlay.base
+  removal: expert
+- description: Theme overlay for the dialer app?
+  id: com.evenwell.phone.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Power Saving?
+  id: com.evenwell.powersaving.g3.overlay.d.base.s600e0
+  removal: expert
+- description: Theme overlay for the downloads app?
+  id: com.evenwell.providers.downloads.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for the downloads app?
+  id: com.evenwell.providers.downloads.ui.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Partner Bookmarks?
+  id: com.evenwell.providers.partnerbookmarks.overlay.base.s600ww
+  removal: expert
+- description: |-
+    Provider for the Nokia weather app.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.evenwell.providers.weather
+  removal: recommended
+- description: Theme overlay for weather provider?
+  id: com.evenwell.providers.weather.overlay.base.s600ww
+  removal: expert
+- description: Related to push notifications for Nokia apps?
+  id: com.evenwell.pushagent
+  removal: recommended
+- description: Theme overlay for pushagent?
+  id: com.evenwell.pushagent.overlay.base
+  removal: expert
+- description: Theme overlay for pushagent?
+  id: com.evenwell.pushagent.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for pushagent?
+  id: com.evenwell.pushagent.overlay.base.s600ww
+  removal: expert
+- description: |-
+    Nokia retail demonstration mode
+    https://en.wikipedia.org/wiki/Demo_mode
+  id: com.evenwell.retaildemoapp
+  removal: recommended
+- description: |-
+    Theme overlay for Nokia retail demonstration mode?
+    https://en.wikipedia.org/wiki/Demo_mode
+  id: com.evenwell.retaildemoapp.overlay.base
+  removal: expert
+- description: |-
+    Theme overlay for Nokia retail demonstration mode?
+    https://en.wikipedia.org/wiki/Demo_mode
+  id: com.evenwell.retaildemoapp.overlay.base.s600id
+  removal: expert
+- description: |-
+    Theme overlay for Nokia retail demonstration mode?
+    https://en.wikipedia.org/wiki/Demo_mode
+  id: com.evenwell.retaildemoapp.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for the lock-screen?
+  id: com.evenwell.screenlock.overlay.base.s600ww
+  removal: expert
+- description: Overlay related to settings. Overlays are usually themes.
+  id: com.evenwell.settings.data.overlay.base
+  removal: expert
+- description: Theme overlay for settings?
+  id: com.evenwell.settings.data.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for Setup Wizard?
+  id: com.evenwell.setupwizard.btl.s600ww.overlay
+  removal: expert
+- description: |-
+    Apparently used to stabilize phone usage.
+    Seems to drain battery.
+  id: com.evenwell.stbmonitor
+  removal: recommended
+- description: Theme overlay for STB Monitor?
+  id: com.evenwell.stbmonitor.data.overlay.base
+  removal: expert
+- description: Theme overlay for STB Monitor?
+  id: com.evenwell.stbmonitor.data.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for STB Monitor?
+  id: com.evenwell.stbmonitor.data.overlay.base.s600ww
+  removal: expert
+- description: 'Overlay related to Telecom data? Overlays are usually themes.'
+  id: com.evenwell.telecom.data.overlay.base
+  removal: expert
+- description: Theme overlay for something telecom-related?
+  id: com.evenwell.telecom.data.overlay.base.s600id
+  removal: expert
+- description: Theme overlay for something telecom-related?
+  id: com.evenwell.telecom.data.overlay.base.s600ww
+  removal: expert
+- description: Theme overlay for the Nokia weather app?
+  id: com.evenwell.weather.overlay.base.s600ww
+  removal: expert
+- description: Service for the weather app
+  id: com.evenwell.weatherservice
+  removal: recommended
+- description: Theme overlay for weather service?
+  id: com.evenwell.weatherservice.overlay.base.s600ww
+  removal: expert
+- description: ''
+  id: com.evenwell.whitebalance
+  removal: expert
+- description: ''
+  id: com.evenwell.whitebalance.overlay.base
+  removal: expert

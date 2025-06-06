@@ -1,0 +1,596 @@
+---
+- description: |-
+    Quick action
+    Chinese smart things.
+  id: com.vivo.SmartKey
+  removal: recommended
+- description: |-
+    Audio EQ(equalizer)
+    Some 3rd-party music apps can use it to provide you EQ features.
+  id: com.vivo.abe
+  removal: recommended
+- description: |-
+    AlphaCamera
+    Engineering Mode, Log, Debugging service camera.
+  id: com.vivo.alphacamera
+  removal: recommended
+- description: Better keep for connectivity.
+  id: com.vivo.android.connectivity.common.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.connectivity.mainline.common.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.connectivity.mainline.manufacturer.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.connectivity.manufacturer.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.wifi.common.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.wifi.mainline.common.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.wifi.mainline.manufacturer.resources.overlay
+  removal: unsafe
+- description: Better keep for connectivity.
+  id: com.vivo.android.wifi.manufacturer.resources.overlay
+  removal: unsafe
+- description: |-
+    AppFilter
+    Has something to powersaving like prevent autostart apps.
+  id: com.vivo.appfilter
+  removal: expert
+- description: |-
+    V-Appstore
+    vivo app store.
+  id: com.vivo.appstore
+  removal: recommended
+- description: |-
+    Vivo assistant
+    Assistant for vivo phones.
+  id: com.vivo.assistant
+  removal: recommended
+- description: |-
+    Steps
+    Jovi Home kit. Record walk sport app.
+  id: com.vivo.assistantfunction
+  removal: recommended
+- description: |-
+    Audio effect
+    Needed for sound effects.
+  id: com.vivo.audiofx
+  removal: recommended
+- description: |
+    Vivo browser full of trackers (https://play.google.com/store/apps/details?id=com.vivo.browser)
+  id: com.vivo.browser
+  removal: recommended
+- description: |-
+    BSPTest
+    Hidden app for testing things.
+  id: com.vivo.bsptest
+  removal: recommended
+- description: |-
+    Calculator
+    Vivo calculator app
+  id: com.vivo.calculator
+  removal: advanced
+- description: Maybe it's needed for the camera app.
+  id: com.vivo.camera.action
+  removal: expert
+- description: Smart sidebar
+  id: com.vivo.card
+  removal: advanced
+- description: |-
+    Compass
+    Vivo compass app
+  id: com.vivo.compass
+  removal: recommended
+- description: Unused frameworks.
+  id: com.vivo.contentcatcher
+  removal: recommended
+- description: |-
+    COTA
+    Useless logs and ads. It's for recommendations.
+  id: com.vivo.cota
+  removal: recommended
+- description: |-
+    Task timer
+    It's for scheduling tasks.
+  id: com.vivo.crontab
+  removal: recommended
+- description: |-
+    vivoService
+    Security thing.
+  id: com.vivo.daemonService
+  removal: recommended
+- description: |-
+    Video Demo
+    Demo Video, Demo Switch, and have verify activity
+  id: com.vivo.demovideo
+  removal: recommended
+- description: |-
+    Stickers
+    Customize widgets with favorite images.
+  id: com.vivo.desktopstickers
+  removal: recommended
+- description: Hidden debugging app ims.
+  id: com.vivo.devicereg
+  removal: recommended
+- description: |-
+    App Clone
+    It's for clone app.
+  id: com.vivo.doubleinstance
+  removal: recommended
+- description: |-
+    i Widget
+    Double Timezone Clock Widget
+  id: com.vivo.doubletimezoneclock
+  removal: recommended
+- description: |-
+    Clock
+    Screensaver clock
+  id: com.vivo.dream.clock
+  removal: recommended
+- description: |-
+    i Music
+    Screensaver music
+  id: com.vivo.dream.music
+  removal: recommended
+- description: |-
+    Weather
+    Screensaver weather
+  id: com.vivo.dream.weather
+  removal: recommended
+- description: |-
+    Easy share
+    Sharing apps to another phone.
+    https://play.google.com/store/apps/details?id=com.vivo.easyshare
+  id: com.vivo.easyshare
+  removal: recommended
+- description: |-
+    Email
+    closed-source Email app
+  id: com.vivo.email
+  removal: advanced
+- description: |-
+    EngineerCamera
+    Testing camera things.
+  id: com.vivo.engineercamera
+  removal: recommended
+- description: |-
+    EPM
+    Useless crash app notify.
+  id: com.vivo.epm
+  removal: recommended
+- description: |-
+    E-warranty card
+    Only for China.
+  id: com.vivo.ewarranty
+  removal: recommended
+- description: |-
+    FaceUI
+    It's used for face unlock.
+  id: com.vivo.faceui
+  removal: expert
+- description: |-
+    Facial recognition
+    It's used for face unlock.
+  id: com.vivo.faceunlock
+  removal: expert
+- description: |-
+    Favorites
+    It's used to add text from the clipboard to favorites. Probably requires cloud. Contains untranslated Chinese things.
+  id: com.vivo.favorite
+  removal: recommended
+- description: |-
+    Feedback
+    Lets you rate your device and share feedback.
+  id: com.vivo.feedback
+  removal: recommended
+- description: |-
+    Find
+    It's used for finding the phone. Log out from account before removing.
+  id: com.vivo.findphone
+  removal: recommended
+- description: |-
+    Fingerprints and passwords
+    Needed for fingerprint settings.
+  id: com.vivo.fingerprint
+  removal: expert
+- description: |-
+    Fingerprint test
+    Hidden Fingerprint testing not available for normal users.
+  id: com.vivo.fingerprintengineer
+  removal: recommended
+- description: |-
+    FingerprintUI
+    Fingerprint test? Contains payment functionality for China. May be needed for fingerprint lockscreen.
+  id: com.vivo.fingerprintui
+  removal: expert
+- description: Fingerprint testing.
+  id: com.vivo.fingerprintvit
+  removal: recommended
+- description: |-
+    Floating ball
+    Contains a lot of Chinese code.
+  id: com.vivo.floatingball
+  removal: recommended
+- description: |-
+    FuelSummary
+    Battery testing.
+  id: com.vivo.fuelsummary
+  removal: recommended
+- description: |-
+    Gallery
+    Vivo gallery app with Chinese trackers.
+  id: com.vivo.gallery
+  removal: advanced
+- description: Game Space. Not sure if its useful for gaming.
+  id: com.vivo.game
+  removal: expert
+- description: |-
+    Ultra Game Mode
+    Used for game optimization. Questionable if anyone is using this.
+  id: com.vivo.gamecube
+  removal: expert
+- description: |-
+    GameWatch
+    Contains a lot of Chinese code and it's hidden?
+  id: com.vivo.gamewatch
+  removal: recommended
+- description: |-
+    Global dynamic effects
+    This is for effects and animations.
+  id: com.vivo.globalanimation
+  removal: recommended
+- description: |-
+    GlobalanmationResources
+    Has animation booting probably, safe to remove.
+  id: com.vivo.globalanimation.resources
+  removal: recommended
+- description: |-
+    Global Search
+    it's chinese searching.
+  id: com.vivo.globalsearch
+  removal: recommended
+- description: |-
+    Health kit
+    it's only widgets.
+  id: com.vivo.healthwidget
+  removal: recommended
+- description: Used for Chinese SIM.
+  id: com.vivo.heduohao
+  removal: recommended
+- description: |-
+    Smart Launcher
+    Keyboard app with 62 permissions.
+  id: com.vivo.hiboard
+  removal: advanced
+- description: |-
+    Quick App
+    Provides Quick App support. Quick Apps are Javascript+CSS apps that don't need any installation. This technology has its uses but I'm personally not a huge fan on having to rely on a JS engine to run an application
+    This system app has a lot of permissions (including SEND_SMS, CAMERA, READ_EXTERNAL_STORAGE, RECORD_AUDIO... why?)
+    More information: https://www.xda-developers.com/huawei-quick-apps-alternative-google-instant-apps/
+     OW2 Quick App whitepaper: https://quick-app-initiative.ow2.io/docs/Quick_App_White_Paper.pdf
+  id: com.vivo.hybrid
+  removal: advanced
+- description: |-
+    iManager
+    A vivo app consists of Phone Management includes Space Cleanup, Security Scan, Data Traffic Management, Apps & Notifications & Utility Tools includes App encryption, Battery Management, App Clone, Network Management etc.
+  id: com.vivo.imanager
+  removal: expert
+- description: Related to Jovi Chinese.
+  id: com.vivo.iotserver
+  removal: recommended
+- description: Live Wallpaper Behavior.
+  id: com.vivo.livewallpaper.behavior
+  removal: advanced
+- description: |-
+    WallpaperResources
+    Has live wallpapers.
+  id: com.vivo.livewallpaper.behavior.resources
+  removal: advanced
+- description: Specific Live wallpaper
+  id: com.vivo.livewallpaper.coffeetime
+  removal: recommended
+- description: Specific Live wallpaper
+  id: com.vivo.livewallpaper.coralsea
+  removal: recommended
+- description: |-
+    com.vivo.livewallpaper.coffeetime
+    Specific Live wallpaper
+  id: com.vivo.livewallpaper.floatingcloud
+  removal: recommended
+- description: Live Wallpaper Ocean.
+  id: com.vivo.livewallpaper.ocean
+  removal: advanced
+- description: Live Wallpaper Oceanvertical.
+  id: com.vivo.livewallpaper.oceanvertical
+  removal: advanced
+- description: |-
+    Plant live wallpaper
+    Specific live wallpaper.
+  id: com.vivo.livewallpaper.plant
+  removal: recommended
+- description: |-
+    com.vivo.livewallpaper.coffeetime
+    Specific Live wallpaper
+  id: com.vivo.livewallpaper.silk
+  removal: recommended
+- description: |-
+    Lockscreen Poster Service
+    Useless things to lockscreen also it has trackers
+  id: com.vivo.magazine
+  removal: recommended
+- description: |-
+    Small screen mode
+    This feature is available on settings.
+  id: com.vivo.minscreen
+  removal: recommended
+- description: |-
+    MonochromeIcons
+    In code found something to vivo icons.
+    In Android 14.
+  id: com.vivo.monochromeicons
+  removal: recommended
+- description: |-
+    Smart motion
+    Gestures and smart things.
+  id: com.vivo.motionrecognition
+  removal: recommended
+- description: |-
+    LocationServices
+    Chinese and Google location. Not sure if it's useless or not.
+  id: com.vivo.multinlp
+  removal: expert
+- description: |-
+    Origin Player
+    Music Widget Mix
+  id: com.vivo.musicwidgetmix
+  removal: recommended
+- description: |-
+    NetworkImprove
+    May be only for China because of non-English words. Also has logs.
+  id: com.vivo.networkimprove
+  removal: recommended
+- description: |-
+    NetworkState
+    Virtual sim things. Only for China.
+  id: com.vivo.networkstate
+  removal: recommended
+- description: |-
+    Always on Display
+    Always on display, it's available in settings.
+  id: com.vivo.nightpearl
+  removal: recommended
+- description: |-
+    Notes
+    Vivo notes
+  id: com.vivo.notes
+  removal: advanced
+- description: |-
+    iQOO, vivo experience assessment.
+    This app has nothing necessary in the code.
+  id: com.vivo.nps
+  removal: recommended
+- description: |-
+    Number mark
+    Contains a lot of Chinese code.
+  id: com.vivo.numbermark
+  removal: recommended
+- description: Configuration SMS
+  id: com.vivo.omacp
+  removal: expert
+- description: |-
+    Power guardian
+    For power-saving, probably. Also has something to google.
+  id: com.vivo.pem
+  removal: expert
+- description: |-
+    Phone Instructions
+    it's used to app clone for phone instructions.
+  id: com.vivo.phoneinstructions
+  removal: recommended
+- description: |-
+    Search Widget
+    Desktop search bar
+  id: com.vivo.puresearch
+  removal: recommended
+- description: |-
+    Push Notification Engine
+    Not needed for notifications. Requires Google Play Services, and it's for VPUSH. Contains trackers and permissions.
+  id: com.vivo.pushservice
+  removal: recommended
+- description: |-
+    Quick Pay
+    Chinese pay.
+  id: com.vivo.quickpay
+  removal: recommended
+- description: |-
+    Security Center
+    Useless security.
+  id: com.vivo.safecenter
+  removal: recommended
+- description: 'Needed for Vivo account and Vivo payment. Everything is in Chinese, but not sure how much will not work after removal.'
+  id: com.vivo.sdkplugin
+  removal: expert
+- description: |-
+    SecIME
+    Talkback Chinese.
+  id: com.vivo.secime.service
+  removal: recommended
+- description: It's only for first-boot setup.
+  id: com.vivo.setupwizard
+  removal: recommended
+- description: |-
+    Vivo share
+    Transfer data between vivo device & PC
+  id: com.vivo.share
+  removal: advanced
+- description: 'Simple launcher, Simple View.'
+  id: com.vivo.simplelauncher
+  removal: recommended
+- description: |-
+    vivo system webview
+    Multidexapplication?
+  id: com.vivo.singularity
+  removal: expert
+- description: |-
+    Jovi InLife service
+    home devices and smart interconnectivity.
+  id: com.vivo.smartLife
+  removal: recommended
+- description: |-
+    smart answer
+    A lot of bloated smart answer.
+  id: com.vivo.smartanswer
+  removal: recommended
+- description: |-
+    Smart Split
+    Smart multiwindow.
+  id: com.vivo.smartmultiwindow
+  removal: expert
+- description: |-
+    S-capture
+    Used for screenshots?
+  id: com.vivo.smartshot
+  removal: expert
+- description: |-
+    smart unlock device
+    it's used for unlock device using bluetooth devices probably.
+  id: com.vivo.smartunlock
+  removal: recommended
+- description: |-
+    Recorder
+    Vivo sound recorder
+  id: com.vivo.soundrecorder
+  removal: advanced
+- description: |-
+    Open Vivo official website.
+    Useless app
+  id: com.vivo.space
+  removal: recommended
+- description: |-
+    SuperProcessSystem
+    Useless app statistics, logs, crash handler, security, error memory management. Also have something to com.vivo.abe but some phones don't have com.vivo.sps installed. And where is the optimization code?
+  id: com.vivo.sps
+  removal: recommended
+- description: |-
+    Step Count Application
+    it's hard to say what app actually doing
+    looks like a useless frameworks to widgets and swipe menu
+  id: com.vivo.stepcount
+  removal: recommended
+- description: |-
+    System blur render engine
+    System blur render engine, logs
+  id: com.vivo.systemblur.server
+  removal: recommended
+- description: |-
+    Alarm widget
+    Widget clock in launcher, home screen.
+  id: com.vivo.timerwidget
+  removal: recommended
+- description: |-
+    Payment v-Coin
+    it's for china probably.
+  id: com.vivo.unionpay
+  removal: recommended
+- description: |-
+    Phone Mirroring
+    Smart things and needed for broadcast?
+  id: com.vivo.upnpserver
+  removal: recommended
+- description: |-
+    System navigation
+    Needed for secure and smart things.
+  id: com.vivo.upslide
+  removal: recommended
+- description: |-
+    Smart Remote
+    it's for smart things.
+  id: com.vivo.vhome
+  removal: recommended
+- description: |-
+    VHome
+    Not needed vhome guide suggestions.
+  id: com.vivo.vhomeguide
+  removal: recommended
+- description: |-
+    vibrator4d
+    Used for games? Contains a lot of feedback things.
+  id: com.vivo.vibrator4d
+  removal: recommended
+- description: |-
+    Face beauty for video call
+    it's a features for video call vivo.
+  id: com.vivo.video.floating
+  removal: recommended
+- description: |-
+    Video Trim
+    Video editor
+  id: com.vivo.videoeditor
+  removal: recommended
+- description: |-
+    Ambient light effect
+    It's music light effect (Settings: Dynamic Effects: Ambient Light Effect)
+  id: com.vivo.virtuallight
+  removal: recommended
+- description: |-
+    ImageAlgoService
+    HDR and High contrast in the camera?
+    Probably safe to remove, so it's debugging app?
+  id: com.vivo.vivo3rdalgoservice
+  removal: advanced
+- description: |-
+    Mobile KTV
+    Vivo karaoke.
+  id: com.vivo.vivokaraoke
+  removal: recommended
+- description: Unused frameworks. Chinese.
+  id: com.vivo.vms
+  removal: recommended
+- description: 'Voice wake-up. Has a lot of permissions (REQUEST_INSTALL_PACKAGES, READ_EXTERNAL_STORAGE, RECORD_AUDIO...). Kind of a "smart assistant" ? It is constantly listening waiting for a trigger word [MORE INFO NEEDED]'
+  id: com.vivo.voicewakeup
+  removal: recommended
+- description: |-
+    Smart Vision
+    Spying a lot. Smart things.
+  id: com.vivo.vtouch
+  removal: recommended
+- description: |-
+    Vivo wallet
+    Everything is in Chinese.
+  id: com.vivo.wallet
+  removal: recommended
+- description: |-
+    Weather
+    Vivo weather app, have Chinese trackers.
+  id: com.vivo.weather
+  removal: recommended
+- description: |-
+    Weather storage
+    Vivo weather app, has Chinese trackers.
+  id: com.vivo.weather.provider
+  removal: recommended
+- description: |-
+    Clean up acceleration components
+    Clean speed widget
+  id: com.vivo.widget.cleanspeed
+  removal: recommended
+- description: |-
+    Album Highlights
+    Gallery widget
+  id: com.vivo.widget.gallery
+  removal: recommended
+- description: |-
+    Weather components
+    Weather widget
+  id: com.vivo.widgetweather
+  removal: recommended
+- description: "Needed for WiFi info? it's engineermode so probably not."
+  id: com.vivo.wifiengineermode
+  removal: recommended

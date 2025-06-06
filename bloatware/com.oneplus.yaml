@@ -1,0 +1,601 @@
+---
+- description: |-
+    Oneplus Link
+    I'm guessing this has to do with connecting to Oneplus accessories, like the Oneplus Buds (wireless earbuds). Might wanna keep it enabled if you use oneplus accessory devices.
+    Noticed no negative effects from disable after weeks of use.
+  id: com.oneplus.accessory
+  removal: recommended
+- description: |-
+    OnePlus Account
+    Enables Oneplus account login on device.
+    Probably handles authentication for Oneplus apps. Safe to remove if you don't use them.
+  id: com.oneplus.account
+  removal: advanced
+- description: Dark theme for Oneplus Account?
+  id: com.oneplus.account.basiccolorblack.overlay
+  removal: expert
+- description: Light theme for Oneplus Account?
+  id: com.oneplus.account.basiccolorwhite.overlay
+  removal: expert
+- description: |-
+    Wireless emergency alerts Theme pack
+    Guessing it's a pack of themes for the emergency alert UI, based on the name.
+  id: com.oneplus.android.cellbroadcast.overlay
+  removal: expert
+- description: |-
+    Always On Display / Ambient Display
+    Runs in the background.
+    When enabled in settings it shows clock and notifications when you raise the phone or touch the screen.
+    This is basically a lower-power lock-screen. It could in theory reduce power draw if you check notifications/clock often as OLED screens draw minimal power showing a mostly black screen(black = pixel off), but in practice the number of times you'll unintentionally trigger it will likely eat up any potential power savings and more. And if your device doesn't have an OLED screen this will draw way more power.
+    Most of these power savings could be applied to your standard lock-screen simply by making your background image completely black.
+  id: com.oneplus.aod
+  removal: recommended
+- description: 'Theme overlay for AOD? (Always On Display)'
+  id: com.oneplus.aod.basiccolorblack.overlay
+  removal: expert
+- description: 'Theme overlay for AOD? (Always On Display)'
+  id: com.oneplus.aod.basiccolorwhite.overlay
+  removal: expert
+- description: AOD notification gold
+  id: com.oneplus.aodnotification.overlay.gold
+  removal: recommended
+- description: AOD notification purple
+  id: com.oneplus.aodnotification.overlay.purple
+  removal: recommended
+- description: AOD notification red
+  id: com.oneplus.aodnotification.overlay.red
+  removal: recommended
+- description: Encrypts and locks apps behind password access.
+  id: com.oneplus.applocker
+  removal: expert
+- description: |-
+    Built-in App Updates
+    Based on the name I'm guessing it's an upater for built-in Oneplus apps?
+    Seems safe to disable, but only seems to run on boot, so there's little to be gained from disabling.
+  id: com.oneplus.appupgrader
+  removal: advanced
+- description: |-
+    OPAI
+    App Prediction Service, SarahService, bindsarah
+    Its code is too difficult to understand, but it looks like AI training.
+  id: com.oneplus.asti
+  removal: expert
+- description: |-
+    OnePlus Switch (https://play.google.com/store/apps/details?id=com.oneplus.backuprestore)
+    Lets you migrate contacts, text messages, photos, and other data from one device to another.
+    Can also backup data as a compressed archive.
+  id: com.oneplus.backuprestore
+  removal: recommended
+- description: |-
+    Likely a backend service for OnePlus Switch(com.oneplus.backuprestore).
+    I've never seen it run in the background.
+    Probably safe to disable.
+  id: com.oneplus.backuprestore.remoteservice
+  removal: advanced
+- description: |-
+    OnePlus Zen Mode (https://play.google.com/store/apps/details?id=com.oneplus.brickmode)
+    Zen Mode helps you put down your phone and enjoy your life.
+    In Zen Mode you will only be able to take photos and answer calls.
+  id: com.oneplus.brickmode
+  removal: recommended
+- description: |
+    OnePlus Bluetooth test mode
+    Type *#*#232339#*#* in the OnePlus dialer to access this hidden test menu.
+  id: com.oneplus.bttestmode
+  removal: recommended
+- description: Stock Oneplus Calculator app.
+  id: com.oneplus.calculator
+  removal: advanced
+- description: Theme overlay for Oneplus Calculator app?
+  id: com.oneplus.calculator.basiccolorblack.overlay
+  removal: expert
+- description: Theme overlay for stock Calendar app?
+  id: com.oneplus.calendar.black.overlay
+  removal: expert
+- description: Theme overlay for stock Calendar app?
+  id: com.oneplus.calendar.white.overlay
+  removal: expert
+- description: |-
+    Camera
+    The stock Oneplus camera app.
+  id: com.oneplus.camera
+  removal: advanced
+- description: Is it for image processing?
+  id: com.oneplus.camera.pictureprocessing
+  removal: expert
+- description: |-
+    Runs in the background on some phones.
+    Not sure what it does; camera functions fine without it. Could be related to photo backup? WARNING: may cause a bootloop when using a custom ROM on Android 14 (in this case, Nameless AOSP). Does not affect users running OxygenOS.
+  id: com.oneplus.camera.service
+  removal: recommended
+- description: |-
+    Card Package
+    Widget which lets you add membership card in Shelf.
+    You enter numbers for a club card or something and it'll store it and generate a barcode for you.
+    Shelf is a page on your home screen that allows you to take memos, add widgets, gain access to your most-used apps, and get a quick glimpse of the weather. Swipe right (from the left edge of your home screen) to reveal it.
+  id: com.oneplus.card
+  removal: recommended
+- description: Theme overlay for Oneplus Card package?
+  id: com.oneplus.card.black.overlay
+  removal: expert
+- description: Theme overlay for Oneplus Card package?
+  id: com.oneplus.card.white.overlay
+  removal: expert
+- description: |-
+    Carrier Location Access
+    Runs on boot, but not in the background beyond that.
+    Not sure what this does. Could be related to detecting region to determine which radio frequencies to use?
+    Noticed no ill effects from weeks of having it disabled.
+  id: com.oneplus.carrierlocation
+  removal: advanced
+- description: |-
+    Geolocates the phone to find OnePlus charging stations nearby. Connects to 'gateway.oneplus.net'
+    
+    Pithus analysis: https://beta.pithus.org/report/8c157eeec2931d3d1140aa8c452d7afa570e04c9d51e6cd5987dbb3ec43df4f9
+  id: com.oneplus.chargingpilar
+  removal: recommended
+- description: Theme overlay for some Oneplus Cloud thing?
+  id: com.oneplus.cloud.basiccolorblack.overlay
+  removal: expert
+- description: Theme overlay for some Oneplus Cloud thing?
+  id: com.oneplus.cloud.basiccolorwhite.overlay
+  removal: expert
+- description: Collection data to telephony?
+  id: com.oneplus.collectiondata
+  removal: expert
+- description: 'Needed for notifications? Status_bar?'
+  id: com.oneplus.commonoverlay.android
+  removal: expert
+- description: 'Needed for DHCP hostname?, captive portal HTTP URLs?'
+  id: com.oneplus.commonoverlay.com.android.networkstack.inprocess
+  removal: expert
+- description: 'Needed for DHCP hostname?, captive portal HTTP URLs? Generate_204 Chinese Google?'
+  id: com.oneplus.commonoverlay.com.android.networkstack.inprocess.cn
+  removal: expert
+- description: Needed for wellbeing or notifications?
+  id: com.oneplus.commonoverlay.com.android.systemui
+  removal: expert
+- description: Wi-Fi configs?
+  id: com.oneplus.commonoverlay.com.android.wifi.resources
+  removal: expert
+- description: 'Needed for DHCP hostname?, captive portal HTTP URLs?'
+  id: com.oneplus.commonoverlay.com.google.android.networkstack
+  removal: expert
+- description: 'Needed for DHCP hostname?, captive portal HTTP URLs? Generate_204 Chinese Google?'
+  id: com.oneplus.commonoverlay.com.google.android.networkstack.cn
+  removal: expert
+- description: 'Testing things, debugging'
+  id: com.oneplus.commonoverlay.com.oneplus
+  removal: recommended
+- description: Oneplus call recorder service. Feature accessible from the stock dialer app
+  id: com.oneplus.communication.data
+  removal: advanced
+- description: |-
+    OPConfig
+    Occasionally runs in the background.
+    Package source is: OPOnlineConfig.apk
+    Guessing it might handle communication certificates and general network config for Oneplus apps.
+    Only has INTERNET and RECEIVE_BOOT_COMPLETED permissions.
+    'Tips & Support' will be removed from settings.
+  id: com.oneplus.config
+  removal: advanced
+- description: Oneplus Contacts
+  id: com.oneplus.contacts
+  removal: advanced
+- description: Theme overlay for Oneplus Contacts?
+  id: com.oneplus.contacts.basiccolorblack.overlay
+  removal: advanced
+- description: Theme overlay for Oneplus Contacts?
+  id: com.oneplus.contacts.basiccolorwhite.overlay
+  removal: advanced
+- description: |-
+    Android System
+    Important system package for Oneplus phones?
+    Runs in the background as part of the system.
+    Contains broadcast dispatch and theme handler services.
+    Probably unsafe to disable, but please contribute info about what happens if you do.
+  id: com.oneplus.coreservice
+  removal: expert
+- description: |-
+    Carrier Update
+    Runs in the background.
+    cota = Carrier OTA. Handles carrier-specific OTA updates? Probably safe to disable if you didn't get your phone from a carrier; the normal System Update(com.oneplus.opbackup) should handle the OTA updates. I can confirm that I got an OTA notification even with this disabled.
+  id: com.oneplus.cota
+  removal: expert
+- description: |-
+    OPDataOptimization
+    Doesn't contain any services and I've never seen it run.
+  id: com.oneplus.dataoptimization
+  removal: expert
+- description: |-
+    Clock
+    The stock Oneplus clock app.
+  id: com.oneplus.deskclock
+  removal: advanced
+- description: Theme overlay for Oneplus Clock app?
+  id: com.oneplus.deskclock.black.overlay
+  removal: expert
+- description: Theme overlay for Oneplus Clock app?
+  id: com.oneplus.deskclock.white.overlay
+  removal: expert
+- description: |-
+    Logging app for diagnosis/troubleshooting when the SIM card state change. Only used on devices running OxygenOS 9 and lower. Runs at boot and triggers when SIM card state change.
+    
+    Pithus analysis: https://beta.pithus.org/report/f4c76054795bf55012edf1f60e992b6e339085b9ca2cbe685917a62dd07492c0
+  id: com.oneplus.diagnosemanager
+  removal: advanced
+- description: |-
+    OnePlus Dialer used in OxygenOS 11 and lower.
+    Note: don't forget to download another phone dialer app before removing this package.
+  id: com.oneplus.dialer
+  removal: advanced
+- description: |-
+    Runs in the background.
+    Main Dirac service.
+    Audio fidelity improvement from the Swedish company Dirac.
+    Attempts to achieve a flat frequency response curve(i.e: fidelity). Should mainly improve speaker fidelity as it can be pre-calculated and stored as a corrective EQ curve, something not possible for most devices connected through the 3.5mm jack; presets only exist for a very limited number of headphones. Change for non-preset 3.5mm jack devices is just a generic EQ curve that could decrease fidelity just as likely as it could increase it.
+  id: com.oneplus.dirac.simplemanager
+  removal: advanced
+- description: Theme overlay for Dirac?
+  id: com.oneplus.dirac.simplemanager.basiccolorblack.overlay
+  removal: expert
+- description: Theme overlay for Dirac?
+  id: com.oneplus.dirac.simplemanager.basiccolorwhite.overlay
+  removal: expert
+- description: |-
+    Subscriber Device Management
+    Has only privacy online agreement activity.
+  id: com.oneplus.dm
+  removal: recommended
+- description: |-
+    Some kind of Engineer mode? I've no clue.
+    Contains a bunch of activities with "info" in their names.
+    Contains an "OpFloatViewService", but I've never seen it run.
+  id: com.oneplus.engmode
+  removal: expert
+- description: |-
+    Face Unlock
+    Runs in the background as part of the system.
+    Unlock your device by simply looking at the display.
+    Face unlock is bad for security and privacy:
+    https://www.ubergizmo.com/2017/03/galaxy-s8-facial-unlock-photograph/
+    https://www.kaspersky.com/blog/face-unlock-insecurity/21618/
+    https://www.freecodecamp.org/news/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28/
+  id: com.oneplus.faceunlock
+  removal: recommended
+- description: |-
+    FactoryMode
+    Used in the factory to test devices.
+    Type *#808# in the OnePlus dialer to access the hidden menu.
+    Potential security risk: https://web.archive.org/web/20211103134620/https://twitter.com/fs0c131y/status/930115188988182531
+    It's possible for an app to enable root access on any device with the APK pre-installed.
+    For now, this only works in ADB, which requires local access to the device.
+  id: com.oneplus.factorymode
+  removal: recommended
+- description: |-
+    Engineering Mode Special Test
+    Used in the factory to test devices.
+    See com.oneplus.factorymode
+  id: com.oneplus.factorymode.specialtest
+  removal: recommended
+- description: |-
+    File manager
+    Stock OnePlus file manager app.
+  id: com.oneplus.filemanager
+  removal: advanced
+- description: Theme overlay for Oneplus File manager app?
+  id: com.oneplus.filemanager.black.overlay
+  removal: expert
+- description: Theme overlay for Oneplus File manager app?
+  id: com.oneplus.filemanager.white.overlay
+  removal: expert
+- description: |-
+    Oneplus Gallery (https://play.google.com/store/apps/details?id=com.oneplus.gallery)
+    Occasionally runs in the background. Some old versions of the app (like for Oneplus 3 on Android 9) don't run in the background.
+  id: com.oneplus.gallery
+  removal: advanced
+- description: |-
+    OnePlus Game Space
+    Occasionally runs in the background as part of the system.
+    Allows you to launch your game library, check game stats(such as playtime), activate game overlay features, change performance settings to tweak game/battery performance during gaming.
+    This is the only way to access the recording buffer functionality (records the last X seconds into RAM and saves them when you tap save), so keep enabled if you need that or any of the other features.
+  id: com.oneplus.gamespace
+  removal: recommended
+- description: Theme overlay for Game Space?
+  id: com.oneplus.gamespace.black.overlay
+  removal: expert
+- description: Theme overlay for Game Space?
+  id: com.oneplus.gamespace.white.overlay
+  removal: expert
+- description: |-
+    Sets the Timezone (it is not an NTP client). Automatically starts at boot and connects to `checkip.amazonaws.com` and `gateway.oneplus.com`.
+    
+    Pithus analysis: https://beta.pithus.org/report/5e375a6b8da588a1490e42266f4e33975ce73207d79755a109101bd5fb07cc7c
+  id: com.oneplus.geoiptime
+  removal: expert
+- description: |
+    OnePlus Icon Pack - Round (https://play.google.com/store/apps/details?id=com.oneplus.iconpack.circle)
+  id: com.oneplus.iconpack.circle
+  removal: advanced
+- description: |
+    OnePlus Icon Pack (https://play.google.com/store/apps/details?id=com.oneplus.iconpack.oneplus)
+  id: com.oneplus.iconpack.oneplus
+  removal: advanced
+- description: OnePlus Hydrogen Icon Pack
+  id: com.oneplus.iconpack.oneplush2
+  removal: recommended
+- description: OnePlus Oxygen Icon Pack
+  id: com.oneplus.iconpack.onepluso2
+  removal: recommended
+- description: |
+    OnePlus Icon Pack - Square (https://play.google.com/store/apps/details?id=com.oneplus.iconpack.square)
+  id: com.oneplus.iconpack.square
+  removal: advanced
+- description: |-
+    IFAA = (China’s) Internet Finance Authentication Alliance
+    Provides biometric authentication for Alipay. Safe to disable if you don't use it.
+  id: com.oneplus.ifaaservice
+  removal: recommended
+- description: |-
+    Red Cable Club
+    Battery drain if account added.
+    https://play.google.com/store/apps/details?id=com.oneplus.membership
+  id: com.oneplus.membership
+  removal: recommended
+- description: |-
+    OPMinidumpOptimization
+    Runs in the background.
+    Not sure what it does, but haven't noticed any negative effects from weeks of having it disabled.
+  id: com.oneplus.minidumpoptimization
+  removal: recommended
+- description: |-
+    OnePlus Messages (https://play.google.com/store/apps/details?id=com.oneplus.mms)
+    Only used on OnePlus 8 / 8 Pro according to the description.
+    Probably safe to remove, just make sure to install another SMS app to not lose that functionality; QKSMS is a good FOSS replacement for basic SMS functionality and Google Messages is an option if you need full RCS support.
+  id: com.oneplus.mms
+  removal: advanced
+- description: Dark theme overlay for Oneplus Messages app?
+  id: com.oneplus.mms.basiccolorblack.overlay
+  removal: expert
+- description: Light theme overlay for Oneplus Messages app?
+  id: com.oneplus.mms.basiccolorwhite.overlay
+  removal: expert
+- description: |
+    OnePlus Notes app
+  id: com.oneplus.note
+  removal: advanced
+- description: Dark theme overlay for Oneplus Notes app?
+  id: com.oneplus.note.black.overlay
+  removal: expert
+- description: Light theme overlay for Oneplus Notes app?
+  id: com.oneplus.note.white.overlay
+  removal: expert
+- description: Optimization telephony?
+  id: com.oneplus.nroptimization
+  removal: expert
+- description: |-
+    Android System Theme pack
+    Guessing it's a pack of themes for some Oneplus-specific system components, based on the name.
+  id: com.oneplus.odmoverlay.android
+  removal: expert
+- description: |-
+    Settings Theme pack
+    Guessing it's a pack of themes for the settings app, based on the name.
+  id: com.oneplus.odmoverlay.com.android.settings
+  removal: expert
+- description: |-
+    System UI Theme pack
+    Guessing it's a pack of themes for some Oneplus-specific system component, based on the name.
+  id: com.oneplus.odmoverlay.com.android.systemui
+  removal: expert
+- description: |-
+    Oneplus System Theme pack
+    Guessing it's a pack of themes for Oneplus-specific system components, based on the name.
+  id: com.oneplus.odmoverlay.com.oneplus
+  removal: expert
+- description: |-
+    System Update
+    Runs in the background.
+    Handles things related to OTA system updates.
+    Safe to disable, but probably breaks system updates.
+  id: com.oneplus.opbackup
+  removal: expert
+- description: Theme overlay for System Update?
+  id: com.oneplus.opbackup.black.overlay
+  removal: expert
+- description: Theme overlay for System Update?
+  id: com.oneplus.opbackup.white.overlay
+  removal: expert
+- description: |-
+    OPBugReportLite
+    Runs in the background. Runs as part of the system, even if disabled? Disabling does remove all RAM usage tho, and hopefully removes access to user data, as disable/uninstall should sever the connection to the Android user account.
+    Silently sends, every 6 hours, battery stats, kernel panics, watchdogs, ANRs and all crashes of your device to Singapore.
+    https://www.androidpit.com/oneplus-opbugreportlite-data-collection
+    Source (yeah it's Elliot Alderson again :D): https://web.archive.org/web/20220520051328/https://twitter.com/fs0c131y/status/933037531066785797
+  id: com.oneplus.opbugreportlite
+  removal: recommended
+- description: |-
+    OnePlus Shelf (https://play.google.com/store/apps/details?id=com.oneplus.opshelf)
+    Widget panel accessible from swiping down on the top-right side of the screen allowing quick access to apps, meteo, spotify, memos...
+    
+    Pithus analysis: https://beta.pithus.org/report/a50f166c8c2fae1204650c7af1cb287e20ad5286a89b013ada787f4b1b90fc64.
+  id: com.oneplus.opshelf
+  removal: recommended
+- description: |-
+    Cricket Scores (https://play.google.com/store/apps/details?id=com.oneplus.opsports)
+    Lets you access and follow cricket teams and tournaments.
+  id: com.oneplus.opsports
+  removal: recommended
+- description: |-
+    Work-Life Balance
+    Not present in most Oneplus phones? This functionality might have been superseded by other similar apps, like for example Zen Mode.
+    Haven't tested, but probably safe to disable.
+  id: com.oneplus.opwlb
+  removal: recommended
+- description: Theme overlay for Oneplus Work-Life Balance?
+  id: com.oneplus.opwlb.black.overlay
+  removal: expert
+- description: Theme overlay for Oneplus Work-Life Balance?
+  id: com.oneplus.opwlb.white.overlay
+  removal: expert
+- description: |-
+    Seems to be Oneplus' Memory Management System according to a press-kit/-release they made for Android 11 (multiple sites wrote "ORM Memory Management System" word-for-word).
+    Runs in the background as part of the system. Runs even if disabled? Doesn't use any RAM when disabled tho, vs ~50MB when enabled.
+    Seems safe to disable, haven't noticed any negative effects in weeks of use, but I assume it breaks the "RAM Boost" feature (which is pointless anyway IMO).
+    Apk file name: OPOmm, mm = Memory Management?
+    Has 2 permissions: KILL_BACKGROUND_PROCESSES and SET_TIME_ZONE.
+    Contains 2 services: OPManagerService and BackgroundCollectorService.
+  id: com.oneplus.orm
+  removal: advanced
+- description: ''
+  id: com.oneplus.overlay
+  removal: expert
+- description: |-
+    Android System Theme pack
+    Guessing it's a pack of themes for some Android System component, based on the name.
+  id: com.oneplus.productoverlay.android
+  removal: expert
+- description: |-
+    Settings Storage Theme pack
+    Guessing it's a pack of themes for Settings Storage, based on the name.
+  id: com.oneplus.productoverlay.com.android.providers.settings
+  removal: expert
+- description: |-
+    Oneplus System Theme pack
+    Guessing it's a pack of themes for Oneplus-specific system components, based on the name.
+  id: com.oneplus.productoverlay.com.oneplus
+  removal: expert
+- description: |-
+    OnePlus Media Storage
+    Runs in the background.
+    Seems to just add recycle bin functionality to your file management (file browsers). Keep enabled if you like that function. But safe to disable if you don't want it.
+  id: com.oneplus.providers.media
+  removal: recommended
+- description: |-
+    Screen Recorder
+    The Android 11 screen recorder with some Oneplus modifications.
+    Runs the "SystemUITileService" when you have it as one of the quicksettings tiles, but doesn't seem to run in the background outside of that.
+    Doesn't have an app icon, but you can create a shortcut to it with the Activity Launcher app (to avoid the background service).
+    https://f-droid.org/en/packages/de.szalkowski.activitylauncher/
+  id: com.oneplus.screenrecord
+  removal: advanced
+- description: Theme overlay for Oneplus Screenrecord?
+  id: com.oneplus.screenrecord.black.overlay
+  removal: expert
+- description: Theme overlay for Oneplus Screenrecord?
+  id: com.oneplus.screenrecord.white.overlay
+  removal: expert
+- description: Needed for Power + Volume Down screenshot.
+  id: com.oneplus.screenshot
+  removal: expert
+- description: Needed for sdcard?
+  id: com.oneplus.sdcardservice
+  removal: expert
+- description: |-
+    Dashboard
+    Runs "WidgetViewService" and "SecureService" in the background.
+    Manages widget data access? Noticed no apparent ill effects on disable in Android 9.
+  id: com.oneplus.security
+  removal: advanced
+- description: Dark theme overlay for com.oneplus.security?
+  id: com.oneplus.security.black.overlay
+  removal: expert
+- description: Light theme overlay for com.oneplus.security?
+  id: com.oneplus.security.white.overlay
+  removal: expert
+- description: |-
+    OPSes
+    Apk file name: OPSesAuthentication.
+    Contains a "SesService", but I've never seen it run.
+    Related to Amazon SES?(Simple Email Service) https://aws.amazon.com/ses/
+  id: com.oneplus.ses
+  removal: advanced
+- description: |-
+    The Oneplus portion of the first-boot setup.
+    Runs on boot, but not in the background beyond that.
+  id: com.oneplus.setupwizard
+  removal: recommended
+- description: |-
+    SimContacts Manager
+    Runs in the background. Manages contacts and sync to SIM? Noticed no apparent ill effects on disable in Android 9.
+  id: com.oneplus.simcontacts
+  removal: recommended
+- description: Dark theme overlay for Oneplus SimContacts Manager app?
+  id: com.oneplus.simcontacts.basiccolorblack.overlay
+  removal: expert
+- description: Light theme overlay for Oneplus SimContacts Manager app?
+  id: com.oneplus.simcontacts.basiccolorwhite.overlay
+  removal: expert
+- description: ''
+  id: com.oneplus.skin
+  removal: expert
+- description: |-
+    Probably related to SMS based on the name?
+    Contains no services and I've never seen it run.
+  id: com.oneplus.sms.smscplugger
+  removal: expert
+- description: |-
+    Dolby Atmos
+    Runs in the background as part of the system. Runs even if disabled.
+    Sound tuning for Atmos. Breaks the Dolby Atmos sound settings menu if disabled.
+    Could in theory increase loudspeaker fidelity as it can be pre-calculated and stored as a corrective EQ curve, something not possible for headphones (they'd need a unique preset for each pair of headphones).
+  id: com.oneplus.sound.tuner
+  removal: advanced
+- description: |-
+    Recorder
+    OnePlus sound recording app.
+    Requires turning on "Allow modifying system settings" to use for some reason? Probably tied to recording phone-calls.
+  id: com.oneplus.soundrecorder
+  removal: advanced
+- description: Theme overlay for Soundrecorder app?
+  id: com.oneplus.soundrecorder.black.overlay
+  removal: expert
+- description: Theme overlay for Soundrecorder app?
+  id: com.oneplus.soundrecorder.white.overlay
+  removal: expert
+- description: |-
+    OnePlus Store
+    Offers getting favorites OnePlus phones in good price.
+    https://play.google.com/store/apps/details?id=com.oneplus.store
+  id: com.oneplus.store
+  removal: recommended
+- description: |-
+    OPTelephonyOptimization
+    Contains a service with the same name, but I've never seen it run.
+  id: com.oneplus.telephonyoptimization
+  removal: expert
+- description: |-
+    OnePlus Buds (https://play.google.com/store/apps/details?id=com.oneplus.twspods)
+    Companion app for Oneplus Buds. For updating firmware and changing settings.
+  id: com.oneplus.twspods
+  removal: recommended
+- description: Overlay to extra kbytes adjust?
+  id: com.oneplus.vendoroverlay.android
+  removal: expert
+- description: Default backup transport Google. Not needed for backup
+  id: com.oneplus.vendoroverlay.com.android.providers.settings
+  removal: recommended
+- description: It has nothing in the code.
+  id: com.oneplus.vendoroverlay.com.android.systemui
+  removal: expert
+- description: Config to overheat?
+  id: com.oneplus.vendoroverlay.com.oneplus
+  removal: expert
+- description: OP_white_mode?
+  id: com.oneplus.vendoroverlay.com.oneplus.wifiapsettings
+  removal: expert
+- description: Pack of live wallpapers from Oneplus.
+  id: com.oneplus.wallpaper
+  removal: advanced
+- description: |-
+    Wi-Fi Access Point Settings?
+    Runs on boot.
+    Noticed no change after disabling; Wi-Fi and related menus still seem fully functional.
+  id: com.oneplus.wifiapsettings
+  removal: advanced
+- description: Dark theme for Wi-Fi Access Point Settings?
+  id: com.oneplus.wifiapsettings.basiccolorblack.overlay
+  removal: expert
+- description: Light theme for Wi-Fi Access Point Settings?
+  id: com.oneplus.wifiapsettings.basiccolorwhite.overlay
+  removal: expert

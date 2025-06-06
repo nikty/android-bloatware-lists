@@ -1,0 +1,4 @@
+---
+- description: Sony's browser app. Some apps redirect to the browser so it can be useful. You can use another browser as long as you have another one installed.
+  id: com.vewd.core.integration.dia
+  removal: recommended

@@ -1,0 +1,7 @@
+---
+- description: |-
+    Dirac Control Service
+    Sound-system backend?
+    Runs in the background as part of the system. Runs even if disabled.
+  id: se.dirac.acs
+  removal: expert

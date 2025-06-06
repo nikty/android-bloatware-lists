@@ -1,0 +1,7 @@
+---
+- description: It looks like the unused stuff has been translated into Indonesian.
+  id: com.alam.overlay.android
+  removal: recommended
+- description: It looks like the unused stuff has been translated into Indonesian.
+  id: com.alam.overlay.android.systemui
+  removal: recommended

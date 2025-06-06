@@ -1,0 +1,11 @@
+---
+- description: |
+    Permission manager
+    Lets you monitor apps permission requests.
+  id: com.lbe.security.miui
+  removal: unsafe
+- description: |-
+    Something about WiFi calling "vowifi", "volte", "notification on keyguard"
+    It's unused.
+  id: com.lbe.security.miui.customizedregion.overlay
+  removal: recommended

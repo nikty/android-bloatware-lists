@@ -1,0 +1,158 @@
+---
+- description: |-
+    Flyme
+    Log out before remove
+  id: com.meizu.account
+  removal: recommended
+- description: Pay Center chinese payment.
+  id: com.meizu.account.pay
+  removal: recommended
+- description: Needed for live wallpapers
+  id: com.meizu.activeviewlivewallpaper
+  removal: advanced
+- description: for digital health work
+  id: com.meizu.alphame
+  removal: recommended
+- description: |-
+    Aicy Glance meizu assistant
+    Probably Chinese assistant.
+  id: com.meizu.assistant
+  removal: recommended
+- description: Needed for Battery Manager.
+  id: com.meizu.battery
+  removal: expert
+- description: Additional call settings.
+  id: com.meizu.callsetting
+  removal: recommended
+- description: Useless push service
+  id: com.meizu.cloud
+  removal: recommended
+- description: Needed for themes but it's so bloated.
+  id: com.meizu.customizecenter
+  removal: advanced
+- description: A lot of permissions and collects user data.
+  id: com.meizu.dataservice
+  removal: recommended
+- description: Useless frameworks.
+  id: com.meizu.ems
+  removal: recommended
+- description: 'Needed for face recognition, face unlock lock screen.'
+  id: com.meizu.facerecognition
+  removal: recommended
+- description: |-
+    Easy Mode
+    it's for launcher in easy mode.
+  id: com.meizu.flyme.easylauncher
+  removal: recommended
+- description: |-
+    System launcher
+    Needed for launcher.
+  id: com.meizu.flyme.launcher
+  removal: expert
+- description: It's for Night Mode settings. Not sure if it's important.
+  id: com.meizu.flyme.sdkstage
+  removal: expert
+- description: |-
+    Phone locating service
+    This app will probably help you find the device.
+  id: com.meizu.flyme.service.find
+  removal: recommended
+- description: |-
+    System updates
+    Provides System updates.
+  id: com.meizu.flyme.update
+  removal: expert
+- description: |-
+    Flyme Lab
+    it's something for video window or full screen.
+  id: com.meizu.flymelab
+  removal: recommended
+- description: |-
+    Camera
+    Stock Camera app meizu.
+  id: com.meizu.media.camera
+  removal: advanced
+- description: |-
+    Gallery
+    Meizu gallery app.
+  id: com.meizu.media.gallery
+  removal: advanced
+- description: |-
+    PhotoService
+    Probably needed for Photos app.
+  id: com.meizu.media.imageservice
+  removal: advanced
+- description: |-
+    Music
+    Stock Music app.
+  id: com.meizu.media.music
+  removal: recommended
+- description: |-
+    Video Player
+    Stock Video Player app
+  id: com.meizu.media.video
+  removal: recommended
+- description: |-
+    App Store
+    A lot of ads components.
+  id: com.meizu.mstore
+  removal: recommended
+- description: |-
+    Base Station Guard
+    Useless location things.
+  id: com.meizu.mzbasestationsafe
+  removal: recommended
+- description: Meizu chinese payment.
+  id: com.meizu.mznfcpay
+  removal: recommended
+- description: Flyme cloud service
+  id: com.meizu.mzsyncservice
+  removal: recommended
+- description: |-
+    NativeLockScreen
+    I guess it's needed for lockscreen.
+  id: com.meizu.net.nativelockscreen
+  removal: unsafe
+- description: Chinese Search
+  id: com.meizu.net.search
+  removal: recommended
+- description: |-
+    Aicy Touch
+    Another chinese payment.
+  id: com.meizu.picker
+  removal: recommended
+- description: Power Saving Mode.
+  id: com.meizu.powersave
+  removal: expert
+- description: |-
+    One Mind
+    Discharge schedule in the security annex.
+  id: com.meizu.pps
+  removal: recommended
+- description: Looks like an important app. It has more things than security.
+  id: com.meizu.safe
+  removal: expert
+- description: It's needed only on first-boot setup.
+  id: com.meizu.setup
+  removal: recommended
+- description: It's maybe useful for Bluetooth
+  id: com.meizu.share
+  removal: expert
+- description: |-
+    Aicy Suggestion
+    Only suggestions.
+  id: com.meizu.suggestion
+  removal: recommended
+- description: SIM things testing also logs.
+  id: com.meizu.telephonyengineermode
+  removal: recommended
+- description: |-
+    Aicy Voice
+    Another smart thing
+  id: com.meizu.voiceassist
+  removal: recommended
+- description: |-
+    WLAN Assistant
+    Additional WLAN things.
+  id: com.meizu.wifiadmin
+  removal: recommended

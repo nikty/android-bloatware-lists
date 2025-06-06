@@ -1,0 +1,6 @@
+---
+- description: |-
+    92 Lock Screen for RealMe
+    92 is pronounce in Chinese as 'Hao Kan' (it's the company name), so it's a Chinese app. This not related to 'Lock Screen Magazine' and potentially inject ads in lock screen.
+  id: com.haokan.pictorial
+  removal: recommended

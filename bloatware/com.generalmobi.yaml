@@ -1,0 +1,8 @@
+---
+- description: |
+    Go2Pay (https://play.google.com/store/apps/details?id=com.generalmobi.go2pay)
+    Payment app that offers mobile pre-paid recharges and post-paid bill payment, data card recharges and bill payment, 
+    DTH recharges through cashless transactions.
+    DTH = Direct To Home Television 
+  id: com.generalmobi.go2pay
+  removal: recommended

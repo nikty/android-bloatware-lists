@@ -1,0 +1,11 @@
+---
+- description: |
+    Sprint TV & Movies provided by mobitv (https://en.wikipedia.org/wiki/MobiTV)
+    Lets you watch live TV and VOD.
+  id: com.mobitv.client.sprinttvng
+  removal: recommended
+- description: |
+    T-Mobile TV (discontinued, replaced by nl.tmobiletv.vinson) provided by mobitv (https://en.wikipedia.org/wiki/MobiTV)
+    https://play.google.com/store/apps/details?id=nl.tmobiletv.vinson&hl=en
+  id: com.mobitv.client.tmobiletvhd
+  removal: recommended

@@ -1,0 +1,4 @@
+---
+- description: Probably needed for fingerprint.
+  id: com.ztefingerprint.service
+  removal: expert

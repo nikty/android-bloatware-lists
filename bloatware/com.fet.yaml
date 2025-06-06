@@ -1,0 +1,7 @@
+---
+- description: |-
+    friDay Wealth Management
+    Provides customized deposit goal progress management services
+    https://play.google.com/store/apps/details?id=com.fet.fridaywallet
+  id: com.fet.fridaywallet
+  removal: recommended

@@ -1,0 +1,17 @@
+---
+- description: |
+    Mi Remote Controller (https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller)
+    Control your electric appliances with your phone using Mi Remote.
+  id: com.duokan.phone.remotecontroller
+  removal: recommended
+- description: |
+    Peel Mi Remote (https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller.peel.plugin)
+    Peel Mi Remote is a TV guide extension for Xiaomi Mi Remote by "Peel Smart Remote".
+  id: com.duokan.phone.remotecontroller.peel.plugin
+  removal: recommended
+- description: |-
+    MIUIDuokanReader
+    Chinese app that has too much tracking and ads.
+    May be uninstalled without ADB.
+  id: com.duokan.reader
+  removal: recommended

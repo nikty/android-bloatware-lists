@@ -1,0 +1,6 @@
+---
+- description: |-
+    textaction
+    It's probably used for FrequentPhrase(`com.miui.phrase`) but also Frequent Phrases is unknown app so it's safe to remove.
+  id: com.miuix.editor
+  removal: recommended

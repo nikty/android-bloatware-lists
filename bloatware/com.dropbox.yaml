@@ -1,0 +1,6 @@
+---
+- description: |-
+    dropbox app
+    https://play.google.com/store/apps/details?id=com.dropbox.android
+  id: com.dropbox.android
+  removal: recommended

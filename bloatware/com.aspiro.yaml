@@ -1,0 +1,11 @@
+---
+- description: |
+    Tidal Music (https://play.google.com/store/apps/details?id=com.aspiro.tidal)
+    Music streaming app
+  id: com.aspiro.tidal
+  removal: recommended
+- description: |-
+    Tidal Music (https://play.google.com/store/apps/details?id=com.aspiro.tidal)
+    Music streaming app
+  id: com.aspiro.tidal.vpl
+  removal: recommended

@@ -1,0 +1,27 @@
+---
+- description: |
+    AT&T Smart Limits
+    Parental Control tool.
+    https://m.att.com/shopmobile/wireless/features/smart-limits.html
+  id: com.locationlabs.cni.att
+  removal: recommended
+- description: |
+    Sprint Family Locator (https://play.google.com/store/apps/details?id=com.locationlabs.finder.sprint)
+    Lets you locate any phone registered under the Sprint family plan
+    Location labs is owned by AGV which is owned by Avast.
+    You shouldn't trust Avast.
+    FYI : https://www.google.com/search?hl=en&q=avast+privacy+nightmare
+        https://www.vice.com/en_us/article/qjdkq7/avast-antivirus-sells-user-browsing-data-investigation
+        https://www.pcmag.com/news/the-cost-of-avasts-free-antivirus-companies-can-spy-on-your-clicks
+  id: com.locationlabs.finder.sprint
+  removal: recommended
+- description: |-
+    Sprint Family Locator (https://play.google.com/store/apps/details?id=com.locationlabs.finder.sprint)
+    Lets you locate any phone registered under the Sprint family plan
+    Location labs is owned by AGV which is owned by Avast.
+    You shouldn't trust Avast.
+    FYI : https://www.google.com/search?hl=en&q=avast+privacy+nightmare
+    https://www.vice.com/en_us/article/qjdkq7/avast-antivirus-sells-user-browsing-data-investigation
+    https://www.pcmag.com/news/the-cost-of-avasts-free-antivirus-companies-can-spy-on-your-clicks
+  id: com.locationlabs.finder.sprint.vpl
+  removal: recommended

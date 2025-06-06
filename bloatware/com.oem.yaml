@@ -1,0 +1,37 @@
+---
+- description: |
+    Auto Test Server
+    Used to test the hardware of your device and change hidden settings.
+  id: com.oem.autotest
+  removal: recommended
+- description: |-
+    EuiccPartnerApp
+    Needed for eSIM (eUICC)?
+    I think it's useless.
+  id: com.oem.euiccpartnerapp
+  removal: recommended
+- description: 'This package is related to the eUICC (embedded Universal Integrated Circuit Card) partner application, specifically an OEM overlay that deals with eSIM functionality and management.'
+  id: com.oem.euiccpartnerapp.overlay.retca
+  removal: expert
+- description: |-
+    Used by com.oem.oemlogkit, a shady logging app.
+    Doesn't run by default, but can easily be triggered by system apps.
+  id: com.oem.logkitsdservice
+  removal: recommended
+- description: |
+    OnePlus NFC tester
+  id: com.oem.nfc
+  removal: recommended
+- description: |-
+    OnePlus LogKit
+    Shady logging app that system apps can use to log WiFi traffic, Bluetooth traffic, NFC activity, GPS coordinates over time, power consumption, modem signal/data details, "lag issues," and more.
+    https://thehackernews.com/2017/11/oneplus-logkit-app.html
+    https://www.bleepingcomputer.com/news/security/second-oneplus-factory-app-discovered-this-one-dumps-photos-wifi-and-gps-logs/
+    https://web.archive.org/web/20210611122551/https://twitter.com/fs0c131y/status/930773795656396801
+  id: com.oem.oemlogkit
+  removal: recommended
+- description: |-
+    RfToolkit
+    Testing things like Wi-Fi, lots of Chinese words
+  id: com.oem.rftoolkit
+  removal: recommended

@@ -1,0 +1,4 @@
+---
+- description: Used for settings GSI rom that based by Phh Treble. This should not be remove.
+  id: me.phh.treble.app
+  removal: unsafe

@@ -1,0 +1,255 @@
+---
+- description: |
+    rro = Runtime Resources Overlay.
+    Changes values of a package config, based in the overlay definitions (heavily used by OEMs to customize the look and feel of Android) 
+    Link: https://source.android.com/devices/architecture/rros and https://code.tutsplus.com/tutorials/quick-tip-theme-android-with-the-runtime-resource-overlay-framework--cms-29708
+  id: android.auto_generated_rro__
+  removal: recommended
+- description: |-
+    RRO = Runtime Resources Overlay. Used by OEMs to customize look and feel of certain applications.
+    https://source.android.com/devices/architecture/rros
+    https://code.tutsplus.com/tutorials/quick-tip-theme-android-with-the-runtime-resource-overlay-framework--cms-29708
+  id: android.auto_generated_rro_vendor__
+  removal: expert
+- description: |
+    Auto generated vendor's stuff for Android Auto (https://www.android.com/intl/en_en/auto/)
+    Note: You don't need this if you don't use Android auto
+  id: android.auto_generated_vendor_
+  removal: recommended
+- description: |
+    Misleading package name. This is a Xiaomi-only package.
+    Can someone provide the .apk?
+    Telemetry stuff
+  id: android.romstats
+  removal: recommended
+- description: Better don't touch it.
+  id: android.rro_product
+  removal: unsafe
+- description: |-
+    EMUI Graphical User Interface:
+    https://fixyourandroid.com/about/androidhwext
+    The framework responsible for the themes (even the standard one) of EMUI to launch. Also, it's the core for the Themes app. REMOVING IT CAUSES A BOOTLOOP!
+  id: androidhwext
+  removal: unsafe
+- description: |
+    My Consumer Cellular (https://play.google.com/store/apps/details?id=cci.usage)
+    Lets you manage your Consumer Cellular account, track your usage, pay your bill.
+    Consumer Cellular is an American postpaid mobile virtual network operator
+    https://en.wikipedia.org/wiki/Consumer_Cellular
+  id: cci.usage
+  removal: recommended
+- description: Chinese partner app 'Qunar Travel'.
+  id: com.Qunar
+  removal: recommended
+- description: Chinese UC Mobile.
+  id: com.UCMobile
+  removal: recommended
+- description: "Not related to adaptive brightness in the sliding bar. The APK is called `CameraLightSensor`, so I guess it's for the camera."
+  id: com.adaptivebrightnessgo
+  removal: advanced
+- description: |-
+    ZF10 Live Wallpaper
+    Live Wallpaper
+  id: com.asu
+  removal: recommended
+- description: |
+    Booking.com app (https://play.google.com/store/apps/details?id=com.booking)
+    Seriously, you shouldn't use it !
+    https://en.wikipedia.org/wiki/Booking.com
+    https://blog.usejournal.com/why-i-would-never-trust-booking-com-again-so-you-should-too-a2ab535ed915?gi=7ebe86eaa880
+    https://ro-che.info/articles/2017-09-17-booking-com-manipulation
+  id: com.booking
+  removal: recommended
+- description: |
+    Appflash (https://play.google.com/store/apps/details?id=com.discoveryscreen)
+    Verizon Spyware.
+    https://www.eff.org/deeplinks/2017/04/update-verizons-appflash-pre-installed-spyware-still-spyware
+  id: com.discoveryscreen
+  removal: recommended
+- description: |
+    DraftKings - Daily Fantasy Sports for Cash
+    App has been removed from the Playstore.
+    Worth reading : https://en.wikipedia.org/wiki/DraftKings
+    
+    Drivemode (https://play.google.com/store/apps/details?id=com.drivemode.android)
+    Simplifies how you manage calls and messages while driving.
+    https://drivemode.com/privacy-2/
+  id: com.drivemode
+  removal: recommended
+- description: |-
+    DroidBtPair
+    Looks like an important app for the TV to work properly.
+  id: com.droidlogic
+  removal: unsafe
+- description: I found logs in code. This app means nothing.
+  id: com.dropboxchmod
+  removal: recommended
+- description: |
+    Daily hunts News. (https://play.google.com/store/apps/details?id=com.eterno&hl=en)
+  id: com.eterno
+  removal: recommended
+- description: |
+    Evernote app (https://play.google.com/store/apps/details?id=com.evernote)
+  id: com.evernote
+  removal: recommended
+- description: Auto Dialer test
+  id: com.example
+  removal: recommended
+- description: |
+    Galaxy Fırsatları (https://play.google.com/store/apps/details?id=com.galaxyfirsatlari)
+    Samsung-only app for Turkish people
+    Recommands you stuff to buy. You are supposed to save money but we all know this kind of apps
+    encourages consumption.
+    Exodus found 10 trackers and 17 permissions : https://reports.exodus-privacy.eu.org/fr/reports/143830/ 
+  id: com.galaxyfirsatlari
+  removal: recommended
+- description: |-
+    AI Gallery (https://play.google.com/store/apps/details?id=com.gallery20)
+    Stock gallery app with picture editing (filters, crop, add text, watermark, frame, bloor. The phone comes with Photos app which is a better alternative and disabling it doesn't break anything.
+    Pithus analysis: https://beta.pithus.org/report/d9cf633450ed90d2c89c941c5c202845b2789ceffe6d6337ecf772d223d157de
+  id: com.gallery20
+  removal: recommended
+- description: 'Hidden tests sensors, fingerprint.'
+  id: com.goodix
+  removal: recommended
+- description: |
+    Groupon (https://play.google.com/store/apps/details?id=com.groupon)
+    Online shopping deals and coupons.
+    Worth reading : https://en.wikipedia.org/wiki/Groupon#Reception
+  id: com.groupon
+  removal: recommended
+- description: Configures app icons and folders on first run HiOS Launcher.
+  id: com.hilauncherconfig
+  removal: advanced
+- description: |-
+    TPMS. Remote Config Test.
+    ⚠️ WARNING: uninstalling might cause bootloops and screen flicker! Disabling this also may remove the ability to see notifications on your lock screen.
+    https://xdaforums.com/t/infinix-note-10-uninstall-tpms-com-hoffnung-package-causes-bootloop.4647456
+  id: com.hoffnung
+  removal: unsafe
+- description: Only has something to launcher folders and has freeze png files.
+  id: com.infinix
+  removal: expert
+- description: Another Kids Mode.
+  id: com.kidsedu
+  removal: recommended
+- description: |-
+    Kaspersky
+    Anti-virus pre-installed on some Huawei phone's in Japanese.
+  id: com.kmsjp
+  removal: recommended
+- description: |
+    Lookout Security & Antivirus (https://play.google.com/store/apps/details?id=com.lookout)
+  id: com.lookout
+  removal: recommended
+- description: |-
+    Mediatek is a Taiwanese chipset manufacturer.
+    Can someone share the apk? This package name is really weird.
+    It is most likely a set of general APIs for accessing general mediatek functionalities.
+    Cause Bootloop.
+  id: com.mediatek
+  removal: unsafe
+- description: 'Hidden running in the background debugs for data traffic and all that, not useful for the average person.'
+  id: com.modemdebug
+  removal: recommended
+- description: |-
+    My Galaxy (https://play.google.com/store/apps/details?id=com.mygalaxy)
+    Entertainment hub and life-services application.
+    Lets you access videos, music and gaming and gives quick access to services such as cabs, movies, recharge, bill payment, food ordering, travel, hyper local deals and Samsung Care, among others.
+  id: com.mygalaxy
+  removal: recommended
+- description: |-
+    Oneplus System
+    Handles the Oneplus system framework? Possibly unsafe to disable, but please contribute information about what happens if you do.
+  id: com.oneplus
+  removal: expert
+- description: |
+    Samsung security policy update (https://play.google.com/store/apps/details?id=com.policydm)
+    Updatable policy files designed to increase android security and detect malicious behaviour.
+    Has nothing to do with OTA updates or Android Security patches.
+    Can be removed without issue (https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/15)
+    See "com.samsung.android.spdclient" for more information.
+  id: com.policydm
+  removal: advanced
+- description: |
+    AnyMote Universal Remote + Wifi Smart Home Control (https://play.google.com/store/apps/details?id=com.remotefairy4)
+    IR Remote control app 
+    Lots of trackers and permissions : https://reports.exodus-privacy.eu.org/en/reports/com.remotefairy4/latest/
+  id: com.remotefairy4
+  removal: recommended
+- description: |
+    Napster Music (https://play.google.com/store/apps/details?id=com.rhapsody)
+    Napster streaming app
+    https://en.wikipedia.org/wiki/Napster
+  id: com.rhapsody
+  removal: recommended
+- description: Ringtone editing.
+  id: com.ringclip
+  removal: expert
+- description: ''
+  id: com.tct
+  removal: expert
+- description: 'Needed for screen unlock? Has Packages, Bluetooth permission. Probably unsafe.'
+  id: com.transsion
+  removal: expert
+- description: |
+    Uber (https://play.google.com/store/apps/details?id=com.ubercab)
+    Uber Driver (https://play.google.com/store/apps/details?id=com.ubercab.driver)
+    Uber Eats (https://play.google.com/store/apps/details?id=com.ubercab.eats)
+    Uber does not protect personal user data and has a questionable ethic.
+    Worth reading : https://en.wikipedia.org/wiki/Uber#Criticism
+  id: com.ubercab
+  removal: recommended
+- description: |-
+    Whatsapp messenger.
+    Requires Google Play Services to receive messages in the background.
+    https://play.google.com/store/apps/details?id=com.whatsapp
+  id: com.whatsapp
+  removal: recommended
+- description: |
+    omacp = OMA Client Provisioning. It is a protocol specified by the Open Mobile Alliance (OMA).
+    Configuration messages parser. Used for provisioning APN settings to Samsung devices via SMS 
+    In my case, it was automatic and I never needed configuration messages.
+    Maybe it's useful if carriers change their APN. But you still can change the config manually, it's not difficult.
+    Keep in mind these special types of SMS can be abused (though you would need to select to apply the APN in the popup): 
+    https://research.checkpoint.com/2019/advanced-sms-phishing-attacks-against-modern-android-based-smartphones/
+    https://www.zdnet.com/article/samsung-huawei-lg-and-sony-phones-vulnerable-to-rogue-provisioning-messages/
+  id: com.wsomacp
+  removal: recommended
+- description: |
+    Samsung Backup and restore Manager (on Samsung Galaxy S7)
+    Was replaced by "com.sec.android.easyMover" (Samsung Smart Switch Mover)
+  id: com.wssnps
+  removal: recommended
+- description: |-
+    Software update
+    Fetch System OTA updates
+    Works along with com.sec.android.soagent
+    Required on Samsung Smartphones for OTA.
+  id: com.wssyncmldm
+  removal: expert
+- description: |
+    Flipboard News App (https://play.google.com/store/apps/details?id=flipboard.app)
+  id: flipboard.app
+  removal: recommended
+- description: |-
+    Companion
+    App for training, so bloated and from T-Mobile
+  id: hdopen.vivicitta
+  removal: recommended
+- description: |-
+    TvService
+    Has shutdown delay.
+    Safe to remove.
+  id: mitv.service
+  removal: advanced
+- description: 'It has something to unknown miuix FrequentPhrase, Chinese things found.'
+  id: miuix.stub
+  removal: recommended
+- description: Sony's screen mirroring app. Can be removed as chromecasting still works without it
+  id: screnmirroring.com
+  removal: recommended
+- description: |
+    third-party app pre-installed on ZTE phones.
+  id: zpub.res
+  removal: recommended

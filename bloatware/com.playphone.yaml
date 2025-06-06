@@ -1,0 +1,11 @@
+---
+- description: |
+    Playphone Gamestore (https://www.playphone.com/)
+    "Helps" you discover the "best" Android games and connects you to a global gaming community. Sounds Amazing !
+  id: com.playphone.gamestore
+  removal: recommended
+- description: |
+    Loot 
+    Premium service from playphone ? 
+  id: com.playphone.gamestore.loot
+  removal: recommended

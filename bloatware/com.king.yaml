@@ -1,0 +1,14 @@
+---
+- description: |
+    Candy Crush Friends Saga (https://play.google.com/store/apps/details?id=com.king.candycrush4)
+  id: com.king.candycrush4
+  removal: recommended
+- description: |
+    Candy Crush Saga (https://play.google.com/store/apps/details?id=com.king.candycrushsaga)
+    I don't understand why this game is so popular (I guess the fact it is pre-installed in a lot of phone helps)
+  id: com.king.candycrushsaga
+  removal: recommended
+- description: |
+    Candy Crush Soda Saga (https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga)
+  id: com.king.candycrushsodasaga
+  removal: recommended

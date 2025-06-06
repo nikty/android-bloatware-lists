@@ -1,0 +1,32 @@
+---
+- description: |
+    T-Mobile Diagnostics
+  id: com.tmobile.echolocate
+  removal: recommended
+- description: |
+    Diagnostic tool. 
+    This app can see all your installed apps, that you have allowed unknown sources on, that your rooted, 
+    and will deny your warranty saying your rooted. It constantly runs in the background.
+  id: com.tmobile.pr.adapt
+  removal: recommended
+- description: |
+    T-mobile app (https://play.google.com/store/apps/details?id=com.tmobile.pr.mytmobile)
+  id: com.tmobile.pr.mytmobile
+  removal: recommended
+- description: |
+    Name ID T-Mobile (powered by Hiya or cequint if on Samsung devices)
+    NOTE : Never trust a company which promotes call ID/spam blocking features.
+    https://techcrunch.com/2019/08/09/many-robocall-blocking-apps-send-your-private-data-without-permission/
+  id: com.tmobile.services.nameid
+  removal: recommended
+- description: |
+    Device Unlock.
+    Allows you to request and apply a mobile device unlock directly from the device.
+    https://support.t-mobile.com/docs/DOC-14011
+  id: com.tmobile.simlock
+  removal: recommended
+- description: |
+    T-Mobile Visual VoiceMail (https://play.google.com/store/apps/details?id=com.tmobile.vvm.application)
+    Lets you use your voice mail and manage your inbox without dialing into your voicemail. 
+  id: com.tmobile.vvm.application
+  removal: recommended

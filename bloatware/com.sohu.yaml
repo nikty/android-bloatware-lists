@@ -1,0 +1,22 @@
+---
+- description: Chinese keyboard closed-source
+  id: com.sohu.inputmethod.sogou.meizu
+  removal: advanced
+- description: |-
+    Chinese keyboard Closed-source (install other keyboard before removing this)
+    Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+  id: com.sohu.inputmethod.sogou.nubia
+  removal: recommended
+- description: |
+    Sogou keyboard for chinese only.
+  id: com.sohu.inputmethod.sogou.xiaomi
+  removal: recommended
+- description: |
+    Default keyboard
+  id: com.sohu.inputmethod.sogouoem
+  removal: expert
+- description: |-
+    HiMoviePlayerPlus
+    Weird app without any code and there's nothing in Main Activity.
+  id: com.sohu.sohuvideo.emplayer
+  removal: recommended

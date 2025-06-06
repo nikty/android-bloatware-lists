@@ -1,0 +1,6 @@
+---
+- description: |-
+    Identify unknown numbers
+    Checking the code, this app looks useful only in China.
+  id: com.recognize.number
+  removal: recommended

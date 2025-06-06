@@ -1,0 +1,7 @@
+---
+- description: |
+    AskMD (discontinued) provided by Sharecare
+    Symptom checker app. Lets you see what might be causing your symptoms and helps you find a nearby physician 
+    Worth Reading : https://en.wikipedia.org/wiki/Sharecare#Criticisms
+  id: com.sharecare.askmd
+  removal: recommended

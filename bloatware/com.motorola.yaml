@@ -1,0 +1,879 @@
+---
+- description: |-
+    Virtual UICC Payment
+    SIM Card Payment also NFC. Only useful in China by hidden image files.
+    UICC stands for Universal Integrated Circuit Card.
+    It is the physical and logical platform for the USIM and may contain additional USIMs and other applications.
+    (U)SIM is an application on the UICC.
+    https://bluesecblog.wordpress.com/2016/11/18/uicc-sim-usim/
+    I guess this package provides support for NFC payments.
+    Note: The term SIM is widely used to refer to both SIMs and UICCs in the industry and among consumers.
+    https://blog.velosiot.com/euicc-and-esim-are-they-the-same-thing
+  id: com.motorola.VirtualUiccPayment
+  removal: recommended
+- description: |
+    Moto Actions (https://play.google.com/store/apps/details?id=com.motorola.actions)
+    Allows you to perform specific gestures to perform certain tasks. Frontend to change settings provided by "com.motorola.moto".
+  id: com.motorola.actions
+  removal: recommended
+- description: Useless overlay config default to Moto Actions (com.motorola.actions)
+  id: com.motorola.actions.overlay
+  removal: recommended
+- description: |-
+    Moto AI Services
+    Service to supply artificial intelligence models to Motorola apps
+    https://play.google.com/store/apps/details?id=com.motorola.aiservices
+  id: com.motorola.aiservices
+  removal: recommended
+- description: Configs to bad wifi better keep it.
+  id: com.motorola.android.connectivity.resources.overlay
+  removal: unsafe
+- description: "This package is part of Motorola's custom overlay for system settings, specifically tailored for the Motorola Edge 2024 (codename 'avatrn')."
+  id: com.motorola.android.coresettingsext.overlay.avatrn
+  removal: expert
+- description: Double tap to put display to sleep
+  id: com.motorola.android.coresettingsext.overlay.doubletap
+  removal: recommended
+- description: Needed for support other refresh rate value?
+  id: com.motorola.android.coresettingsext.overlay.dubai
+  removal: expert
+- description: |
+    FMRadioService 
+    Required by "com.motorola.fmplayer"
+  id: com.motorola.android.fmradio
+  removal: recommended
+- description: System Software Update
+  id: com.motorola.android.fota
+  removal: expert
+- description: |
+    Java Tcmd Helper
+    tcmd = commands types. Seems to be a tools which help find Java commands types.
+    Useless for normal user.
+  id: com.motorola.android.jvtcmd
+  removal: recommended
+- description: 'Overlay to transition_anim_scale? Maybe unused, not sure.'
+  id: com.motorola.android.launcher.overlay.animation.scale
+  removal: expert
+- description: "This package is part of Motorola's custom launcher overlay, specifically tailored for their devices."
+  id: com.motorola.android.launcher.overlay.motolauncheroverlayna
+  removal: advanced
+- description: This package is part of Motorola's custom launcher overlay designed for retail or global versions of their devices.
+  id: com.motorola.android.launcher.overlay.retail.global
+  removal: advanced
+- description: |
+    Native DropBox Agent.
+    It is not related to Cloud Dropbox company but to Android logging. It is used during development.
+    https://stackoverflow.com/questions/4434192/dropboxmanager-use-cases
+  id: com.motorola.android.nativedropboxagent
+  removal: recommended
+- description: "This package is part of Motorola's custom network stack overlay, specifically related to the network configuration for a particular Mobile Country Code (MCC), in this case, MCC 460 (which corresponds to China)."
+  id: com.motorola.android.networkstack.overlay.mcc460
+  removal: expert
+- description: "This package is part of Motorola's custom overlay for the network stack, specifically related to tethering and hotspot functionalities."
+  id: com.motorola.android.networkstack.tethering.overlay.motCommon
+  removal: advanced
+- description: It has some important configs. Better don't risk.
+  id: com.motorola.android.overlay.common
+  removal: unsafe
+- description: "Enable crystal talk AI settings? I've never seen that."
+  id: com.motorola.android.overlay.crystaltalkai
+  removal: recommended
+- description: 'Random configurations to basic things(powersaving, network, camera, etc.).'
+  id: com.motorola.android.overlay.deviceconfig.manaus
+  removal: unsafe
+- description: |-
+    "Double press on power behavior" 0
+    Not sure if useful, maybe it's another gesture.
+  id: com.motorola.android.overlay.gabutton
+  removal: expert
+- description: |-
+    Not sure if its for high brightness mode, still unknown
+    'config_udfps_local_hbm_supported' 'true'
+  id: com.motorola.android.overlay.lhbm
+  removal: expert
+- description: This package is part of Motorola's custom overlay and is likely associated with specific visual or functional enhancements tailored for Motorola devices.
+  id: com.motorola.android.overlay.lpptoga
+  removal: advanced
+- description: This package is part of Motorola’s custom overlay and is associated with Qualcomm (Qcom) related functionality or optimizations.
+  id: com.motorola.android.overlay.qcom.common
+  removal: advanced
+- description: It has config to enable wifi display.
+  id: com.motorola.android.overlay.wfd
+  removal: unsafe
+- description: |-
+    Seems to provide the "Home"-button functionality in Chrome.
+    https://forum.xda-developers.com/android/apps-games/app-chrome-homepage-t3695804
+  id: com.motorola.android.providers.chromehomepage
+  removal: recommended
+- description: |-
+    Removal causes bootloop. Which is common with settings providers.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    For example: the Settings provider. It stores the settings from your Settings app, which apps can query for info on whether you for example have Dark Mode turned on or off.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.motorola.android.providers.settings
+  removal: unsafe
+- description: 'This package is part of Motorola’s custom settings provider, and it likely includes resources or settings related to Motorola-specific customizations.'
+  id: com.motorola.android.providers.settings.auto_generated_rro_product__
+  removal: advanced
+- description: "This package is part of Motorola's custom settings overlay, specifically related to settings for the camera application."
+  id: com.motorola.android.providers.settings.overlay.dppcamera
+  removal: advanced
+- description: "This package is part of Motorola's custom settings overlay, potentially dealing with settings or configurations that are applied when certain features or options are not in use."
+  id: com.motorola.android.providers.settings.overlay.dppnone
+  removal: advanced
+- description: |
+    OMA Client Provisioning
+    It is a protocol specified by the Open Mobile Alliance (OMA).
+    It is used by carrier to send "configuration SMS" which can setup network settings (such as APN).
+    In my case, it was automatic and I never needed configuration messages. I'm pretty sure that in France this package is useless.
+    Maybe it's useful if carriers change their APN... but you still can change it manually, it's not difficult.
+    #
+    Note : These special "confirguration SMS" can be abused : 
+    https://www.zdnet.fr/actualites/les-smartphones-samsung-huawei-lg-et-sony-vulnerables-a-des-attaques-par-provisioning-39890045.htm
+    https://www.csoonline.com/article/3435729/sms-based-provisioning-messages-enable-advanced-phishing-on-android-phones.html
+  id: com.motorola.android.provisioning
+  removal: advanced
+- description: |
+    Diag_mdlog is a small proprietary Qualcomm program which can store DIAG logs on the filesystem.
+    No longer in Android 10 image
+  id: com.motorola.android.settings.diag_mdlog
+  removal: recommended
+- description: |
+    Provide modem debug settings menu ?
+    No longer in Android 10 image
+  id: com.motorola.android.settings.modemdebug
+  removal: recommended
+- description: |-
+    Overlay to refresh rate change in settings.
+    Not sure if it's unused.
+  id: com.motorola.android.settings.overlay.eqs
+  removal: expert
+- description: Overlay to fps display.
+  id: com.motorola.android.settings.overlay.fps.display
+  removal: advanced
+- description: This package is part of Motorola's custom settings overlay and is designed for global settings that apply across different regions or device configurations.
+  id: com.motorola.android.settings.overlay.global
+  removal: advanced
+- description: 'This package is part of Motorola’s custom settings overlay, likely related to specific regional or device configurations.'
+  id: com.motorola.android.settings.overlay.lra
+  removal: advanced
+- description: 'This package is part of Motorola’s custom settings overlay, specifically related to power management settings.'
+  id: com.motorola.android.settings.overlay.power.bottom
+  removal: advanced
+- description: This overlay needed for (com.motorola.attvowifi) I guess. It's for WiFi Calling.
+  id: com.motorola.android.systemui.overlay.att
+  removal: advanced
+- description: "Needed for Moto Stats WiFi, it's useless."
+  id: com.motorola.android.systemui.overlay.sprint
+  removal: recommended
+- description: "Needed for Moto Stats WiFi, it's useless."
+  id: com.motorola.android.systemui.overlay.tmo
+  removal: recommended
+- description: "Needed for Moto Stats WiFi, it's useless."
+  id: com.motorola.android.systemui.overlay.usc
+  removal: recommended
+- description: "Needed for Moto Stats WiFi, it's useless."
+  id: com.motorola.android.systemui.overlay.vzw
+  removal: recommended
+- description: |
+    An Application directed SMS (or rather a Port directed SMS) is an SMS directed to a specific port. 
+    Apps need to listen to this port to get the SMS message.
+    I don't know if this package allows port directed SMS or if it just provide a proxy feature.
+  id: com.motorola.appdirectedsmsproxy
+  removal: recommended
+- description: |-
+    Performance
+    Storage cleanup, RAM boost probably useless.
+  id: com.motorola.appforecast
+  removal: recommended
+- description: |-
+    AT&T Phone Extension
+    Provides access to AT&T extensions in your dialer.
+    https://asecare.att.com/tutorials/adding-and-deleting-an-extension-on-your-officehand-mobile-app-2990/?product=AT&T%20Office@Hand
+  id: com.motorola.att.phone.extensions
+  removal: recommended
+- description: |
+    AT&T Wifi-calling
+    https://www.att.com/shop/wireless/features/wifi-calling.html
+  id: com.motorola.attvowifi
+  removal: recommended
+- description: |
+    /!\ Removal causes bootloop on Moto G7 Power (Android 10)
+    Audio effects
+    Provide features like Equalizer, Surround sound...
+  id: com.motorola.audiofx
+  removal: unsafe
+- description: |-
+    Audio recorder
+    Stock Audio recorder for Motorola
+    https://play.google.com/store/apps/details?id=com.motorola.audiorecorder
+  id: com.motorola.audiorecorder
+  removal: advanced
+- description: |
+    ModemStatsService
+    Statistics and events logs from the modem activity.
+  id: com.motorola.bach.modemstats
+  removal: recommended
+- description: "This package is part of Motorola's battery management system, specifically related to features or optimizations for battery care."
+  id: com.motorola.batterycare
+  removal: advanced
+- description: This package is part of Motorola’s custom battery care overlay and is likely responsible for providing Motorola-specific enhancements or visual elements related to battery management.
+  id: com.motorola.batterycare.overlay
+  removal: advanced
+- description: This package is part of Motorola's custom battery care overlay and is likely associated with specific enhancements or visual elements related to battery management on the app side of the user interface.
+  id: com.motorola.batterycare.overlay.appside
+  removal: advanced
+- description: |-
+    MOTOBLUR service
+    Automatically syncs messages, emails, social status updates, contacts and pictures from your accounts straight to your Home screen. It's a serious privacy concern:
+    https://www.beneaththewaves.net/Projects/Motorola_Is_Listening.html
+  id: com.motorola.blur.service.blur
+  removal: advanced
+- description: |
+    Motorola App Box (https://play.google.com/store/apps/details?id=com.motorola.brapps)
+    Offers you a selection of applications developed by Brazilians and also apps selected for you.
+  id: com.motorola.brapps
+  removal: recommended
+- description: |
+    Bugs reporting app that sends info about crash report.
+  id: com.motorola.bug2go
+  removal: recommended
+- description: |
+    Added in Android 10. Provide support for call redirection/cancellation if your Carrier supports it (when someone call.
+    See https://motorola-global-portal.custhelp.com/app/answers/prod_answer_detail/a_id/140542
+    https://en.wikipedia.org/wiki/Call_forwarding
+  id: com.motorola.callredirectionservice
+  removal: recommended
+- description: |
+    Moto Camera 2 (https://play.google.com/store/apps/details?id=com.motorola.camera)
+  id: com.motorola.camera2
+  removal: advanced
+- description: |-
+    Moto Camera 3
+    Moto camera app
+    https://play.google.com/store/apps/details?id=com.motorola.camera3
+  id: com.motorola.camera3
+  removal: advanced
+- description: |-
+    Camera consent AI
+    Camera consent AI? Artificial Intelligence models? Probably additonal features to camera app
+  id: com.motorola.camera3.consent.ai
+  removal: advanced
+- description: "This package is related to Motorola's camera application, specifically focusing on AI (artificial intelligence) features."
+  id: com.motorola.camera3.content.ai
+  removal: advanced
+- description: |-
+    Carrier Services
+    Needed for IMS, WiFi Calling.
+  id: com.motorola.carrierconfig
+  removal: advanced
+- description: 'This is a WiFi calling app supported by AT&T, T-Mobile, Orange.'
+  id: com.motorola.carriersettingsext
+  removal: advanced
+- description: |
+    Mobile Device Management (MDM) allows company’s IT department to reach inside your phone in the background, allowing them to ensure 
+    your device is secure, know where it is, and remotely erase your data if the phone is stolen.
+    You should NEVER install a MDM tool on your phone. Never.
+    https://onezero.medium.com/dont-put-your-work-email-on-your-personal-phone-ef7fef956c2f
+    https://blog.cdemi.io/never-accept-an-mdm-policy-on-your-personal-phone/
+  id: com.motorola.ccc.devicemanagement
+  removal: recommended
+- description: |
+    plm = Product Lifecycle Management ? No noticeable consequences after removal
+  id: com.motorola.ccc.mainplm
+  removal: recommended
+- description: |
+    Motorola Notifications (https://play.google.com/store/apps/details?id=com.motorola.ccc.notification)
+    If you opt-in, it sends periodic product-related information, including notifications on software updates, tips & tricks, survey and information
+    about new Motorola products and services.
+  id: com.motorola.ccc.notification
+  removal: recommended
+- description: |
+    Motorola Update Services
+    Provide OTA system updates.
+    OTA (Over-The-Air) updates allow manufacturers to remotely install new software updates, features and services.
+  id: com.motorola.ccc.ota
+  removal: expert
+- description: |
+    Most likely provides a special settings menu for Comcast stuff.
+    I think it's installed on Xfinity branded phones.
+    Safe to remove (tested only on non-Comcast phone).
+  id: com.motorola.comcast.settings.extensions
+  removal: recommended
+- description: |
+    See above. Provides special (useless) features from Comcast? App title is "Activation". Safe to remove (tested only on non-Comcast phone).
+  id: com.motorola.comcastext
+  removal: recommended
+- description: |
+    Appears safe to remove.
+    WPA config App
+    Wi-Fi not affected after removal.
+  id: com.motorola.config.wifi
+  removal: recommended
+- description: |
+    Preloaded Contacts
+    Provides contacts preset by carriers.
+  id: com.motorola.contacts.preloadcontacts
+  removal: recommended
+- description: Useless icon to Verizon Wireless app.
+  id: com.motorola.contacts.preloadcontacts.overlay.vzw
+  removal: recommended
+- description: |-
+    Core Settings extension
+    Safe to remove (no bootloop) but its usefulness remains unkown.
+    It's an app for random settings, but it's unused?
+  id: com.motorola.coresettingsext
+  removal: expert
+- description: It's IMS Signal tests probably. Used for statistics. Code 3243.
+  id: com.motorola.dciservice
+  removal: recommended
+- description: |
+    Moto Demo Mode
+    Enable retail demonstration mode.
+    https://source.android.com/devices/tech/display/retail-mode
+  id: com.motorola.demo
+  removal: recommended
+- description: |
+    Needed for Moto Demo Mode
+    env = environment
+  id: com.motorola.demo.env
+  removal: recommended
+- description: |-
+    Moto Discovery
+    Bubble Hint and suggestions. Useless.
+  id: com.motorola.discovery
+  removal: recommended
+- description: |-
+    Dolby Atmos
+    Audio enhancements.
+  id: com.motorola.dolby.dolbyui
+  removal: advanced
+- description: |-
+    Adaptive volume
+    It's for controlling the individual volume for multiple apps.
+  id: com.motorola.dynamicvolume
+  removal: recommended
+- description: |-
+    Motorola Easy Prefix (https://play.google.com/store/apps/details?id=com.motorola.easyprefix)
+    Auto add CSP (Service Provider code) prefix to your phone when you're abroad.
+    https://en.wikipedia.org/wiki/List_of_country_calling_codes
+    
+    This seems to not work correctly and it's generally not a good idea to call home (via GSM) when you're abroad.
+    It's better and cheaper to use chat apps like Signal/Wire)
+  id: com.motorola.easyprefix
+  removal: recommended
+- description: |
+    Motorola Easy Prefix (https://play.google.com/store/apps/details?id=com.motorola.easyprefix)
+    Auto add CSP (Service Provider code) prefix to your phone when you're abroad.
+    https://en.wikipedia.org/wiki/List_of_country_calling_codes
+    
+    This seems to not work correctly and it's generally not a good idea to call home (via GSM) when you're abroad.
+    It's better and cheaper to use chat apps like Signal/Wire)
+    
+    Moto Email (https://play.google.com/store/apps/details?id=com.motorola.email)
+  id: com.motorola.email
+  removal: recommended
+- description: |-
+    Moto Thinkshield
+    Additional security frameworks.
+  id: com.motorola.enterprise.adapter.service
+  removal: recommended
+- description: |-
+    Moto Thinkshield
+    Additional security.
+  id: com.motorola.enterprise.service
+  removal: recommended
+- description: |
+    Enable WiFi tethering/hotspot functionality. 
+    What you can do is preventing the phone from notifying the carrier about when you use hotspot. It will bypass mobile carriers tethering restrictions.
+    From an ADB shell : settings put global tether_dun_required 0
+  id: com.motorola.entitlement
+  removal: expert
+- description: |-
+    Moto Face Unlock (https://play.google.com/store/apps/details?id=com.motorola.faceunlock)
+    Unlock your device by simply looking at the display.
+    Face unlock is bad for security and privacy:
+    https://www.ubergizmo.com/2017/03/galaxy-s8-facial-unlock-photograph/
+    https://www.kaspersky.com/blog/face-unlock-insecurity/21618/
+    https://www.freecodecamp.org/news/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28/
+  id: com.motorola.faceunlock
+  removal: advanced
+- description: |-
+    Motorola Face Unlock Agent
+    Trust agent is a service that notifies the system about whether it believes the environment of the device is trusted.
+    The meaning of 'trusted' is up to the trust agent to define.
+    The system lockscreen listens for trust events, it can change its behaviour based on the trust state of the current user (e.g detection of a trusted face)
+    https://nelenkov.blogspot.com/2014/12/dissecting-lollipops-smart-lock.html
+  id: com.motorola.faceunlocktrustagent
+  removal: advanced
+- description: |
+    FM Radio (https://play.google.com/store/apps/details?id=com.motorola.fmplayer)
+    Radio app
+  id: com.motorola.fmplayer
+  removal: recommended
+- description: |
+    Provide the Single/One hand mode
+    I don't know why frameworks appears in the package name because it's not only the framework.
+    https://support.motorola.com/us/en/documents/MS116403/
+  id: com.motorola.frameworks.singlehand
+  removal: recommended
+- description: |-
+    Freeform
+    Required for window app mode.
+  id: com.motorola.freeform
+  removal: expert
+- description: |-
+    Moto Gametime.
+    Allows the user to block calls, quick screenshots, float social apps, etc when playing a game.
+    https://play.google.com/store/apps/details?id=com.motorola.gamemode&gl=US
+  id: com.motorola.gamemode
+  removal: recommended
+- description: |
+    Device Help (previously Moto Help) (https://play.google.com/store/apps/details?id=com.motorola.genie)
+    An app that checks hardware status and gives the user contacts for support.
+  id: com.motorola.genie
+  removal: recommended
+- description: |
+    Gesture navigation tutorial added in Android 10.
+  id: com.motorola.gesture
+  removal: recommended
+- description: |-
+    Handwriting calculator
+    it's not needed.
+  id: com.motorola.handwritingcalculator
+  removal: recommended
+- description: |
+    Moto feedback (https://play.google.com/store/apps/details?id=com.motorola.help)
+    Lets you rate your device and share feedback with Motorola.
+  id: com.motorola.help
+  removal: recommended
+- description: |-
+    Moto Feedback Assistant
+    This app only collects logs.
+  id: com.motorola.help.extlog
+  removal: recommended
+- description: |
+    Added in Android 10. Safe to remove.
+  id: com.motorola.hiddenmenuapp
+  removal: recommended
+- description: |-
+    Imager Tuning (https://play.google.com/store/apps/details?id=com.motorola.imagertuning_athene)
+    Naming convention: imagertuning_[PHONE CODENAME]
+    This is the custom camera image processing stack on Motorola devices. It's generally important for improving image quality.
+    Playstore reviews indicate that it slows down the camera app significantly for some users (probably a bug).
+  id: com.motorola.imagertuning_lake
+  removal: advanced
+- description: 'This package is associated with Motorola’s image tuning features, specifically designed to enhance or adjust image quality settings on Motorola devices.'
+  id: com.motorola.imagertuning_u
+  removal: advanced
+- description: |-
+    Camera Tuner
+    It's Camera tuning Chromatix Comparison. I think it's needed for camera app.
+  id: com.motorola.imagetuning_V2
+  removal: advanced
+- description: 'This package is used by Motorola for managing and installing system updates, custom apps, or other Motorola-specific applications.'
+  id: com.motorola.installer
+  removal: advanced
+- description: |-
+    Invisible net
+    App for Alias ID, Shortcut Installer(Most of the apps I have seen are Chinese apps).
+    It's some kind of a stub application launcher, if you open any of it's activities it goes to the play store or to the browser.
+  id: com.motorola.invisiblenet
+  removal: recommended
+- description: 'Hidden privacy policy: network diagnostics data.'
+  id: com.motorola.iqimotmetrics
+  removal: recommended
+- description: |-
+    Appears to enable support for a secondary display with Moto's launcher.
+    Trying to remove this packages returns "Failure: package is non-disable".
+  id: com.motorola.launcher.secondarydisplay
+  removal: advanced
+- description: |-
+    Motorola system launcher
+    A default home screen app, provides a layout and display for app icons and listing.
+    WARNING: Do not remove this package if you did not switch to a 3rd-party launcher.
+    Keep in mind that removing this package will break the `recent apps` button (even from another launcher).
+  id: com.motorola.launcher3
+  removal: expert
+- description: |-
+    Google Launcher Config
+    It's Partner Customization.
+    Has a lot wallpapers in resources.
+  id: com.motorola.launcherconfig
+  removal: advanced
+- description: |-
+    Moto Experience Hub
+    Most people hate this app.
+    https://play.google.com/store/apps/details?id=com.motorola.leanbacklauncher
+  id: com.motorola.leanbacklauncher
+  removal: recommended
+- description: |-
+    It's most likely the Total Call Timer or more generally it handles info like the date of manufacture of your device,
+    usage time since first boot etc... 
+    Total Call Timer gives you the time you spent calling.
+    It's surely a hidden menu.
+  id: com.motorola.lifetimedata
+  removal: recommended
+- description: |-
+    Moto interactive wallpapers
+    Responds to your actions to bring your screen to life.
+    https://play.google.com/store/apps/details?id=com.motorola.livewallpaper3
+  id: com.motorola.livewallpaper3
+  removal: recommended
+- description: |
+    LTE Broadcast services from Verizon. Allows your phone to receive broadcast message from Verizon?
+  id: com.motorola.ltebroadcastservices_vzw
+  removal: recommended
+- description: |-
+    Ready For
+    Connect to a PC to stream mobile apps and other things.
+    https://play.google.com/store/apps/details?id=com.motorola.mobiledesktop
+  id: com.motorola.mobiledesktop
+  removal: recommended
+- description: |-
+    Needed for Ready For (com.motorola.mobiledesktop)
+    Connect to a PC to stream mobile apps and other things.
+    DISABLE this app instead of Uninstall, because of anomalies with lockscreen and clock widget.
+  id: com.motorola.mobiledesktop.core
+  removal: recommended
+- description: 5G Moto Mod (https://play.google.com/store/apps/details?id=com.motorola.mot5gmod)
+  id: com.motorola.mot5gmod
+  removal: recommended
+- description: |-
+    Camera Desktop Settings
+    Moto Webcam, video call effects.
+  id: com.motorola.motcameradesktop
+  removal: recommended
+- description: |
+    Moto (https://play.google.com/store/apps/details?id=com.motorola.moto)
+    App providing Moto Actions, Moto Display, and other feature families that let you customize the way you interact with your device. 
+    Moto Actions is another app (https://play.google.com/store/apps/details?id=com.motorola.actions). Gestures set with "Moto" prior will continue to work provided "Moto Actions" remains installed.
+  id: com.motorola.moto
+  removal: recommended
+- description: |
+    Moto Care was renamed in "Moto Help" and then in "Device Help"
+    Provide support features.
+    https://mobile.softpedia.com/blog/Moto-Care-App-Gets-Updated-Now-Called-Motorola-Help-432827.shtml
+    However you can both have com.motorola.genie (Device Help) and this package so it's strange.
+  id: com.motorola.motocare
+  removal: recommended
+- description: Core stuff for the package above I guess.
+  id: com.motorola.motocare.internal
+  removal: recommended
+- description: |
+    CQATest
+    CQA = Custom Quality Assurance
+    Hidden menu (accessible by typing *#*#2486#*#* in the Moto Dialer) which lets you run hardware tests.
+  id: com.motorola.motocit
+  removal: recommended
+- description: |-
+    Moto Display (https://play.google.com/store/apps/details?id=com.motorola.motodisplay)
+    Displays notifications with the screen off (like the Always On Display feature from other OEMs)
+    https://support.motorola.com/uk/en/solution/ms108519
+  id: com.motorola.motodisplay
+  removal: recommended
+- description: |-
+    Moto Power Touch.
+    Allows the user to create custom actions depending on how the user presses the power button.
+    https://play.google.com/store/apps/details?id=com.motorola.motofpstouch&gl=US
+  id: com.motorola.motofpstouch
+  removal: recommended
+- description: "Overlay to 'com.motorola.motointelligence', not needed? I didn't found this app."
+  id: com.motorola.motointelligence.overlay
+  removal: advanced
+- description: |-
+    Moto Lights
+    People recommend to remove it:
+    https://xdaforums.com/t/debloat-instructions-for-edge-40-pro-rtwo.4590155/
+    Moto edge lights controller, hard to check this app but it has something to control display brightness in phone.
+  id: com.motorola.motolights
+  removal: advanced
+- description: |-
+    This app has permissions descriptions, lab, game mode launch permissions, audio monitor descriptions.
+    So it's permissions to system apps?
+    Google search shows that it's on some lists that recommend removing this app.
+  id: com.motorola.motosignature.app
+  removal: advanced
+- description: "Uses library 'com.motorola.motosignature', perm info to start gif maker, permlab moto trusted apps overlay and permlab monitor input."
+  id: com.motorola.motosignature2.app
+  removal: advanced
+- description: |-
+    Moto Tour
+    Helps you how to use motorola phone.
+    https://play.google.com/store/apps/details?id=com.motorola.mototour
+  id: com.motorola.mototour
+  removal: recommended
+- description: |
+    Dual SIM Settings
+    Provides Dual SIM feature.
+  id: com.motorola.msimsettings
+  removal: unsafe
+- description: "In code found: 'channel_force_single_sim'. Looks very unused."
+  id: com.motorola.msimsettings.overlay
+  removal: recommended
+- description: "This package is related to Motorola’s 'MyKey' feature, which is a tool designed to manage key settings and restrictions for device usage."
+  id: com.motorola.mykey
+  removal: advanced
+- description: |
+    Support for NFC protocol.
+  id: com.motorola.nfc
+  removal: advanced
+- description: Useless Carrier Location Access. You can find it in settings location but it's not very useful.
+  id: com.motorola.nfwlocationattribution
+  removal: recommended
+- description: Moto camera app?
+  id: com.motorola.odm.camera3
+  removal: expert
+- description: The package 'com.motorola.om' is associated with Motorola's operational management or device management tools.
+  id: com.motorola.om
+  removal: advanced
+- description: |
+    Appears safe to remove.
+    Carrier Provisioning Service
+    Provisioning involves the process of preparing and equipping a network to allow it to provide new services to its users.
+    OMADM  = OMA Device Management
+    Basically, it handles configuration of the device (including first time use), enabling and disabling features provided by carriers.
+    https://en.wikipedia.org/wiki/OMA_Device_Management
+    Use case seems very limited : https://www.androidpolice.com/2015/03/10/android-5-1-includes-new-carrier-provisioning-api-allows-carriers-easier-methods-of-setting-up-services-on-devices-they-dont-control/
+  id: com.motorola.omadm.service
+  removal: recommended
+- description: |
+    Configuration of the device (including first time use), enabling and disabling features provided by carriers.
+    I believe it's only useful if you want to use a Sprint service with a non branded phone (not sure at all)
+    https://www.androidpolice.com/2015/03/10/android-5-1-includes-new-carrier-provisioning-api-allows-carriers-easier-methods-of-setting-up-services-on-devices-they-dont-control/
+    Displays annoying notifications if you unlocked your bootloader
+  id: com.motorola.omadm.sprint
+  removal: recommended
+- description: |-
+    OMA Device Management for Verizon 
+    Handles configuration of the device (including first time use), enabling and disabling features provided by carriers.
+    https://en.wikipedia.org/wiki/OMA_Device_Management
+    I believe it's only useful if you want to use a Verizon service with a non branded phone (not sure at all)
+    https://www.androidpolice.com/2015/03/10/android-5-1-includes-new-carrier-provisioning-api-allows-carriers-easier-methods-of-setting-up-services-on-devices-they-dont-control/
+    Displays annoying notifications if you unlocked your bootloader
+  id: com.motorola.omadm.usc
+  removal: recommended
+- description: |
+    OMA Device Management for Verizon 
+    Handles configuration of the device (including first time use), enabling and disabling features provided by carriers.
+    https://en.wikipedia.org/wiki/OMA_Device_Management
+    I believe it's only useful if you want to use a Verizon service with a non branded phone (not sure at all)
+    https://www.androidpolice.com/2015/03/10/android-5-1-includes-new-carrier-provisioning-api-allows-carriers-easier-methods-of-setting-up-services-on-devices-they-dont-control/
+    Displays annoying notifications if you unlocked your bootloader
+  id: com.motorola.omadm.vzw
+  removal: recommended
+- description: |-
+    Overlay to Android System Intelligence 'com.google.android.as',
+    removal means that you cannot use the features of this app probably.
+  id: com.motorola.overlay.googleasi
+  removal: advanced
+- description: Useless overlay config default to Launcher3 default launcher Moto (com.motorola.launcher3)
+  id: com.motorola.overlay.launcher3
+  removal: recommended
+- description: |
+    ADB: Package Protected.
+    My Q Paks 
+    Third-party application bundles
+    https://www.financialmirror.com/2007/10/31/motorola-packs-moto-q-9h-global-smart-device-with-third-party-applications/
+  id: com.motorola.paks
+  removal: recommended
+- description: Notifications from (com.motorola.paks)
+  id: com.motorola.paks.notification
+  removal: recommended
+- description: |-
+    I am not sure what this app is for.
+    Collects systeminfo, time, has notification about update.
+  id: com.motorola.paramupdater
+  removal: advanced
+- description: Needed for theme edit.
+  id: com.motorola.personalize
+  removal: advanced
+- description: |
+    Appears safe to remove
+    PGM System
+    I didn't find info about this package. 
+    For Me PGM = Peak Gate Power (for MOSFET transistor) but I'm not convinced it has this meaning here.
+  id: com.motorola.pgmsystem2
+  removal: recommended
+- description: |-
+    Photo Editor
+    Moto Photo Editor.
+  id: com.motorola.photoeditor
+  removal: advanced
+- description: |
+    Programming Menu
+    Hidden menu (accessible by typing  ##7764726 in the dialer) providing additionnal features for developers.
+  id: com.motorola.programmenu
+  removal: recommended
+- description: |
+    Prip (https://play.google.com/store/apps/details?id=com.motorola.ptt.prip)
+    Push-To-Talk app. Allows to you send calls over any wireless carrier’s 3G or 4G networks or a WiFi connection.
+    It offers unlimited calling between other users and Nextel phone owners, rather than universal calling credit, 
+    and works on a monthly subscription basis.
+    https://prip.me/#get
+    No longer in Android 10 image
+  id: com.motorola.ptt.prip
+  removal: recommended
+- description: |-
+    RCS Config Service
+    Needed for IMS, RCS. WiFi Calling.
+  id: com.motorola.rcsConfigService
+  removal: advanced
+- description: It's another component of setup wizard only used on first-boot setup.
+  id: com.motorola.revoker.services
+  removal: recommended
+- description: |-
+    Useless overlay to com.google.android.safetycenter.resources
+    Network protection, ThinkShield.
+  id: com.motorola.safetycenter.resources.overlay
+  removal: recommended
+- description: |-
+    Screenshot Editor
+    Edit and share your screenshots right away, or take screenshots longer than your screen such as full web pages or articles. Useful app.
+    https://play.google.com/store/apps/details?id=com.motorola.screenshoteditor
+  id: com.motorola.screenshoteditor
+  removal: advanced
+- description: |-
+    Secure Folder
+    Unnecessary tools to keep device secure.
+    https://play.google.com/store/apps/details?id=com.motorola.securevault
+  id: com.motorola.securevault
+  removal: recommended
+- description: |-
+    Moto Secure
+    Unnecessary tools to keep device secure.
+    https://play.google.com/store/apps/details?id=com.motorola.securityhub
+  id: com.motorola.securityhub
+  removal: recommended
+- description: "This package is related to Motorola's Security Hub, an extension or enhancement for the device’s security features."
+  id: com.motorola.securityhubext
+  removal: advanced
+- description: |
+    Deleting this package whill disable Hotspot functionality if you're a Verizon client. 
+    What you can do is preventing the phone from notifying the carrier about when you use hotspot :
+    https://android.stackexchange.com/questions/226580/how-is-verizon-suddenly-tracking-my-hot-spot-usage-on-android-and-how-do-i-disab
+  id: com.motorola.service.vzw.entitlement
+  removal: advanced
+- description: |
+    Related to Motorola Account setup (only during first boot ?)
+    Safe to remove according to xda users.
+  id: com.motorola.setup
+  removal: recommended
+- description: "This package is involved in Motorola's setup process, particularly handling automatically generated resources related to the setup of the device."
+  id: com.motorola.setup.auto_generated_rro_product__
+  removal: expert
+- description: I found it's "no sim anim". It's another component of Motorola first-boot setup.
+  id: com.motorola.setup.auto_generated_rro_vendor__
+  removal: recommended
+- description: Useless component of (com.motorola.setup)
+  id: com.motorola.setup.overlay.amx
+  removal: recommended
+- description: 'This package is used during the Motorola device setup process, specifically for managing or presenting settings related to mobile data.'
+  id: com.motorola.setup.overlay.dataenable
+  removal: expert
+- description: Useless component of (com.motorola.setup)
+  id: com.motorola.setup.overlay.gabuttonrighttop
+  removal: recommended
+- description: Useless component of (com.motorola.setup)
+  id: com.motorola.setup.overlay.pai
+  removal: recommended
+- description: Useless component of (com.motorola.setup)
+  id: com.motorola.setup.overlay.tracfone
+  removal: recommended
+- description: |
+    Motorola Slpc System
+    Would be weird if it's not related to Motorola Modality Services (https://play.google.com/store/apps/details?id=com.motorola.slpc)
+    Helps your Motorola phone respond more intelligently to motion, phone orientation (e.g. face up/down) and stowed state (e.g in/out-of-pocket).
+    Has a noticeable impact on battery ? (https://forum.xda-developers.com/moto-x-2014/help/location-modality-services-battery-t2982752)
+    FYI : It uses location services.
+  id: com.motorola.slpc_sys
+  removal: recommended
+- description: Battery saving for 5G.
+  id: com.motorola.smart5g
+  removal: expert
+- description: |-
+    Family Space
+    Limits time spending on app for kids.
+    https://play.google.com/store/apps/details?id=com.motorola.spaces
+  id: com.motorola.spaces
+  removal: recommended
+- description: |-
+    Spectrum Setup
+    Spectrum connectivity services. Useless and it's only setup.
+  id: com.motorola.spectrum.setup.extensions
+  removal: recommended
+- description: |
+    Sprint Wifi Calling
+    Provides wifi calling to Sprint customers.
+  id: com.motorola.sprintwfc
+  removal: recommended
+- description: |-
+    Spatial Sound
+    Provides sst audio effects.
+    I am not sure how to use this app.
+    Code is too small, no activities only some frameworks in classes.dex
+  id: com.motorola.sstservice
+  removal: advanced
+- description: 'Moto Service Experience, debugging app.'
+  id: com.motorola.systemserver
+  removal: recommended
+- description: |-
+    DesktopSystemUI
+    it's for desktop maybe when connect to screen phone.
+  id: com.motorola.systemui.desk
+  removal: recommended
+- description: It's needed for carrier O2 so it's useless for others.
+  id: com.motorola.telprov
+  removal: advanced
+- description: |-
+    Motorola Thermal Service
+    Turns off phone when it's too hot.
+  id: com.motorola.thermalservice
+  removal: expert
+- description: |
+    Provides time/weather widget on the home screen.
+    https://en.wikipedia.org/wiki/Widget
+  id: com.motorola.timeweatherwidget
+  removal: recommended
+- description: |
+    /!\ Causes bootloop on Moto G7 Power (Android 9/10)
+    Time Zone Data (https://play.google.com/store/apps/details?id=com.motorola.timezonedata)
+    Update timezone when traveling to foreign countries.
+  id: com.motorola.timezonedata
+  removal: unsafe
+- description: |
+    Verizon Visual Voicemail (https://play.google.com/store/apps/details?id=com.motorola.visualvoicemail)
+    On non-Verizon phones it has a generic "Voicemail" name and icon, and doesn't seem to active.
+  id: com.motorola.visualvoicemail
+  removal: advanced
+- description: |
+    Cloud setup
+  id: com.motorola.vzw.cloudsetup
+  removal: recommended
+- description: |-
+    ????
+    Doesn't seem to break anything once removed.
+  id: com.motorola.vzw.loader
+  removal: recommended
+- description: |
+    5G Moto Mod (https://play.google.com/store/apps/details?id=com.motorola.mot5gmod)
+  id: com.motorola.vzw.mot5gmod
+  removal: recommended
+- description: |-
+    pcoreceiver
+    VZW Carrier sim(Verizon). It's only for notifications.
+    You can remove that if you don't use Verizon wireless or anything like that.
+  id: com.motorola.vzw.pco.extensions.pcoreceiver
+  removal: recommended
+- description: |
+    Free HD wallpaper from verizon
+  id: com.motorola.vzw.phone.extensions
+  removal: recommended
+- description: |-
+    ????
+    Doesn't seem to break anything once removed.
+  id: com.motorola.vzw.provider
+  removal: recommended
+- description: Useless Wi-Fi daily stats.
+  id: com.motorola.wifi.motowifimetrics
+  removal: recommended

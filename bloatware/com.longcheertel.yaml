@@ -1,0 +1,30 @@
+---
+- description: |-
+    Autotest
+    Hidden hardware tests.
+  id: com.longcheertel.AutoTest
+  removal: unknown
+- description: |-
+    Cit test
+    Hidden hardware tests.
+  id: com.longcheertel.cit
+  removal: unknown
+- description: |-
+    Assemble test
+    Hidden hardware tests.
+  id: com.longcheertel.midtest
+  removal: unknown
+- description: |-
+    Modem log
+    Hidden app that includes TcardLog, modem log, Tcpdump.
+  id: com.longcheertel.modemlog
+  removal: unknown
+- description: |-
+    Autotest
+    Hidden hardware tests.
+  id: com.longcheertel.sarauth
+- description: |-
+    Refers to the system package that handles secret codes.
+    Secret codes are special sequences of numbers and symbols that can be entered on a phone's keypad to access hidden features or information.
+  id: com.longcheertel.secretcode
+  removal: advanced

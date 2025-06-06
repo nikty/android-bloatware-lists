@@ -1,0 +1,7 @@
+---
+- description: |-
+    Cross Device Broker
+    Might be needed for Microsoft Link to Windows (com.microsoft.appmanager) which is preinstalled with OxygenOS 14.
+    After Uninstalling, no issues occurred.
+  id: com.microsoftsdk.crossdeviceservicebroker
+  removal: recommended

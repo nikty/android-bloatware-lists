@@ -1,0 +1,14 @@
+---
+- description: |
+    Sprint Backup" (https://play.google.com/store/apps/details?id=com.hyperlync.Sprint.Backup)
+    Lets you backup your phone’s content to your Sprint Backup account.
+    FYI : This app is developped by Hyperlync Technologies an Israel-based company which provide cyber-security solutions. 
+    It is now owned by Edition Ltd a big Singapour based company (https://www.reuters.com/companies/EDITol.SI)
+  id: com.hyperlync.Sprint.Backup
+  removal: recommended
+- description: |
+    Sprint Cloud Binder (https://play.google.com/store/apps/details?id=com.hyperlync.Sprint.CloudBinder)
+    Hub for all you cloud accounts.
+    See package above.
+  id: com.hyperlync.Sprint.CloudBinder
+  removal: recommended

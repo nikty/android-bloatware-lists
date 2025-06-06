@@ -1,0 +1,4 @@
+---
+- description: Additional call features and WiFi Calling.
+  id: com.mifavor.callsetting
+  removal: advanced

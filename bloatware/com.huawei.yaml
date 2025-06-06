@@ -1,0 +1,1205 @@
+---
+- description: |
+    Scrolling screenshot feature
+  id: com.huawei.HwMultiScreenShot
+  removal: recommended
+- description: |
+    As of writing this, Huawei phones cannot be rooted. 
+    This Backup application is probably able to backup more than any other 3rd party backup app.
+  id: com.huawei.KoBackup
+  removal: recommended
+- description: |-
+    Air link service, it's probably needed for Wireless Projection.
+    No activities, only more debugging stuff, location things, logs
+  id: com.huawei.airlink
+  removal: advanced
+- description: |-
+    FM-Radio
+    Huawei's stock radio player. Remove if FM isn't relevant for you.
+  id: com.huawei.android.FMRadio
+  removal: advanced
+- description: |-
+    Floating/Navigation dock (also called NaviDot).
+    https://consumer.huawei.com/en/support/how-to/detail-troubleshooting/en-us00310067/
+  id: com.huawei.android.FloatTasks
+  removal: recommended
+- description: |-
+    Wireless Projection
+    Miracast, Requires Huawei Mobile Services, also it's so bloated, also found unused frameworks HUAWEI GameCenter
+  id: com.huawei.android.airsharing
+  removal: advanced
+- description: |
+    HwChrService
+    Huawei Call History Record. 
+  id: com.huawei.android.chr
+  removal: recommended
+- description: |-
+    Dual card management
+    It's sim card management in Huawei settings.
+    After removing, sim card management in settings will not work.
+  id: com.huawei.android.dsdscardmanager
+  removal: unsafe
+- description: |-
+    Find Device is an app that lets you locate your device and protect your data remotely.
+    To provide these features, this app needs to connect to the Internet during use.
+  id: com.huawei.android.findmyphone
+  removal: recommended
+- description: |
+    Huawei Services Framework
+    3 permissions : DELETE_PACKAGES, INSTALL_PACKAGES, PACKAGE_USAGE_STATS
+    Safe to remove according to huawei users
+  id: com.huawei.android.hsf
+  removal: recommended
+- description: |-
+    HwAps
+    Manages Intelligent Resolution and changing screen resolution in settings.
+    Intelligent Resolution will be not available and changing screen resolution in settings.
+  id: com.huawei.android.hwaps
+  removal: unsafe
+- description: OTA updates. Safe to remove if you have a very outdated device or flashed recovery.
+  id: com.huawei.android.hwouc
+  removal: expert
+- description: |
+    Huawei Pay
+    Mobile payment and e-wallet service for Huawei devices that offers the same services as Apple Pay, Samsung Pay etc...
+    https://consumer.huawei.com/en/mobileservices/huawei-wallet/
+  id: com.huawei.android.hwpay
+  removal: recommended
+- description: |-
+    hwupgradeguide
+    it's guide menu at first start AppGallery.
+  id: com.huawei.android.hwupgradeguide
+  removal: recommended
+- description: |
+    no noticeable consequences
+  id: com.huawei.android.instantonline
+  removal: recommended
+- description: |
+    Huawei Share features.
+    File transfer tool between Huawei mobiles, using Bluetooth connection and WiFi Direct technology.
+  id: com.huawei.android.instantshare
+  removal: recommended
+- description: |-
+    Component of Huawei sharing
+    May break the sharing function in several applications (in particular, apps will crash).
+  id: com.huawei.android.internal.app
+  removal: advanced
+- description: |
+    Karaoke mode feature.
+  id: com.huawei.android.karaoke
+  removal: recommended
+- description: |
+    Huawei launcher app.
+    It's basically the home screen, the way icons apps are organized and displayed.
+    DON'T REMOVE THIS IF YOU DIDN'T INSTALL ANOTHER LAUNCHER !
+    You will maybe need this package for the recent apps feature to work (even if you have another launcher)
+  id: com.huawei.android.launcher
+  removal: advanced
+- description: |
+    MirrorShare feature (Miracast rebranded by Huawei)
+    Used to mirror screen of you smartphone on a TV.
+  id: com.huawei.android.mirrorshare
+  removal: recommended
+- description: |-
+    Module that contains metadata about the list of modules on the device and that's about it. I wouldn't advise you to mess with it as it could break important modules (see W1nst0n/universal-android-debloater#37 on GitLab).
+    Good explanation of what Android modules are: https://www.xda-developers.com/android-project-mainline-modules-explanation/
+  id: com.huawei.android.overlay.modules.modulemetadata
+  removal: unsafe
+- description: |-
+    ProjectMenu
+    Hidden settings not available for users. ProjectMenu interface: phone *#*#2846579#*#*
+    https://www.99mediasector.com/open-project-menu-huawei-device-huawei-code/
+  id: com.huawei.android.projectmenu
+  removal: recommended
+- description: |
+    push notification agent
+    Seems to only be used for Huawei apps
+    The recompiled java code makes it look like it's once again mainly used for analytics.
+  id: com.huawei.android.pushagent
+  removal: recommended
+- description: |
+    Huawei Smart Controller app.
+    Lets you you add, customize, and set up remote controls, allowing control of your electronic appliances through your phone. 
+  id: com.huawei.android.remotecontroller
+  removal: recommended
+- description: |-
+    HwRFTest
+    MT Test Station.
+  id: com.huawei.android.rftest
+  removal: recommended
+- description: |-
+    Themes (https://play.google.com/store/apps/details?id=com.huawei.android.thememanager)
+    Lets you download and use Huawei themes.
+    Setting Wallpapers directly will no longer work, but the Wallpaper entry in the Settings app will still let you choose wallpapers. Without this package you may no longer be able to change a notification sound.
+  id: com.huawei.android.thememanager
+  removal: expert
+- description: |
+    HUAWEI Feature Advisor
+    Periodically gives you notifications on how to use certain features on your phone.
+  id: com.huawei.android.tips
+  removal: recommended
+- description: Huawei Weather app (and its widget)
+  id: com.huawei.android.totemweather
+  removal: recommended
+- description: Huawei Weather app (and its widget)
+  id: com.huawei.android.totemweatherapp
+  removal: recommended
+- description: |
+    Huawei Weather app (and its widget)
+  id: com.huawei.android.totemweatherwidget
+  removal: recommended
+- description: |-
+    Wi-Fi Direct feature.
+    Note: Wifi direct enables devices to establish a direct Wi-Fi connection (without a router) over which the two can send and receive files.
+  id: com.huawei.android.wfdft
+  removal: recommended
+- description: |
+    Wi-Fi Direct feature.
+    Note: Wifi direct enables devices to establish a direct Wi-Fi connection (without a router) over which the two can send and receive files. 
+  id: com.huawei.android.wfdirect
+  removal: advanced
+- description: |-
+    It have something to MediaPlayer but by name app it looks like important.
+    Someone will need to check if it bootloop or not because this app dont have code.
+  id: com.huawei.androidx
+  removal: expert
+- description: |-
+    Always On Display
+    When enabled in settings it shows clock and notifications when you raise the phone or touch the screen.
+    This is basically a lower-power lock-screen. It could in theory reduce power draw if you check notifications/clock often as OLED screens draw minimal power showing a mostly black screen(black = pixel off), but in practice the number of times you'll unintentionally trigger it will likely eat up any potential power savings and more. And if your device doesn't have an OLED screen this will draw way more power.
+    Most of these power savings could be applied to your standard lock-screen simply by making your background image completely black.
+    RedSkull23 says it's unsafe to remove. Does it bootloop?
+  id: com.huawei.aod
+  removal: recommended
+- description: |
+    Huawei app store (AppGallery)
+    https://www.xda-developers.com/appgallery-huawei-alternative-google-play-store-android/
+  id: com.huawei.appmarket
+  removal: recommended
+- description: |-
+    Ar Measure
+    Measure length, depth, area and volume.
+  id: com.huawei.ar.measure
+  removal: recommended
+- description: |
+    Augmented reality service.
+  id: com.huawei.arengine.service
+  removal: recommended
+- description: |-
+    HwAssetSync
+    Needed for HiCloud, Cloud syncing.
+  id: com.huawei.assetsync
+  removal: recommended
+- description: |-
+    It's for 'com.huawei.securityserver' for start this service app.
+    Needed for HiCloud sync security.
+  id: com.huawei.assetsyncservice
+  removal: recommended
+- description: |-
+    Audio Accessory Manager
+    A lot stuff: Huawei health, Huawei music, earphones.
+    Probably only useful when you got Huawei FreeBuds.
+  id: com.huawei.audioaccessorymanager
+  removal: recommended
+- description: |-
+    Auto Install apk from mcc
+    Auto Install apk from mcc? it's only information and logs.
+  id: com.huawei.autoinstallapkfrommcc
+  removal: recommended
+- description: |
+    HwUE (Huawei UserExperience)
+    When a company call a something 'UserExperience' you know you don't need this.
+    Analytics service, run at boot. Collect information about packages/apps usages.
+    Has a nice custom permission called com.huawei.permission.BIG_DATA
+  id: com.huawei.bd
+  removal: recommended
+- description: |-
+    BehaviorAuth
+    It seems to be related to verifying the authenticity of user behavior and enhancing password security. User can disable it so it's safe to remove.
+    https://www.android-hilfe.de/forum/huawei-p30-p30-pro-p30-lite.3510/was-ist-die-behaviorauth-app-fuer-das-p30.1008750.html
+  id: com.huawei.behaviorauth
+  removal: recommended
+- description: |-
+    BetaClub
+    It's app for testing, collection logs and feedback.
+  id: com.huawei.betaclub
+  removal: recommended
+- description: |
+    Lets you import your contacts via Bluetooth
+    Bluetooth will still work if you remove this package.
+  id: com.huawei.bluetooth
+  removal: recommended
+- description: |
+    Huawei Browser app. Don't expect privacy using it
+  id: com.huawei.browser
+  removal: recommended
+- description: |
+    Huawei Browser component.
+  id: com.huawei.browserhomepage
+  removal: recommended
+- description: |-
+    CA
+    Uses permissions: GET_TASKS, LOCATION_HARDWARE, etc.
+    This app looks like a backdoor or logs.
+  id: com.huawei.ca
+  removal: recommended
+- description: Calculator app
+  id: com.huawei.calculator
+  removal: advanced
+- description: |
+    Huawei Calendar app.
+  id: com.huawei.calendar
+  removal: advanced
+- description: 'Safe to remove, but not recommended, as other camera apps are not much better than this one.'
+  id: com.huawei.camera
+  removal: advanced
+- description: |-
+    HwCameraKit
+    In the code it was found that it's for testing camera functions.
+  id: com.huawei.camerakit.impl
+  removal: recommended
+- description: |-
+    Chinese only.
+    Huawei Cloud Computer provides you with basic services of online desktop.
+  id: com.huawei.cloud
+  removal: recommended
+- description: |-
+    HwCoAuthService
+    Applock, lockscreen password, face recognition things, fingerprint, not sure if it's worth removing it.
+    Needed for manual apk installation.
+  id: com.huawei.coauthservice
+  removal: expert
+- description: |
+    Huawei Compass app.
+  id: com.huawei.compass
+  removal: recommended
+- description: |
+    Huawei Contacts app
+  id: com.huawei.contacts
+  removal: advanced
+- description: |
+    Huawei Contacts sync
+    My guess (can't have the apk on hand) is this enables you to synchronise your contacts with your Huawei account.
+  id: com.huawei.contacts.sync
+  removal: recommended
+- description: |
+    CamCard is a business card reader app.
+  id: com.huawei.contactscamcard
+  removal: recommended
+- description: |-
+    ContentSensor
+    Looks like this app has a lot chinese code and collects a lot stuff about user like apps installed, app info, connects to huawei hivoice sites
+  id: com.huawei.contentsensor
+  removal: recommended
+- description: |-
+    Smart Collaboration
+    Collaboration between devices. Needed for Multi-Screen, Wireless Projection?
+    Needed for Super Device or Device+, safe to remove if you don't use this, it will also declutter action center.
+  id: com.huawei.controlcenter
+  removal: advanced
+- description: 'SMS Encryption Service, looks made for China.'
+  id: com.huawei.cryptosms.service
+  removal: recommended
+- description: |-
+    DEF
+    Unused? message things:allows the app public keys on connected devices, getting status, access information
+  id: com.huawei.def
+  removal: advanced
+- description: |
+    Huawei Clock App.
+  id: com.huawei.deskclock
+  removal: advanced
+- description: |
+    From XDA thread : "Service that is been used when you wanna use your phone as an operative system on a PC."
+    I don't understand what does it mean.
+  id: com.huawei.desktop.explorer
+  removal: recommended
+- description: |-
+    Huawei desktop mode switching
+    It has also Take Screenshot Service.
+    Require HMS, has a lot tracking.
+  id: com.huawei.desktop.systemui
+  removal: advanced
+- description: |-
+    TrustedDeviceAuth
+    I guess it's for authentication keys
+  id: com.huawei.deviceauth
+  removal: advanced
+- description: |-
+    (Unused?)HwGroupManager
+    It's an app without activities, only device info things
+  id: com.huawei.devicegroupmanage
+  removal: expert
+- description: 'Needed for Huawei account. I found only things: installing service?, Linked devices, Multi-Device management, connection code, metrics'
+  id: com.huawei.devicemanager
+  removal: recommended
+- description: |-
+    HwDistributedKeyManager
+    Has random frameworks, probably needed for huawei account, authentication
+  id: com.huawei.distributed.kms
+  removal: recommended
+- description: |-
+    SuperHub
+    Has something to History Clipboard and Drag Drop.
+  id: com.huawei.distributedpasteboard
+  removal: advanced
+- description: |-
+    Multi-Device management
+    This service allows you to virtually expand your devices capabilities
+    by connecting to other devices and using them as an extension of this device.
+  id: com.huawei.dmsdp
+  removal: advanced
+- description: |-
+    Dual card management
+    It's sim card management in Huawei settings.
+    After removing, sim card management in settings will not work.
+  id: com.huawei.dsdscardmanager
+  removal: unsafe
+- description: |-
+    Dtmf Analyzer
+    Has something to media player to ride mode for China.
+  id: com.huawei.dtmfanalyzer
+  removal: recommended
+- description: |-
+    HwEasyGo
+    Looks like a backdoor for WeChat app?
+    EasyGoServer, error code things found, also EasyGoCallBack.
+    These app is probably backdoor or for developers.
+    This app has no permissions and no activities.
+  id: com.huawei.easygo
+  removal: recommended
+- description: |
+    Huawei Email app.
+  id: com.huawei.email
+  removal: recommended
+- description: |-
+    Needed for messages Bluetooth, wifi, hotspot, Terms of Agreement, Authentication?
+    On some phone's it has some features, and on some not.
+  id: com.huawei.entitlement
+  removal: expert
+- description: |-
+    Huawei Club is the official forum for Huawei users.
+    It provides the latest news and information, FAQs, and tutorials about Huawei and Honor products.
+  id: com.huawei.fans
+  removal: recommended
+- description: |-
+    Quick App Center
+    Component of AppGallery (Huawei's app store) providing Quick Apps support. Quick Apps are Javascript+CSS apps that don't need any installation. This technology has its uses but I'm personally not a huge fan on having to rely on a JS engine to run an application
+    This system app has a lot of permissions (including SEND_SMS, CAMERA, READ_EXTERNAL_STORAGE, RECORD_AUDIO... why?)
+    More information: https://www.xda-developers.com/huawei-quick-apps-alternative-google-instant-apps/
+     OW2 Quick App whitepaper: https://quick-app-initiative.ow2.io/docs/Quick_App_White_Paper.pdf
+  id: com.huawei.fastapp
+  removal: advanced
+- description: |-
+    FeatureFramework
+    Allows the app to check for feature updates.
+  id: com.huawei.featurelayer.featureframework
+  removal: advanced
+- description: |-
+    Huawei Map Service
+    Require FeatureFramework.
+    Only uses Chinese AMap to get location.
+    Used to show maps inside Calendar and Gallery, they will complain if you uninstall it, disable instead.
+  id: com.huawei.featurelayer.sharedfeature.map
+  removal: recommended
+- description: |-
+    UAF client for FIDO.
+    Fido is a set of open technical specifications for mechanisms of authenticating users to online services that do not depend on passwords.
+    https://fidoalliance.org/specs/u2f-specs-1.0-bt-nfc-id-amendment/fido-glossary.html
+    https://fidoalliance.org/specs/fido-v2.0-rd-20170927/fido-overview-v2.0-rd-20170927.html
+    The UAF protocol is designed to enable online services to offer passwordless and multi-factor security by allowing users to register their device to the online service and using a local authentication mechanism such as iris or fingerprint recognition.
+    https://developers.google.com/identity/fido/android/native-apps
+    Safe to remove if you don't use password-less authentication to access online services.
+  id: com.huawei.fido.uafclient
+  removal: advanced
+- description: |-
+    Huawei file manager
+    Probably fine to remove as long as you have another file manager.
+  id: com.huawei.filemanager
+  removal: advanced
+- description: |-
+    Get city info service
+    Get city info service? Needed by your phone in order to sync with Huawei servers
+    and check for apps updates, software updates and other access for your phone.
+  id: com.huawei.firstbootinfo
+  removal: expert
+- description: |-
+    Probably safe to remove if you don't play games.
+    Has window show, keybind set and more things.
+  id: com.huawei.game.kitserver
+  removal: advanced
+- description: |
+    Huawei Game Suite (HiGame).
+    Mobile game app store.
+    https://club.hihonor.com/in/topic/16341/detail.htm
+  id: com.huawei.gameassistant
+  removal: recommended
+- description: |-
+    GameCenter
+    Requires HMS Core to run.
+    It's app for installing games.
+  id: com.huawei.gamebox
+  removal: recommended
+- description: |
+    GeofenceService.
+    Allows you to do something when a user enters an area that has been defined as a trigger.
+    A geofence is a virtual perimeter set on a real geographic area. Combining a user position with a geofence perimeter, 
+    it is possible to know if the user is inside or outside the geofence or even if he is exiting or entering the area.
+  id: com.huawei.geofence
+  removal: recommended
+- description: |-
+    foundation
+    Has hwid, vehicle things, Aosp In Call Service permissions.
+    Disable app instead of uninstalling, because breaks calling.
+    Settings app and APK installation will become slow if you uninstall this.
+  id: com.huawei.harmonyos.foundation
+  removal: expert
+- description: |-
+    Huawei Health (discontinued?)
+    Connect Huawei wearables to your phone and all sorts of stats like all fitness tracking apps.
+    Require HMS.
+  id: com.huawei.health
+  removal: recommended
+- description: |-
+    HFF
+    HFF? It has not any code.
+  id: com.huawei.hff
+  removal: recommended
+- description: no noticeable consequences
+  id: com.huawei.hiaction
+  removal: recommended
+- description: |
+    no noticeable consequences
+  id: com.huawei.hiai
+  removal: recommended
+- description: |
+    HiVoice. Huawei's voice assistant to replace "Hey Google"
+  id: com.huawei.hiassistantoversea
+  removal: recommended
+- description: |-
+    Huawei HiCar
+    To connect to Huawei HiCar, press and hold the wireless button on the steering wheel or control panel.
+    More useful in China.
+  id: com.huawei.hicar
+  removal: recommended
+- description: |
+    Huawei Cards, no noticeable consequences
+  id: com.huawei.hicard
+  removal: recommended
+- description: |
+    Huawei cloud features
+  id: com.huawei.hicloud
+  removal: recommended
+- description: |
+    Huawei File Manager app.
+  id: com.huawei.hidisk
+  removal: advanced
+- description: |
+    Huawei Online Cloud folder service
+    https://consumer.huawei.com/en/mobileservices/mobilecloud/
+  id: com.huawei.hifolder
+  removal: recommended
+- description: |-
+    AI Life Service
+    Used for smart devices and to run smart scenes.
+    It's more useful in China.
+  id: com.huawei.hilink.framework
+  removal: recommended
+- description: |-
+    Huawei Video Player
+    Bloated on newer versions. Can be safely removed if you don't want it.
+  id: com.huawei.himovie
+  removal: recommended
+- description: |-
+    Huawei stock video application.
+    Has a lot tracking.
+  id: com.huawei.himovie.overseas
+  removal: recommended
+- description: |-
+    HiMoviePlayerPlus
+    Weird app without any code and there's nothing in Main Activity.
+  id: com.huawei.himovie.partner1
+  removal: recommended
+- description: |-
+    HiMoviePlayerPlus
+    Weird app without any code and there's nothing in Main Activity.
+  id: com.huawei.himovie.partner2
+  removal: recommended
+- description: SkyTone Overseas Data Service.
+  id: com.huawei.hiskytone
+  removal: recommended
+- description: |-
+    Can be uninstalled via settings. App to connect with the desktop program to Backup/Restore, flash firmware, etc.
+    https://consumer.huawei.com/en/support/hisuite/
+  id: com.huawei.hisuite
+  removal: recommended
+- description: |
+    Huawei HiTouch
+    Assistant capable to recognize the objects in a photo and to search them through various shopping sites.
+    https://consumer.huawei.com/uk/support/faq/have-you-tried-the-new-hitouch-assistant/
+  id: com.huawei.hitouch
+  removal: recommended
+- description: |-
+    hiview
+    Removing this doesn't remove access to the picture attributes, so what does it actually do?
+    It's the same as (com.huawei.hiviewtunnel), which is useless.
+    It has 19 permissions, Crash App Dialog, logs. So do not trust these apps.
+  id: com.huawei.hiview
+  removal: recommended
+- description: |
+    This displays details/attributes of pictures in the gallery (ISO, exposure time, etc.).
+  id: com.huawei.hiviewtunnel
+  removal: advanced
+- description: |-
+    Hw5GKitAgentService
+    Only debugging code found that APK id is invalid, disable parameter error, other error things.
+  id: com.huawei.hms5gkit.agentservice
+  removal: recommended
+- description: |-
+    Honor Club
+    Huawei's social media app. Safe to remove.
+  id: com.huawei.honorclub.android
+  removal: recommended
+- description: |-
+    FIDO UAF Authenticator-Specific Module.
+    See 'com.huawei.fido.uafclient' for FIDO explaination.
+    The UAF Authenticator-Specific Module (ASM) is a software interface on top of UAF authenticators which gives a standardized way for FIDO UAF clients to detect and access the functionality of UAF authenticators and hides internal communication complexity from FIDO UAF Client.
+    https://fidoalliance.org/specs/fido-uaf-v1.0-ps-20141208/fido-uaf-asm-api-v1.0-ps-20141208.html
+  id: com.huawei.hwasm
+  removal: advanced
+- description: |
+    Probably blockchain related, no noticeable consequences when removed
+  id: com.huawei.hwblockchain
+  removal: recommended
+- description: |-
+    HwDDMP
+    Has a lot frameworks.
+    Uninstalling breaks calling app even if you disable.
+    It does not cause bootloop but removing is highly not recommended.
+    Not only breaks the dialer app, but causes lag in whole system too.
+  id: com.huawei.hwddmp
+  removal: unsafe
+- description: |-
+    Huawei Smart diagnosis (discontinued?)
+    Useless features and run in background.
+  id: com.huawei.hwdetectrepair
+  removal: recommended
+- description: |-
+    HwDiagnosis
+    No activities, only code about diagnosis and logs
+    Also device info and is send to Huawei servers.
+  id: com.huawei.hwdiagnosis
+  removal: recommended
+- description: |-
+    Huawei Multi-Window dock
+    Probably fine to remove if you're not using Huawei Multi-Window features.
+  id: com.huawei.hwdockbar
+  removal: advanced
+- description: |-
+    HwESIMService
+    If you use eSIM do not remove it.
+  id: com.huawei.hwesimservice
+  removal: advanced
+- description: |-
+    Huawei Mobile Services
+    Huawei’s alternative to Google Play Services. Needed to access advanced Huawei features.
+    A Huawei ID is required to access services, like Themes, Mobile Cloud, HiCare, Huawei Wear, Huawei Health. This may break an app like InPost Mobile, see:
+    https://github.com/0x192/universal-android-debloater/issues/477
+    See more about Huawei Mobile Services: https://www.xda-developers.com/huawei-hms-core-android-alternative-google-play-services-gms/
+  id: com.huawei.hwid
+  removal: unknown
+- description: App for adding by user 'Books'. This app has ads and bad privacy.
+  id: com.huawei.hwireader
+  removal: recommended
+- description: Payment related service. Safe to remove.
+  id: com.huawei.hwpanpayservice
+  removal: recommended
+- description: |-
+    HwPolicyService
+    Another debugging, logs app.
+  id: com.huawei.hwpolicyservice
+  removal: recommended
+- description: App for adding by user 'Books'. This app has ads and bad privacy.
+  id: com.huawei.hwread.dz
+  removal: recommended
+- description: |
+    Petal Search widget. Used for finding apps/apks on several online sources (introduced after Google Mobile Services Ban).
+  id: com.huawei.hwsearch
+  removal: recommended
+- description: A one-time setup app that is no longer needed
+  id: com.huawei.hwstartupguide
+  removal: recommended
+- description: Huawei digital earphones come with built-in software that can be updated regularly to enhance your audio experience.
+  id: com.huawei.hwusbearphoneupdate
+  removal: advanced
+- description: Voice over IP service for Huawei MeeTime (com.huawei.meetime)
+  id: com.huawei.hwvoipservice
+  removal: recommended
+- description: |-
+    Video Youku
+    Video Player on Chinese Huawei. Has some ads and bad privacy.
+  id: com.huawei.hwvplayer.youku
+  removal: recommended
+- description: |-
+    App Prioritizer. Prioritizes apps to avoid slowdown
+    Up to you but there is apparently no noticeable difference when deleted?
+    System will start lagging a little bit (you will notice it while scrolling and on some animations, for example scrolling installed apps), battery consumption will become slightly higher and battery stats will disappear soon. At the same time, logcat will be full of errors like: PowerKit: PG Server is not found. calling pid xxxx.
+  id: com.huawei.iaware
+  removal: advanced
+- description: |-
+    iConnect
+    Hidden menu 'install PCAssistant' when connected to PC? I have never seen it. Safe to remove.
+  id: com.huawei.iconnect
+  removal: recommended
+- description: |
+    MotionService package, it's required for actions like shaking the phone to shut off the alarm, ecc.
+  id: com.huawei.ihealth
+  removal: recommended
+- description: |-
+    Dolby Atmos
+    Optimize sound automatically for exceptional audio quality.
+  id: com.huawei.imedia.dolby
+  removal: advanced
+- description: |-
+    Huawei Histen
+    Audio 3D effects found in the settings. Safe to remove if you don't use these settings.
+  id: com.huawei.imedia.sws
+  removal: recommended
+- description: |-
+    imonitor
+    Hidden logs founded in app.
+    Detects app launch anomaly and runs safe mode.
+  id: com.huawei.imonitor
+  removal: recommended
+- description: |-
+    HwImsService
+    VoLTE(Voice over LTE) calls. IP multimedia subsystem.
+    https://en.wikipedia.org/wiki/Voice_over_LTE
+    Uninstalling app breaks sim calling even if you disable.
+    It does not cause bootloop but removing is highly not recommended.
+  id: com.huawei.ims
+  removal: unsafe
+- description: Index search works without it.
+  id: com.huawei.indexsearch
+  removal: recommended
+- description: Index search works without it.
+  id: com.huawei.indexsearch.observer
+  removal: recommended
+- description: |-
+    Indian Calendar
+    HUAWEI Calendar
+  id: com.huawei.indiacalendar
+  removal: advanced
+- description: |
+    Huawei Assistant. Shopping recommendations
+  id: com.huawei.intelligent
+  removal: recommended
+- description: |-
+    Smart headset control
+    Has a lot logs and frameworks to mmitest.
+  id: com.huawei.internetaudioservice
+  removal: recommended
+- description: Allows you to load the system languages when changing them
+  id: com.huawei.languagedownloader
+  removal: advanced
+- description: |-
+    Location Based Services
+    Location-based services (LBS) are applications or services that utilize location data from a user's device, such as a smartphone or GPS, to provide relevant information, directions, or recommendations tailored to their specific location. These services rely on a combination of technologies, including Global Positioning System (GPS), Wi-Fi, cellular networks, and sensors, to determine a user's position accurately.
+    NOTE: Can cause bootloops on some devices.
+    The primary goal of LBS is to offer personalized and context-aware experiences based on a user's geographical location. This can include services like:
+    1. Navigation and Mapping, 2. Location-Based Advertising, 3. Social Networking, 4. Emergency Services, 5. IoT Asset Tracking
+    https://forum.huawei.com/enterprise/en/location-based-services/thread/703168442200375296-667213855346012160
+  id: com.huawei.lbs
+  removal: expert
+- description: HiLives is jointly developed by Huawei and certified third-party service providers to provide lifestyle services for you.
+  id: com.huawei.lives
+  removal: recommended
+- description: Live wallpapers
+  id: com.huawei.livewallpaper.artflower
+  removal: recommended
+- description: Live wallpapers
+  id: com.huawei.livewallpaper.flowersbloom
+  removal: recommended
+- description: Live wallpapers
+  id: com.huawei.livewallpaper.mountaincloud
+  removal: recommended
+- description: Live wallpapers
+  id: com.huawei.livewallpaper.naturalgarden
+  removal: recommended
+- description: Live wallpapers
+  id: com.huawei.livewallpaper.paradise
+  removal: recommended
+- description: Live wallpapers
+  id: com.huawei.livewallpaper.ripplestone
+  removal: recommended
+- description: |-
+    Huawei Backup
+    has a lot permissions and can backup your data
+  id: com.huawei.localbackup
+  removal: recommended
+- description: |
+    Magazine unlock. Downloads wallpapers for your lock screen.
+  id: com.huawei.magazine
+  removal: recommended
+- description: |-
+    Wifi Connect
+    Needed for WiFi connection?
+  id: com.huawei.manufacture.wificonnect
+  removal: expert
+- description: |-
+    Petal Maps (https://play.google.com/store/apps/details?id=com.huawei.maps.app)
+    Huawei map and navigation app with HMS (Huawei Mobile Services) trackers.
+    Pithus analysis: https://beta.pithus.org/report/d15349e7a998306012462484f270f93794141113d6680fa8512931c270adf830
+  id: com.huawei.maps.app
+  removal: advanced
+- description: Can be disabled via Settings. Will disable the media controls in quick settings. Won't remove them however.
+  id: com.huawei.mediacontroller
+  removal: advanced
+- description: |-
+    MeeTime (https://consumer.huawei.com/en/support/content/en-us00956296/).
+    Voice and video calling application by Huawei. Only works with EMUI 9.1+ Huawei phones.
+    Huawei claims they use E2EE but this wasn't verified and there is no whitepaper, so don't trust them.
+    They also collect metadata.
+  id: com.huawei.meetime
+  removal: recommended
+- description: |-
+    Huawei Mirror app.
+    Mirror like "Glass"
+  id: com.huawei.mirror
+  removal: recommended
+- description: |
+    Huawei Mirror app. 
+    Mirror like "Glass"
+    
+    Huawei mirrorlink implementation
+    Used to connect your phone to a car (with https://mirrorlink.com/ support) in order to provide audio streaming, GPS navigation...
+  id: com.huawei.mirrorlink
+  removal: recommended
+- description: |-
+    MMIAutoTest
+    Hidden testing hardware things.
+  id: com.huawei.mmiautotest
+  removal: recommended
+- description: |-
+    MMITest
+    Hidden hardware tests. Safe to remove.
+  id: com.huawei.mmitest
+  removal: recommended
+- description: |-
+    Gesture Service
+    Not very useful gestures available in settings.
+  id: com.huawei.motionservice
+  removal: advanced
+- description: |-
+    Multimodal Sensor Data Platform
+    Has Device Status, Movement, Spatial Aware.
+    Uses location, airlink permissions.
+  id: com.huawei.msdp
+  removal: recommended
+- description: |-
+    Audio Engine, probably not needed.
+    https://developer.huawei.com/consumer/en/audioengine
+  id: com.huawei.multimedia.audioengine
+  removal: recommended
+- description: |-
+    hivideoplayengine
+    HwVideoKitImpl, sdk tools for developers.
+  id: com.huawei.multimedia.hivideoplayengine
+  removal: recommended
+- description: Huawei Music app. Fat music player developed by Huawei (137Mo. Seriously?). There are a lof of better alternatives (e.g Metro on F-droid)
+  id: com.huawei.music
+  removal: recommended
+- description: |-
+    Huawei Member Center
+    Gives reward offers and news to Huawei users. Very intrusive app: 68 permissions including CAMERA, ACCESS_FINE_LOCATION, REQUEST_INSTALL_PACKAGES. Can run in the background and just after boot even if you haven't unlock your phone yet. Phones home.
+    Pithus analysis: https://beta.pithus.org/report/3af49c621aefeef0dca86a4f79b5f007d73698fa979d3ba1ac7d6f1ccaea9cdf
+  id: com.huawei.mycenter
+  removal: recommended
+- description: Service for discovering nearby devices by GPS
+  id: com.huawei.nb.service
+  removal: expert
+- description: |-
+    HwNearby
+    Needed for Huawei Share features. (com.huawei.android.instantshare)
+    Huawei Share features may not work after remove.
+    Needed to show a preview of recently opened apps in task manager. I agree, makes no sense, but that's what it is.
+  id: com.huawei.nearby
+  removal: advanced
+- description: |-
+    Notepad
+    Looks so bloated with Hi Voice, Update using AppGallery, Location.
+    It has a few tracking components, but not too many.
+  id: com.huawei.notepad
+  removal: recommended
+- description: 'Designed to block unwanted calls, but only works properly in China'
+  id: com.huawei.numberidentity
+  removal: recommended
+- description: |-
+    Sometimes ohos apps is configuration app before building.
+    In code I found it's for app cast transfer.
+    Disable instead of uninstalling if you don't want to lose the widget.
+  id: com.huawei.ohos.collaborationcenter
+  removal: recommended
+- description: |-
+    Service Center
+    Provides a space for you to view and manage services.
+    This app and its underlying services (which provide searches and AI-based services). A lot tracking.
+    Disable instead of uninstalling if you don't want to lose the widget.
+  id: com.huawei.ohos.famanager
+  removal: recommended
+- description: |-
+    HiWindow
+    Have loading, waiting png files
+    collaboration devices, hardware things, screen projection on activities shows Window Shell.
+    After remove you will lose animations and loading screen.
+    Disable instead of uninstalling if you don't want to lose the widget.
+  id: com.huawei.ohos.hiwindow
+  removal: recommended
+- description: |-
+    Huawei default Keyboard
+    WARNING: Before uninstalling, make sure to have a third-party keyboard installed.
+    Disable instead of uninstalling if you don't want to lose the widget.
+  id: com.huawei.ohos.inputmethod
+  removal: recommended
+- description: |-
+    It's shell to app 'com.huawei.security.privacycenter'?
+    Disable instead of uninstalling if you don't want to lose the widget.
+  id: com.huawei.ohos.security.privacycenter
+  removal: recommended
+- description: |-
+    Provisioning message
+    Used for provisioning APN settings to devices via SMS. I think you shouldnt touch it if you want sms messages.
+  id: com.huawei.omacp
+  removal: expert
+- description: |-
+    OneHopSvcClient
+    TagService, HarmonyTag.
+  id: com.huawei.onehopsvcclient
+  removal: recommended
+- description: |-
+    OneHopSvcHost
+    Triggerservice opens hardware things by secret code.
+  id: com.huawei.onehopsvchost
+  removal: recommended
+- description: |-
+    Parental controls functions.
+    It seems Huawei can prevent to remove packages. Uninstalling (or even disabling) this package returns an error: Failure [DELETE_FAILED_INTERNAL_ERROR] (not allowed to disable this package).
+     See https://github.com/0x192/universal-android-debloater/issues/51
+  id: com.huawei.parentcontrol
+  removal: recommended
+- description: |
+    HiSuite service. Used by HiSuite PC software.
+    HiSuite enables you to backup your data and restore them from/to your phone.
+    https://consumer.huawei.com/en/support/hisuite/
+  id: com.huawei.pcassistant
+  removal: recommended
+- description: HUAWEI Intelligent Suggestion will collect and analyze screens from selected apps to provide personalized services.
+  id: com.huawei.pengine
+  removal: recommended
+- description: Can be disabled via Settings as well
+  id: com.huawei.permissioncontroller
+  removal: recommended
+- description: |-
+    Found help app permissions - only link to Google site in code, overlay to permission things like buttons, dialogs, etc.
+    But it's not needed?
+  id: com.huawei.permissioncontroller.overlay
+  removal: expert
+- description: |-
+    HiCare (discontinued)
+    Provides you common online services including customer services, issue feedback, user guides, service centers and self-service.
+  id: com.huawei.phoneservice
+  removal: recommended
+- description: |
+    Huawei Gallery app.
+    Note: The official camera app refuses to open photos in another gallery (you can't review your picture from the camera app)
+  id: com.huawei.photos
+  removal: advanced
+- description: |-
+    Task killer app in EMUI 9+ (Android 9+).
+    Task killer apps tend to do more harm than help as they clear cached RAM for no good reason, removing the battery and time savings involved in caching. In addition to the obvious issues with background functionality like notifications.
+    From issue#104.
+    System will start lagging a little bit (you will notice it while scrolling and on some animations, for example scrolling installed apps), battery consumption will become slightly higher and battery stats will disappear soon. At the same time, logcat will be full of errors like: PowerKit: PG Server is not found. calling pid xxxx.
+  id: com.huawei.powergenie
+  removal: advanced
+- description: Print service
+  id: com.huawei.printservice
+  removal: advanced
+- description: Privacy Space for files
+  id: com.huawei.privatespace
+  removal: advanced
+- description: |-
+    Profile Services
+    It's an app needed for HUAWEI ID, depends on HMSCore, also has analytics and trackers.
+  id: com.huawei.profile
+  removal: recommended
+- description: |-
+    Huawei Rich Communication Service
+    Provides sending messages to another Huawei phone
+    Hidden RCS Chats with 49 permissions.
+  id: com.huawei.rcsserviceapplication
+  removal: recommended
+- description: |-
+    HwIntelligentRecSystem
+    is a smart app that provides personalized services on HiBoard? My phone dont have Hiboard. Safe to remove.
+    https://consumer.huawei.com/en/support/content/en-us00434788/
+  id: com.huawei.recsys
+  removal: recommended
+- description: |-
+    RegService
+    Register for celluar network services, not needed.
+  id: com.huawei.regservice
+  removal: recommended
+- description: |-
+    RemotePassword
+    remotepassword: errors, invalid, null, errors generally
+    also subscribe info, device info. Better remove that.
+  id: com.huawei.remotepassword
+  removal: recommended
+- description: Uses google maps website to track your ride when RideMode is Enabled.
+  id: com.huawei.ridemode
+  removal: recommended
+- description: 'Testing hardware things like Audio, Camera, VideoPlayer, etc.'
+  id: com.huawei.runningtestii
+  removal: recommended
+- description: |-
+    Mobile phone SAR
+    Hidden SAR Level Activity.
+  id: com.huawei.sarlevel
+  removal: recommended
+- description: AI Lens. Shop for objects that you take a picture of. This de-clutters the camera interface by removing the AI Lens button on the top left corner and does not break the AR Measure app.
+  id: com.huawei.scanner
+  removal: recommended
+- description: 'Travel Assistant provides you with travel tips, voice guides, and other related services.'
+  id: com.huawei.scenepack
+  removal: recommended
+- description: |-
+    Stock screen recorder
+    Useful only in pre-Android Pie for having system audio recording without root
+    Not sure if it's an app, but I can't find it on my phone. Safe to remove.
+  id: com.huawei.screenrecorder
+  removal: advanced
+- description: |
+    HiSearch
+    Allows you to search through settings, files, contacts and notes while keeping a record of your search history.
+    Hi Search is really annoying because it's triggered as soon as you wipe down from the middle part of the home.
+  id: com.huawei.search
+  removal: recommended
+- description: |-
+    Fusion Search Service
+    Needed for searching? Found out that it uses `com.huawei.hwddmp` this app is for debugging errors
+    also found trackers components that connects to Huawei servers unnecessarily.
+  id: com.huawei.searchservice
+  removal: recommended
+- description: |-
+    Huawei Secure IME
+    Secure keyboard.
+  id: com.huawei.secime
+  removal: recommended
+- description: |-
+    Protect your privacy by preventing apps from accessing sensitive data stored within images,
+    such as location info and time stamps. This restriction does not apply to system apps such as Gallery and Cloud.
+    I don't think this app values privacy a lot.
+    Needed for Permission Manager to open.
+  id: com.huawei.security.privacycenter
+  removal: expert
+- description: |-
+    PrivateSpace
+    Lets you store private information in a hidden space within your device that can only be accessed 
+    with your fingerprint or password.
+    TODO: Data at rest encryption? If not, this is useless
+    https://consumer.huawei.com/en/support/content/en-us00754246/)
+    This is the password vault or password manager too.
+  id: com.huawei.securitymgr
+  removal: expert
+- description: |-
+    HwSecurityPluginBase
+    Antivirus Service supports bad antiviruses, HwLog, not needed
+  id: com.huawei.securitypluginbase
+  removal: recommended
+- description: |-
+    HwSecurityServer
+    Not needed app without code and useless assets to spying apps.
+    Needed for face unlock, black screen will be shown if you remove this package (?). Doesn't apply to all devices
+  id: com.huawei.securityserver
+  removal: expert
+- description: SkyTone Data Service. Frameworks to 'com.huawei.hiskytone' SkyTone Overseas Data Service.
+  id: com.huawei.skytone
+  removal: recommended
+- description: |-
+    AI Life
+    Require Logging in to your Huawei ID, HMSCore.
+    It's app that lets your control and manage routers and audio accessories.
+  id: com.huawei.smarthome
+  removal: recommended
+- description: |-
+    Huawei Indoor Positioning Services
+    Chinese Tracking Location.
+  id: com.huawei.smartlocation
+  removal: recommended
+- description: |-
+    Smart screenshots
+    Needed for screenshots.
+  id: com.huawei.smartshot
+  removal: expert
+- description: |-
+    SOS
+    Emergency things.
+  id: com.huawei.sos
+  removal: recommended
+- description: Sound Recorder app.
+  id: com.huawei.soundrecorder
+  removal: advanced
+- description: |-
+    Huawei Geofence Services
+    Uses Chinese Location.
+  id: com.huawei.spaceservice
+  removal: recommended
+- description: |
+    AI Lens. Shop for objects that you take a picture of. This de-clutters the camera interface by removing the AI Lens button on the top left corner and does not break the AR Measure app.
+     
+    Floating menu with M-Pen feature.
+  id: com.huawei.stylus.floatmenu
+  removal: recommended
+- description: |-
+    HiSuggestion
+    Hw intelligence permissions found and logs, also maybe has suggestions on widget.
+  id: com.huawei.suggestion
+  removal: recommended
+- description: |
+    Huawei Cloud & Network Synergy.
+    Seems to be related to B2B (Business To Business) cloud stuff.
+    https://www.huawei.com/en/press-events/news/2016/10/Cloud-Network-Synergy-Whitepaper
+  id: com.huawei.synergy
+  removal: recommended
+- description: |-
+    SystemDebug
+    Testing system things.
+  id: com.huawei.systemdebug
+  removal: recommended
+- description: |-
+    System Manager
+    Huawei's stock phone cleaner. Consumes a lot of battery power for useless 'security' checks.
+    Safe to remove unless you need any anti-virus (while there are better ones to be found). NOTE: breaks the functionality of closing and cleaning background apps.
+    This is more than a phone cleaner, you will lose a lot of settings like battery and notifications management if you remove this.
+  id: com.huawei.systemmanager
+  removal: expert
+- description: |-
+    Huawei System Services
+    It depends on (com.huawei.systemmanager).
+    Needed for navigation with a fingerprint reader that is on Mate 10, but fingerprint unlock will still work if you remove it.
+  id: com.huawei.systemserver
+  removal: expert
+- description: |
+    HUAWEI Feature Advisor
+    Periodically gives you notifications on how to use certain features on your phone.
+  id: com.huawei.tips
+  removal: recommended
+- description: |-
+    Tips
+    Huawei Tips to HiCar, AI Life and more.
+  id: com.huawei.tipsove
+  removal: recommended
+- description: |-
+    TME
+    Tme Activity. Hidden carrier config sim.
+    I think it's useless but you need to test.
+  id: com.huawei.tmecustomize
+  removal: advanced
+- description: |
+    Smart unlock feature.
+    Enables you to unlock your phone with a Bluetooth device, like a smart band. 
+    When a compatible Bluetooth device is detected, you can unlock your phone with a simple swipe (without a password).
+  id: com.huawei.trustagent
+  removal: recommended
+- description: |-
+    Device authentication service
+    The app's usage is unknown, but it can be removed if apps such as com.huawei.hwid, com.huawei.appmarket are also removed. This is what I found while exploring the APK: Huawei Mobile Services?, managing installation and updates of AppGallery.
+    Huawei HWID account may be inaccessible without this app.
+  id: com.huawei.trustcircle
+  removal: recommended
+- description: |-
+    HwTrustedThingsAuth
+    Only name app found in code, has permissions:
+    Bluetooth, execute_reg, use_auth.
+  id: com.huawei.trustedthingsauth
+  removal: recommended
+- description: |-
+    TrustSpace useless security to payment. Settings > Security > TrustSpace
+    Has something to unrooting rooted phone.
+  id: com.huawei.trustspace
+  removal: recommended
+- description: |-
+    User Guide
+    Require install a PDF reader app to work.
+  id: com.huawei.userguide
+  removal: recommended
+- description: |
+    HiVoice app
+    Huawei voice assistant (like Siri or Google assistant)
+    Huge privacy risk. Keep in mind that the app keeps the microphone *on* non-stop.
+    Is now Celia (https://consumer.huawei.com/en/emui/celia/)
+  id: com.huawei.vassistant
+  removal: recommended
+- description: Driving Mode uses HiVoice to provide voice services when you are driving.
+  id: com.huawei.vdrive
+  removal: recommended
+- description: |-
+    Huawei Video editor
+    Includes 2 ads trackers. Interacts with Huawei cloud. Pithus analysis: https://beta.pithus.org/report/19ef8cfb02f3853128603a140b4602db57ddf729a728b1ea6998e8b20752138f
+  id: com.huawei.videoeditor
+  removal: recommended
+- description: Huawei VR Service used for Huawei VR.
+  id: com.huawei.vrservice
+  removal: recommended
+- description: |
+    Huawei Wallet (renamed Huawei Pay)
+    Mobile payment and e-wallet service for Huawei devices that offers the same services as Apple Pay, Samsung Pay etc...
+    https://consumer.huawei.com/en/mobileservices/huawei-wallet/
+  id: com.huawei.wallet
+  removal: recommended
+- description: |-
+    Wallet app
+    Safe to remove.
+  id: com.huawei.wallet.sdk.walletsdk
+  removal: recommended
+- description: |
+    Huawei Watch sync function
+    Is it only used to sync Huawei watch ?
+    Safe to remove according to several users
+  id: com.huawei.watch.sync
+  removal: recommended
+- description: |-
+    waudio
+    Wi-Fi Speaker, Speaker playback, WLAN speaker
+    This app is only for Chinese users because I found a Chinese app list that supports it
+    and depends on AI Life app probably.
+  id: com.huawei.waudio
+  removal: recommended
+- description: |-
+    Huawei WebView enables Android apps to display web content within the app itself, based on Chrome.
+    No root? Don't uninstall.
+    Root? If you delete WebView, make sure to install a replacement.
+    Many third-party apps, such as banks, VPNs, GitHub, Discord and Reddit use web-based content and will crash without it.
+  id: com.huawei.webview
+  removal: expert
+- description: |-
+    Link Now
+    Require login to Huawei ID Account.
+    Some features is not available for some countries.
+    It's app for meeting and collects a lot data from users.
+  id: com.huawei.welinknow
+  removal: recommended
+- description: |-
+    PredefinedEapSim
+    Needed for WiFi to work properly? WiFi may not work (?)
+  id: com.huawei.wifieapsimplmn
+  removal: expert
+- description: |-
+    HwWifiproBqeService
+    Needed for WiFi to work properly? WiFi may not work (?)
+  id: com.huawei.wifiprobqeservice
+  removal: expert
+- id: com.huawei.android.ApplicationForCustomize
+  description: TODO
+  removal: unknown
+  

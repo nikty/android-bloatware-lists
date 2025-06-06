@@ -1,0 +1,5 @@
+---
+- description: |
+    Snapseed (https://play.google.com/store/apps/details?id=com.niksoftware.snapseed)
+  id: com.niksoftware.snapseed
+  removal: recommended

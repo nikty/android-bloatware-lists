@@ -1,0 +1,10 @@
+---
+- description: |
+    Foxconn stats logger
+  id: com.fih.StatsdLogger
+  removal: recommended
+- description: |
+    Foxconn info display
+    ????
+  id: com.fih.infodisplay
+  removal: recommended

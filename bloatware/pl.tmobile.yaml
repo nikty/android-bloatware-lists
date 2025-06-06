@@ -1,0 +1,13 @@
+---
+- description: |-
+    My T-Mobile
+    Has login activity and MailBox.
+    A lot metrics, analytics.
+  id: pl.tmobile.miboa
+  removal: recommended
+- description: |-
+    MyBox
+    Require sim card to run app
+    it's app store(discontinued?)
+  id: pl.tmobile.panel
+  removal: recommended

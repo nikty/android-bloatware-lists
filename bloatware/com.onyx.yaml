@@ -1,0 +1,53 @@
+---
+- description: Onyx Boox AI Assistant. Safe to remove
+  id: com.onyx.aiassistant
+  removal: recommended
+- description: Ksync app. UNSAFE to remove because it will crash the Onyx launcher but you can safely disable it
+  id: com.onyx.android.ksync
+  removal: unsafe
+- description: 'Test app enabled by clicking 5 times on the Onyx Version, it contains tests for screen quality'
+  id: com.onyx.android.production.test
+  removal: recommended
+- description: |-
+    The Onyx Store app, you will not have any other way to install app if you uninstall it
+    You will need to install an alternative store via adb
+  id: com.onyx.appmarket
+  removal: expert
+- description: The Onyx calculator app
+  id: com.onyx.calculator
+  removal: recommended
+- description: The Onyx Clock app
+  id: com.onyx.clock
+  removal: recommended
+- description: The Onyx Dict app
+  id: com.onyx.dict
+  removal: recommended
+- description: Onyx Easy Transfer app
+  id: com.onyx.easytransfer
+  removal: recommended
+- description: Onyx Gallery app
+  id: com.onyx.gallery
+  removal: recommended
+- description: 'Onyx iGetShot app, UNSAFE to remove because it will crash the Onyx Launcher but safe to DISABLE'
+  id: com.onyx.igetshop
+  removal: unsafe
+- description: Onyx Kime app
+  id: com.onyx.kime
+  removal: recommended
+- description: |-
+    Onyx KReader app, UNSAFE to remove because it will crash the Onyx Launcher can be safely disabled.
+    Remember to load another reader app
+  id: com.onyx.kreader
+  removal: unsafe
+- description: The Onyx Keyboard. Removing it will leave withe google STT keyboard.
+  id: com.onyx.latinime
+  removal: recommended
+- description: Onyx Mail app
+  id: com.onyx.mail
+  removal: recommended
+- description: Onyx Music Player app
+  id: com.onyx.musicplayer
+  removal: recommended
+- description: Onyx Voice Recorder app
+  id: com.onyx.voicerecorder
+  removal: recommended

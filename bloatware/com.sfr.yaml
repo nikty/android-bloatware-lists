@@ -1,0 +1,30 @@
+---
+- description: |
+    SFR & Moi (https://play.google.com/store/apps/details?id=com.sfr.android.moncompte)
+    Lets you manage your SFR account
+  id: com.sfr.android.moncompte
+  removal: recommended
+- description: |
+    SFR Cloud (https://play.google.com/store/apps/details?id=com.sfr.android.sfrcloud)
+    Cloud provided by SFR
+  id: com.sfr.android.sfrcloud
+  removal: recommended
+- description: |-
+    My Games
+    it's not useful app for games and better uninstall it
+  id: com.sfr.android.sfrjeux
+  removal: recommended
+- description: |
+    SFR Mail (https://play.google.com/store/apps/details?id=com.sfr.android.sfrmail)
+  id: com.sfr.android.sfrmail
+  removal: recommended
+- description: |
+    SFR Play (https://play.google.com/store/apps/details?id=com.sfr.android.sfrplay)
+    VOD streaming from SFR.
+  id: com.sfr.android.sfrplay
+  removal: recommended
+- description: |
+    SFR Répondeur + (https://play.google.com/store/apps/details?id=com.sfr.android.vvm)
+    Lets you use your voice mail and manage your inbox without dialing into your voicemail.
+  id: com.sfr.android.vvm
+  removal: recommended

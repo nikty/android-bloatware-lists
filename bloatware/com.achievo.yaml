@@ -1,0 +1,4 @@
+---
+- description: 'Chinese some shop, normal user can uninstall it.'
+  id: com.achievo.vipshop
+  removal: recommended

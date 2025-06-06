@@ -1,0 +1,7 @@
+---
+- description: |
+    Polaris Office from US Infraware Inc company (Microsoft Office like)
+    https://en.wikipedia.org/wiki/Polaris_Office
+    https://play.google.com/store/apps/details?id=com.infraware.office.link
+  id: com.infraware.polarisoffice5
+  removal: recommended

@@ -1,0 +1,6 @@
+---
+- description: |-
+    MipayService
+    Xiaomi Payment related services, not used!
+  id: org.mipay.android.manager
+  removal: recommended

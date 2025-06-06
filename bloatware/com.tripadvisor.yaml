@@ -1,0 +1,8 @@
+---
+- description: |
+    Trip advisor (https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor)
+    You should never trust and use trip advisor
+    https://en.wikipedia.org/wiki/TripAdvisor (see 'Controversy and fraudulent reviews' section)
+    https://nypost.com/2016/03/01/why-you-should-never-ever-trust-tripadvisor/
+  id: com.tripadvisor.tripadvisor
+  removal: recommended

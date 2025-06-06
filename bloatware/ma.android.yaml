@@ -1,0 +1,6 @@
+---
+- description: |-
+    Factory Test
+    It's for hardware components testing.
+  id: ma.android.com.mafactory
+  removal: recommended

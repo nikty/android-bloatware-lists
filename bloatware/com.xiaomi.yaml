@@ -1,0 +1,450 @@
+---
+- description: |-
+    Network Boost
+    Network acceleration not available in settings wifi?
+    People said it's placebo and it doesn't speed up the network.
+    It has a lot of Chinese code and has permission to MIUI analytics.
+  id: com.xiaomi.NetworkBoost
+  removal: recommended
+- description: |-
+    Mi Store System Components
+    Something about login, paying in Mi Store China.
+  id: com.xiaomi.ab
+  removal: recommended
+- description: |-
+    Mi Account
+    Has a LOT of permissions + Facebook trackers. Collects many information, including your phone number, your unique International mobile subscriber identity (IMSI) and your clipboard).
+    You should remove this if you don't have or don't want a Mi account.
+    WARNING: Make sure to log out of your Mi Account and unbind your phone from it. If you don't you could be locked out from your phone after removing this package.
+    Remove Mi Account: https://xiaomiui.net/how-to-remove-mi-account-7606/
+    
+    Pithus analysis: https://beta.pithus.org/report/3f5abc9d7215dd0be5c3ac137b0cd528217640b5778e9f849a9beb0a34eda8dc
+  id: com.xiaomi.account
+  removal: advanced
+- description: AI Call Assistant. Useless Call settings.
+  id: com.xiaomi.aiasst.service
+  removal: recommended
+- description: AiasstVision. Not needed if you removed AI Call Assistant.
+  id: com.xiaomi.aiasst.vision
+  removal: recommended
+- description: |-
+    Mi AI Engine
+    Another app to Mi AI from MIUI China. (https://hyperosupdates.com/apps/com.xiaomi.aicr/)
+  id: com.xiaomi.aicr
+  removal: recommended
+- description: |-
+    XiaoaiRecommendation
+    This app does nothing, totally random frameworks unused.
+  id: com.xiaomi.aireco
+  removal: recommended
+- description: |-
+    SetupCustomizer
+    On first boot setup installs bloatware.
+  id: com.xiaomi.android.tvsetup.partnercustomizer
+  removal: recommended
+- description: |-
+    'I always on' found in code and a lot statistics. Also Miui analytics permissions.
+    Region of the tracking device, found things Mi Face, spy on your face and everything you do on your phone?
+    AONEventTracking uses and sends to 'com.miui.analytics'.
+  id: com.xiaomi.aon
+  removal: recommended
+- description: |-
+    Bullet screen notifications
+    Pop-up notifications (feature inside the game service)
+    Have a lot of Chinese things in this code but it's for the game service, NOT gamespace.
+    So it's for China only.
+  id: com.xiaomi.barrage
+  removal: recommended
+- description: "MIUI Bluetooth Extension. Doesn't seem to affect bluetooth functionality. Tested on Poco M4 Pro 5G HyperOS 1.0.1.0. Note: If you deleted (com.xiaomi.xmsf) this package will likely send \"Bluetooth extension stopped working\" errors, uninstalling it removes them."
+  id: com.xiaomi.bluetooth
+  removal: expert
+- description: |-
+    It has only unused png files, webp.
+    Images in it: wireless headphones from all angles.
+  id: com.xiaomi.bluetooth.overlay
+  removal: advanced
+- description: |
+    GPS location
+    I think bsp = board system package (https://en.wikipedia.org/wiki/Board_support_package)
+    Not sure about nps (It might be Non-Permanent GPS station)
+    It's a small package which seems to display a notification when an app is using GPS.
+    More precisely, there is a receiver (GnssEventReceiver) which listen to com.xiaomi.bsp.gps.nps.GetEvent 
+    This event most likely happen when an app use the GPS and refers to the state of the communication with the GNSS:
+    FIX, LOSE, RECOVER, START, STOP
+    It's safe to remove if you really want to.
+  id: com.xiaomi.bsp.gps.nps
+  removal: advanced
+- description: |-
+    BTCIT
+    Bluetooth Test Service
+  id: com.xiaomi.bttester
+  removal: recommended
+- description: |-
+    Mi Calendar. Google trackers inside and needs 48 permissions! Obviously talks to Xiaomi servers. The com.mi.health.provider.permission.read_menstruation permissions is really creepy... There are better alternatives.
+    Pithus analysis: https://beta.pithus.org/report/6c68ddd1f9e2d1f9e1df2eab572c07f1e34c4a6490c0ba98554a7356ca2a351d
+    
+    Note: Since MIUI 12, you can no longer uninstall this app. Disabling it still works fine.
+  id: com.xiaomi.calendar
+  removal: recommended
+- description: |-
+    CameraTools
+    Camera calibration. Deleting it does not affect the camera.
+  id: com.xiaomi.cameratools
+  removal: recommended
+- description: |
+    Mi Talk 
+    Mi instant messaging app that lets you do practically the same thing as Whatsapp. 
+    NOTE: You should use Signal or Wire instead Whatsapp/Mi Talk for more privacy.
+  id: com.xiaomi.channel
+  removal: recommended
+- description: |-
+    digitalkey
+    Smart door locks, can also be used as a car key. Only for China.
+  id: com.xiaomi.digitalkey
+  removal: recommended
+- description: |
+    System Apps Updater
+    WARNING: Disable System app updates (but not firmware updates)
+  id: com.xiaomi.discover
+  removal: unknown
+  category:
+    - update
+- description: |-
+    Unknown, seems to be United Kingdom, Germany specific to the O2 carrier.
+    https://en.wikipedia.org/wiki/O2_(brand)
+    If you don't use O2 carrier, it's safe to remove.
+  id: com.xiaomi.entitlement.o2
+  removal: recommended
+- description: |-
+    Find My Device feature (in the Settings)
+    Enables you to locate your lost phone and erase your data remotely. 
+    Your phone needs to be connected to internet (Wifi/mobile data) for this feature to work. REMOVING THIS MIGHT BOOTLOOP YOUR DEVICE! This may depend on your MIUI version and device, see
+    https://github.com/0x192/universal-android-debloater/issues/641
+  id: com.xiaomi.finddevice
+  removal: unsafe
+- description: |-
+    Games
+    Another app with a lot tracking and not needed for gamespace.
+  id: com.xiaomi.gamecenter
+  removal: recommended
+- description: |-
+    Game Service
+    Not needed for gamespace.
+    Disabled in settings on default.
+    Have activities about alipay, login to account.
+    I'm not sure what it's needed for.
+  id: com.xiaomi.gamecenter.sdk.service
+  removal: recommended
+- description: |
+    Xiaomi Games
+    Not sure if this app still exists.
+  id: com.xiaomi.glgm
+  removal: recommended
+- description: |-
+    GPU Tuner
+    Optimizes your game for gaming. Some people have noticed that it locks the fps at 60 after selecting 90.
+    https://youtu.be/gavEuH3Ck5o?t=550. If you want, you can test it by yourself.
+  id: com.xiaomi.joyose
+  removal: expert
+- description: |
+    Help you getting loans when shopping.
+  id: com.xiaomi.jr
+  removal: recommended
+- description: |
+    Related to camera app ?
+    Safe to remove (according to a lot of users)
+    I'd like to have more info about it. Can a Xiaomi user help ? 
+  id: com.xiaomi.lens
+  removal: recommended
+- description: |-
+    It has china location, ads & analytics.
+    You dont need it for location.
+  id: com.xiaomi.location.fused
+  removal: recommended
+- description: |-
+    MiMacro is an automation task from Xiaomi like touch on MIUI Game Turbo.
+    Has INTERNET and READ_PHONE_STATE permission allowing access to the phone number, serial number, whether a call is active, the number that a call is connected to...
+    What is sure (from the code) is that the app collects the IMEI.
+    
+    Pithus analysis: https://beta.pithus.org/report/2b056ed84fe500552a58184035b962ba68af29457c24930c0aa8c9eba4af7bcf
+  id: com.xiaomi.macro
+  removal: recommended
+- description: |-
+    GetApps
+    China Mi App Store.
+    Essential for installing the Google Play Store and updating key system applications, such as the System Launcher.
+  id: com.xiaomi.market
+  removal: advanced
+- description: |-
+    Modem Config
+    Hidden app for Choosing Country vowifi?
+  id: com.xiaomi.mbnloader
+  removal: advanced
+- description: |-
+    Network location provider
+    Useless, only for China, have analytics things.
+  id: com.xiaomi.metoknlp
+  removal: recommended
+- description: |
+    MiConnectService
+    Handles connection to IoT stuff
+    Seems to be linked to Mi Home (com.xiaomi.smarthome)
+  id: com.xiaomi.mi_connect_service
+  removal: recommended
+- description: |-
+    MiAudioVisual
+    Safe to remove if you not use audio visuals when screen is off.
+  id: com.xiaomi.miaudiovisual
+  removal: recommended
+- description: |-
+    Mi AI Speech Engine
+    Another app to Mi AI Chinese app.
+  id: com.xiaomi.mibrain.speech
+  removal: recommended
+- description: |-
+    Mi Cloud sdk 
+    sdk = Software development kit
+    Seems to be a dependency for "com.miui.gallery" (MIUI auto reboots android after remove this package)
+  id: com.xiaomi.micloud.sdk
+  removal: unsafe
+- description: |
+    Share Me (Mi Drop) (https://play.google.com/store/apps/details?id=com.xiaomi.midrop)
+    P2P file transfer tool.
+  id: com.xiaomi.midrop
+  removal: recommended
+- description: |-
+    Mi Drop overlay
+    Overlays are usually themes.
+  id: com.xiaomi.midrop.overlay
+  removal: advanced
+- description: |-
+    Mi Game Service
+    Chinese app made to test game service things.
+  id: com.xiaomi.migameservice
+  removal: recommended
+- description: |
+    Mi Picks (becomed Mi Apps Store and now Get Apps -- Xiaomi app store)
+    I believe this package is discontinued.
+    https://play.google.com/store/apps/details?id=com.mi.global.shop
+  id: com.xiaomi.mipicks
+  removal: recommended
+- description: |-
+    MiPlay Client
+    Provides support for Miracast (https://en.wikipedia.org/wiki/Miracast).
+    It provides the Wireless Display feature (Settings - Connection & sharing - Cast).
+  id: com.xiaomi.miplay_client
+  removal: advanced
+- description: |-
+    Mi RCS
+    Hidden unused Xiaomi free web messaging.
+  id: com.xiaomi.mircs
+  removal: recommended
+- description: |
+    Mi Recycle 
+    Xiaomi has extended its partnership with Cashify to launch the 'Mi Recycle' feature through its MIUI Security app. 
+    It will let Xiaomi phone users check the health of their smartphone and get their resale value directly from Cashify, 
+    the online re-commerce company based out of New Delhi.
+    Source : https://gadgets.ndtv.com/mobiles/news/xiaomi-mi-recycle-cashify-miui-security-app-2018024
+  id: com.xiaomi.mirecycle
+  removal: recommended
+- description: |-
+    MIUI+ Beta
+    Transfer files, sync copy text to PC without USB.
+    https://plus.miui.com
+  id: com.xiaomi.mirror
+  removal: recommended
+- description: Xiaomi Connected Car Service for China.
+  id: com.xiaomi.mis
+  removal: recommended
+- description: |
+    Xiaomi Settings app
+  id: com.xiaomi.misettings
+  removal: unsafe
+- description: |-
+    MiUtilRes
+    Looks like mitv api.
+    Probably Unsafe to remove.
+  id: com.xiaomi.mitv.res
+  removal: expert
+- description: |-
+    Rueban(MTB)V2.4
+    Hidden debugging baseband tools, not available for users.
+    https://i.postimg.cc/GpSxmNyj/Bez-n-zvu.png
+  id: com.xiaomi.mtb
+  removal: recommended
+- description: |
+    o2o = online-to-offline
+    ==> Describes systems enticing consumers within a digital environment to make purchases of goods or services from physical businesses.
+    https://en.wikipedia.org/wiki/Online_to_offline
+    NOTE: This package can make phone calls without user intervention.
+  id: com.xiaomi.o2o
+  removal: recommended
+- description: |-
+    OOBHelper
+    Useless frameworks and logs.
+  id: com.xiaomi.oobhelper
+  removal: recommended
+- description: |-
+    TAMservice
+    OTRP Protocol Negotiation Program (Internet of Things)
+    Only useful in China.
+  id: com.xiaomi.otrpbroker
+  removal: recommended
+- description: |
+    Xiaomi ShopPlus.
+    Given its name I think this package is useless.
+  id: com.xiaomi.oversea.ecom
+  removal: recommended
+- description: |
+    Mi Pass is an App allows Xiaomi NFC phones to replace cards and keys in real life usage. 
+    Support NFC payment, bus card, key card, door and car lock features all together.
+  id: com.xiaomi.pass
+  removal: recommended
+- description: |
+    Old package name for Mi Credit (https://play.google.com/store/apps/details?id=com.micredit.in.gp)
+    Mi Credit is a personal loan platform from Xiaomi.
+  id: com.xiaomi.payment
+  removal: recommended
+- description: |
+    Power Detector
+    Security> Battery> Activity Control. 
+    Detects abnormal power usage by apps (not all. Some Xiaomi apps are whitelisted)
+    Needed for 'com.miui.powerkeeper' to work.
+  id: com.xiaomi.powerchecker
+  removal: expert
+- description: |-
+    Provider for app index?
+    I believe it is a provider for the settings but can't confirm (I don't have a Xiaomi device).
+    A lot of people debloat this but I'd like to know more about this one.
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.xiaomi.providers.appindex
+  removal: recommended
+- description: |
+    Mi Scanner
+    QR code scanner with a lot of questionable permissions : `ACCESS_FINE_LOCATION`, `CALL_PHONE`, `READ_CONTACTS`, `REQUEST_INSTALL_PACKAGES`, `QUERY_ALL_PACKAGES`, `FOREGROUND_SERVICE`, `INTERNET`
+  id: com.xiaomi.scanner
+  removal: recommended
+- description: |-
+    SecurityOnetrackService
+    Only uses MIUI analytics.
+  id: com.xiaomi.security.onetrack
+  removal: recommended
+- description: |
+    Xiaomi app store (I thinks it's discontinued)
+    Now com.mi.global.shop (https://play.google.com/store/apps/details?id=com.mi.global.shop)
+  id: com.xiaomi.shop
+  removal: recommended
+- description: |-
+    Xiaomi SIM Activation Service
+    SIM authentication process to access exclusive features in certain MIUI applications.
+    For the activation to work you need to send a international SMS to China.
+    Your carrier may block this by default and/or you'll probably need to pay extra for this.
+    After SIM activation, you can send text messages (Mi Messages) to other Mi users using internet connection (like i-messages).
+    You will be able to synchronize your messages into Mi Cloud and this also enables the Mi Find Device feature which allows you to track your phone’s location from your online Mi account.
+    
+    Note: To enable/disable Mi Messages go to Settings -> System Apps -> Messaging and reboot
+  id: com.xiaomi.simactivate.service
+  removal: recommended
+- description: |
+    Mi Home (https://play.google.com/store/apps/details?id=com.xiaomi.smarthome)
+    IoT. Lets you control with Xiaomi Smart Home Suite devices.
+  id: com.xiaomi.smarthome
+  removal: recommended
+- description: 'No activities, uses miui analytics looks like a tracking touch.'
+  id: com.xiaomi.touchservice
+  removal: recommended
+- description: |-
+    MiTrustService
+    IFAASecCam, security things or 'Remote Control trust'.
+  id: com.xiaomi.trustservice
+  removal: recommended
+- description: |-
+    GPU Driver Updater
+    It's weird when this app cameback on HyperOS(from MIUI 12).
+    Updates GPU driver.
+  id: com.xiaomi.ugd
+  removal: expert
+- description: |
+    UpnpService
+    UPnP = Universal Plug and Play
+    It’s a protocol that lets UPnP-enabled devices on your network automatically discover and communicate with each other
+    For example it works with the Xiaomi Network Speaker (and probably a lot more Xiaomi IoT stuff)
+    UPnP has a lot of security issues and you proably should disable it on your router.
+    https://nakedsecurity.sophos.com/2020/06/10/billions-of-devices-affected-by-upnp-vulnerability/
+    This package is the Xiaomi implementation on Android (no AOSP support)
+  id: com.xiaomi.upnp
+  removal: recommended
+- description: |
+    Xiaomi VIP account
+    https://www.mi.com/in/service/privilegefaq/
+  id: com.xiaomi.vipaccount
+  removal: recommended
+- description: |-
+    XiaoaiEdgeEngine
+    This app has something to Mi AI.
+  id: com.xiaomi.xaee
+  removal: recommended
+- description: |-
+    Xiaomi Service Framework
+    Contains a set of API's for Xiaomi apps. Expect widespread breakage of Xiaomi apps/functionality if disabled.
+    Disabling will mess with Alarm clock functionality(according to issue#136) and break Mi Cloud and Mi account (and all features that depend on them).
+    I don't know about now, but in 2016 this app constantly tried to establish tcp connections in the background.
+  id: com.xiaomi.xmsf
+  removal: expert
+- description: |
+    Xiaomi Service Framework Keeper
+    Logger service for 'com.xiaomi.xmsf'
+  id: com.xiaomi.xmsfkeeper
+  removal: recommended
+- description: |-
+    Xiaomi Yipin
+    Mi Shop China.
+  id: com.xiaomi.youpin
+  removal: recommended
+- description: |-
+    Cactus is the device codename.
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.cactus
+  removal: recommended
+- description: |-
+    Cepheus is the device codename.
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.cepheus
+  removal: recommended
+- description: |-
+    Cepheus is the device codename.
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset). For example, Personal Activity Intelligence.
+    An algorithm that determines a personal activity index based on resting heart rate, heart condition during exercise, gender, weight, and age. Requires smart bracelet to work.
+  id: android.autoinstalls.config.Xiaomi.cereus
+  removal: recommended
+- description: |-
+    Daisy is the device codename.
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.daisy
+  removal: recommended
+- description: |-
+    Dipper is the device codename.
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.dipper
+  removal: recommended
+- description: |-
+    land is the device codename.
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.land
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.model
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.qssi
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Xiaomi.willow
+  removal: recommended

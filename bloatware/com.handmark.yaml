@@ -1,0 +1,11 @@
+---
+- description: |-
+    1Weather (https://play.google.com/store/apps/details?id=com.handmark.expressweather)
+    Forecasts alerts app (contain ads)
+  id: com.handmark.expressweather
+  removal: recommended
+- description: |
+    1Weather (https://play.google.com/store/apps/details?id=com.handmark.expressweather)
+    Forecasts alerts app (contain ads)
+  id: com.handmark.expressweather.vpl
+  removal: recommended

@@ -1,0 +1,4 @@
+---
+- description: Hidden aptX ALS Audio Bluetooth sample improvement from Qualcomm. Useless 96kHz sample.
+  id: com.bluetooth.aptxmode
+  removal: recommended

@@ -1,0 +1,6 @@
+---
+- description: |-
+    Fingerprint test
+    Hidden app that tests your fingerprint not available for users.
+  id: com.swfp.factory
+  removal: recommended

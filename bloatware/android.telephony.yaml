@@ -1,0 +1,4 @@
+---
+- description: Likely overlay themes from China Mobile Communications Corporation(CMCC) or China Telecom(CT).
+  id: android.telephony.overlay.cmcc
+  removal: expert

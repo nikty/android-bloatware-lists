@@ -1,0 +1,7 @@
+---
+- description: |
+    AT&T Secure Family (https://play.google.com/store/apps/details?id=com.wavemarket.waplauncher)
+    Parental control app.
+    7 trackers + 16 permissions (https://reports.exodus-privacy.eu.org/en/reports/com.wavemarket.waplauncher/latest/)
+  id: com.wavemarket.waplauncher
+  removal: recommended

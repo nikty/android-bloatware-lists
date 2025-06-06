@@ -1,0 +1,8 @@
+---
+- description: |-
+    ZazaRemote (https://play.google.com/store/apps/details?id=com.tiqiaa.remote)
+    A Universal infrared control app full of trackers and with unecessary permissions.
+    
+    Pithus analysis: https://beta.pithus.org/report/93eed47a45c00998f2111907afc26b5697aaf7fb19c0efb6b42d46addf0e297c
+  id: com.tiqiaa.remote
+  removal: recommended

@@ -1,0 +1,7 @@
+---
+- description: |-
+    A runtime resource overlay (RRO) is a package that changes the resource values of a target package at runtime. For example, an app installed on the system image might change its behavior based upon the value of a resource. Rather than hardcoding the resource value at build time, an RRO installed on a different partition can change the values of the app's resources at runtime.
+    RROs can be enabled or disabled. You can programmatically set the enable/disable state to toggle an RRO's ability to change resource values. RROs are disabled by default (however, static RROs are enabled by default).
+    https://source.android.com/docs/core/runtime/rros
+  id: aon.frameworkres.overlay.display.product
+  removal: expert

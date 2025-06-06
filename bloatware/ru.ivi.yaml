@@ -1,0 +1,4 @@
+- id: ru.ivi.client
+  description: IVI (online video streaming service)
+  removal: recommended
+  

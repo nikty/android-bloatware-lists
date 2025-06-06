@@ -1,0 +1,4 @@
+---
+- description: 'Support app for Casper, see https://play.google.com/store/apps/details?id=com.casper.turkiye&hl=en'
+  id: com.casper.turkiye
+  removal: recommended

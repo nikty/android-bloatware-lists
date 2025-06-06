@@ -1,0 +1,54 @@
+---
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.Nothing.Pong
+  removal: recommended
+- description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.TCL.PAI
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.asus.pai
+  removal: recommended
+- description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.google.sabrina
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.lge.device
+  removal: recommended
+- description: |-
+    Device configuration for Motorola
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+    A layout?
+  id: android.autoinstalls.config.motorola.layout
+  removal: recommended
+- description: |-
+    Device configuration
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.oneplus
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.oppo
+  removal: recommended
+- description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.samsung
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.transsion.device
+  removal: recommended
+- description: |-
+    PlayAutoInstalls
+    AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.vivo.devices
+  removal: recommended
+- description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+  id: android.autoinstalls.config.xioami.mibox3
+  removal: recommended

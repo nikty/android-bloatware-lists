@@ -1,0 +1,16 @@
+---
+- description: |-
+    Yandex' file cloud storage
+    May be installed with Samsung firmware update to comply with http://publication.pravo.gov.ru/Document/View/0001202011230051 if you're Russian. Can be installed manually from Google Play.
+  id: ru.yandex.disk
+  removal: recommended
+- description: |-
+    Yandex' search engine plugin
+    May be installed with Samsung firmware update to comply with http://publication.pravo.gov.ru/Document/View/0001202011230051 if you're Russian. Can be installed manually from Google Play.
+  id: ru.yandex.searchplugin
+  removal: recommended
+- description: |-
+    Yandex' Maps
+    May be installed with Samsung firmware update to comply with http://publication.pravo.gov.ru/Document/View/0001202011230051 if you're Russian. Can be installed manually from Google Play.
+  id: ru.yandex.yandexmaps
+  removal: recommended

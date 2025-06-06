@@ -1,0 +1,11 @@
+---
+- description: |-
+    LG RemoteCall service app
+    Used to get support from LG, safe to remove.
+  id: com.rsupport.rs.activity.lge.allinone
+  removal: recommended
+- description: |-
+    Remote support service
+    I found only permissions and not explained buttons in the code this app.
+  id: com.rsupport.rsperm.ntt
+  removal: recommended

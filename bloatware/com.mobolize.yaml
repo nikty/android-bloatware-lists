@@ -1,0 +1,10 @@
+---
+- description: |-
+    Secure Wifi (https://play.google.com/store/apps/details?id=com.mobolize.sprint.securewifi)
+    Sprint VPN app provided by Mobolize. You need to pay for using it.
+    You'd better use a reliable third-party VPN if you really need to use one.
+    This one runs in background all time and every time it sees a "unsecured network" it will popup to encourage you to pay for this VPN.
+    Best ressources I know for choosing a VPN:
+    https://www.privacytools.io/providers/vpn/
+  id: com.mobolize.sprint.securewifi
+  removal: recommended

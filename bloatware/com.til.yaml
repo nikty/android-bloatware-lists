@@ -1,0 +1,4 @@
+---
+- description: India News (https://play.google.com/store/apps/details?id=com.til.timesnews)
+  id: com.til.timesnews
+  removal: recommended

@@ -1,0 +1,7 @@
+---
+- description: |-
+    App Widget
+    Developped by Bell Canada, it is a home screen widget which shows advertisements, promotions, news, sports & entertainment.
+    https://play.google.com/store/apps/details?id=ca.bell.wt.android.tunesappswidget
+  id: ca.bell.wt.android.tunesappswidget
+  removal: recommended

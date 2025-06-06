@@ -1,0 +1,8 @@
+---
+- description: |-
+    Vivo document reader
+    A lot of permissions for a simple document reader. It can access to internet, can list all the apps you installed, can get your phone number, current cellular network information, the status of any ongoing calls and more!
+    
+    Pithus analysis: https://beta.pithus.org/report/8902163722f5df1ae6228b80124cfa94c2b8a0210a8f6bbb3441e05d69a76d0b
+  id: com.yozo.vivo.office
+  removal: advanced

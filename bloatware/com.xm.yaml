@@ -1,0 +1,6 @@
+---
+- description: |-
+    WebContent
+    Needed for messages like 'App installing'. Also WebView.
+  id: com.xm.webcontent
+  removal: expert

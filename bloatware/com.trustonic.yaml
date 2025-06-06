@@ -1,0 +1,27 @@
+---
+- description: |
+    TEE = Trusted Execution Environment
+    See below
+  id: com.trustonic.teeservice
+  removal: expert
+- description: |-
+    tuiService (Trusted User Interface) is a security layer by Trustonic.
+    Allows a "Trusted App" to interact directly with the user, completely isolated from the device OS.
+    It's closed source and normal devs can't use it for their apps.
+    https://stackoverflow.com/questions/16909576/how-to-make-use-of-arm-trust-zone-in-android-application
+    Mainly used by OEM apps like Samsung Pay and for DRM.
+    Google implemented their own TUI in Android Pie: https://android-developers.googleblog.com/search/label/Trusted%20User%20Interface
+    https://www.trustonic.com/news/blog/benefits-trusted-user-interface/
+    https://en.wikipedia.org/wiki/Trusted_execution_environment
+    Disabling will break "Trusted Apps".
+    https://en.wikipedia.org/wiki/ARM_architecture#Security_extensions
+    https://googleprojectzero.blogspot.com/2017/07/trust-issues-exploiting-trustzone-tees.html
+    https://www.synacktiv.com/posts/exploit/kinibi-tee-trusted-application-exploitation.html
+    https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
+    Good ressources:
+    https://medium.com/@nimronagy/arm-trustzone-on-android-975bfe7497d2
+    https://www.gsd.inesc-id.pt/~nsantos/papers/pinto_acsur19.pdf
+    https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
+    https://medium.com/taszksec/unbox-your-phone-part-i-331bbf44c30c
+  id: com.trustonic.tuiservice
+  removal: expert

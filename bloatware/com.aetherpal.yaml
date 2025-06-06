@@ -1,0 +1,13 @@
+---
+- description: |
+    Device Help for AT&T Samsung device
+    Developed by Aetherpal, a company which sells smart remote controls tools (https://en.wikipedia.org/wiki/AetherPal)
+    I guess this app is used for tech support.
+  id: com.aetherpal.attdh.se
+  removal: recommended
+- description: |
+    Device Help for AT&T ZTE devices.
+    Developed by Aetherpal, a company which sells smart remote controls tools (https://en.wikipedia.org/wiki/AetherPal)
+    I guess this app is used for tech support.
+  id: com.aetherpal.attdh.zte
+  removal: recommended

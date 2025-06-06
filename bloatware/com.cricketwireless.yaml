@@ -1,0 +1,4 @@
+---
+- description: 'Cricket partner tab? better remove it. It probably have news or partner customization to chrome.'
+  id: com.cricketwireless.minus
+  removal: recommended

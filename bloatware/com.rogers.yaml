@@ -1,0 +1,4 @@
+---
+- description: 'Appears to be the tablet version of MyRogers (https://play.google.com/store/apps/details?id=com.fivemobile.myaccount), an app to manage your account with Canadian carrier Rogers.'
+  id: com.Rogers.MyRogersTab
+  removal: recommended

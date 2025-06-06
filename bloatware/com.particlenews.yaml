@@ -1,0 +1,8 @@
+---
+- description: |
+    News Break: Local & Breaking (https://play.google.com/store/apps/details?id=com.particlenews.newsbreak)
+    News provided by NewsBreak (https://www.newsbreak.com/)
+    #
+    FYI : https://reports.exodus-privacy.eu.org/en/reports/com.particlenews.newsbreak/latest/
+  id: com.particlenews.newsbreak
+  removal: recommended

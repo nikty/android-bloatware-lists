@@ -1,0 +1,4 @@
+- id: ru.vk.store
+  description: |
+    VK social network
+  removal: recommended

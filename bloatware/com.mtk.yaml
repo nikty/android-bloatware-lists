@@ -1,0 +1,4 @@
+---
+- description: SimRecoveryTestTool
+  id: com.mtk.telephony
+  removal: recommended

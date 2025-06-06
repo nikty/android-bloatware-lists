@@ -1,0 +1,52 @@
+---
+- description: |
+    Link to Windows (https://play.google.com/store/apps/details?id=com.microsoft.appmanager)
+    Microsoft app for synchronising your phone with a Windows PC.
+  id: com.microsoft.appmanager
+  removal: recommended
+- description: |-
+    Device Integration Service
+    Might be needed for Microsoft Link to Windows (com.microsoft.appmanager) which is preinstalled with OxygenOS 14.
+    After Uninstalling, no issues occurred.
+  id: com.microsoft.deviceintegrationservice
+  removal: recommended
+- description: Excel
+  id: com.microsoft.office.excel
+  removal: recommended
+- description: |
+    Microsoft Office Mobile
+    Includes the complete Word, PowerPoint, and Excel apps to offer a convenient office experience on the go. 
+  id: com.microsoft.office.officehub
+  removal: recommended
+- description: |
+    Office Mobile hub (on Samsung Phone)
+    Includes the complete Word, PowerPoint, and Excel apps to offer a convenient office experience on the go.
+  id: com.microsoft.office.officehubhl
+  removal: recommended
+- description: |
+    Microsoft Mobile Office Beta
+  id: com.microsoft.office.officehubrow
+  removal: recommended
+- description: |-
+    OneNote (https://play.google.com/store/apps/details?id=com.microsoft.office.onenote)
+    Microsoft and privacy you know... This app has a lot of permissions. For example it has access to phone state, including the phone number of the device, current cellular network information, the status of any ongoing calls...
+  id: com.microsoft.office.onenote
+  removal: recommended
+- description: Outlook
+  id: com.microsoft.office.outlook
+  removal: recommended
+- description: ''
+  id: com.microsoft.office.powerpoint
+  removal: recommended
+- description: Word
+  id: com.microsoft.office.word
+  removal: recommended
+- description: |
+    Microsoft OneDrive (Cloud) (https://play.google.com/store/apps/details?id=com.microsoft.skydrive)
+  id: com.microsoft.skydrive
+  removal: recommended
+- description: |
+    Microsoft Translator app (https://play.google.com/store/apps/details?id=com.microsoft.translator)
+    )
+  id: com.microsoft.translator
+  removal: recommended

@@ -1,0 +1,6 @@
+---
+- description: |-
+    XHide
+    Provides the only way to hide files and lock apps when using Transsion launchers (which the Transsion devices require for certain functionality like multiapps not working with other launchers). These are the only apps that hide files and lock apps with them.
+  id: com.xui.xhide
+  removal: advanced

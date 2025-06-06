@@ -1,0 +1,4 @@
+---
+- description: Chinese Ctrip.
+  id: ctrip.android.view
+  removal: recommended

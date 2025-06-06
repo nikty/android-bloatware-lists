@@ -1,0 +1,32 @@
+---
+- description: |-
+    This app is from qualcomm, in androidmanifest.xml I found things like com.qualcomm.qti.qmsdataservices, qms is spyware,
+    permissions uses: access wifi state, quary all packages, package usage stats.
+    So hidden network stats, more about it is this code is just logs, takes apm, wifi, bt status.
+  id: vendor.qti.data.txpwradmin
+  removal: advanced
+- description: |-
+    CACertApp
+    Occasionally runs in the background.
+    Handles CACert certificates? http://www.cacert.org/
+    CACert is a community-driven CA that issues certificates to the public at large for free. CA = Certificate Authority, an entity that certifies the ownership of a public key that can be used for secure communications.
+    Probably a bad idea to disable; could mess with device security.
+  id: vendor.qti.hardware.cacert.server
+  removal: unsafe
+- description: Needed for IMS.
+  id: vendor.qti.imsdatachannel
+  removal: advanced
+- description: IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling). Also have RCS.
+  id: vendor.qti.imsrcs
+  removal: expert
+- description: |-
+    Used for VoLTE/VoWifi (Wifi-calling)
+    IwLAN = Interworking wLAN.
+    Support for mobile data offloading (use of complementary network technologies for delivering data originally targeted for cellular networks)
+    It means your phone will use the Wi-Fi connection instead of the cellular data connection.
+    https://en.wikipedia.org/wiki/Mobile_data_offloading
+  id: vendor.qti.iwlan
+  removal: advanced
+- description: It's for debugging and logs. But in the code I see VDebug. Vivo probably uses Qualcomm for some features.
+  id: vendor.qti.qesdk.sysservice
+  removal: recommended

@@ -1,0 +1,4 @@
+---
+- description: 'Random wallpaper on lock screen (as i saw it personalizes it too). You need to open this app to make it work and when you swipe from right to left, it opens a menu on the right where random news appears.'
+  id: com.taboola.scoop
+  removal: recommended

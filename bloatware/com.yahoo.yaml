@@ -1,0 +1,7 @@
+---
+- description: |
+    Yahoo Weather (https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.weather)
+    Please boycott Yahoo ! (all of their services are crappy so it's not so difficult)
+    If you're not aware : https://en.wikipedia.org/wiki/Criticism_of_Yahoo!
+  id: com.yahoo.mobile.client.android.liveweather
+  removal: recommended

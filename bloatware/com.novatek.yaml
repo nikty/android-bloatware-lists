@@ -1,0 +1,4 @@
+---
+- description: 'Debugs, broadcast id?'
+  id: com.novatek.novavis
+  removal: advanced

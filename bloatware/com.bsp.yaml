@@ -1,0 +1,6 @@
+---
+- description: |
+    bsp = Board support package
+    Used to catch log files obviously.
+  id: com.bsp.catchlog
+  removal: recommended

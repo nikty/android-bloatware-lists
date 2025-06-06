@@ -1,0 +1,12 @@
+---
+- description: |-
+    Crossword Jam (https://play.google.com/store/apps/details?id=in.playsimple.tripcross)
+    Preinstalled game on some Samsung phones. 12 permissions, 25 trackers : https://reports.exodus-privacy.eu.org/reports/in.playsimple.tripcross/latest/
+  id: in.playsimple.tripcross
+  removal: recommended
+- description: |
+    World Trip (https://play.google.com/store/apps/details?id=in.playsimple.wordtrip)
+    Word Count & word streak puzzle game
+    19 trackers + 11 permissions (https://reports.exodus-privacy.eu.org/en/reports/in.playsimple.wordtrip/latest/)
+  id: in.playsimple.wordtrip
+  removal: recommended

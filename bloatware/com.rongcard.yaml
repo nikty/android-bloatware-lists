@@ -1,0 +1,12 @@
+---
+- description: |-
+    eid probably means Electronic ID. This presumably handles something related to that.
+    Useful only in China.
+  id: com.rongcard.eid
+  removal: recommended
+- description: |-
+    Eid-Service
+    It's something about card chips or online identity? Useful only in China.
+    Has a lot of logs in code.
+  id: com.rongcard.eidapi
+  removal: recommended

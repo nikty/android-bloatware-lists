@@ -1,0 +1,4 @@
+---
+- description: Bloated Phone caller app with a lot of features. These apps have telemetry on them and are completely replaceable.
+  id: com.sh.smart.caller
+  removal: recommended

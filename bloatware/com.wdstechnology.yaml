@@ -1,0 +1,6 @@
+---
+- description: |-
+    OTA Access Point Configuration. it's only hidden configurations to ota, it's not needed for updates.
+    In the case of OTA updates, com.miui.core is responsible
+  id: com.wdstechnology.android.kryten
+  removal: unknown

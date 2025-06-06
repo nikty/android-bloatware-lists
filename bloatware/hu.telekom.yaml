@@ -1,0 +1,11 @@
+---
+- description: |-
+    Telekom
+    App for subscriptions, so bloated (a lot spying) and from T-Mobile
+  id: hu.telekom.telekomapp
+  removal: recommended
+- description: |-
+    Mobile shopping
+    App for watch tv on phone, so bloated (a lot spying) and from T-Mobile
+  id: hu.telekom.telekomtv
+  removal: recommended

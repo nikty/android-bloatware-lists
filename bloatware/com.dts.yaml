@@ -1,0 +1,4 @@
+---
+- description: "Audio Effect for car, headphones. You don't need that."
+  id: com.dts.dtsxultra
+  removal: recommended

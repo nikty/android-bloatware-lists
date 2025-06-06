@@ -1,0 +1,7 @@
+---
+- description: |
+    TouchPal Emoji Keyboard by Cootek a chinese company
+    Adware (lots and lots of ads)
+    Worth reading : https://www.buzzfeednews.com/article/craigsilverman/google-banned-cootek-adware
+  id: com.emoji.keyboard.touchpal
+  removal: recommended

@@ -1,0 +1,7 @@
+---
+- description: |-
+    'Emoji & Font Keyboard' on Xiaomi.
+    Xiaomi won't let me uninstall it. If it's same for you, consider disabling it instead.
+    Make sure to install an alternate keyboard app before doing so.
+  id: com.preff.kb.xm
+  removal: advanced

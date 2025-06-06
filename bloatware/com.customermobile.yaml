@@ -1,0 +1,8 @@
+---
+- description: |-
+    Verizon Store/Retail Demo Mode
+    This application requires a lot of permissions and downloads a remote configuration file from an AWS-hosted domain over plain-text HTTP.
+    This leaves the overall device and configuration vulnerable.
+    https://thehackernews.com/2024/08/google-pixel-devices-shipped-with.html
+  id: com.customermobile.preload.vzw
+  removal: recommended

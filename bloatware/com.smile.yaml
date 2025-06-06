@@ -1,0 +1,4 @@
+---
+- description: Chinese partner app 'Kuaishou'.
+  id: com.smile.gifmaker
+  removal: recommended

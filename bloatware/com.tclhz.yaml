@@ -1,0 +1,9 @@
+---
+- description: |-
+    Gallery
+    Stock Gallery app
+  id: com.tclhz.gallery
+  removal: advanced
+- description: ''
+  id: com.tclhz.gallery.a_overlay
+  removal: expert

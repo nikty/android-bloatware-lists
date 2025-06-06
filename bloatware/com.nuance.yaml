@@ -1,0 +1,13 @@
+---
+- description: |
+    Huawei Swype functions.
+    Is it the full Swype keyboard or only the Swype function on Huawei keyboard ? 
+    NOTE : Nuance company said it would discontinue support of the Swype keyboard app.
+  id: com.nuance.swype.emui
+  removal: recommended
+- description: |
+    Swype keyboard by Nuance
+    https://www.nuance.com/mobile/mobile-applications/swype/android.html
+    https://en.wikipedia.org/wiki/Swype
+  id: com.nuance.swype.input
+  removal: recommended

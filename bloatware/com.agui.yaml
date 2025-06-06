@@ -1,0 +1,72 @@
+---
+- description: |
+    IMEI Tool: Change MEID's & IMEI's of both SIM's
+    Enter *#*#08#*#* in the dial pad to access
+  id: com.agui.app.imei
+  removal: expert
+- description: |
+    Memory tester
+    Hidden test menu. Used in diagnostics, normally invoked by MMI(Man-Machine Interface) Codes
+  id: com.agui.app.memtester
+  removal: recommended
+- description: |-
+    App blocker
+    Settings > Intelligent assistance: App blocker
+     Unihertz power management service killing background apps to improve battery performance.
+  id: com.agui.appblock
+  removal: expert
+- description: |-
+    Battery Stats Dumper
+    Lets you check and clear battery usage statistics.
+    Enter *#*#010#*#* in the dial pad to access this hidden menu.
+  id: com.agui.batterystatsdumper
+  removal: advanced
+- description: |
+    Game mode
+    Blocks calls & notifications when selected APP's are open
+  id: com.agui.game
+  removal: recommended
+- description: |
+    SOS
+    Notify emergency contacts. When triggered, will also put the phone in a low comsumption mode
+  id: com.agui.newsos
+  removal: recommended
+- description: |
+    NFC card emulation: simulates various types of unencrypted entrance cards.
+  id: com.agui.nfc
+  removal: recommended
+- description: |-
+    Toolbox > "Pedometer" Pedometer/step counter.
+    Because of a feature that integrates with the lock sceen the System UI crashes when removed.
+  id: com.agui.providers.pedometer
+  removal: unsafe
+- description: |
+    Screenshot
+    Screenshot utility triggered when double tapping the Red Button
+  id: com.agui.screenshot
+  removal: advanced
+- description: |
+    Student Mode
+    Locks down your phone to reduce distractions
+  id: com.agui.studentmodel
+  removal: recommended
+- description: |-
+    Toolbox
+     contains a bunch of small utilites, most have there own APP but are only accessible from the Toolbox UI
+    included; Noise test, Compass, Flashlight, Bubble Level, Picture Hanging, Heart rate, Measure height,
+     Magnifier,Alarm, Plumb Bob, Protractor, Speedometer & a Pedometer.
+  id: com.agui.toolbox
+  removal: recommended
+- description: |
+    "Wireless Update" Settings > About Phone : Sytem update.
+    Removing will prevent Automatic Wireless Updates
+  id: com.agui.update
+  removal: expert
+- description: |
+    Overlay for com.agui.update. Overlay are usually themes.
+  id: com.agui.update.overlay
+  removal: expert
+- description: |
+    Toolbox > "USB Camera" Only usefull if you want to use a USB Camera
+  id: com.agui.usbcamera
+  removal: recommended

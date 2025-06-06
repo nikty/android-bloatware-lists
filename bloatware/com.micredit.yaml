@@ -1,0 +1,8 @@
+---
+- description: |-
+    Mi Credit (https://play.google.com/store/apps/details?id=com.micredit.in.gp)
+    App providing loans to MIUI users from India and China
+    
+    Note: https://web.archive.org/web/20221207193942/https://onsitego.com/blog/xiaomi-quietly-discontinues-mi-credit-mi-pay-india/
+  id: com.micredit.in
+  removal: recommended

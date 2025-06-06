@@ -1,0 +1,12 @@
+---
+- description: |-
+    Verizon Adaptive Sound
+    Provides Voice Enhance, but according to the carrier.
+    Does the same thing as the 'com.bc360.control' app.
+  id: com.bc360.android.service
+  removal: recommended
+- description: |-
+    Verizon Adaptive Sound
+    Provides Voice Enhance, but according to the carrier.
+  id: com.bc360.control
+  removal: recommended

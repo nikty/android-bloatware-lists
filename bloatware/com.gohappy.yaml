@@ -1,0 +1,6 @@
+---
+- description: |-
+    Shopping app of friDay
+    https://play.google.com/store/apps/details?id=com.gohappy.mobileacom.fetself
+  id: com.gohappy.mobileapp
+  removal: recommended

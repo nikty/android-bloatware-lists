@@ -1,0 +1,4 @@
+---
+- description: Simple Browser for WebView tester used in AOSP.
+  id: org.chromium.webview_shell
+  removal: recommended

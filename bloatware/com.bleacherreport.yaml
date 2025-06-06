@@ -1,0 +1,6 @@
+---
+- description: |
+    Bleacher Report (https://play.google.com/store/apps/details?id=com.bleacherreport.android.teamstream)
+    Sports news site
+  id: com.bleacherreport.android.teamstream
+  removal: recommended

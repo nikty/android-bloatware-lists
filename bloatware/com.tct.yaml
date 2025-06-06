@@ -1,0 +1,275 @@
+---
+- description: |-
+    TCT All in One Configuration
+    It probably collects some data and CheckForUpdateTask OTA.
+  id: com.tct.aio
+  removal: expert
+- description: Hidden camera after sale calibration.
+  id: com.tct.android.SaleCalib
+  removal: recommended
+- description: |-
+    Browser
+    Better use other browser.
+  id: com.tct.android.browser
+  removal: recommended
+- description: Useless secure input for keycode.
+  id: com.tct.android.secureinput
+  removal: recommended
+- description: |-
+    Video Player
+    Stock Video Player app for TCL phones.
+  id: com.tct.android.video
+  removal: advanced
+- description: |-
+    App lock
+    It's just app lock with password or pin.
+  id: com.tct.applock
+  removal: recommended
+- description: |-
+    Battery warning
+    Displays only messages about low battery or too high temperature.
+  id: com.tct.batterywarning
+  removal: recommended
+- description: |-
+    Calculator
+    Stock Calculator app
+  id: com.tct.calculator
+  removal: advanced
+- description: ''
+  id: com.tct.calculator.a_overlay
+  removal: expert
+- description: |-
+    Camera
+    Stock Camera app
+  id: com.tct.camera
+  removal: advanced
+- description: Useless overlay. It has only an icon and no code.
+  id: com.tct.camera.a_overlay
+  removal: recommended
+- description: Another hidden camera calibration and DualCamVerifyTool.
+  id: com.tct.camera.verifytool
+  removal: recommended
+- description: ''
+  id: com.tct.cellular.arda
+  removal: expert
+- description: |-
+    Compass
+    Stock Compass app
+  id: com.tct.compass
+  removal: recommended
+- description: |-
+    Transfer To Phone Contacts
+    it's additional thing.
+  id: com.tct.contacts.transfer
+  removal: recommended
+- description: ''
+  id: com.tct.diagprotector
+  removal: expert
+- description: |-
+    Phone
+    Stock Phone app
+  id: com.tct.dialer
+  removal: advanced
+- description: ''
+  id: com.tct.dialer.a_overlay
+  removal: expert
+- description: Unused device issue feedback app.
+  id: com.tct.endusertest
+  removal: recommended
+- description: Requires Google Play services and is probably for Wi-Fi calling for O2 Carrier.
+  id: com.tct.entitlement
+  removal: expert
+- description: |-
+    Standard FaceUnlock functionality?
+    Unlock your device by simply looking at the display.
+    Face unlock is bad for security and privacy:
+    https://www.ubergizmo.com/2017/03/galaxy-s8-facial-unlock-photograph/
+    https://www.kaspersky.com/blog/face-unlock-insecurity/21618/
+    https://www.freecodecamp.org/news/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28/
+  id: com.tct.faceunlock
+  removal: expert
+- description: |-
+    Game box
+    Game box. Game Turbo. Not sure if it's worth keeping or not.
+  id: com.tct.gamemode
+  removal: advanced
+- description: ''
+  id: com.tct.gdpr
+  removal: expert
+- description: |-
+    GPDR
+    User Experience Improvement Program.
+  id: com.tct.gpdr
+  removal: recommended
+- description: |-
+    NXTVISION
+    It's for reading mode and Display Enhancement.
+  id: com.tct.iris
+  removal: recommended
+- description: |-
+    User Support
+    it's for logs.
+  id: com.tct.logger
+  removal: recommended
+- description: |-
+    Multiple User
+    I guess it's for multi-accounts.
+  id: com.tct.multipleuser
+  removal: recommended
+- description: |-
+    Music
+    Stock Music app
+  id: com.tct.music
+  removal: advanced
+- description: Power saving.
+  id: com.tct.onetouchbooster
+  removal: expert
+- description: ''
+  id: com.tct.onetouchbooster.a_overlay
+  removal: expert
+- description: |-
+    TCT Phone Services
+    Sim card settings.
+  id: com.tct.phone
+  removal: expert
+- description: ''
+  id: com.tct.privacymode
+  removal: expert
+- description: |-
+    Privacy Protection
+    Another Security thing.
+  id: com.tct.privacyprotect
+  removal: recommended
+- description: |-
+    Private Space
+    Only password things.
+  id: com.tct.privatespace
+  removal: recommended
+- description: Hidden Modify the SAR mode.
+  id: com.tct.reducesar
+  removal: recommended
+- description: Demo Mode is intended for use on shop demo devices only and it should never be activated on a normal user's device. Explained by TCL.
+  id: com.tct.retaildemo
+  removal: recommended
+- description: ''
+  id: com.tct.retaildemo.a_overlay
+  removal: expert
+- description: Screen Recorder
+  id: com.tct.screenrecorder
+  removal: advanced
+- description: |-
+    Screenshot
+    it's used for screenshots and editing them.
+  id: com.tct.screenshotex
+  removal: expert
+- description: This app has only logs.
+  id: com.tct.secretCode
+  removal: recommended
+- description: |-
+    Setup Wizard
+    it's needed only for first-boot setup.
+  id: com.tct.setupwizard
+  removal: recommended
+- description: |-
+    Edge Bar
+    Sidebar
+  id: com.tct.sidebar
+  removal: recommended
+- description: |-
+    Simple Launcher
+    It's not needed for the Stock launcher and has SOS and other unnecessary stuff.
+  id: com.tct.simplelauncher
+  removal: recommended
+- description: ''
+  id: com.tct.simplelauncher.a_overlay
+  removal: expert
+- description: ''
+  id: com.tct.simsettings
+  removal: expert
+- description: ''
+  id: com.tct.smart.account
+  removal: expert
+- description: ''
+  id: com.tct.smart.aikey
+  removal: expert
+- description: OTA Updates or OTA Updates test?
+  id: com.tct.smart.aota
+  removal: expert
+- description: ''
+  id: com.tct.smart.cloud
+  removal: expert
+- description: ''
+  id: com.tct.smart.drivemode
+  removal: expert
+- description: |-
+    IR Remote
+    I think it's useless.
+  id: com.tct.smart.ircontrol
+  removal: recommended
+- description: |-
+    Remote Lock
+    It's for lost mode.
+  id: com.tct.smart.lostmode
+  removal: recommended
+- description: |-
+    Smart Notes
+    Stock Notes app
+  id: com.tct.smart.notes
+  removal: advanced
+- description: |-
+    Smart Push
+    Useless frameworks.
+  id: com.tct.smart.push
+  removal: recommended
+- description: |-
+    Switch Phone
+    it's app for Move apps to new or old phone.
+  id: com.tct.smart.switchphone
+  removal: recommended
+- description: ''
+  id: com.tct.smart.switchphone.service
+  removal: expert
+- description: |-
+    Easy Link
+    It has something to do with screen casting. Dlna Cast Activity.
+  id: com.tct.smart.tlink
+  removal: advanced
+- description: |-
+    Sound Recorder
+    An audio and screen recorder, lets you change voice.
+  id: com.tct.soundrecorder
+  removal: advanced
+- description: It should be safe to remove. Only secret code to info about system but not sure.
+  id: com.tct.systemservice
+  removal: expert
+- description: |-
+    Smart App Recommend
+    Useless.
+  id: com.tct.tctsmartapprecommend
+  removal: recommended
+- description: |-
+    Support Center
+    it's for TCL users support center app.
+  id: com.tct.usercare
+  removal: recommended
+- description: ''
+  id: com.tct.video
+  removal: expert
+- description: ''
+  id: com.tct.vzwwifioffload
+  removal: expert
+- description: Weather forecasting app.
+  id: com.tct.weather
+  removal: advanced
+- description: Overlay for com.tct.weather. Usage is not known.
+  id: com.tct.weather.a_overlay
+  removal: recommended
+- description: |-
+    WfcWebView
+    WebView app for TCL
+    Make sure to have another WebView before removing it.
+  id: com.tct.wfcwebiew
+  removal: expert
+- description: I found something like entitlementMode but app looks very empty and useless.
+  id: com.tct.wfcwebview
+  removal: recommended

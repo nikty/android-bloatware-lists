@@ -1,0 +1,8 @@
+---
+- description: |
+    Orange cineday (https://play.google.com/store/apps/details?id=fr.orange.cineday)
+    Useless app but cineday is pretty nice. 
+    Every tuesday you can invite the person of your choice in movies (within the limit of available seats).
+    You can just use https://cineday.orange.fr/cineday/
+  id: fr.orange.cineday
+  removal: recommended

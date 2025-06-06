@@ -1,0 +1,4 @@
+---
+- description: Epic Games for Android
+  id: com.epicgames.portal
+  removal: recommended

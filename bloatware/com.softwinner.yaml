@@ -1,0 +1,9 @@
+---
+- description: |-
+    File Manager of SoftWinner
+    Can be disabled via system settings.
+  id: com.softwinner.explore
+  removal: recommended
+- description: 'Possibly related to the firmware updater, since the updater has a similar name'
+  id: com.softwinner.service
+  removal: advanced

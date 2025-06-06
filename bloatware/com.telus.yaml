@@ -1,0 +1,14 @@
+---
+- description: |-
+    Checkup app (from Mobile Klinik; a Canadian store for buying, selling, and repairing smartphones)
+    Mainly used to run device-health diagnostics, estimate device value post-diagnostics (for re-selling at a Mobile Klinik location), and finding nearby Mobile Klinik locations to book appointments for device repair. Also contains ads and promotions for new devices and accessories.
+    Generally regarded as bloatware because diagnostics are generic at best, and is eager to request many unnecessary and potentially invasive device permissions.
+    Safe to remove if you don't use it, and can be re-downloaded from the Google Play Store at any time.
+  id: com.telus.checkup
+  removal: recommended
+- description: |-
+    My TELUS app
+    It's used for managing your telus account
+    Safe to remove if you don't use it
+  id: com.telus.myaccount
+  removal: recommended

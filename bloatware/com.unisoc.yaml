@@ -1,0 +1,16 @@
+---
+- description: |-
+    Unisoc Home Screen
+    Partner Customization launcher.
+  id: com.unisoc.launcher.customization
+  removal: recommended
+- description: |-
+    Local System Update
+    Needed for system updates.
+  id: com.unisoc.localeupdate
+  removal: expert
+- description: |-
+    LockAssistant
+    Runs before the user unlocks the device (direct-boot aware). Reads IMEI, SMS, call log, uses gps/wifi. Unisoc is a CPU manufacturer. Related to package `com.android.unisoc.telephony.server`.
+  id: com.unisoc.phone
+  removal: expert

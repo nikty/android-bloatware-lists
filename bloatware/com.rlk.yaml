@@ -1,0 +1,7 @@
+---
+- description: |-
+    Daily Weather (https://play.google.com/store/apps/details?id=com.rlk.weathers)
+    Weather app with ads and trackers. Can access phone calls and SMS.
+    Pithus analysis: https://beta.pithus.org/report/c3fa30c66192c458f93456401421d3c74f9122191b561781af142c42c24fe603
+  id: com.rlk.weathers
+  removal: recommended

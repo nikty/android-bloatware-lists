@@ -1,0 +1,4 @@
+---
+- description: "The shape of the icons can be uninstalled or left alone, it's just the look of the icon."
+  id: com.theme.icondefaultshape
+  removal: advanced

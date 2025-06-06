@@ -1,0 +1,7 @@
+---
+- description: |-
+    TopApps(discontinued)
+    it's non english app. Installs recommended apps?
+    I can't launch the app because it displays an error that it can't connect to the Internet, even when Wi-Fi is on.
+  id: ro.cosmote.aps.wnwlite
+  removal: recommended

@@ -1,0 +1,6 @@
+---
+- description: |-
+    MicroFountain RCS Service
+    Chinese RCS Chats.
+  id: com.microfountain.rcs.service
+  removal: recommended

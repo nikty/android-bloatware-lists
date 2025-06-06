@@ -1,0 +1,436 @@
+---
+- description: Another thing for smart assistant
+  id: com.coloros.accessibilityassistant
+  removal: recommended
+- description: |-
+    E-warranty card
+    Lets you check if your registered phone is still under warranty (will send your IMEI to esa-reg-eup.myoppo.com. Has a lot of permissions and run at boot
+    
+    Pithus analysis: https://beta.pithus.org/report/2a1dc5caedd2347fa009563e9b4d1c11b1cb42726f9046151934c456fdd77d88
+  id: com.coloros.activation
+  removal: advanced
+- description: |-
+    E-warranty card
+    Lets you check if your registered phone is still under warranty. Has a lot of permissions and runs at boot. Pithus analysis: https://beta.pithus.org/report/2a1dc5caedd2347fa009563e9b4d1c11b1cb42726f9046151934c456fdd77d88
+  id: com.coloros.activation.overlay.common
+  removal: advanced
+- description: Stock Clock app.
+  id: com.coloros.alarmclock
+  removal: advanced
+- description: |-
+    App Management
+    Used to uninstall applications, but uninstalling apps works nonetheless, even after uninstalling this package. GameSpace's game assistant does not work anymore after uninstalling this package.
+  id: com.coloros.appmanager
+  removal: advanced
+- description: Used for app recovery?
+  id: com.coloros.apprecover
+  removal: recommended
+- description: |-
+    HeyTap Shelf. ColorOS 'At a Glance'.
+    Shelf provides a variety of widgets that let you access important information or services from apps with ease. Swipe down on the Home screen to enter Shelf.
+    https://play.google.com/store/apps/details?id=com.coloros.assistantscreen
+  id: com.coloros.assistantscreen
+  removal: recommended
+- description: 'Memory management, maybe useful, maybe not'
+  id: com.coloros.athena
+  removal: expert
+- description: 'Needed to configure com.coloros.athena. Memory management, maybe useful, maybe not.'
+  id: com.coloros.athena.config_plugin
+  removal: expert
+- description: |-
+    Avast Offerwall
+    Avast anti-virus things.
+  id: com.coloros.avastofferwall
+  removal: recommended
+- description: |
+    Most likely Oppo backup/restore feature 
+  id: com.coloros.backuprestore
+  removal: recommended
+- description: It has something to scan always Wi-Fi but it's probably unused.
+  id: com.coloros.backuprestore.remoteservice
+  removal: recommended
+- description: |-
+    Blacklist Contacts
+    Black list contacts, blocking calling.
+  id: com.coloros.blacklistapp
+  removal: expert
+- description: |-
+    Setup Wizard
+    Cause bootloop after uninstall app.
+  id: com.coloros.bootreg
+  removal: unsafe
+- description: |-
+    Calculator app
+    Has internet access because it can convert exchange rate, but I don't know whether it's used for other things as well or not.
+  id: com.coloros.calculator
+  removal: recommended
+- description: Limit time spending on apps for kids.
+  id: com.coloros.childrenspace
+  removal: recommended
+- description: |
+    Oppo Cloud
+  id: com.coloros.cloud
+  removal: recommended
+- description: |-
+    Password manager
+    App where you can keep passwords.
+  id: com.coloros.codebook
+  removal: recommended
+- description: |-
+    Screen Recognition (Breeno Touch).
+    This app is used to recognize screen contents and provide quick access to relevant services (like Text Extraction, AI Summarizer). com.coloros.ocrscanner, com.coloros.ocrservice, com.oplus.ocs, com.oplus.aiunit, com.coloros.ocs.opencapabilityservice are also needed for this to work.
+  id: com.coloros.colordirectservice
+  removal: recommended
+- description: It has only Request permission activity. Probably useless framework also it has something to do with cloud.
+  id: com.coloros.colorfilestand
+  removal: recommended
+- description: |-
+    ColorOS default compass app
+    Keep in mind that by using this app you give your location to the weather Oppo servers.
+    Pithus analysis: https://beta.pithus.org/report/9a965f5587fa6ee21c526612f3d72c50ef3cc53679b741260298387c44f5a3dc
+  id: com.coloros.compass2
+  removal: advanced
+- description: App usage time that can be found in settings.
+  id: com.coloros.digitalwellbeing
+  removal: advanced
+- description: |-
+    Brenoo touch
+    Smart things it can be found in settings.
+  id: com.coloros.directui
+  removal: recommended
+- description: 'Security features, anti-trojan?'
+  id: com.coloros.dirrecord
+  removal: recommended
+- description: |-
+    Private Safe
+    Removing breaks the stock launcher? Private Safe (located in Privacy Settings)
+  id: com.coloros.encryption
+  removal: expert
+- description: |-
+    Edge touch
+    Gesture-related things. Edge touch
+  id: com.coloros.exserviceui
+  removal: recommended
+- description: "Color settings, app manager things without activities. Someone can test if it's useless?"
+  id: com.coloros.exsystemservice
+  removal: expert
+- description: It's the only eye protection option
+  id: com.coloros.eyeprotect
+  removal: recommended
+- description: |-
+    Feedback service
+    Feedback for OPPO
+  id: com.coloros.feedback
+  removal: recommended
+- description: |
+    ColorOS File Manager
+  id: com.coloros.filemanager
+  removal: advanced
+- description: |-
+    Find phone
+    Find phone, logout from oppo account before
+  id: com.coloros.findmyphone
+  removal: recommended
+- description: |-
+    Find phone
+    Find phone, logout from oppo account before
+  id: com.coloros.findphone.client2
+  removal: expert
+- description: 'GA ball, Assistive ball feature.'
+  id: com.coloros.floatassistant
+  removal: recommended
+- description: |-
+    Focus mode
+    it's option that can be found in settings.
+  id: com.coloros.focusmode
+  removal: recommended
+- description: |-
+    Gallery
+    Stock gallery app.
+  id: com.coloros.gallery3d
+  removal: advanced
+- description: |
+    Game Space
+    Hub for your Games + some performance optimizations
+    https://community.coloros.com/thread-9962-1-1.html
+  id: com.coloros.gamespace
+  removal: recommended
+- description: |-
+    GameSpace
+    Gaming utility aiming at 'optimizing your gaming experience'. Has a lot of permissions. For instance, it has internet access, will scans all the apps you have on your phones (to find games), can performs Bluetooth scan and has access to the metadata of your media files (e.g the place where you took a picture).
+  id: com.coloros.gamespaceui
+  removal: recommended
+- description: |-
+    Gestures & Motions
+    Somatic gestures (double tap to light up the screen)
+  id: com.coloros.gesture
+  removal: recommended
+- description: |-
+    Health check
+    Health check? Probably hidden.
+  id: com.coloros.healthcheck
+  removal: recommended
+- description: |-
+    Health service
+    Another thing related to health check
+  id: com.coloros.healthservice
+  removal: recommended
+- description: |-
+    Karaoke
+    Karaoke (Do not delete if you need Karaoke)
+  id: com.coloros.karaoke
+  removal: recommended
+- description: Useless code that means nothing for the launcher
+  id: com.coloros.launcher.layout
+  removal: recommended
+- description: You can't remove this app using adb.
+  id: com.coloros.lockassistant
+  removal: unsafe
+- description: |-
+    LogKit
+    Logs, Dial *#800# for running it
+  id: com.coloros.logkit
+  removal: recommended
+- description: Useless plugin for logs
+  id: com.coloros.logkit.plugin.upload
+  removal: recommended
+- description: Useless frameworks
+  id: com.coloros.mapcom.frame
+  removal: recommended
+- description: ''
+  id: com.coloros.mcs
+  removal: recommended
+- description: |-
+    Music Party
+    This app allows you to play music through different phones, synchronised.
+    https://www.youtube.com/watch?v=3Ak222Z79RY
+  id: com.coloros.musiclink
+  removal: advanced
+- description: Needed for notification manager and scheduled do not disturb.
+  id: com.coloros.notificationmanager
+  removal: expert
+- description: |
+    ColorOS Optical character recognition scanner
+  id: com.coloros.ocrscanner
+  removal: recommended
+- description: Extract text from images.
+  id: com.coloros.ocrservice
+  removal: recommended
+- description: Security things and something related to Chinese payment
+  id: com.coloros.ocs.opencapabilityservice
+  removal: recommended
+- description: |-
+    Lock your phone if you click on the app icon. Completely useless unless your physical power button is damaged.
+    This app still has the permission to list all the apps installed on the phone.
+    
+    Pithus analysis: https://beta.pithus.org/report/ece4088357c0a47dffd96bdc46a7b535d448c1a3619d995f7032df3be6cb0a38
+  id: com.coloros.onekeylockscreen
+  removal: recommended
+- description: |-
+    Help & feedback
+    Help (in Settings - Other Settings)
+  id: com.coloros.operationManual
+  removal: recommended
+- description: Tips
+  id: com.coloros.operationtips
+  removal: recommended
+- description: Needed for power-saving and security
+  id: com.coloros.oppoguardelf
+  removal: expert
+- description: 'Needed components for com.coloros.oppoguardelf. Needed for power-saving and security. Also, the plugin is bloated with logs and statistics.'
+  id: com.coloros.oppoguardelf.restrict_plugin
+  removal: expert
+- description: 'Needed components for com.coloros.oppoguardelf. Needed for power-saving and security. Also, the plugin is bloated with logs and statistics.'
+  id: com.coloros.oppoguardelf.secretplugin
+  removal: expert
+- description: |-
+    App cloner
+    Needed for app clone feature.
+  id: com.coloros.oppomultiapp
+  removal: recommended
+- description: |-
+    Oppo Share
+    File sharing app to transfer data from/to Oppo devices only. Seems to use weak crypto (AES ECB mode) and has weird permissions (such as `READ_CONTACTS`).
+    WARNING: removing this app will break the functionality to share photos directly from ColorOS Photos app and break the 'share with' prompt after taking a screenshot.
+    
+    Pithus analysis: https://beta.pithus.org/report/170f4a14be24a2e2135cd956a038aae9e2f78c845f3161b84c5545dbec03fad9
+  id: com.coloros.oshare
+  removal: advanced
+- description: |-
+    Phone Manager
+    Provides so called 'optimization tools' and various security scanning services.
+    These virus scanning services may have privacy implications.
+    
+    Pithus analysis: https://beta.pithus.org/report/6b7d9e117ffb600b852f3785ede4f3773385fc291376e94a061bf7ed787dec48
+  id: com.coloros.phonemanager
+  removal: recommended
+- description: |
+    Number Origin
+  id: com.coloros.phonenoareainquire
+  removal: recommended
+- description: |
+    LockscreenMagazine
+    Removal will result in no longer being able to access Lockscreen settings.
+  id: com.coloros.pictorial
+  removal: unsafe
+- description: Useless frameworks. About feedback and smart touch.
+  id: com.coloros.prome.service
+  removal: recommended
+- description: Useless SMS frameworks.
+  id: com.coloros.prome.smsservice
+  removal: recommended
+- description: Recent apps. Provides navigation to alternate between multiple apps. Removal will result in no "Recent App" list and re-enablement will cause a soft reload.
+  id: com.coloros.recents
+  removal: expert
+- description: Mobile DM authentication related (recommended to be uninstalled)
+  id: com.coloros.regservice
+  removal: recommended
+- description: |-
+    Remote Guard Service
+    Have only useless statistics and depends on: com.coloros.mcs, com.heytap.mcs ONLY FOR CHINA.
+  id: com.coloros.remoteguardservice
+  removal: recommended
+- description: |-
+    Security Center
+    It breaks 'display over other apps' permission!
+  id: com.coloros.safecenter
+  removal: unsafe
+- description: "This plugin doesn't have any important things. It's safe to remove, useless logs code."
+  id: com.coloros.safecenter.config_plugin
+  removal: recommended
+- description: It has cleaner and security things.
+  id: com.coloros.safesdkproxy
+  removal: recommended
+- description: |-
+    System Upgrade Services
+    Needed to update ColorOS.
+  id: com.coloros.sau
+  removal: expert
+- description: |-
+    SAUHelper
+    It has only statistics and logs.
+  id: com.coloros.sauhelper
+  removal: recommended
+- description: Scene mode and simple mode
+  id: com.coloros.scenemode
+  removal: recommended
+- description: |-
+    Data Services Platform
+    Data Services Platform (the entire Breeno option in the settings menu disappears after deletion)
+  id: com.coloros.sceneservice
+  removal: recommended
+- description: |-
+    Screen recorder
+    Stock screen recording app.
+  id: com.coloros.screenrecorder
+  removal: advanced
+- description: |-
+    Screenshot
+    Needed for screenshots. Very useful app.
+  id: com.coloros.screenshot
+  removal: expert
+- description: |-
+    Payment system from Oppo allowing you to pay with your phone
+    
+    Pithus analysis: https://beta.pithus.org/report/65246664d3795a5ac1b402d28456903e1b3bd76176de8298b3ea96c6c592ae9a
+  id: com.coloros.securepay
+  removal: recommended
+- description: 'Security Events (located in Phone Manager - Security Tools, it is recommended to uninstall it).'
+  id: com.coloros.securityguard
+  removal: recommended
+- description: |-
+    Secure keyboard
+    Not needed if your keyboard is already good.
+  id: com.coloros.securitykeyboard
+  removal: recommended
+- description: |
+    Handles app permission management. DO NOT REMOVE THIS
+  id: com.coloros.securitypermission
+  removal: unsafe
+- description: |-
+    Shared screen assistance
+    Shared screen assistance (nobody need it)
+  id: com.coloros.sharescreen
+  removal: recommended
+- description: |-
+    Data usage
+    Data usage and OTA updates
+  id: com.coloros.simsettings
+  removal: expert
+- description: |-
+    Breeno smart drive
+    it's for smart things.
+  id: com.coloros.smartdrive
+  removal: recommended
+- description: '"Phone stays unlocked when using a wearable device" feature support component.'
+  id: com.coloros.smartlock
+  removal: recommended
+- description: |-
+    Smart Sidebar
+    Edge panel settings
+  id: com.coloros.smartsidebar
+  removal: recommended
+- description: ColorOS Sound Recorder
+  id: com.coloros.soundrecorder
+  removal: advanced
+- description: |
+    ColorOS Speech Assistant
+  id: com.coloros.speechassist
+  removal: recommended
+- description: |-
+    System Cloner
+    Creates multiple users on device
+  id: com.coloros.systemclone
+  removal: advanced
+- description: Useless frameworks
+  id: com.coloros.trafficlimit
+  removal: recommended
+- description: Used for translation?
+  id: com.coloros.translate.engine
+  removal: recommended
+- description: Needed for themes
+  id: com.coloros.uxdesign
+  removal: expert
+- description: |-
+    Video Player
+    Default Oppo video player with too much permissions (21) for a video player! 
+    Note: using inbuilt screen recorder you won't be able to open the recorded video from the notification view.
+    
+    Pithus analysis: https://beta.pithus.org/report/4ceb96c23ad0e26ee8eceab293d251f8b1bddaf4a901741ee467e0bb867db6e9
+  id: com.coloros.video
+  removal: recommended
+- description: |
+    Oppo Wallet
+  id: com.coloros.wallet
+  removal: recommended
+- description: |-
+    Wallpapers
+    Needed for wallpapers
+  id: com.coloros.wallpapers
+  removal: expert
+- description: |-
+    Name indicates it's for the weather, but removing this causes the screen to flash and the phone will eventually become unresponsive.
+    https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/585
+  id: com.coloros.weather.service
+  removal: unsafe
+- description: |-
+    ColorOS weather app. Removal seems to trigger a bootloop on some phones. You should try, several users removed this app without any trouble on Oppo/Realme device with Android 11+
+    See: https://github.com/0x192/universal-android-debloater/issues/211
+  id: com.coloros.weather2
+  removal: expert
+- description: ''
+  id: com.coloros.widget.smallweather
+  removal: recommended
+- description: |-
+    WifiBackupRestore
+    Backup Wi-Fi to the cloud
+  id: com.coloros.wifibackuprestore
+  removal: recommended
+- description: Useless for Wi-Fi. Has captcha and mobile number verification.
+  id: com.coloros.wifisecuredetect
+  removal: recommended
+- description: |-
+    Wireless settings
+    Probably needed.
+  id: com.coloros.wirelesssettings
+  removal: expert

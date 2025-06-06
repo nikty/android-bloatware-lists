@@ -1,0 +1,21 @@
+---
+- description: |-
+    WPS Office
+    Chinese WPS Office
+  id: cn.wps.moffice.lite.meizu
+  removal: recommended
+- description: |-
+    WPS Office
+    Chinese WPS Office pre-installed on Xiaomi devices.
+  id: cn.wps.moffice_eng
+  removal: recommended
+- description: Chinese WPS Office
+  id: cn.wps.moffice_eng.xiaomi.lite
+  removal: recommended
+- description: |
+    Mi Doc viewer
+    Allows users to view various types of documents on their Android devices like documents (*.doc/docx, *.ppt/pptx, *.xls/xlsx, *.pdf, *.wps, and *.txt) and it's powered by WPS Office
+    FYI: WPS is a Chinese closed-source software. It's as bad as Microsoft Office (privacy-wise)
+    https://www.wps.com/privacy-policy
+  id: cn.wps.xiaomi.abroad.lite
+  removal: recommended

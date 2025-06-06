@@ -1,0 +1,18 @@
+---
+- description: Useless Tencent Chinese location
+  id: com.tencent.android.location
+  removal: recommended
+- description: Arena of Valor
+  id: com.tencent.ngjp
+  removal: recommended
+- description: |-
+    HiMoviePlayerPlus
+    Weird app without any code and there's nothing in Main Activity.
+  id: com.tencent.qqlivehuawei
+  removal: recommended
+- description: |-
+    Soter is a biometric authentication standard and platform by Tencent.
+    https://github.com/Tencent/soter
+    Provides biometric authentication for WeChat Pay. Safe to disable if you don't use it.
+  id: com.tencent.soter.soterserver
+  removal: recommended

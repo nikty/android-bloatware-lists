@@ -1,0 +1,4 @@
+---
+- description: Chinese Weibo app.
+  id: com.sina.weibo
+  removal: recommended

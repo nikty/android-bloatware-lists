@@ -1,0 +1,4 @@
+---
+- description: Useless frameworks.
+  id: com.activate.activatephone
+  removal: recommended

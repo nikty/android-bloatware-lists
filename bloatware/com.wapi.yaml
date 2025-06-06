@@ -1,0 +1,19 @@
+---
+- description: |-
+    WAPI certificate manager
+    WAPI = WLAN Authentication and Privacy Infrastructure.
+    A Chinese national standard for Wireless LAN within a limited area such as a home. Not very useful if you don't live in China.
+    https://en.wikipedia.org/wiki/WLAN_Authentication_and_Privacy_Infrastructure
+    Digital certificates identify devices and apps for security. Just like your driver’s license shows that you can legally drive, a digital certificate identifies your device and confirms that it should be able to access something.
+    https://security.stackexchange.com/questions/102550/what-are-wifi-certificates-used-for-what-are-they
+  id: com.wapi.wapicertmanage
+  removal: recommended
+- description: |
+    WAPI Certificates Manager
+    WAPI = WLAN Authentication Privacy Infrastructure (https://en.wikipedia.org/wiki/WLAN_Authentication_and_Privacy_Infrastructure
+    It was designed to replace WEP and become the new Standard but it was't rejected by the ISO (International Organization for Standardization)
+    It is currently only used in China
+    This app most likely manage certificates (they are used to make sure you're not connecting to a rogue Access Point)
+    Note: If you live in China, you most likely want to keep it.
+  id: com.wapi.wapicertmanager
+  removal: unknown

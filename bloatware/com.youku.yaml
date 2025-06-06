@@ -1,0 +1,4 @@
+---
+- description: Chinese Youku video.
+  id: com.youku.phone
+  removal: recommended

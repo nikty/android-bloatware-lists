@@ -1,0 +1,6 @@
+---
+- description: |-
+    Camera extensions for Huawei like Tags,HDR effects
+    and other things to video, photos.
+  id: androidx.camera.extensions.impl
+  removal: advanced

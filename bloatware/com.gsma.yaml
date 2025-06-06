@@ -1,0 +1,8 @@
+---
+- description: |-
+    RCS
+    Hidden RCS Messaging? or only Frameworks?
+    Feature code:184501
+    Carrier name: GSM Association.
+  id: com.gsma.rcs
+  removal: advanced

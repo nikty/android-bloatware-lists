@@ -1,0 +1,6 @@
+---
+- description: |-
+    Alphonso Recommendations
+    Enhanced viewing, personalized experience of watching TV.
+  id: tv.alphonso.alphonso_eula
+  removal: recommended

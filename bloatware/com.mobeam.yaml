@@ -1,0 +1,7 @@
+---
+- description: |
+    The Beaming Service enables your device to beam (relay) barcodes, as found on digital coupons, event tickets, library cards, loyalty 
+    cards and membership cards to 1D red laser and Image based scanners prevalent at nearly every retail store and checkout stand around the world.
+    Mobeam is a 3-party (https://mobeam.com/)
+  id: com.mobeam.barcodeService
+  removal: recommended

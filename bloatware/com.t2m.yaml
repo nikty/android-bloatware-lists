@@ -1,0 +1,4 @@
+---
+- description: Possibly needed for eSIM (eUICC)
+  id: com.t2m.euiccoverlay
+  removal: expert

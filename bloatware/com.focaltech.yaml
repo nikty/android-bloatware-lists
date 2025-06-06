@@ -1,0 +1,4 @@
+---
+- description: Another fingerprint sensor test tool but Chinese.
+  id: com.focaltech.fingerprint
+  removal: recommended

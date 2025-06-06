@@ -1,0 +1,5 @@
+---
+- description: |
+    "Scan" Settings > intelligent assistant: Scan. QR code & Bar code scanner.
+  id: com.scanning.agold.agoldscanning
+  removal: advanced

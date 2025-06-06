@@ -1,0 +1,6 @@
+---
+- description: |-
+    XClub
+    XStore to buy.
+  id: com.trassion.infinix.xclub
+  removal: recommended

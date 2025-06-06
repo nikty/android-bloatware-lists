@@ -1,0 +1,831 @@
+---
+- description: |
+    Setup View
+    LG first setup (related to com.android.LGSetupWizard). 
+    The first time you turn your device on, a Welcome screen is displayed. It guides you through the basics of setting up your device.
+  id: com.lge.LGSetupView
+  removal: recommended
+- description: |-
+    NFC settings
+    Likely in the settings.
+  id: com.lge.NfcSettings
+  removal: expert
+- description: |-
+    Software Update
+    It's probably the only component of software updates.
+  id: com.lge.android.atservice
+  removal: expert
+- description: |-
+    AnimalResource
+    Another thing for avatars.
+  id: com.lge.animal.resource
+  removal: recommended
+- description: |-
+    Multitasking framework
+    Allows you to use multitasking features like multiple apps in one screen.
+    Does not remove screen pinning feature.
+    I don't know if this removes the floating windows feature that you have to enable with ADB (to make it look more like a desktop)
+  id: com.lge.app.floating.res
+  removal: advanced
+- description: |
+    LG Application manager
+    Installs/Updates LG related apps?
+  id: com.lge.appbox.client
+  removal: recommended
+- description: Recent Task App Widget.
+  id: com.lge.appwidget.runningtaskbar
+  removal: recommended
+- description: |-
+    ARCamera
+    This application requires google play services for ar. Not sure what for it is but probably for VR.
+  id: com.lge.arcamera
+  removal: recommended
+- description: It has important configs. Better don't risk.
+  id: com.lge.auto_generated_rro_product__
+  removal: unsafe
+- description: Needed for Bluetooth.
+  id: com.lge.bluetoothsetting
+  removal: expert
+- description: |
+    LG Backup
+    Can backup your mobile devices LG Home screen, device settings, apps, and contacts to your computer.
+    https://www.lg.com/us/support/help-library/lg-android-backup-CT10000025-20150104708841
+  id: com.lge.bnr
+  removal: recommended
+- description: |
+    LG Mobile Switch Launcher
+    This doesn't remove the default launchers.
+    It is most likely to backup/restore the user's launcher configuration.
+  id: com.lge.bnr.launcher
+  removal: recommended
+- description: |-
+    Calligraphy dictionary
+    Looks useless.
+  id: com.lge.calligraphydictionary
+  removal: recommended
+- description: |-
+    Camera
+    Stock camera app.
+  id: com.lge.camera
+  removal: advanced
+- description: Needed for Stock camera app.
+  id: com.lge.camerasolution
+  removal: advanced
+- description: |
+    Memories album
+    Gallery automatically creates a Memories album with pictures and videos saved in the phone. 
+    Memories is a virtual album of pictures saved in the phone or SD card.
+    Source : https://www.lg.com/hk_en/support/product-help/CT30019000-1433767985158-others
+  id: com.lge.cic.eden.service
+  removal: recommended
+- description: |-
+    Cine shot
+    I think it's an optional app.
+  id: com.lge.cinemagraph
+  removal: recommended
+- description: |
+    LG Clock app
+  id: com.lge.clock
+  removal: advanced
+- description: |-
+    Emergency Alerts
+    it's only for alerts so it's safe to remove.
+  id: com.lge.cmas
+  removal: advanced
+- description: |-
+    Dual Screen Tool
+    Needed for dual-screen I guess.
+  id: com.lge.covertools
+  removal: recommended
+- description: It's fingerprint testing. Secret code 346437.
+  id: com.lge.displayfingerprint
+  removal: recommended
+- description: |-
+    DRM Service
+    Probably required for some forms of DRM; disabling might break things like Netflix streaming, which relies on DRM to function.
+    https://en.wikipedia.org/wiki/Digital_rights_management
+  id: com.lge.drmservice
+  removal: recommended
+- description: |-
+    Dual Screen Updater
+    If you dont use dual screen feature then it's safe to remove?
+  id: com.lge.dsmanager
+  removal: expert
+- description: Shows error dialog for dual-screen firmware update.
+  id: com.lge.dualscreenfirmware
+  removal: recommended
+- description: |
+    LG EasyHome
+    EasyHome is a more simplified version of the Home screen that you can choose to use on your phone.
+    It displays the Home screen like a remote control device. T
+    Source : https://www.lg.com/us/mobile-phones/VS985/Userguide/048.html
+  id: com.lge.easyhome
+  removal: recommended
+- description: It's for lock screen effect.
+  id: com.lge.effect
+  removal: recommended
+- description: |-
+    Smart Cam & AI Tips
+    Delete if not using default camera.
+  id: com.lge.ellievision
+  removal: advanced
+- description: |
+    ELTest
+    Device hardware tests settings
+  id: com.lge.eltest
+  removal: recommended
+- description: |
+    LG Email app
+  id: com.lge.email
+  removal: recommended
+- description: It's for miracast and wifi hotspot probably.
+  id: com.lge.entitlementcheckservice
+  removal: expert
+- description: Equalizer settings.
+  id: com.lge.equalizer
+  removal: advanced
+- description: |-
+    LG EULA (Terms of Use) accessible in the settings.
+    EULA = https://en.wikipedia.org/wiki/End-user_license_agreement
+    Needed by LG HD Audio Recorder or it will force close (maybe used by some other stock app?)
+  id: com.lge.eula
+  removal: advanced
+- description: |-
+    Privacy Policy Update
+    Not tested but probably safe to remove.
+  id: com.lge.eula.downloader
+  removal: advanced
+- description: |-
+    License Provider
+    Needed by com.lge.eula.
+    Needed by LG HD Audio Recorder or it will force close (maybe used by some other stock app?)
+  id: com.lge.eulaprovider
+  removal: advanced
+- description: |-
+    It looks like the Microsoft outlook/email in the logo. Believe this is some sort of microsoft integration.
+    I don't 100% remember if I was able to add accounts to the phone still (eg. Nextcloud), I need to test that soon.
+  id: com.lge.exchange
+  removal: advanced
+- description: |-
+    Face Recognition
+    Remove if you don't need it. If you want security I don't think this is a good idea to use it.
+  id: com.lge.faceglance.trustagent
+  removal: advanced
+- description: |
+    Stock file manager
+  id: com.lge.filemanager
+  removal: advanced
+- description: |
+    LG Floating bar
+    Lets you put shortcuts to apps or features, as well as quick access to contacts and music player controls on a "floating bar" on the Home screen.
+    https://www.neowin.net/news/lg-v30-closer-look-floating-bar/
+  id: com.lge.floatingbar
+  removal: recommended
+- description: |
+    FM radio app
+  id: com.lge.fmradio
+  removal: recommended
+- description: |
+    LG Friends Manager (https://play.google.com/store/apps/details?id=com.lge.friendsmanager)
+    WTF ? Completely useless app.
+    Not sure but I think it enables you to download an app for a friend LG user.
+  id: com.lge.friendsmanager
+  removal: recommended
+- description: |-
+    Always-on display image
+    LG Always-on display image
+  id: com.lge.gallery.aodimagewidget
+  removal: recommended
+- description: |
+    LG Collage Wallpapers
+    Allows you to create patchwork wallpaper from several photos.
+    https://www.lg.com/uk/support/product-help/CT00008356-20150332136499-others
+  id: com.lge.gallery.collagewallpaper
+  removal: recommended
+- description: |-
+    GalleryStudio
+    It's needed for gallery app probably.
+  id: com.lge.gallery.studio
+  removal: advanced
+- description: |-
+    LG 360 Image Wallpaper
+    Provides VR (360°) wallpapers.
+  id: com.lge.gallery.vr.wallpaper
+  removal: recommended
+- description: |-
+    LG Game Pad
+    It's probably for TV. Not useful for games.
+  id: com.lge.gamepad
+  removal: expert
+- description: |-
+    GameTools
+    Not tested it's for probably useful for games.
+  id: com.lge.gametools
+  removal: expert
+- description: |-
+    Screen recording
+    Screen recording for game tools.
+  id: com.lge.gametools.gamerecorder
+  removal: advanced
+- description: |-
+    Settings/features for games, such as resolution and frame rate limiting.
+    A little side note, any games installed in the work profile can't use gametuner (maybe if you install this package into the work profile it'll work)
+  id: com.lge.gametuner
+  removal: advanced
+- description: |
+    GCUV
+    Not 100% sure but @siraltus from XDA thinks it refers to "Gauce Components" which seems to be the LG's version of CSC 
+    (carrier sales code - automatic carrier-specific customization).
+    It gets run on first boot after factory reset, sets up the ROM features based on which carrier and country code is specified 
+    in the build.prop, and then gets frozen so it doesn't reconfigure things on subsequent boots.
+    It's basically the only person to mention "Gauce components" on the web (other than restricted LG webpages when using Google dorks).
+    https://forum.xda-developers.com/tmobile-lg-v10/development/rom-lg-v10-h901-10c-debranded-debloated-t3277305/page12/page12
+  id: com.lge.gcuv
+  removal: recommended
+- description: Another component of OTA Updates but here I found it's for App Updates.
+  id: com.lge.gdec.client
+  removal: expert
+- description: |
+    Answer me 2.0
+    Allows you to bring the phone to your ear to answer an incoming call automatically.
+    https://www.lg.com/us/mobile-phones/VS980/Userguide/109-1.html
+  id: com.lge.gestureanswering
+  removal: recommended
+- description: |
+    GNSS Air Test
+    GNSS test, used to test... GNSS. Not needed, and GPNSS will continue to work.
+    NOTE : GNSS = Global Navigation Satellite System and is the standard generic term for satellite navigation systems.
+    This term includes e.g. the GPS, GLONASS, Galileo, Beidou and other regional systems.
+  id: com.lge.gnss.airtest
+  removal: recommended
+- description: |
+    GNSS Logcat
+    Used to dump GNSS logs.  
+  id: com.lge.gnsslogcat
+  removal: recommended
+- description: GNSS LOG LEVEL SETTING. It's for debug.
+  id: com.lge.gnsslogsetting
+  removal: recommended
+- description: |
+    GNSS Position test
+    GNSS test again.
+  id: com.lge.gnsspostest
+  removal: recommended
+- description: |
+    GNSS Test
+    Woh ! Why does LG need so many GNSS test packages?! 
+  id: com.lge.gnsstest
+  removal: recommended
+- description: |
+    LG Audio Recorder
+  id: com.lge.hifirecorder
+  removal: recommended
+- description: |
+    LG Home selector
+    This is the settings menu for the home launcher (present in the settings app as "Home launcher")
+    If you remove this app, the Home screen settings menu is gone from settings app. (not needed if you use external launcher)
+        You can still switch between installed launchers, the package name is a bit misleading.
+  id: com.lge.homeselector
+  removal: recommended
+- description: |
+    LG Mobile Hotspot
+    Provides hotspot feature enabling you to share the phone’s 4G data connection with any Wi-Fi capable devices.
+  id: com.lge.hotspotlauncher
+  removal: advanced
+- description: Needed for hotspot 3G?
+  id: com.lge.hotspotprovision
+  removal: expert
+- description: |
+    InCalAgent
+    Related to interface while you're in a call. Seems also related to tasks list stuff.
+    Can someone tell me what happens when you delete it ? I think it is safe.
+  id: com.lge.ia.task.incalagent
+  removal: recommended
+- description: "I only found that it's for feed favorite contacts and this app uses Korean language. Hidden, useless."
+  id: com.lge.ia.task.informant
+  removal: recommended
+- description: |
+    LIA SmartDoctor Engine
+    Needed by SmartDoctor (com.lge.phonemanagement) ?
+  id: com.lge.ia.task.smartcare
+  removal: recommended
+- description: |
+    SmartSetting
+    Turns on/off or changes features, settings and more according to where you are or what you do.
+    https://www.lg.com/us/support/help-library/lg-android-smart-settings-CT10000025-20150103623722
+  id: com.lge.ia.task.smartsetting
+  removal: recommended
+- description: Emergency and video calling things.
+  id: com.lge.icecontacts
+  removal: advanced
+- description: |
+    LG Smart settings
+    IFTTT = “if this, then that.”. Smart Settings can be seens as IFTTT.
+    Some events automatically triggers actions.
+  id: com.lge.iftttmanager
+  removal: recommended
+- description: |
+    LG Stock Keyboard
+    Do not remove if you don't have an alternate keyboard available. Personally, I keep the stock keyboard just in case the keyboard app crash/fails (this happened to me once) locking me out of entering password.
+  id: com.lge.ime
+  removal: expert
+- description: |
+    Handwriting feature on the LG keyboard
+  id: com.lge.ime.solution.handwriting
+  removal: recommended
+- description: |-
+    XT9 
+    Text predicting and correction for the LG keyboard.
+    For your culture (if you're young) : https://en.wikipedia.org/wiki/XT9
+    
+    WARNING: On LG G6 (and maybe on other LG phones) removing this may cause the LG keyboard to stop inputing characters. Make sure to use another keyboard before removing this package.
+  id: com.lge.ime.solution.text
+  removal: advanced
+- description: |-
+    LG IMS
+    It's not a good app because it has a lot of debugging stuff.
+    Breaks calls.
+  id: com.lge.ims
+  removal: expert
+- description: "It's a component of (com.lge.ims), not very useful because it's for debugging app."
+  id: com.lge.ims.chatbotinfoprovider
+  removal: recommended
+- description: 'Needed for IMS, RCS but com.lge.ims = debugging app.'
+  id: com.lge.ims.rcsprovider
+  removal: recommended
+- description: 'Video Call, another component of com.lge.ims = debugging app.'
+  id: com.lge.imsvt
+  removal: recommended
+- description: |
+    LG Home (v2)
+    Stock launcher
+    It's basically the home screen, the way icons apps are organized and displayed.
+    DON'T REMOVE THIS IF YOU DIDN'T INSTALL ANOTHER LAUNCHER!
+    NOTE : Yeah there is another package described as "launcher". Normally, you only have one of them on your phone. 
+  id: com.lge.launcher2
+  removal: advanced
+- description: |
+    "Optimus" theme for the LG launcher (v2)
+  id: com.lge.launcher2.theme.optimus
+  removal: expert
+- description: |
+    LG Home (v3)
+    Stock launcher
+    It's basically the home screen, the way icons apps are organized and displayed.
+    DON'T REMOVE THIS IF YOU DIDN'T INSTALL ANOTHER LAUNCHER!
+    NOTE : Yeah there is 3 packages described as "launcher". Normally, you only have one of them on your phone. 
+  id: com.lge.launcher3
+  removal: advanced
+- description: |-
+    LG Connectivity Service
+    It has only Alert Dialogs.
+  id: com.lge.leccp
+  removal: recommended
+- description: |
+    LG Account
+    Enables you to create and manage your completely useless LG account.
+  id: com.lge.lgaccount
+  removal: recommended
+- description: 'Broadcast radio? No one needs that.'
+  id: com.lge.lgbroadcastradioservice
+  removal: recommended
+- description: |-
+    Wallpaper & theme
+    Needed for theme settings.
+  id: com.lge.lgcontentsetting
+  removal: advanced
+- description: It's for test and debug Data connection.
+  id: com.lge.lgdataphone
+  removal: recommended
+- description: |
+    Actual "Software Update" App client
+    I think you won't receive updates without this.
+  id: com.lge.lgdmsclient
+  removal: expert
+- description: |-
+    Handle permissions for LG DRM (com.lge.drmservice).
+    Why does LG need a whole package for this?
+  id: com.lge.lgdrm.permission
+  removal: advanced
+- description: |-
+    Wifi Hotspot service
+    REMINDER : Hotspot enable you to share the phone’s 4G data connection with any Wi-Fi capable devices.
+    It is not the Hotspot feature. Only the widget ! 
+    
+    Dual SIM status widget
+    Probably only present in dual sim LG phone variants. Does not remove the persistent notification or dual SIM functionality.
+    
+    Service menus. I believe if you remove the last one the secret code you can dial doesn't work anymore (who needs it anyway..?)
+    
+    LG support App remote access
+    You probably don't want that to happen
+    
+    LAOP test [MORE INFO NEEDED]
+    I don't know what LAOP is. I could not find information about it. It's a test so it's probably fine. I have removed it.
+  id: com.lge.lgfmservice
+  removal: advanced
+- description: FOTA Test.
+  id: com.lge.lgfota.permission
+  removal: recommended
+- description: |
+    LG Install Service
+    Used by LG to install some of its apps on the phone. Not needed unless you use the LG apps manager.
+  id: com.lge.lginstallservies
+  removal: recommended
+- description: |
+    LGMapUI
+    User Interface (UI) for displaying location tracking reccord on the Health app (com.lge.lifetracker) ? 
+  id: com.lge.lgmapui
+  removal: recommended
+- description: |
+    LG SmartWorld
+    LG Store. Enables you to install LG apps, theme, keyboard layout, fonts...
+  id: com.lge.lgworld
+  removal: recommended
+- description: |
+    LG Health (https://play.google.com/store/apps/details?id=com.lge.lifetracker)
+    According to users reviews, it is a very bad activity tracking app. 
+    Privacy wise, you should never use this kind of thing obviously. 
+    https://www.lg.com/us/support/help-library/lg-android-lg-health-CT30013120-20150103629401
+  id: com.lge.lifetracker
+  removal: recommended
+- description: |-
+    Draw chat
+    Not needed for chats.
+  id: com.lge.livemessage
+  removal: recommended
+- description: Needed for LG account.
+  id: com.lge.lms2
+  removal: expert
+- description: |-
+    LockScreenSettings
+    Lock Screen Settings.
+  id: com.lge.lockscreensettings
+  removal: unsafe
+- description: |
+    MirrorLink
+    Enables you to connect your phone to a car to provide audio streaming, GPS navigation...
+    https://www.lg.com/ca_en/support/product-help/CT30014940-1440413573040-others
+    https://mirrorlink.com/
+  id: com.lge.mirrorlink
+  removal: recommended
+- description: |
+    LG MLT
+    Run in background all the time and probably serves purpose to help LG remote support. The thing is this acts as a good spyware. 
+    It tries to track all your activity and logs GPS position together with the details gathered, and that includes calls, apps starting etc...
+    All data is collected and placed on /mpt partition, it seems not to be per reboot, but actually kept during flash and upgrades.
+    #
+    https://forum.xda-developers.com/showthread.php?t=2187920
+  id: com.lge.mlt
+  removal: recommended
+- description: |
+    Voice Mate Speech Pack
+    Voice Mate (now Q Vocie) is the LG Personal assistant (https://en.wikipedia.org/wiki/Voice_Mate)
+    This package provides speech pack. Is it the main Q-voice package ? I don't think so but I need confirmation.
+  id: com.lge.mtalk.sf
+  removal: recommended
+- description: |
+    Stock music player
+  id: com.lge.music
+  removal: recommended
+- description: Music controller widget also Test activity.
+  id: com.lge.musiccontroller
+  removal: recommended
+- description: |-
+    Audio
+    It has Drm Popup, Music Picker, Audio Preview.
+  id: com.lge.musicpicker
+  removal: recommended
+- description: |
+    LG Audio Share 
+    Enables you to connect two devices so that you can share the sound from music or video files with another LG devices.
+    https://www.lg.com/hk_en/support/product-help/CT30007700-20150123957406-others
+  id: com.lge.musicshare
+  removal: recommended
+- description: |
+    My Place
+    Analyses the place you stay the most and recognises it as My Place (or your home) automatically.
+    https://www.lg.com/uk/support/product-help/CT00008356-1433767701724-setting
+  id: com.lge.myplace
+  removal: recommended
+- description: |
+    My Places Engine
+    Needed by com.lge.myplace. See above.
+  id: com.lge.myplace.engine
+  removal: recommended
+- description: |-
+    Sim network settings
+    It can be found in settings.
+  id: com.lge.networksettings
+  removal: unsafe
+- description: Needed for screenshots?
+  id: com.lge.nextcapture
+  removal: expert
+- description: 'Needed for One-Handed Controller, Miniview.'
+  id: com.lge.onehandcontroller
+  removal: recommended
+- description: |-
+    Operator HiddenMenu
+    Hidden tests.
+  id: com.lge.operator.hiddenmenu
+  removal: recommended
+- description: |-
+    Pen settings
+    No one using them.
+  id: com.lge.penprime
+  removal: recommended
+- description: |
+    Smart Doctor App
+    Enables you to shut down idle apps and delete temporary files.
+    Lets you also see phone battery, mobile data, apps, network status and usage patterns.
+    On the paper it seems good but in practise, Android handle 8+ handles very well idles apps. 
+    https://www.lg.com/ca_en/support/product-help/CT20098088-20150129256824-others
+  id: com.lge.phonemanagement
+  removal: recommended
+- description: |-
+    PickMe
+    Needed for camera app or face unlock?
+  id: com.lge.pickme
+  removal: expert
+- description: |
+    LG Content lock
+    You can lock the LG Gallery with a password or pattern. When connected to a PC, Content Lock prevents file previews.
+    https://www.lg.com/us/support/help-library/lg-g4-content-lock-CT10000027-1432774759427
+  id: com.lge.privacylock
+  removal: recommended
+- description: Needed for lock screen.
+  id: com.lge.provider.lockscreensettings
+  removal: unsafe
+- description: |-
+    Needed for Always on display.
+    NOTE: May crash Settings app after removal.
+  id: com.lge.provider.signboard
+  removal: expert
+- description: Not sure if iths important app.
+  id: com.lge.provider.systemui
+  removal: expert
+- description: |
+    Quick Help
+    App which provides you with support articles (FAQ section that walks you through most of the major features of the phone).
+    You can request support via email or request a call from LG.
+    https://www.lg.com/us/support/help-library/lg-android-quick-help-CT10000026-20150103624836
+  id: com.lge.qhelp
+  removal: recommended
+- description: |
+    Quick Help application
+    I think this package is the real Quick Help app. The package above only provides help contents IMO.
+  id: com.lge.qhelp.application
+  removal: recommended
+- description: |
+    LG QuickMemo+
+    Allows you to capture screen shots and use them to create memos. You can also insert a reminder, location information, image, video, and audio.
+    https://www.lg.com/us/support/help-library/lg-android-quickmemo-CT10000025-20150103629575
+  id: com.lge.qmemoplus
+  removal: recommended
+- description: |-
+    Quick Tools
+    Quick Tools widget configure.
+  id: com.lge.quicktools
+  removal: recommended
+- description: 'I have no idea what it is, maybe some drawing program related to rcs. I removed it.'
+  id: com.lge.rcs.sharedsketch
+  removal: advanced
+- description: |
+    LG AirDrive
+    Lets you to control files in your device via a wireless connection. 
+    To use it, you need to sign in to your LG account on both the PC and mobile device.
+    https://www.lg.com/africa/support/product-help/CT20080025-1436354408798-others
+     
+    LG AirDrive settings
+    See package below.
+  id: com.lge.remote.lgairdrive
+  removal: recommended
+- description: |
+    LG AirDrive
+    Lets you to control files in your device via a wireless connection. 
+    To use it, you need to sign in to your LG account on both the PC and mobile device.
+    https://www.lg.com/africa/support/product-help/CT20080025-1436354408798-others
+     
+    LG AirDrive settings
+    See package above.
+  id: com.lge.remote.setting
+  removal: recommended
+- description: |-
+    Screen+
+    Desktop Touchpad.
+  id: com.lge.screenplus.touchpad
+  removal: recommended
+- description: |-
+    Screen+
+    I don't know what Screen+ probably connects to PC screen.
+  id: com.lge.screenplus.uiservice
+  removal: recommended
+- description: Encryption devices like SD card.
+  id: com.lge.sdencryption
+  removal: recommended
+- description: Live wallpapers resources.
+  id: com.lge.seamlesswallpaper.circular.reactive.darkspace
+  removal: advanced
+- description: Live wallpapers resources.
+  id: com.lge.seamlesswallpaper.circular.reactive.space
+  removal: advanced
+- description: It's needed for wallpaper choose and multi-app.
+  id: com.lge.secondlauncher
+  removal: advanced
+- description: Hidden testing hardware things.
+  id: com.lge.servicemenu
+  removal: recommended
+- description: |-
+    Always On Display.
+    Probably a battery killer without an OLED screen.
+    Disabling will remove the connected menu in the settings app.
+  id: com.lge.signboard
+  removal: advanced
+- description: |
+    Music widget
+    Not sure if it only manages Music widget for the launcher or also for the lockscreen.
+    
+    Weather widget for the home screen.
+  id: com.lge.sizechangable.weather
+  removal: recommended
+- description: |
+    Weather Service
+    Provide weather data for the weather app/widget.
+  id: com.lge.sizechangable.weather.platform
+  removal: recommended
+- description: |
+    "Optimus" theme for the weather app/widget.
+  id: com.lge.sizechangable.weather.theme.optimus
+  removal: expert
+- description: |
+    Smart Doctor Webview
+    REMINDER : A WebView is acomponent that allows Android apps to display content from the web directly inside an application.
+  id: com.lge.smartdoctor.webview
+  removal: recommended
+- description: It's for OTA Updates.
+  id: com.lge.smartenabler
+  removal: expert
+- description: |
+    SmartShare 
+    Feature that uses DLNA technology to stream multimedia contents between DLNA devices.
+    DLNA is a non-profit trade organisation which defines standards that enable devices to share stuff with each other.
+    Basically LG provides a way to stream multimedia contents from your phone to your smart TV (or via a DLNA plugin)
+    https://www.lg.com/ca_en/support/product-help/CT31903570-1428542236040-file-media-transfer-pictures-music-etc
+  id: com.lge.smartshare
+  removal: recommended
+- description: |
+    Provider for Smart Share. 
+    Needed by com.lge.smartshare.
+    REMINDER : content providers help an application manage access to data stored by itself, stored by other apps, 
+    and provide a way to share data with other apps. They encapsulate the data, and provide mechanisms for defining data security
+  id: com.lge.smartshare.provider
+  removal: recommended
+- description: |
+    Smart Share Push
+    Obviously related to Smart Share but I don't know its exact purpose. 
+  id: com.lge.smartsharepush
+  removal: recommended
+- description: |
+    Snap Page
+    Part of the QuickMemo+ app, lets you capture the text/images/URL from a web page without grabbing ads.
+    It’s much like instapaper or pocket app, but it works locally, like reading mode on some browsers, saving only the body of the article. 
+    http://www.lg.com/us/mobile-phones/g4/display
+  id: com.lge.snappage
+  removal: recommended
+- description: |
+    Smart cleaning
+    Displays the space in use and free space in your phone and allows you to selectively clean up your files.
+    https://www.lg.com/us/mobile-phones/VS986/Userguide/339.html
+  id: com.lge.springcleaning
+  removal: recommended
+- description: Removing this package causes the clock app to crash when trying to set an alarm for a specific date instead of a day of the week.
+  id: com.lge.sui.widget
+  removal: advanced
+- description: |-
+    LG Bridge Service
+    Used to backup, restore, update your LG phone, and transfer files wirelessly between computer and LG phone.
+    You will need to install LG Bridge software on your PC.
+    NOTE: causes noticeable battery drain.
+  id: com.lge.sync
+  removal: recommended
+- description: |-
+    System Server
+    Not sure if iths important app.
+  id: com.lge.systemservice
+  removal: expert
+- description: |-
+    LG Tasks
+    Needed by LG Calendar or it will force close.
+  id: com.lge.task
+  removal: advanced
+- description: |-
+    LG Black theme.
+    Safe to remove, but also probably pointless to do so as most theme packages are just data containers.
+    Make sure you don't delete the package for the theme you're currently using, I don't know what will happen then.
+  id: com.lge.theme.black
+  removal: expert
+- description: |-
+    LG High Contrast theme.
+    Safe to remove, but also probably pointless to do so as most theme packages are just data containers.
+    Make sure you don't delete the package for the theme you're currently using, I don't know what will happen then.
+  id: com.lge.theme.highcontrast
+  removal: advanced
+- description: |-
+    LG Titan theme (labelled 'Platinum' in the theming app).
+    Safe to remove, but also probably pointless to do so as most theme packages are just data containers.
+    Make sure you don't delete the package for the theme you're currently using. I don't know what will happen then.
+  id: com.lge.theme.titan
+  removal: expert
+- description: |-
+    LG White theme.
+    Safe to remove, but also probably pointless to do so as most theme packages are just data containers.
+    Make sure you don't delete the package for the theme you're currently using, I don't know what will happen then.
+  id: com.lge.theme.white
+  removal: advanced
+- description: Needed to install themes.
+  id: com.lge.themeinstaller
+  removal: expert
+- description: Needed to apply themes.
+  id: com.lge.themeservice
+  removal: expert
+- description: "I have never seen this menu in the settings app. I say it's safe to remove. I can't think of any use case for this setting, it just allows you to change where you're allowed to touch the screen"
+  id: com.lge.touchcontrol
+  removal: advanced
+- description: |-
+    LG Update Center
+    Provide Android upgrade and LG updates (Settings --> System --> Update Center)
+    I believe you won't receive any updates if this packages is deleted.
+  id: com.lge.updatecenter
+  removal: advanced
+- description: |
+    Video Wallpaper
+    LG 360° VR Wallpapers
+  id: com.lge.video.vr.wallpaper
+  removal: recommended
+- description: |
+    LG Video Player
+    NB : This is a bad one. VLC is much better.
+  id: com.lge.videoplayer
+  removal: recommended
+- description: |
+    Quick Video Editor
+    Allows you to create and edit video files using the videos (and photos) stored on the phone.
+    https://www.lg.com/us/mobile-phones/VS980/Userguide/281.html
+  id: com.lge.videostudio
+  removal: recommended
+- description: |
+    LG Voice care
+    Allows you to use your device if the touch screen or display is damaged. 
+    You must agree to location-based information use and personal information collection to use Voice Care. 
+    https://www.lg.com/hk_en/support/product-help/CT20136018-20150122834174-others
+  id: com.lge.voicecare
+  removal: recommended
+- description: |
+    LG VR player
+    Enables you to watch 360° pictures/videos.
+  id: com.lge.vrplayer
+  removal: recommended
+- description: |-
+    Wallpaper
+    Needed for wallpaper preview.
+  id: com.lge.wallpaperpicker
+  removal: expert
+- description: Icon looks like email configuration. I'd say it's safe to remove. Probably related to the stock email app.
+  id: com.lge.wapservice
+  removal: advanced
+- description: |
+    QVoice Engine
+    Needed by Q-voice (the LG Q Voice voice assistant) to work.
+  id: com.lge.wernicke
+  removal: recommended
+- description: |
+    Natural-language processing for LG intelligent assistant.
+    Used to understand what a human is saying when they speak.
+    Needed by QVoice
+  id: com.lge.wernicke.nlp
+  removal: recommended
+- description: |
+    Provide wifi-direct feature
+    Note : Wifi-direct is Wi-Fi standard enabling devices to easily connect with each other without requiring a wireless access point.
+    It allows allows two devices to establish a direct Wi-Fi connection without requiring a wireless router
+    https://en.wikipedia.org/wiki/Wi-Fi_Direct
+    spmirroring = ??? screen p... mirroring ?
+  id: com.lge.wfd.spmirroring.source
+  removal: advanced
+- description: |
+    Wifi-direct service (v3)
+    See above.
+  id: com.lge.wfds.service.v3
+  removal: advanced
+- description: |
+    LG P2p Service 
+    Wifi-drect P2P allows the device to discover the services of nearby devices directly, without being connected to a network.
+    Needed for LG Wifi-direct feature.
+    https://developer.android.com/training/connect-devices-wirelessly/nsd-wifi-direct
+  id: com.lge.wifi.p2p
+  removal: recommended
+- description: |-
+    WiFi settings
+    It can be found in settings.
+  id: com.lge.wifisettings
+  removal: unsafe

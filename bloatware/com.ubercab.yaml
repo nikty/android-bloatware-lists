@@ -1,0 +1,17 @@
+---
+- description: |
+    Uber (https://play.google.com/store/apps/details?id=com.ubercab)
+    Uber Driver (https://play.google.com/store/apps/details?id=com.ubercab.driver)
+    Uber Eats (https://play.google.com/store/apps/details?id=com.ubercab.eats)
+    Uber does not protect personal user data and has a questionable ethic.
+    Worth reading : https://en.wikipedia.org/wiki/Uber#Criticism
+  id: com.ubercab.driver
+  removal: recommended
+- description: |
+    Uber (https://play.google.com/store/apps/details?id=com.ubercab)
+    Uber Driver (https://play.google.com/store/apps/details?id=com.ubercab.driver)
+    Uber Eats (https://play.google.com/store/apps/details?id=com.ubercab.eats)
+    Uber does not protect personal user data and has a questionable ethic.
+    Worth reading : https://en.wikipedia.org/wiki/Uber#Criticism
+  id: com.ubercab.eats
+  removal: recommended

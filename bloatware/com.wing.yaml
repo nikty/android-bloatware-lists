@@ -1,0 +1,4 @@
+---
+- description: 'Sar control, Chinese App, not available for normal users.'
+  id: com.wing.wtsarcontrol
+  removal: recommended

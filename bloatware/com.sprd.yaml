@@ -1,0 +1,65 @@
+---
+- description: 'Needed for IMS, WiFi Calling.'
+  id: com.sprd.ImsConnectionManager
+  removal: expert
+- description: |-
+    AutoSLT
+    Useless camera tests.
+  id: com.sprd.autoslt
+  removal: recommended
+- description: 'Camera calibration, tests.'
+  id: com.sprd.cameracalibration
+  removal: recommended
+- description: 'Secret code: 83785. CameraIPControl, has some camera features for testing.'
+  id: com.sprd.cameraipcontrol
+  removal: recommended
+- description: Hidden camera dump logs.
+  id: com.sprd.camta
+  removal: recommended
+- description: Testing Hardware Components
+  id: com.sprd.engineermode
+  removal: recommended
+- description: Blacklist Calls.
+  id: com.sprd.firewall
+  removal: advanced
+- description: 'Flashlight Control, not sure how useful it is.'
+  id: com.sprd.flashcontrol
+  removal: advanced
+- description: "For WiFi speed? Has useless logs. I ran a speed test with it enabled and disabled, I don't see anything different if not my internet is slightly better now along with other apps being disabled,"
+  id: com.sprd.linkturbo
+  removal: recommended
+- description: |-
+    YLog
+    Hidden logs
+  id: com.sprd.logmanager
+  removal: recommended
+- description: OTA Config and Settings.
+  id: com.sprd.omacp
+  removal: expert
+- description: Overlay to 'com.sprd.sprdnote' png icons.
+  id: com.sprd.overlay.sprdnote
+  removal: advanced
+- description: |-
+    Photos Types Storage
+    Bokeh, portrait, FDR, AI photo.
+  id: com.sprd.providers.photos
+  removal: advanced
+- description: |-
+    camera agent
+    Another app for testing camera things.
+  id: com.sprd.quickcamera
+  removal: recommended
+- description: Hidden logs in code only.
+  id: com.sprd.srmi
+  removal: recommended
+- description: |-
+    UserAgent Setting
+    UserAgent Setting? Useless frameworks.
+  id: com.sprd.uasetting
+  removal: recommended
+- description: 'Set UPLMN? Useless frameworks.'
+  id: com.sprd.uplmnsettings
+  removal: recommended
+- description: Hidden testing hardware and it has a lot of secret codes.
+  id: com.sprd.validationtools
+  removal: recommended

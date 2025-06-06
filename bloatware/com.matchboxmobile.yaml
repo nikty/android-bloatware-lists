@@ -1,0 +1,7 @@
+---
+- description: |
+    AT&T Hot Spots
+    Run in background. Automatically connects you to a free AT&T wifi hotspot at one of their participating partner locations 
+    such as Starbucks.
+  id: com.matchboxmobile.wisp
+  removal: recommended

@@ -1,0 +1,77 @@
+---
+- description: |-
+    OnePlus Common Log Tool
+    9 permissions and given what we know about OnePlus logging apps, it's a good idea to disable this.
+    See com.oneplus.opbugreportlite, com.oem.oemlogkit and net.oneplus.odm
+  id: net.oneplus.commonlogtool
+  removal: recommended
+- description: |-
+    OnePlus Community (https://play.google.com/store/apps/details?id=net.oneplus.forums)
+    Literally just their forum... in an app.
+    Just use a Browser if you wanna access the forums.
+  id: net.oneplus.forums
+  removal: recommended
+- description: |-
+    Oneplus Launcher
+    Runs in the background as part of the system.
+    Aside from obviously handling the default launcher itself, it also handles the Recents UI on Android 9, the home&recents gestures in Android 11, some submenus in the Settings app and possibly more that I'm unaware of.
+    Probably not a good idea to disable.
+  id: net.oneplus.launcher
+  removal: expert
+- description: Theme overlay for the Oneplus Launcher?
+  id: net.oneplus.launcher.black.overlay
+  removal: expert
+- description: Theme overlay for the Oneplus Launcher?
+  id: net.oneplus.launcher.white.overlay
+  removal: expert
+- description: |-
+    "OnePlus System Service"
+    Shady telemetry app.
+    Sends loads of data to OnePlus' servers, including IMEI, phone number, MAC addresses, mobile network names and IMSI prefixes, Wi-Fi connection info, the phone's serial number and every time an app was opened.
+    Source: https://www.chrisdcmoore.co.uk/post/oneplus-analytics/
+    Press: https://www.androidpolice.com/2017/10/10/never-settle-oneplus-found-collecting-personally-identifiable-analytics-data-phone-owners/
+  id: net.oneplus.odm
+  removal: recommended
+- description: |-
+    Insight Provider
+    Provider for net.oneplus.odm? (shady telemetry app)
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: net.oneplus.odm.provider
+  removal: recommended
+- description: |-
+    AppCategoryProvider
+    Runs in the background.
+    I think this categorizes apps for use with system functionality, for example: automatically adding games to Game Mode.
+  id: net.oneplus.provider.appcategoryprovider
+  removal: recommended
+- description: |-
+    Push
+    OnePlus push notifications.
+    Only used by OnePlus' pre-installed apps. Pushes "surveys and other junk" according to a user.
+    https://forums.oneplus.com/threads/psa-non-root-root-stop-oneplus-push-notifications.580058/
+    OnePlus can remotely send push notifications:
+    https://www.androidpolice.com/2019/07/01/oneplus-accidentally-pushed-a-cryptic-notification-to-all-7-pro-users/
+  id: net.oneplus.push
+  removal: recommended
+- description: |-
+    Resources for some live wall papers? Not sure.
+    Only contains a "WallpaperResourceProvider", no services, activities or receivers.
+  id: net.oneplus.wallpaperresources
+  removal: expert
+- description: |-
+    OnePlus Weather (https://play.google.com/store/apps/details?id=net.oneplus.weather)
+    Occasionally runs in the background; I think it runs every now and then to change the app icon to current weather conditions.
+  id: net.oneplus.weather
+  removal: recommended
+- description: Theme overlay for Oneplus Weather app?
+  id: net.oneplus.weather.basiccolorblack.overlay
+  removal: expert
+- description: Theme overlay for Oneplus Weather app?
+  id: net.oneplus.weather.basiccolorwhite.overlay
+  removal: expert
+- description: |
+    OnePlus Widget
+    Lets you use OnePlus widgets on the home screen.
+  id: net.oneplus.widget
+  removal: recommended

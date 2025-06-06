@@ -1,0 +1,6 @@
+---
+- description: |-
+    Pico TTS
+    Hidden sample voice data. Useless.
+  id: com.svox.pico
+  removal: recommended

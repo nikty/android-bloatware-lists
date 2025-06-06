@@ -1,0 +1,18 @@
+---
+- description: |-
+    Hi Browser (https://play.google.com/store/apps/details?id=com.talpa.hibrowser)
+    Awful browser with embedded trackers and ads (https://reports.exodus-privacy.eu.org/fr/reports/com.talpa.hibrowser/latest/)
+  id: com.talpa.hibrowser
+  removal: recommended
+- description: |-
+    HiLanguageService
+    Useless frameworks.
+  id: com.talpa.hiservice
+  removal: recommended
+- description: |-
+    XShare Mini
+    File Sharing App (via Bluetooth) with Google and Facebook trackers.
+    Asks for a lot of permissions including ACCESS_FINE_LOCATION, REQUEST_INSTALL_PACKAGES.
+    Pithus analysis : https://beta.pithus.org/report/949bf802e335ad0db47b1551cde46af2b2ef13da4b38be969c60c9439b94f05b
+  id: com.talpa.share
+  removal: recommended

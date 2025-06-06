@@ -1,0 +1,7 @@
+---
+- description: |-
+    Seedvault
+    Running in the background.
+    it's app for Backup, Restore your data.
+  id: com.stevesoltys.seedvault
+  removal: recommended

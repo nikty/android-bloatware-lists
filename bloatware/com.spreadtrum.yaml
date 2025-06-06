@@ -1,0 +1,23 @@
+---
+- description: 'Needed for WiFi calling, VoLTE, VoWifi.'
+  id: com.spreadtrum.ims
+  removal: advanced
+- description: |-
+    Carrier location
+    Carrier location? Sends location to carrier probably. Useless Map Collections, also probably it's for testing location.
+  id: com.spreadtrum.proxy.nfwlocation
+  removal: recommended
+- description: Useless GPS Test.
+  id: com.spreadtrum.sgps
+  removal: recommended
+- description: 'Useless logs (dialer google, volte)'
+  id: com.spreadtrum.vce
+  removal: recommended
+- description: |-
+    WiFi Calling Test
+    Hidden tests WiFi calling.
+  id: com.spreadtrum.vowifi
+  removal: recommended
+- description: 'VoWifi config Secret Code: 869434234'
+  id: com.spreadtrum.vowifi.conf
+  removal: advanced

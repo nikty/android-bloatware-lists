@@ -1,0 +1,6 @@
+---
+- description: |-
+    Agui Unibuds
+    Iot stuff. May only be needed if you use Uniherts Ear Buds (Unibuds).
+  id: com.haoba.btsmart
+  removal: recommended

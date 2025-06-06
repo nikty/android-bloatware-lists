@@ -1,0 +1,9 @@
+---
+- description: |
+    Skype Lite (https://play.google.com/store/apps/details?id=com.skype.m2)
+  id: com.skype.m2
+  removal: recommended
+- description: |
+    Skype (https://play.google.com/store/apps/details?id=com.skype.raider)
+  id: com.skype.raider
+  removal: recommended

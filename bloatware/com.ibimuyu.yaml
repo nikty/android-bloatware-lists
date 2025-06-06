@@ -1,0 +1,6 @@
+---
+- description: |-
+    Dynamic theme service lockscree
+    Dynamic theme service lockscreen? Some people recommend removing that.
+  id: com.ibimuyu.lockscreen
+  removal: advanced

@@ -1,0 +1,29 @@
+---
+- description: Testing things. This app is for testing phone components.
+  id: com.iqoo.aftersale.engineermode
+  removal: recommended
+- description: |-
+    Factory test
+    Testing things, AT Commands - no one uses them.
+  id: com.iqoo.engineermode
+  removal: recommended
+- description: |-
+    Battery
+    Power-saving app. May not be a good idea to remove it.
+  id: com.iqoo.powersaving
+  removal: expert
+- description: |-
+    i Manager
+    Removing this removes the traffic speed indicator in the notification bar. Be cautious about removing it.
+  id: com.iqoo.secure
+  removal: expert
+- description: |-
+    Factory test
+    It's for testing phone components.
+  id: com.iqoo.user.engineermode
+  removal: recommended
+- description: |-
+    iQOO.com
+    Shows iQOO website.
+  id: com.iqoo.website
+  removal: recommended

@@ -1,0 +1,22 @@
+---
+- description: |
+    Nokia camera (https://play.google.com/store/apps/details?id=com.hmdglobal.camera2)
+  id: com.hmdglobal.camera2
+  removal: advanced
+- description: Sends diagnostic data to HMD (Company behind Nokia)?
+  id: com.hmdglobal.datago
+  removal: recommended
+- description: Theme overlay for a Nokia telemetry package?
+  id: com.hmdglobal.datago.overlay.base
+  removal: expert
+- description: Theme overlay for a Nokia telemetry package?
+  id: com.hmdglobal.datago.overlay.base.s600ww
+  removal: expert
+- description: "I can't find this app on the internet, but I heard it has telemetry."
+  id: com.hmdglobal.enterprise.api
+  removal: recommended
+- description: |
+    My Phone (https://play.google.com/store/apps/details?id=com.hmdglobal.support)
+    Lets you join the Nokia phones community, get app recommendations, explore your phone’s user guide and more.
+  id: com.hmdglobal.support
+  removal: recommended

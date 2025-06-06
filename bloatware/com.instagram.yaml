@@ -1,0 +1,5 @@
+---
+- description: |
+    Instagram  (https://play.google.com/store/apps/details?id=com.instagram.android)
+  id: com.instagram.android
+  removal: recommended

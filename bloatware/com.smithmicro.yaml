@@ -1,0 +1,7 @@
+---
+- description: |
+    XFINITY Wifi settings (https://play.google.com/store/apps/details?id=com.smithmicro.netwise.director.comcast.oem)
+    Auto-connects you to XFINITY WiFi hotspot.
+    XFINITY is a subsidiary of the Comcast Corporation (https://en.wikipedia.org/wiki/Xfinity)
+  id: com.smithmicro.netwise.director.comcast.oem
+  removal: recommended

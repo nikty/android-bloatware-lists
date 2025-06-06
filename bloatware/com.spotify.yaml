@@ -1,0 +1,5 @@
+---
+- description: |
+    Spotify app (https://play.google.com/store/apps/details?id=com.spotify.music)
+  id: com.spotify.music
+  removal: recommended

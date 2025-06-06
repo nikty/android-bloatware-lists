@@ -1,0 +1,9 @@
+---
+- description: |-
+    Digital Turbine
+    . Adware and used by carriers to showcase their apps
+    
+    FYI: Digital Turbine is an advertising company.
+    [HELP: CAN SOMEONE UPLOAD THE APK?]
+  id: com.digitalturbine.toolbar
+  removal: recommended

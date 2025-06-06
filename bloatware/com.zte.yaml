@@ -1,0 +1,93 @@
+---
+- description: |
+    ZTE Voice Assistant
+  id: com.zte.assistant
+  removal: recommended
+- description: |-
+    ZTE Theme
+    Needed for themes
+  id: com.zte.beautify
+  removal: advanced
+- description: Possibly a hidden stress testing app for camera.
+  id: com.zte.burntest.camera
+  removal: advanced
+- description: Possibly related to contact sync.
+  id: com.zte.contacts.sub
+  removal: advanced
+- description: |-
+    Easy mode
+    Easy Mode settings
+  id: com.zte.easymode
+  removal: recommended
+- description: Testing Hardware Components
+  id: com.zte.emode
+  removal: recommended
+- description: Logs to emode Testing Hardware Components
+  id: com.zte.emodeservice
+  removal: recommended
+- description: Needed for face unlock screen
+  id: com.zte.faceverify
+  removal: recommended
+- description: |-
+    Fingerprint service
+    Fingerprint settings.
+  id: com.zte.fingerprints
+  removal: expert
+- description: 'Process killer, unloads programs from memory.'
+  id: com.zte.heartyservice.strategy
+  removal: advanced
+- description: Stock ZTE Launcher
+  id: com.zte.mifavor.launcher
+  removal: expert
+- description: Needed for Stock ZTE Launcher
+  id: com.zte.mifavor.launcher.adapter
+  removal: expert
+- description: Needed for Stock ZTE Launcher
+  id: com.zte.mifavor.launcher.resource
+  removal: expert
+- description: Needed for themes?
+  id: com.zte.mifavor.theme.resource
+  removal: expert
+- description: |-
+    Phone Switch
+    PC Connect things, not needed.
+  id: com.zte.onekeycp
+  removal: recommended
+- description: Has battery settings.
+  id: com.zte.powersavemode
+  removal: unsafe
+- description: ZTE privacy policy app.
+  id: com.zte.privacypolicy
+  removal: recommended
+- description: |-
+    App Lock
+    App Lock, Password Manager
+  id: com.zte.privacyzone
+  removal: recommended
+- description: |-
+    Setup Wizard
+    Needed for first-boot setup
+  id: com.zte.setupwizard
+  removal: recommended
+- description: |-
+    ZTE Video Player with INTERNET and ACCESS_NETWORK_STATE permissions
+    Pithus analysis: https://beta.pithus.org/report/caf2da956d33c5550e42d4250b0fa31dc605f39545c2eff36438fd88a0fc7c28
+  id: com.zte.videoplayer
+  removal: recommended
+- description: ZTE Weather app.
+  id: com.zte.weather
+  removal: recommended
+- description: |-
+    ZteBackupService
+    ZteBackupService with a lot of permissions.
+  id: com.zte.zbackup.platservice
+  removal: recommended
+- description: For configuring SMS settings.
+  id: com.zte.zdm.omacp
+  removal: expert
+- description: 'Useless logs, data collection.'
+  id: com.zte.zdmdaemon
+  removal: recommended
+- description: 'Useless logs, data collection.'
+  id: com.zte.zdmdaemon.install
+  removal: recommended

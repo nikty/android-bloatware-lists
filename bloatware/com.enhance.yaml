@@ -1,0 +1,6 @@
+---
+- description: |
+    Legacy game Optimizing Service (was replaced by com.samsung.android.game.gos)
+    Is supposed to "improve" game performance.
+  id: com.enhance.gameservice
+  removal: recommended

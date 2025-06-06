@@ -1,0 +1,6 @@
+---
+- description: |-
+    Playing the Waiting Game by T-Mobile.
+    This app is maded for listening to music.
+  id: com.ptc.osp.gnc
+  removal: recommended

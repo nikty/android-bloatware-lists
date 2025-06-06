@@ -1,0 +1,531 @@
+---
+- description: |
+    Used to send AT command messages from/to the modem
+    Attention commands commands are a collection of short-string commands developed in the early 1980s 
+    that were designed to be transmitted via phone lines and control modems. Different AT command strings can be merged together 
+    to tell a modem to dial, hang up, or change connection parameters. 
+    Smartphones include a basic modem component inside them, which allows the smartphone to connect to the Internet 
+    via its telephony function.
+    This can be abused. It's been known for many years that Android devices are vulnerable to attacks carried out via AT commands:
+    https://www.bleepingcomputer.com/news/security/smartphones-from-11-oems-vulnerable-to-attacks-via-hidden-at-commands/
+  id: com.qualcomm.atfwd
+  removal: recommended
+- description: This is the same app as the 'com.qualcomm.atfwd'.
+  id: com.qualcomm.atfwd2
+  removal: recommended
+- description: |
+    Content Adaptative Backlight Settings
+    CABL will try to adjust the image being displaye by changing the contrast/quality/image backlight depending on 
+    the content on the screen.
+    Downside to this is loss of dynamic range which results in some colors being washed out/clipped.
+    CABL != Auto brightness (which doesn't change the content of the screen, only the brightness)
+    NOTE: You may want to remove this. It does not work very well on many phones
+    https://mobileinternist.com/disable-adaptive-brightness-android
+  id: com.qualcomm.cabl
+  removal: recommended
+- description: |-
+    Runs on boot, but not in the background beyond that?
+    Adds support for eMBMS(evolved Multimedia Broadcast Multicast Service), also known as: LTE Broadcast
+    Enables carriers to send content using multicast/broadcast (same content to many users at the same time) instead of unicast(to a single user).
+    It's a more efficient use of network resources compared to users receiving the same content individually.
+    Probably safe to disable if you don't care about multi/broad-casts.
+    https://en.wikipedia.org/wiki/Multimedia_Broadcast_Multicast_Service
+  id: com.qualcomm.embms
+  removal: recommended
+- description: |-
+    Provide Fast Dormancy feature/setting in the dialer (reduce battery consumption and network utilization during periods of data inactivity)
+    https://en.wikipedia.org/wiki/Fast_Dormancy
+  id: com.qualcomm.fastdormancy
+  removal: advanced
+- description: |-
+    LocationServices
+    Runs in the background as part of the system. Runs even if disabled, so probably pointless to disable.
+    Periodically sends a unique software ID, location (lat, long, alt, and their uncertainty), nearby cellular towers and Wi-Fi hotspots and their signal strength to Qualcomm servers.
+    https://www.qualcomm.com/site/privacy/services
+  id: com.qualcomm.location
+  removal: recommended
+- description: |-
+    Qualcomm IZat. it's hidden XT Activity. Location for Qualcomm. It's a bad idea to keep it.
+    Periodically sends a unique software ID, location (lat, long, alt, and their uncertainty), nearby cellular towers and Wi-Fi hotspots and their signal strength to Qualcomm servers.
+    https://www.qualcomm.com/site/privacy/services
+  id: com.qualcomm.location.XT
+  removal: recommended
+- description: |-
+    Qualcomm IZat
+    Its hidden Setup XT location for Qualcomm. It's a bad idea to keep it.
+    Periodically sends a unique software ID, location (lat, long, alt, and their uncertainty), nearby cellular towers and Wi-Fi hotspots and their signal strength to Qualcomm servers.
+    https://www.qualcomm.com/site/privacy/services
+  id: com.qualcomm.location.XT.setup
+  removal: recommended
+- description: |-
+    qchat logo png founded also Hello World! and app_name Qchat_QMI
+    this app has no code and no activities so safe to remove.
+  id: com.qualcomm.qcom_qmi
+  removal: recommended
+- description: |-
+    Message receiving channel (secondary card can't turn on 5g)
+    So if you dont use dual-sim it's safe to remove. Breaks calls after a reboot on some phones.
+  id: com.qualcomm.qcrilmsgtunnel
+  removal: expert
+- description: |-
+    CarrierAccessCacheService
+    Well it's only name app and no code.
+  id: com.qualcomm.qti.accesscache
+  removal: recommended
+- description: |
+    Qualcomm FIDO implementation. 
+    FIDO : https://en.wikipedia.org/wiki/FIDO_Alliance
+    Fido is a set of open technical specifications for mechanisms of authenticating users to online services that do not depend on passwords.
+    https://fidoalliance.org/specs/u2f-specs-1.0-bt-nfc-id-amendment/fido-glossary.html
+    https://fidoalliance.org/specs/fido-v2.0-rd-20170927/fido-overview-v2.0-rd-20170927.html
+  id: com.qualcomm.qti.auth.fidocryptoservice
+  removal: recommended
+- description: |-
+    it's only Sample,
+    nothing important found in the code
+  id: com.qualcomm.qti.auth.sampleauthenticatorservice
+  removal: recommended
+- description: |-
+    it's only Sample,
+    nothing important found in the code
+  id: com.qualcomm.qti.auth.sampleextauthservice
+  removal: recommended
+- description: |-
+    it's only Sample,
+    nothing important found in the code
+  id: com.qualcomm.qti.auth.secureextauthservice
+  removal: recommended
+- description: |-
+    it's only Sample,
+    nothing important found in the code
+  id: com.qualcomm.qti.auth.securesampleauthservice
+  removal: recommended
+- description: |-
+    Collects device activation data to remotely activate phone warranty.
+    In 2019 this package sent private data (IMEI, CELLID, CCID) in clear-text to zzhc.vnet.cn (chinese server). According to HMD (Nokia) it was a mistake:
+    https://www.androidauthority.com/nokia-7-plus-user-info-967901/
+  id: com.qualcomm.qti.autoregistration
+  removal: recommended
+- description: |-
+    Fingerprint authentication not used by any app maybe only china,
+    test temperature, debug, logs, fingerprint biometrics.
+  id: com.qualcomm.qti.biometrics.fingerprint.service
+  removal: recommended
+- description: |-
+    Supposed to enhance call quality (I'll let you test if it really does)
+    This can record your phone calls. A vulnerability was found in 2019, allowing unauthorized microphone audio recording by 3rd-party apps.
+    https://nvd.nist.gov/vuln/detail/CVE-2019-15472
+  id: com.qualcomm.qti.callenhancement
+  removal: recommended
+- description: |-
+    CallFeatureSetting
+    Hidden Call forwarding, Call waiting not available for users.
+  id: com.qualcomm.qti.callfeaturessetting
+  removal: recommended
+- description: 'Carrier Configure, Configures carrier, only for some china phones uses qualcomm names'
+  id: com.qualcomm.qti.carrierconfigure
+  removal: unsafe
+- description: |-
+    CneApp (Connectivity Engine)
+    Runs in the background as part of the System.
+    Enables seamless hand-off between mobile data and Wi-Fi networks. Can also dynamically measure network performance to prioritize using the best one (I think that's part of "Intelligently select the best Wi-Fi" in settings).
+    Probably worth keeping on; I noticed connection reliability getting worse when I disabled it.
+    https://www.qualcomm.com/news/onq/2013/07/02/qualcomms-cne-bringing-smarts-3g4g-wi-fi-seamless-interworking
+    https://programmersought.com/article/35091829299/
+  id: com.qualcomm.qti.cne
+  removal: expert
+- description: |-
+    ConfDialer
+    LTE Conferencing Service.
+  id: com.qualcomm.qti.confdialer
+  removal: advanced
+- description: |-
+    Device statistics service Statistics of the phone's usage:data, Wifi, battery, the use of various software, number of SMS and emails sent, etc.
+    is not very useful, can be removed.
+  id: com.qualcomm.qti.devicestatisticsservice
+  removal: recommended
+- description: |-
+    Dynamic DDS Service
+    DDS = Direct Digital Synthesizer. Supposedly useful for testing, communication and frequency sweep applications. Some apps may use this for local communication between devices? I'm guessing this is related to sending data through audio(a bunch of rapid beeps outside of the range of human hearing), which I believe Google Home used(still uses?) at one point as an option to connect to a Chromecast.
+    https://www.qualcomm.com/news/releases/1996/05/07/qualcomm-introduces-new-high-speed-dual-direct-digital-synthesizer
+    Info about DDS: https://www.allaboutcircuits.com/technical-articles/direct-digital-synthesis/
+  id: com.qualcomm.qti.dynamicddsservice
+  removal: advanced
+- description: 'Needed for hotspot, some chinese phones uses qualcomm names apps'
+  id: com.qualcomm.qti.extsettings
+  removal: unsafe
+- description: Adreno Graphics Drivers
+  id: com.qualcomm.qti.gpudrivers.kalama.api33
+  removal: unsafe
+- description: |-
+    Adreno Graphics Drivers
+    GPU drivers for Snapdragon 865 and 870.
+  id: com.qualcomm.qti.gpudrivers.kona.api30
+  removal: unsafe
+- description: |-
+    Adreno Graphics Drivers
+    GPU drivers for Snapdragon 888.
+  id: com.qualcomm.qti.gpudrivers.lahaina.api30
+  removal: unsafe
+- description: |-
+    Adreno Graphics Drivers
+    GPU drivers for Snapdragon 765G.
+  id: com.qualcomm.qti.gpudrivers.lito.api30
+  removal: unsafe
+- description: Qualcomm GPU Drivers
+  id: com.qualcomm.qti.gpudrivers.pineapple.api34
+  removal: unsafe
+- description: |-
+    Adreno Graphics Drivers
+    GPU drivers for Snapdragon 675.
+    But actually I have Snapdragon 732G
+    it's weird but keep it.
+  id: com.qualcomm.qti.gpudrivers.sm6150.api30
+  removal: unsafe
+- description: |-
+    Adreno Graphics Drivers
+    GPU drivers
+  id: com.qualcomm.qti.gpudrivers.taro.api31
+  removal: unsafe
+- description: |-
+    A improve touch things was found in the code, but it is not available to users, only to developers.
+    The size of the app is 36.40 KB, so why would this improve touch?
+    This app does not exist on some xiaomi phones, and the touch works the same.
+  id: com.qualcomm.qti.improvetouch.service
+  removal: advanced
+- description: |-
+    Hidden IMS Settings activity not available for users.
+    In this app you can only turn on option:
+    Auto reject incoming calls.
+  id: com.qualcomm.qti.ims
+  removal: recommended
+- description: |-
+    CarrierLoadService
+    Have only things like a: Find carrier, carrier switch.
+    it's useless.
+  id: com.qualcomm.qti.loadcarrier
+  removal: recommended
+- description: |-
+    lpa = Local Profile Assistants
+    Runs on boot, but not in the background beyond that.
+    Code has a lot of references to UIM(User Identity Module, which is SIM-related)
+    Only useful if you use an eSIM? (electronic SIM)
+    Allows users to choose and change their subscription data when switching between network operators/carriers.
+    https://developer.qualcomm.com/blog/rise-esims-and-isims-and-their-impact-iot
+    https://source.android.com/devices/tech/connect/esim-overview
+  id: com.qualcomm.qti.lpa
+  removal: advanced
+- description: Modem test
+  id: com.qualcomm.qti.modemtestmode
+  removal: recommended
+- description: |
+    Network operators (hidden settings menu)
+    Lets you select network modes like GSM only, WCDMA only, LTE only etc, toggle VoLTE On/Off...
+  id: com.qualcomm.qti.networksetting
+  removal: expert
+- description: |-
+    High Battery Temperature
+    Wrong named package, theres only high temperature notification.
+    it's app for some chinese phones
+  id: com.qualcomm.qti.notificationservice
+  removal: recommended
+- description: |-
+    Useless frameworks for com.qualcomm.location.XT it's probably dialogues.
+    Anyway it's only legal notices.
+  id: com.qualcomm.qti.optinoverlay
+  removal: recommended
+- description: |
+    Performance dump (logging)
+    Enable a more accurate overview of the running services (and maybe how much power/RAM they take?)
+  id: com.qualcomm.qti.perfdump
+  removal: recommended
+- description: |-
+    Performance Mode
+    Hidden Performance Mode activity not available for users.
+    it's on xiaomi, oneplus.
+    Removal does not brick performance mode.
+  id: com.qualcomm.qti.performancemode
+  removal: recommended
+- description: |-
+    Probably what enables alarms to start the device from an off state.
+    Runs on boot and when you open a clock app.
+  id: com.qualcomm.qti.poweroffalarm
+  removal: expert
+- description: |-
+    It have hidden power saving modes.
+    Users cant use it.
+  id: com.qualcomm.qti.powersavemode
+  removal: recommended
+- description: |-
+    QCC-AUTHMGR
+    It have something to (com.qualcomm.qti.smq).
+    Feedback stuff, something about key: blacklist, download or whatever.
+    All looks like telemetry and it's all not available for users.
+  id: com.qualcomm.qti.qccauthmgr
+  removal: recommended
+- description: useless network statistics also QCC in name qualcomm app is for analytics.
+  id: com.qualcomm.qti.qccnetstat
+  removal: recommended
+- description: |-
+    QColor
+    QTI enhanced color mode? I found 1 png file, color service, it's not needed for any app.
+  id: com.qualcomm.qti.qcolor
+  removal: recommended
+- description: |-
+    Theres nothing about logs. I only found in receivers (c Broadcast Receiver)
+    and some useless png, text files. Useless.
+  id: com.qualcomm.qti.qcom_accesslogkit
+  removal: recommended
+- description: 'layout but not sure for what. a lot useless code, and internet permission'
+  id: com.qualcomm.qti.qdcmtpg
+  removal: recommended
+- description: |-
+    QDMA = Qualcomm Device Management and Analytics.
+    thats what qdma means when I found it in .png
+    a lot of data collections: logs, dropbox, network.
+  id: com.qualcomm.qti.qdma
+  removal: recommended
+- description: |
+    QMMI is a test app made by Qualcomm. It is used by service center to test the working of the various device components.
+    More info: https://community.phones.nokia.com/discussion/52566/android-10-on-nokia-8-1/p19
+    Useless for end-users.
+  id: com.qualcomm.qti.qmmi
+  removal: recommended
+- description: |
+    Telemetry service
+    qms = quality management service
+    Background-Connection to tls.telemetry.swe.quicinc.com (Host/Domain belongs to Qualcomm)
+  id: com.qualcomm.qti.qms.service.connectionsecurity
+  removal: recommended
+- description: QMS = Quality Management Service. In code I found logs and QMS spying things.
+  id: com.qualcomm.qti.qms.service.credentials
+  removal: recommended
+- description: |-
+    Qualcomm Mobile Security
+    Telemetry service. Obviously phones to Qualcomm.
+  id: com.qualcomm.qti.qms.service.telemetry
+  removal: recommended
+- description: QMS always spying. Trust Zone in this app means nothing more than logs.
+  id: com.qualcomm.qti.qms.service.trustzoneaccess
+  removal: recommended
+- description: 'Quick settings to mobile data internet, some chinese phones uses qualcomm names apps instead of normal'
+  id: com.qualcomm.qti.qs
+  removal: unsafe
+- description: |-
+    In code found getting info about device Ram Size, Rom Size, get Wifi Mac Address, is Settings Task Done.
+    Also in app found qtisystemservice code.
+    It looks like the app is for developers only, so it may be removed.
+  id: com.qualcomm.qti.qtisettings
+  removal: advanced
+- description: |-
+    Seems to only log stuff related to telephony?
+    A user removed this without noticing any issues.
+  id: com.qualcomm.qti.qtisystemservice
+  removal: advanced
+- description: "qms, qwes it's used for collecting user data."
+  id: com.qualcomm.qti.qwes.AndroidService
+  removal: recommended
+- description: |-
+    RCS Service
+    RCS = Rich Communication Services.
+    RCS is a communication protocol between mobile telephone carriers and between phone and carrier, aiming at replacing SMS.
+    https://en.wikipedia.org/wiki/Rich_Communication_Services
+    Uses IP protocol so it needs an internet connection.
+    It's a hot mess right now. It aims at being universal but only exists in Samsung Messages and Google Messages, because Google hasn't released a public API yet, so 3rd-party apps can't support it.
+    In a lot of countries messages go through Google's Jibe servers.
+    https://jibe.google.com/policies/terms/
+    https://pocketnow.com/why-you-should-probably-avoid-googles-rcs-text-messaging-chat-feature
+    Can anybody check if this is needed for VolTE/VoWifi?
+  id: com.qualcomm.qti.rcsimsbootstraputil
+  removal: recommended
+- description: |-
+    Enable you to lock/unlock your eSIM remotely.
+    Seems more of a security risk to me than anything else.
+    it's used to phishing.
+  id: com.qualcomm.qti.remoteSimlockAuth
+  removal: recommended
+- description: |-
+    Ridemode Recording list
+    Hidden app, not available for users that should be the audio playback of the drive mode.
+  id: com.qualcomm.qti.ridemodeaudio
+  removal: recommended
+- description: 'Hidden settings menu for tweaking roaming settings? How exactly do you access this menu?'
+  id: com.qualcomm.qti.roamingsettings
+  removal: expert
+- description: |-
+    SecCamService
+    Only collects data about camera.
+  id: com.qualcomm.qti.seccamservice
+  removal: recommended
+- description: |-
+    MdtpService
+    Only logs found
+  id: com.qualcomm.qti.securemsm.mdtp
+  removal: recommended
+- description: Useless code and it's probably to verify packages.
+  id: com.qualcomm.qti.seemp.service
+  removal: recommended
+- description: |-
+    it's made for analytics.
+    This service can be used to have oem specific feature development. 
+    Currently this service is being used to collect CSI data from cfrtool 
+    via hidl and then pass the data to application(user level).
+  id: com.qualcomm.qti.server.qtiwifi
+  removal: recommended
+- description: |-
+    Only found dhcp range? Only the specified lists were found: 192.168. ...
+    It have a lot random of this.
+    Looks very unused.
+  id: com.qualcomm.qti.server.wigig.tethering.rro
+  removal: recommended
+- description: |-
+    Qualcomm Secure UI Service
+    It collects your data about screen:gravity, orientation, id, layout_width.
+    It has a Wifi Display Service. QC_WFD
+    Does not run in the background.
+  id: com.qualcomm.qti.services.secureui
+  removal: recommended
+- description: |-
+    System Helper Service
+    Runs "SysHelperService" in the background as part of the system.
+    Permissions: DEVICE_POWER, READ_PHONE_STATE, READ_PRIVILEGED_PHONE_STATE, RECEIVE_BOOT_COMPLETED, WRITE_SETTINGS, WAKE_LOCK and ACCESS_SURFACE_FLINGER.
+    Android simple network firewall utility service. On a RedMi Note 13 running HyperOS 2.6.0, no application is running after uninstalling this package.
+  id: com.qualcomm.qti.services.systemhelper
+  removal: expert
+- description: |-
+    SimContacts
+    Hidden Qualcomm sim contacts editor app.
+  id: com.qualcomm.qti.simcontacts
+  removal: recommended
+- description: 'Related to SIM settings? Exact nature is unclear.'
+  id: com.qualcomm.qti.simsettings
+  removal: expert
+- description: This app have nothing.
+  id: com.qualcomm.qti.smcinvokepkgmgr
+  removal: recommended
+- description: |-
+    QTR (Qualcomm Technology Reporting)
+    Runs on boot.
+    Seems like a telemetry package, supposedly sending hardware & software type, configuration and performance data.
+    Contains a "QtiFeedbackActivity" called "Hardware Feedback". When that hidden activity is launched through Activity Launcher you get a screen showing just a checkbox and this text:
+    "Collecting hardware and software type, configuration, and performance data helps Qualcomm improve next generation device battery life, security, and performance. Untick to disable."
+    Unticking isn't remembered; it's ticked again next time you enter. There's also a "Learn More" link that leads to: http://reporting.qti.qualcomm.com/learnmore_en.html which doesn't load for me.
+  id: com.qualcomm.qti.smq
+  removal: recommended
+- description: |-
+    Qualcomm Voice Activation
+    It has a lot of things like training voice, tutorial, debug mode.
+  id: com.qualcomm.qti.sva
+  removal: recommended
+- description: |
+    Related to Vodafone Prepaid Recharge Plan
+    If you're not a Vodafone client but still has this package on your phone you can delete it.
+    For Vodafone client, I don't know what this package does.
+    https://en.wikipedia.org/wiki/Vodafone
+  id: com.qualcomm.qti.telephony.vodafonepack
+  removal: expert
+- description: |-
+    Sound processing during phonecalls.
+    Runs in the background.
+    Vital package for making calls.
+  id: com.qualcomm.qti.telephonyservice
+  removal: unsafe
+- description: 'Needed for tethering, some chinese phones uses qualcomm names apps instead of normal'
+  id: com.qualcomm.qti.tetherservice
+  removal: unsafe
+- description: |-
+    Task manager
+    hidden app for chinese phones
+  id: com.qualcomm.qti.tm
+  removal: recommended
+- description: |-
+    trusteduiservice
+    Trusted UI debugging.
+  id: com.qualcomm.qti.trustedui
+  removal: recommended
+- description: |-
+    UCE shim service
+    UCE = User Capability Exchange. A shim is basically a compatibility layer for an API, that makes sure anything that uses the API does so correctly.
+    Used for RCS. Provides a discovery service for users to see the capabilities of other users.
+    UCE is based on SIP PUBLISH and SIP SUBSCRIBE/NOTIFY.
+    Devices PUBLISH their capabilities to a presence server, when another device wants to find out what the other party supports, the device sends a SUBSCRIBE to the presence server which then returns a NOTIFY of what the other party supports.
+    https://fr.wikipedia.org/wiki/Session_Initiation_Protocol
+  id: com.qualcomm.qti.uceshimservice
+  removal: advanced
+- description: |-
+    Runs "RemoteSimLockService" in the background.
+    This might be the only remote SIM lock service, just called UIM because R-UIM(Removeable-UserIdentityModule) is a variant of SIM commonly used in Asia.
+  id: com.qualcomm.qti.uim
+  removal: recommended
+- description: 'Contains a "GbaService", Related to uim card (R-UIM is a type of SIM card mainly used in Asia)'
+  id: com.qualcomm.qti.uimGbaApp
+  removal: recommended
+- description: |-
+    Runs "WLCService" in the background.
+    I assume this has to do with CPU scheduling. Probably important for efficiency, if not basic operation.
+    In code I found: it's for performance and security? it categorize apps maybe for optimization.
+    it's named workloadclassifier so it should do that. reads the list of installed applications, storage space.
+    it's still unknown.
+  id: com.qualcomm.qti.workloadclassifier
+  removal: expert
+- description: |-
+    Receive xrcb network signals for radio side. 
+    it's about emergency alerts, weather alerts, public announcements, and other information.
+  id: com.qualcomm.qti.xrcb
+  removal: recommended
+- description: |-
+    XRVD
+    The real name of this app is XRVDTest. It has accessibility testing,
+    collects some data? It's something for developers probably.
+  id: com.qualcomm.qti.xrvd.service
+  removal: recommended
+- description: Hidden aptxals Audio Bluetooth sample improvement. Useless 96kHz sample.
+  id: com.qualcomm.qtil.aptxacu
+  removal: recommended
+- description: Hidden aptxals Audio Bluetooth sample improvement test
+  id: com.qualcomm.qtil.aptxals
+  removal: recommended
+- description: Overlay hidden aptxals Audio Bluetooth sample improvement. Useless 96kHz sample.
+  id: com.qualcomm.qtil.aptxalsOverlay
+  removal: recommended
+- description: Hidden aptxals Audio Bluetooth sample improvement. Useless 96kHz sample.
+  id: com.qualcomm.qtil.aptxui
+  removal: recommended
+- description: |-
+    Hidden bluetooth: answering call, hanging up call, hanging up conference call.
+    If you have dual-sim then you will lose these things? NOTE: disabling this causes audio to come from earpiece regardless of the option selected (Speaker, Earpiece, Bluetooth)
+  id: com.qualcomm.qtil.btdsda
+  removal: advanced
+- description: uses library com.qualcomm.qcrilhook and logs shutdown phone but it's not needed.
+  id: com.qualcomm.shutdownlistner
+  removal: recommended
+- description: |-
+    Sim Contacts
+    Probably handles syncing(exporting/importing) contacts to/from the SIM card. Usually not a feature anybody cares about.
+  id: com.qualcomm.simcontacts
+  removal: recommended
+- description: |-
+    Sunlight Visibility Improvement
+    SVI Settings. Hidden display enhancement colors not available to users.
+  id: com.qualcomm.svi
+  removal: recommended
+- description: |
+    Qualcomm Time Service
+    Updates time-services user time offset when user changes time of the day and Android sends a TIME_CHANGED or DATE_CHANGED intents.
+    Time-services restores the time of the day after reboot using this offset:
+    https://github.com/bcyj/android_tools_leeco_msm8996/blob/master/time-services/src/com/qualcomm/timeservice/TimeServiceBroadcastReceiver.java
+  id: com.qualcomm.timeservice
+  removal: expert
+- description: Related to uim card (R-UIM is a type of SIM card mainly used in Asia)
+  id: com.qualcomm.uimremoteclient
+  removal: recommended
+- description: Related to uim card (R-UIM is a type of SIM card mainly used in Asia)
+  id: com.qualcomm.uimremoteserver
+  removal: recommended
+- description: |-
+    Wfd Service
+    Provides a way to cast your screen to a TV (Miracast)
+    https://en.wikipedia.org/wiki/Miracast
+    Or it is WiFi Direct.
+  id: com.qualcomm.wfd.service
+  removal: advanced

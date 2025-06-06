@@ -1,0 +1,6 @@
+---
+- description: |-
+    Kika Keyboard
+    Third party keyboard. Installs on some Huawei devices.
+  id: com.kikaoem.hw.qisiemoji.inputmethod
+  removal: recommended

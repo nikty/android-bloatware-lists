@@ -1,0 +1,1109 @@
+---
+- description: |
+    Screen Mirroring (only in Galaxy S6)
+    Cast your mobile screen to a TV.
+    https://www.samsung.com/us/2012-allshare-play/
+  id: com.sec.allsharecastplayer
+  removal: recommended
+- description: |
+    Auto Preconfig
+    Tells you to format the device when sim from other country is used basically (won't let you use another one)
+  id: com.sec.android.AutoPreconfig
+  removal: recommended
+- description: |-
+    CcInfo
+    Samsung logs/analytics.
+  id: com.sec.android.CcInfo
+  removal: recommended
+- description: "CDFS MODE Launcher, it's CdfsService Probably needed for usb mtp"
+  id: com.sec.android.Cdfs
+  removal: expert
+- description: |-
+    Geo News
+    for korea or japanese
+  id: com.sec.android.GeoLookout
+  removal: recommended
+- description: |-
+    On some phones founded testing things menu and on some not found any hidden menu
+    but it's app for secret codes to testing hardware things
+  id: com.sec.android.Preconfig
+  removal: recommended
+- description: |
+    Service mode RIL hidden app. Used for debug and diagnostics
+    dial *#0011# for modem connectivity info, *#9090# for diagnostics control
+    #
+    RIL means Radio Interface Layer. It's the bridge between Android phone framework services and the hardware.
+    https://wladimir-tm4pda.github.io/porting/telephony.html
+    https://stackoverflow.com/questions/11111067/how-does-modem-code-talk-to-android-code
+    Samsung RIL is a add on from Samsung : Modem <=> Linux kernel <=> libsamsung-ipc <=> Samsung-RIL <=> Android framework <=> Android applications
+  id: com.sec.android.RilServiceModeApp
+  removal: recommended
+- description: |
+    Automation Test
+    Another hidden test app. A lot of mention of samsung note (memo). Has access to basically everything on the phone
+    Related to these hidden menus (accessible by typing these codes in the samsung dialer) :
+    - *#3282*727336*# (Status of data usage) 
+    - *#273283*255*3282*# (Data create menu) 
+    - *#*#273283*255*663282*#*#* (Backup all media files)
+  id: com.sec.android.app.DataCreate
+  removal: recommended
+- description: |-
+    Samsung Setup Wizard
+    The first time you turn your device on, a welcome screen is displayed. It guides you through the basics of setting up your device. It's the setup for Samsung services. Both `com.sec.phone` & `com.sec.android.app.SecSetupWizard` must be enabled to be able to add new ESIMs to device. Otherwise menu will spin indefinitely.
+  id: com.sec.android.app.SecSetupWizard
+  removal: advanced
+- description: Calibration Camera app.
+  id: com.sec.android.app.aftersalecamera
+  removal: recommended
+- description: |-
+    Samsung ApexService
+    Enables taking motion photos and provides a motion photos player/viewer
+    https://www.samsung.com/global/galaxy/what-is/motion-photo/
+    It also does face recognition in the gallery. Without this package, motion photos will not work, see
+    https://www.samsung.com/au/support/mobile-devices/motion-photos
+  id: com.sec.android.app.apex
+  removal: advanced
+- description: |
+    Related to FeliCa Networks (https://en.wikipedia.org/wiki/FeliCa / https://www.felicanetworks.co.jp/en/).
+    FeliCa is contactless RFID smart card system mainly used for wallet function on mobile devices
+    #
+    Has the permission INSTALL_PACKAGES
+  id: com.sec.android.app.applinker
+  removal: recommended
+- description: |-
+    Business card recognition
+    Something about business cards
+    not very useful
+  id: com.sec.android.app.bcocr
+  removal: recommended
+- description: |
+    Samsung billing/Checkout
+    Used to purchase apps through Samsung Store application that is delivered with Samsung phones. 
+    Acts as bridge between Samsung Store and payment servers.
+  id: com.sec.android.app.billing
+  removal: recommended
+- description: |-
+    Bluetooth Agent
+    Bluetooth test service.
+  id: com.sec.android.app.bluetoothagent
+  removal: recommended
+- description: |-
+    Bluetooth Test
+    Hidden feature accessible by entering *#*#232331#*#* in the Samsung dialer.
+    It was found to be calling home back in 2015:
+    https://forum.xda-developers.com/galaxy-s5/help/bluetoothtest-apk-calling-home-t3035182
+  id: com.sec.android.app.bluetoothtest
+  removal: recommended
+- description: |
+    Samsung camera app
+    Safe to remove (but not recommended)
+  id: com.sec.android.app.camera
+  removal: advanced
+- description: |-
+    Weird app that has BootCameraService. Probably you can't uninstall it.
+    In the code found things: createCameraPreviewSession, generateTextureIds, openCamera, setUpCameraOutputs.
+  id: com.sec.android.app.camerasaver
+  removal: expert
+- description: |
+    Samsung stuff on the homepage of Google Chrome
+  id: com.sec.android.app.chromecustomizations
+  removal: recommended
+- description: |
+    Samsung clock
+  id: com.sec.android.app.clockpackage
+  removal: advanced
+- description: |
+    Samsung DeX Home (launcher)
+    Dex enables users to extend their device into a desktop-like experience by connecting a keyboard, mouse, and monitor.
+    "DeX" is a contraction of "Desktop eXperience".
+    https://en.wikipedia.org/wiki/Samsung_DeX
+  id: com.sec.android.app.desktoplauncher
+  removal: recommended
+- description: |
+    Samsung DeX
+    Extends your smartphone into a "desktop computing experience".
+    Concretely this lets you access all your mobile apps and content from a computer.
+    Only works on Windows/MacOS. You will need to install the Samsung DeX app on your computer.
+    https://en.wikipedia.org/wiki/Samsung_DeX
+    https://www.samsung.com/global/galaxy/apps/samsung-dex/
+  id: com.sec.android.app.dexonpc
+  removal: recommended
+- description: |
+    Samsung Dictionary is is an app that enables you to manage all the dictionaries stored on your Samsung device.
+  id: com.sec.android.app.dictionary
+  removal: recommended
+- description: |
+    Core of Samsung SmartThings (formerly Samsung Easy Setup)
+    See com.samsung.android.easysetup
+  id: com.sec.android.app.easysetup
+  removal: recommended
+- description: |
+    Entertainment Widget
+    AT&T Widget for OneUI
+  id: com.sec.android.app.ewidgetatt
+  removal: recommended
+- description: |
+    DeviceKeyString : Dialable hidden diagnostic/debug app
+    Dial *#0283# to open audio LoopbackTest control, dial *#2663# for TSP firmware update
+  id: com.sec.android.app.factorykeystring
+  removal: recommended
+- description: 'FeliCa Test, hidden debugs,logs HAL_Nfc'
+  id: com.sec.android.app.felicatest
+  removal: recommended
+- description: |-
+    Blocked calls'msgs
+    Chinese blocking calls and spam.
+  id: com.sec.android.app.firewall
+  removal: recommended
+- description: |
+    Samsung Radio
+    Listen to FM radio stations
+  id: com.sec.android.app.fm
+  removal: advanced
+- description: |
+    Samsung Game Hub
+    Was replaced by "com.samsung.android.game.gamehome"
+    https://www.techradar.com/news/phone-and-communications/mobile-phones/the-samsung-game-hub-explained-1143450
+  id: com.sec.android.app.gamehub
+  removal: recommended
+- description: |-
+    HwModuleTest, a hardware hidden test app (dial *#0*# to open it).
+    Has stuff to quickly check the phone's hardware. Removing it does not break anything, but no point in removing it. Note: opening this menu is required to change CSC with PC programs.
+  id: com.sec.android.app.hwmoduletest
+  removal: recommended
+- description: 'This app provides a child-friendly interface and controls on Samsung devices, designed to create a safe environment for children by restricting access to apps and content.'
+  id: com.sec.android.app.kidshome
+  removal: recommended
+- description: |-
+    Samsung One UI Home launcher (homescreen) (https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)
+    It is also Samsung's TouchWiz default launcher
+    WARNING: disabling this package breaks the multitasking navigation button on all newer versions of One UI, nothing would happen when pressing it.
+  id: com.sec.android.app.launcher
+  removal: expert
+- description: |
+    Lets you use your device as a magnifying glass making it easier to read any small font or expand the details of any object, for example.
+  id: com.sec.android.app.magnifier
+  removal: recommended
+- description: Minimode will be not available when this app be removed
+  id: com.sec.android.app.minimode.res
+  removal: recommended
+- description: |
+    Mobile tracker security feature. If someone inserts a new SIM card in your device the device will automatically 
+    sends the SIM contact number to specified recipients to help you locate and recover you device.
+    https://www.samsung.com/nz/support/mobile-devices/what-is-mobile-tracker/
+  id: com.sec.android.app.mt
+  removal: recommended
+- description: |-
+    Samsung file manager app (https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)
+    WARNING: If you remove this package on Android 10+, you will no longer be able to manage storage the same way as before. For example you will lose the ability to unmount or format the SD card from within the Settings app.
+  id: com.sec.android.app.myfiles
+  removal: advanced
+- description: |
+    Optical Read (feature replaced by Bixby Vision : com.samsung.android.visionintelligence)
+    Lets you scan or extract text or data from images, documents, business cards, or QR codes.
+  id: com.sec.android.app.ocr
+  removal: recommended
+- description: |-
+    DRParser Mode
+    Secret code parser
+    Support for hidden samsung apps launched via secret codes
+  id: com.sec.android.app.parser
+  removal: recommended
+- description: |-
+    Has something to do with personalization?
+    Has 2 permissions: `READ_PHONE_STATE` and `CHANGE_PHONE_STATE`
+  id: com.sec.android.app.personalization
+  removal: advanced
+- description: |
+    Samsung calculator app (https://play.google.com/store/apps/details?id=com.sec.android.app.popupcalculator)
+  id: com.sec.android.app.popupcalculator
+  removal: advanced
+- description: Not needed popupui with battery animation charging or other system notifications.
+  id: com.sec.android.app.popupuireceiver
+  removal: recommended
+- description: 'About half street overlay, has to gms.'
+  id: com.sec.android.app.qsfastpairoverlay
+  removal: advanced
+- description: |
+    The Quick Tools panel includes a ruler, a compass and a torch. To add this to the Edge Panel (com.samsung.android.app.clipboardedge)
+  id: com.sec.android.app.quicktool
+  removal: recommended
+- description: |
+    Samsung ringtone backup/restore feature
+    Where is this feature? (available from Samsung Galaxy S9)
+  id: com.sec.android.app.ringtoneBR
+  removal: recommended
+- description: |-
+    Safety assurance is related to emergency features. It is especially used for SOS messages.
+    https://www.samsung.com/nz/support/mobile-devices/samsung-sos-smart-phone-emergency-message-guide/
+    Has obviously a huge amount of permissions.
+    
+    Pithus analysis: https://beta.pithus.org/report/a06501fce61a39cb2b38df088eba4d0ce7ca3ed8fce3e8b672d8eb807538fb1f
+  id: com.sec.android.app.safetyassurance
+  removal: advanced
+- description: |
+    Samsung Galaxy Store
+    Samsung app store.
+    Required for Samsung Pay feature to work.
+    
+    https://en.wikipedia.org/wiki/Samsung_Galaxy_Store
+  id: com.sec.android.app.samsungapps
+  removal: expert
+- description: |-
+    docomo mail
+    no activities, looks like more useless frameworks also it's only for japanese
+  id: com.sec.android.app.saspmodemailerprovider
+  removal: recommended
+- description: |-
+    Samsung Internet (https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser)
+    
+    Don't use this browser. In their privacy policy: "The information we obtain [...] include, identifiers associated with your devices, types of devices, web browser characteristics, device and operating system type and characteristics, language preferences, clickstream data, your interactions with Samsung Internet (such as the web pages you visit, links you click and features you use), dates and times of your use of Samsung Internet, and other information about your use of Samsung Internet"
+    https://developer.samsung.com/internet/privacy-policy-us.html
+  id: com.sec.android.app.sbrowser
+  removal: recommended
+- description: |-
+    Samsung Internet Lite/Go
+    Lite version of the Samsung browser (hah! Because the base one was too bloated?)
+    Don't use this browser. In their privacy policy: "The information we obtain [...] include, identifiers associated with your devices, types of devices, web browser characteristics, device and operating system type and characteristics, language preferences, clickstream data, your interactions with Samsung Internet (such as the web pages you visit, links you click and features you use), dates and times of your use of Samsung Internet, and other information about your use of Samsung Internet"
+    https://developer.samsung.com/internet/privacy-policy-us.html
+  id: com.sec.android.app.sbrowser.lite
+  removal: recommended
+- description: I guess it's the core of Samsung Cloud.
+  id: com.sec.android.app.scloud
+  removal: recommended
+- description: |
+    SysDump hidden app
+    Low-level debugging and diagnostics tools (dial *#9900# to open it)
+  id: com.sec.android.app.servicemodeapp
+  removal: recommended
+- description: |
+    Samsung Setupwizard
+    The Welcome screen which guides you through the basics of setting up your device when you boot it for the first time (or after a factory reset). On some Verizon-carried devices, it can show an annoying "SIM card not from Verizon Wireless" notification, for each boot, and it can't be blocked unless you disable the app
+  id: com.sec.android.app.setupwizard
+  removal: recommended
+- description: |
+    SetupWizardLegalProvider
+    All the legal terms you need to accept when you boot your phone for the first time. 
+    The Welcome screen which guides you through the basics of setting up your device is the android setup wizard.
+  id: com.sec.android.app.setupwizardlegalprovider
+  removal: recommended
+- description: |
+    Samsung Health (https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)
+    Serves to track various aspects of daily life contributing to well being such as physical activity, diet, and sleep.
+    https://en.wikipedia.org/wiki/Samsung_Health
+    S Health data is stored in a Knox container (with HIPAA compliance)
+  id: com.sec.android.app.shealth
+  removal: recommended
+- description: |
+    SIM card manager.
+    Contains configuration and settings for handling dual SIM (give a SIM an icon, a name, and so on)
+  id: com.sec.android.app.simsettingmgr
+  removal: unsafe
+- description: |
+    Samsung Galaxy (Only installed on older phone before Galaxy S7)
+    Don't really know what this app does but majority of people deleted this.
+  id: com.sec.android.app.sns3
+  removal: recommended
+- description: |-
+    SnsImageCache
+    A lot logs, probably it's for image cache. A lot samsung phones dont have it so it's safe to remove
+  id: com.sec.android.app.snsimagecache
+  removal: recommended
+- description: |-
+    Responsible for Dolby Atmos and other equalizer stuff (accessible from the Settings app).
+    Needed by Adapt Sound (com.sec.hearingadjust) which is a pretty useful feature.
+  id: com.sec.android.app.soundalive
+  removal: recommended
+- description: |
+    SuwScriptPlayer
+    Seems to be another test app which test some "scripts"
+  id: com.sec.android.app.suwscriptplayer
+  removal: recommended
+- description: |
+    Checks after every boot if the ROM and kernel have been modified. This package is usually present on Verizon-locked phones.
+    Verizon has the ability to check if your device has root access (content://com.verizon.security/ROOT_STATUS)
+  id: com.sec.android.app.sysscope
+  removal: recommended
+- description: |-
+    Hidden app that shows uninstall unused apps(+boring notifications that may be disabled)
+    and button to (other, in the same app)task manager(shows ram and buttons kill user apps).
+  id: com.sec.android.app.taskmanager
+  removal: recommended
+- description: 'Tracfone app, function unknown'
+  id: com.sec.android.app.tfstatus
+  removal: expert
+- description: "3d tour image, Virtual tour, Viewer used to view photos taken with the Galaxy S5 camera's Virtual Tour Shot mode."
+  id: com.sec.android.app.tourviewer
+  removal: recommended
+- description: |
+    Samsung Translater (S Translater)
+    https://www.samsung.com/africa_en/support/mobile-devices/what-is-s-translator-and-how-does-it-work/
+  id: com.sec.android.app.translator
+  removal: recommended
+- description: |-
+    UwbTest
+    for testing UWB in the factory
+  id: com.sec.android.app.uwbtest
+  removal: recommended
+- description: |-
+    Samsung Editing Assets ("Video Editor BackGround Music").
+    This app lets you choose background music from the Video Editor app.
+  id: com.sec.android.app.ve.vebgm
+  removal: recommended
+- description: |
+    Samsung video editor
+    Lets you add add transitions, music, stickers and text to your videos. You can also change the speed of the action, 
+    or even add filters to switch up the mood of your videos.
+  id: com.sec.android.app.vepreload
+  removal: advanced
+- description: |
+    Samsung Voice recorder (https://play.google.com/store/apps/details?id=com.sec.android.app.voicenote)
+  id: com.sec.android.app.voicenote
+  removal: recommended
+- description: |-
+    VolumeMonitorProvider
+    used in Digital Wellbeing to average the dB heard through earphones and display it.
+  id: com.sec.android.app.volumemonitorprovider
+  removal: recommended
+- description: 'This app provides the functionality to select and manage wallpapers on Samsung devices, including Samsung-specific wallpaper options.'
+  id: com.sec.android.app.wallpaperchooser
+  removal: advanced
+- description: |-
+    I found it's for connecting to tv also settings
+    but app size is too small for doing these things.
+  id: com.sec.android.app.wfdbroker
+  removal: recommended
+- description: |
+    Samsung Smart View
+    Allows you to cast your phone screen to the TV.
+    https://www.samsung.com/us/apps/smart-view-2/
+  id: com.sec.android.app.withtv
+  removal: recommended
+- description: |-
+    wlan test
+    Hidden test app responding to the #232339*# and *#232338*# secret codes
+    FYI : wlan = wireless LAN (https://en.wikipedia.org/wiki/Wireless_LAN)
+    NOTE: Disabling this test will rise the exclamation mark on the WI-Fi icon and will show the message "Unable to connect to the host" in Settings -> Connections -> More connections settings - Private DNS - provider hostname.
+    The connection seems to work despite those esthetic errors.
+  id: com.sec.android.app.wlantest
+  removal: recommended
+- description: |-
+    Samsung Auto Doodle for Photo Editor
+    https://galaxystore.samsung.com/prepost/000005425352
+  id: com.sec.android.autodoodle.service
+  removal: recommended
+- description: |-
+    Car mode
+    it's hidden app and has a lot duplicate settings. Not needed
+  id: com.sec.android.automotive.drivelink
+  removal: recommended
+- description: |-
+    DriveLinkRemote
+    I found only Hello world!
+  id: com.sec.android.automotive.drivelinkremote
+  removal: recommended
+- description: Casual theme
+  id: com.sec.android.casual2
+  removal: advanced
+- description: Classic theme
+  id: com.sec.android.classic2
+  removal: advanced
+- description: |
+    Samsung LED cover service
+    Display stuff on the LED case.
+    https://www.samsung.com/us/support/troubleshooting/TSG01001489/
+    HOW IT WORKS : https://forum.xda-developers.com/galaxy-note-8/accessories/how-led-cover-t3686694
+  id: com.sec.android.cover.ledcover
+  removal: recommended
+- description: |
+    Unified Daemon app 
+    provides support for a number of different apps on your device. These include the Weather, Yahoo Finance and Yahoo News apps amongst others. 
+    The data is used by apps such as the Alarm, Calendar app and the camera.
+  id: com.sec.android.daemonapp
+  removal: recommended
+- description: |
+    Samsung DeX panel
+  id: com.sec.android.desktopcommunity
+  removal: recommended
+- description: |
+    Samsung DeX
+    Extends your smartphone into a "desktop computing experience".
+    Concretely this lets you access all your mobile apps and content from a computer.
+    Only works on Windows/MacOS. You will need to install the Samsung DeX app on your computer.
+    https://en.wikipedia.org/wiki/Samsung_DeX
+    https://www.samsung.com/global/galaxy/apps/samsung-dex/
+  id: com.sec.android.desktopmode.uiservice
+  removal: recommended
+- description: |-
+    Samsung DeX System UI
+    Safe to remove if not use connect phone for example to TV.
+  id: com.sec.android.dexsystemui
+  removal: advanced
+- description: |-
+    Diagnostic Monitoring Agent
+    Used to send diagnostic data to Samsung
+    Data collection from Settings > Biometrics and security > Send diagnostic data
+    WARNING: disabling this causes scheduled services to aggressively launch it every second, spamming the Android crash log and overheating the device, thus draining battery. More info is needed on the dependencies that trigger this behavior. Version tested: 9.0.11.
+  id: com.sec.android.diagmonagent
+  removal: advanced
+- description: |
+    Samsung Smart Switch Mobile (https://play.google.com/store/apps/details?id=com.sec.android.easyMover)
+    Allows you to easily transfer content (contacts, photos, music, notes, etc.) to a new Samsung Galaxy device. 
+    https://www.samsung.com/global/galaxy/apps/smart-switch/
+    https://fr.wikipedia.org/wiki/Smart_Switch
+  id: com.sec.android.easyMover
+  removal: recommended
+- description: |-
+    Smart Switch Agent
+    Needed to use Smart Switch. See "com.sec.android.easyMover".
+  id: com.sec.android.easyMover.Agent
+  removal: recommended
+- description: |
+    Samsung Easy One Hand mode
+    Allows you to temporarily scale down the display size of your screen for easier control of your phone with just one hand.
+    https://www.samsung.com/au/support/mobile-devices/using-one-handed-mode/
+  id: com.sec.android.easyonehand
+  removal: recommended
+- description: Samsung Launcher when in emergency(low battery) mode.
+  id: com.sec.android.emergencylauncher
+  removal: advanced
+- description: |-
+    Emergency mode enables you to extend your device’s standby time when in an emergency situation and want your device to conserve power for as long as possible. When activated, screen brightness will decrease, some of functionality will be limited and the home screen is changed to a black theme, all to reduce battery drain (OLED screens draw less power when showing black, cuz black = pixel off).
+    NOT related to SOS messages/911.
+    https://www.samsung.com/uk/support/mobile-devices/what-is-emergency-mode/
+  id: com.sec.android.emergencymode.service
+  removal: advanced
+- description: |-
+    Fido is a set of open technical specifications for mechanisms of authenticating users to online services that do not depend on passwords.
+    https://fidoalliance.org/specs/u2f-specs-1.0-bt-nfc-id-amendment/fido-glossary.html
+    https://fidoalliance.org/specs/fido-v2.0-rd-20170927/fido-overview-v2.0-rd-20170927.html
+    The UAF protocol is designed to enable online services to offer passwordless and multi-factor security by allowing users to register their device to the online service and using a local authentication mechanism such as iris or fingerprint recognition.
+    https://developers.google.com/identity/fido/android/native-apps
+    The UAF Authenticator-Specific Module (ASM) is a software interface on top of UAF authenticators which gives a standardized way for FIDO UAF clients to detect and access the functionality of UAF authenticators and hides internal communication complexity from FIDO UAF Client.
+    https://fidoalliance.org/specs/fido-uaf-v1.0-ps-20141208/fido-uaf-asm-api-v1.0-ps-20141208.html
+    Safe to remove if you don't use password-less authentication to access online services.
+  id: com.sec.android.fido.uaf.asm
+  removal: recommended
+- description: |
+    Fido UAF client. It's a layer that connects authenticator and RP (the application owner) and ensures validity of the connection. 
+    So it can be browser, desktop application, mobile application, platform(i.e. android/ios).
+    See above
+    
+    Safe to remove if you don't use password-less authentication to access online services
+  id: com.sec.android.fido.uaf.client
+  removal: recommended
+- description: |
+    Samsung Gallery app (https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)
+    Note: Samsung Gallery is a dependency for the camera so it's not a good idea to delete it.
+    Note : Good to know. When the original version of the image is deleted, the copy of it within the com.sec.android.gallery3d  folder is not removed.
+    https://athenaforensics.co.uk/com-sec-android-gallery3d-mobile-phone-forensics/
+    NOTE : Deleting this package will also prevent to preview photos from the camera app.
+  id: com.sec.android.gallery3d
+  removal: advanced
+- description: |
+    Let you see panoramic photos in the samsung Gallery.
+  id: com.sec.android.gallery3d.panorama360view
+  removal: advanced
+- description: |
+    Samsung Game launcher
+    Centralizes all your android games. This app can track all your games, how many hours you've spent playing each one, and which genres you play the most.
+    Recommends games based on your profile.
+    https://galaxystore.samsung.com/prepost/000004906980?appId=com.samsung.android.game.gamehome 
+  id: com.sec.android.game.gamehome
+  removal: recommended
+- description: |-
+    iaft
+    Has permission dump, trace errors probably.
+  id: com.sec.android.iaft
+  removal: recommended
+- description: |-
+    Samsung Keyboard
+    Superseded by `com.samsung.android.honeyboard`.
+  id: com.sec.android.inputmethod
+  removal: expert
+- description: |
+    Samsung Keyboard Neural Beta
+    Smarter Samsung Keyboard with better predictition/suggestion (using deep learning)
+    https://galaxystore.samsung.com/prepost/000004170688?appId=com.sec.android.inputmethod.beta
+  id: com.sec.android.inputmethod.beta
+  removal: advanced
+- description: Samsung Japanese keyboard
+  id: com.sec.android.inputmethod.iwnnime.japan
+  removal: advanced
+- description: 'No activities, only useless frameworks in classes.dex'
+  id: com.sec.android.kies
+  removal: recommended
+- description: |-
+    LLMPolicyService
+    Low latency network to game? Looks unused.
+  id: com.sec.android.llmpolicy
+  removal: recommended
+- description: |
+    Samsung My Emoji Stickers
+    Let you turn yourself into an emoji. Woah ! What an incredible feature...
+    https://www.samsung.com/us/support/answer/ANS00078920/
+  id: com.sec.android.mimage.avatarstickers
+  removal: recommended
+- description: |
+    360 Photo Editor
+    Lets you edit the 360-degree photos you took.
+  id: com.sec.android.mimage.gear360editor
+  removal: recommended
+- description: |
+    Samsung Photo Editor
+    Disabling this will disable the inbuilt photo editor accessed via the stock gallery.
+    Safe to remove if you don't use Samsung gallery.
+  id: com.sec.android.mimage.photoretouching
+  removal: advanced
+- description: |
+    Samsung selective focus camera mode.
+    Safe to remove (but it's pretty useful)
+  id: com.sec.android.ofviewer
+  removal: advanced
+- description: |-
+    OM Customize
+    I found only things for Vodafone. It's not needed.
+  id: com.sec.android.omc
+  removal: recommended
+- description: |-
+    PageBuddyNotiSvc
+    I only found it's for notifications to car, earphones, pen. Not needed.
+  id: com.sec.android.pagebuddynotisvc
+  removal: recommended
+- description: |
+    Very shady apk. According to if you're chinese or not, Samsung mount an hidden partition during the first boot and install some apps.
+    https://web.archive.org/web/20200107110205/https://nitter.net/fs0c131y/status/1046689524691218432
+  id: com.sec.android.preloadinstaller
+  removal: recommended
+- description: |-
+    Provider for the notification badges (which are not very useful IMHO)
+    Provides a way for apps to use notifications badges.
+    https://www.samsung.com/au/support/mobile-devices/what-is-app-icon-badge/
+    Emergency Power saving launcher does not start after removing.
+  id: com.sec.android.provider.badge
+  removal: advanced
+- description: |-
+    Provider for emergency mode (com.sec.android.emergencylauncher)
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    For example: the Settings provider. It stores all the settings from your Settings app in a database, which apps can query for info on whether you for example have Dark Mode turned on or off.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.sec.android.provider.emergencymode
+  removal: advanced
+- description: |-
+    LogsProvider
+    It's app used for logs.
+  id: com.sec.android.provider.logsprovider
+  removal: recommended
+- description: |-
+    Content provider for S Note (https://www.samsung.com/global/galaxy/apps/samsung-notes/).
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+  id: com.sec.android.provider.snote
+  removal: recommended
+- description: |-
+    Mapcon Provider
+    Only name app founded.
+  id: com.sec.android.providers.mapcon
+  removal: recommended
+- description: |-
+    Provider of password security policies?
+    Content providers encapsulate data, providing centralized management of data shared between apps.
+    https://developer.android.com/guide/topics/providers/content-providers.html
+    Seems to provide access to a password database but I don't know under what circumstances this database is used.
+    This provider is only usable by Samsung apps.
+    I see a com.android.security.PASSWORD_EXPIRED intent filter in the AndroidManifest so my guess is it handles password policies.
+    For example: A policy could force a user to change their password after a certain amount of time. That's a common policy in enterprise work.
+  id: com.sec.android.providers.security
+  removal: recommended
+- description: |-
+    Tasks provider
+    This app have nothing in code, only name and useless permissions
+  id: com.sec.android.providers.tasks
+  removal: recommended
+- description: Sweet theme
+  id: com.sec.android.romantic2
+  removal: advanced
+- description: |
+    Samsung Device Health Manager Service
+    Battery estimation service for Samsung Care/Device maintenance (com.samsung.android.lool)
+    There is some weird stuff in the java code. I don't understand why there is a need to parse torrent files for instance
+    or why there is a string "googleapis.com/drive"
+    https://developers.google.com/drive/api/v3/reference
+  id: com.sec.android.sdhms
+  removal: advanced
+- description: |
+    Samsung Health Service
+    Needed for Samsung Health (com.sec.android.app.shealth)
+  id: com.sec.android.service.health
+  removal: recommended
+- description: |-
+    My places
+    I found Search location also theres other stuff about location but it's not needed I guess
+  id: com.sec.android.settingsmaps
+  removal: recommended
+- description: |
+    SideSync (discontinued)
+    Lets you share the screen and data between your PC and mobile device. 
+    Receive alarms of your phone through PC and use various features of your phone on the computer.
+    https://www.samsung.com/levant/support/side-sync/
+  id: com.sec.android.sidesync30
+  removal: recommended
+- description: |-
+    SmartFPSAdjuster
+    Adjusts FPS automatically in Samsung phones? Safe to delete.
+    https://docs.samsungknox.com/CCMode/G985F_Q.pdf
+  id: com.sec.android.smartfpsadjuster
+  removal: recommended
+- description: System application that is responsible for checking and installing software updates.
+  id: com.sec.android.soagent
+  removal: expert
+- description: |
+    SplitSoundService
+    Provides ability to play music on the smartphone and an external speaker at the same time
+    https://www.samsung.com/nz/support/mobile-devices/samsung-separate-app-sound/
+  id: com.sec.android.splitsound
+  removal: advanced
+- description: |-
+    Pay with PayPal
+    Hidden app that wanna to install PayPal to your phone.
+  id: com.sec.android.stub.paywithpaypal
+  removal: recommended
+- description: |-
+    SystemUpdate
+    System updater for Samsung phones.
+    https://docs.samsungknox.com/CCMode/G985F_Q.pdf
+  id: com.sec.android.systemupdate
+  removal: expert
+- description: Natural theme
+  id: com.sec.android.theme.natural
+  removal: advanced
+- description: |
+    UIBC (User input back channel) 
+    Allows users to experience the dual monitor function, with the keyboard and mouse having the ability to control your smartphone device.
+    Either discontinued (for the benefit of Smart View : com.samsung.android.smartmirroring) or related to Smart View. 
+  id: com.sec.android.uibcvirtualsoftkey
+  removal: recommended
+- description: |-
+    Samsung Wallpaper. Needed to set a wallpaper on the launcher.
+    Note: it is possible to change the wallpaper and then disable this package.
+    Used wallpapers are stored in /data/data/com.sec.android.wallpapercropper2/
+  id: com.sec.android.wallpapercropper2
+  removal: advanced
+- description: Calendar Widget
+  id: com.sec.android.widgetapp.SPlannerAppWidget
+  removal: recommended
+- description: Weather app
+  id: com.sec.android.widgetapp.ap.hero.accuweather
+  removal: recommended
+- description: japanese samsung weather app
+  id: com.sec.android.widgetapp.ap.hero.weathernewsjp
+  removal: recommended
+- description: Clock (digital) widget
+  id: com.sec.android.widgetapp.digitalclock
+  removal: recommended
+- description: Clock (digital easy) widget
+  id: com.sec.android.widgetapp.digitalclockeasy
+  removal: recommended
+- description: |
+    Samsung Memo widget (was replaced by Samsung Note : com.samsung.android.app.notes)
+    Partnership with 3-party DIOTEK : https://www.diotek.co.kr/
+  id: com.sec.android.widgetapp.diotek.smemo
+  removal: recommended
+- description: Dual Clock Widget
+  id: com.sec.android.widgetapp.dualclockdigital
+  removal: recommended
+- description: |
+    Favourite Contacts widget
+    Lets you add favorite contacts to home screen
+    https://www.samsung.com/au/getstarted/advanced/create-favourite-contacts-on-your-home-screen/
+    Is it only usable when enabling the "simple use" senior mode?
+  id: com.sec.android.widgetapp.easymodecontactswidget
+  removal: recommended
+- description: |
+    Galaxy Essential widget
+    Galaxy Essentials is a collection of specially chosen applications available through Samsung Apps. 
+    From the Galaxy Essentials widget you can access and download a collection of premium content, free of charge.
+    https://www.samsung.com/my/support/mobile-devices/what-is-galaxy-essentials-and-how-can-i-add-or-remove-it-from-my-smartphone-home-screen/
+  id: com.sec.android.widgetapp.samsungapps
+  removal: recommended
+- description: |
+    User Manual
+    https://www.samsung.com/us/support/answer/ANS00077583/
+  id: com.sec.android.widgetapp.webmanual
+  removal: recommended
+- description: |-
+    Yellow Page
+    Contain phone numbers of companies and services.
+  id: com.sec.android.yellowpage
+  removal: recommended
+- description: |
+    RilNotifier
+    Debug app for the RIL
+    See "com.sec.android.RilServiceModeApp"
+  id: com.sec.app.RilErrorNotifier
+  removal: recommended
+- description: 'This app manages settings related to the transmit power of wireless communications on Samsung devices, such as Wi-Fi and Bluetooth.'
+  id: com.sec.app.TransmitPowerService
+  removal: expert
+- description: |-
+    Samsung Print Service Plugin.
+    Published by HP, see:
+    https://play.google.com/store/apps/details?id=com.sec.app.samsungprintservice
+  id: com.sec.app.samsungprintservice
+  removal: recommended
+- description: |
+    Tethering Automation enables sharing phone internet to the PC with a usb cable.
+    Safe to remove (but it's a useful feature)
+  id: com.sec.automation
+  removal: advanced
+- description: |
+    Broadcast Service
+    Diagnostic/debug hidden app. TCP dump.
+  id: com.sec.bcservice
+  removal: recommended
+- description: |-
+    CLocationService
+    Network location provider only to Chinese.
+    Bad privacy.
+  id: com.sec.clocationservice
+  removal: recommended
+- description: |
+    Keystore is a secure place provided by Android to store cryptographic keys and make it more difficult to extract from the device.
+    This package is used by enterprise to update certificates on the device.
+    NOTE : It allows IT admins to install certificates while the device is still locked. 
+    This means certificates can be silently installed into a keystore without any interaction from the device-user.
+    It uses the KNOX TIMA (Named Trust-zone-based Integrity Measurement Architecture) that allows storage of keys in the container for certificate signing using the TrustZone hardware platform.[16] 
+    https://docs.samsungknox.com/dev/knox-sdk/about-keystores.htm
+    https://docs.samsungknox.com/dev/knox-sdk/faqs/general/what-is-the-knox-tima-ccm.htm
+    https://docs.samsungknox.com/admin/whitepaper/kpe/client-certificate-manager.htm
+  id: com.sec.downloadablekeystore
+  removal: recommended
+- description: |
+    KNOX Attestation
+    Lets you check the integrity of a Samsung Android device by connecting to a Samsung Attestation server.
+    https://docs.samsungknox.com/admin/whitepaper/kpe/attestation.htm
+  id: com.sec.enterprise.knox.attestation
+  removal: recommended
+- description: |
+    Knox Enrollment Service
+    mdm = mobile device management = software used by an IT department to monitor employees' mobile devices.
+    Used to enroll/register a large number of phones to the KNOX MDM service
+    https://docs.samsungknox.com/admin/knox-mobile-enrollment/enroll-your-devices.htm
+    FYI : https://blog.quarkslab.com/abusing-samsung-knox-to-remotely-install-a-malicious-application-story-of-a-half-patched-vulnerability.html
+  id: com.sec.enterprise.knox.cloudmdm.smdms
+  removal: recommended
+- description: |
+    KNOX shared device keyguard.
+    Knox Configure Shared Device feature enables multiple users to access the same device without sharing data across multiple devices.
+    https://docs.samsungknox.com/KC-Getting-Started/Content/about-shared-device.htm
+  id: com.sec.enterprise.knox.shareddevice.keyguard
+  removal: recommended
+- description: |
+    Enterprise Sim Pin Service
+    I couldn't find information about this package. No permissions asked. It's quite strange.
+    #
+    Mobile device management (MDM) is a type of security software used by an IT department to monitor employees' mobile devices.
+    KNOX-dependent.
+    https://developer.samsung.com/tech-insights/knox/mobile-device-management
+  id: com.sec.enterprise.mdm.services.simpin
+  removal: recommended
+- description: |
+    Enterprise VPN service
+    I couldn't find information about this package. No permissions asked too.
+    See above for MDM signification
+  id: com.sec.enterprise.mdm.vpn
+  removal: recommended
+- description: |
+    Safe to remove if you're not using VoWifi.
+    You need to know that:
+    3GPP is a standards organization for mobile telephony (2G/3G/4G/5G).
+    Non-3GPP RAT refers to wireless connection methods not specified by 3GPP, including Wi-Fi.
+    ePDG (evolved Packet Data Gateway) secures connections over untrusted non-3GPP access, commonly used for VoWiFi (Voice over Wi-Fi). For more information:
+    - https://www.3gpp.org/technologies/keywords-acronyms/100-the-evolved-packet-core
+    - https://www.aptilo.com/solutions/mobile-data-offloading/3gpp-wifi-access/
+    - https://en.wikipedia.org/wiki/System_Architecture_Evolution#Evolved_Packet_Core_(EPC)
+  id: com.sec.epdg
+  removal: expert
+- description: |
+    Test app for ePDG (see com.sec.epdg)
+  id: com.sec.epdgtestapp
+  removal: recommended
+- description: |-
+    ELM Agent
+    Hidden ELM for Developers Logs
+  id: com.sec.esdk.elm
+  removal: recommended
+- description: |
+    Samsung Hub (discontinued)
+    It was a cloud-based music service launched by Samsung. It allowed users to listen to music from a variety of Samsung devices
+    https://en.wikipedia.org/wiki/Samsung_Music_Hub
+  id: com.sec.everglades
+  removal: recommended
+- description: |
+    SamsungHub Updater (discontinued - See above)
+  id: com.sec.everglades.update
+  removal: recommended
+- description: |-
+    FacAtFunction
+    UI Display, Sensors Tests
+  id: com.sec.facatfunction
+  removal: recommended
+- description: |
+    Device Test app
+    Diagnostic hidden app.
+  id: com.sec.factory
+  removal: recommended
+- description: |
+    Camera Test (dial *#34971539# to open CameraFirmware Standard)
+  id: com.sec.factory.camera
+  removal: recommended
+- description: |-
+    Cameralyzer
+    A factory testing app that allows manufacturers to check for defects in the camera, had a security issue in the past
+    https://techforesta.com/cameralyzer/
+    https://docs.samsungknox.com/CCMode/G985F_Q.pdf
+  id: com.sec.factory.cameralyzer
+  removal: recommended
+- description: |
+    Camera Iris User Test (by dialing *#0*#)
+  id: com.sec.factory.iris.usercamera
+  removal: recommended
+- description: |
+    Samsung Adapt Sound
+    Configures a sound profile according to your ears.
+    Improve audio experience in the end (even with headphones)
+    https://www.howtogeek.com/316375/how-to-use-adapt-sound-on-the-galaxy-s7-and-s8-for-better-sound-quality/
+    #
+    Settings > Sound  and vibration > Sound Quality and effects > Adapt Sound
+    NOTE : com.sec.android.app.soundalive is needed
+  id: com.sec.hearingadjust
+  removal: recommended
+- description: |
+    IOTHiddenMenu
+    Hidden menu used to access other hidden debug apps (those accessible with a secret code)
+  id: com.sec.hiddenmenu
+  removal: recommended
+- description: |-
+    IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+    Don't know how this is different from com.sec.imsservice. Could they interact?
+    May be unsafe to disable. Needs more testing.
+  id: com.sec.ims
+  removal: expert
+- description: |-
+    IMS Framework
+    Needed for Wifi calling
+  id: com.sec.ims.android
+  removal: advanced
+- description: |-
+    IMS Logger provides logging opt-ins.
+    Security flaw: https://web.archive.org/web/20211209093408/https://twitter.com/fs0c131y/status/1115889065285562368
+  id: com.sec.imslogger
+  removal: recommended
+- description: |-
+    IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+    Video calling is also affected.
+    Note: Samsung Dialer will crash if you disable this package and have wifi-calling activated in the Dialer's settings.
+    May be unsafe to disable. Needs more testing.
+  id: com.sec.imsservice
+  removal: expert
+- description: |-
+    Non Sim Device Solution (NSDS) needed for VoLTE and VoWifi (Wifi Calling) if you have a virtual SIM. Enabled in devices without esims for some reason. Not sure if there are non-esim virtual sims?
+    See com.sec.vsimservice. Uses IMS service.
+  id: com.sec.internal.vsim.VSimServiceApp
+  removal: advanced
+- description: |
+    Kids Mode (replaced by Kids Home : com.samsung.android.kidsinstaller)
+    Samsung Kids Home (https://www.samsung.com/global/galaxy/apps/kids-mode/)
+    Lets you shape a safe environment for your child to happily explore and connect with the world.
+    NOTE : You shouldn't give your phone to a child. That's bad ! 
+    https://ifstudies.org/blog/a-smartphone-will-change-your-child-in-ways-you-might-not-expect-or-want
+  id: com.sec.kidsplat.installer
+  removal: recommended
+- description: |
+    KNOX bluetooth
+    https://docs.samsungknox.com/knox-platform-for-enterprise/admin-guide/bluetooth.htm
+    NOTE : This does not affect regular bluetooth.
+  id: com.sec.knox.bluetooth
+  removal: recommended
+- description: |
+    Debug Bridge ? 
+  id: com.sec.knox.bridge
+  removal: recommended
+- description: |
+    Samsung Knox Container (v2 ?)
+    https://docs.samsungknox.com/whitepapers/knox-platform/app-container.htm
+  id: com.sec.knox.containeragent2
+  removal: recommended
+- description: |
+    Needed by KNOX Secure folder (com.samsung.knox.securefolder)
+  id: com.sec.knox.foldercontainer
+  removal: recommended
+- description: |
+    KNOX SetupWizardClient
+    The first time you turn your device on, a Welcome screen is displayed. It guides you through the basics of setting up your device.
+    It's the setup for Samsung KNOX services.
+  id: com.sec.knox.knoxsetupwizardclient
+  removal: recommended
+- description: |
+    KNOX Verifier
+    Used to scan installed packages
+  id: com.sec.knox.packageverifier
+  removal: recommended
+- description: |
+    Knox shortcut to switch to workspace 
+    https://docs.samsungknox.com/knox-platform-for-enterprise/admin-guide/workspace-shortcuts.htm
+  id: com.sec.knox.shortcutsms
+  removal: recommended
+- description: Knox Secure Folder
+  id: com.sec.knox.switcher
+  removal: advanced
+- description: |
+    Handles switches between KNOW/Work container and personal profile. 
+    It also manages data sharing between them.
+    https://docs.samsungknox.com/dev/knox-sdk/container-data-sharing-policies.htm
+  id: com.sec.knox.switchknox
+  removal: recommended
+- description: |
+    Handles switches between KNOW/Work container and personal profile. 
+    It also manages data sharing between them.
+    https://docs.samsungknox.com/dev/knox-sdk/container-data-sharing-policies.htm
+  id: com.sec.knox.switchknoxI
+  removal: recommended
+- description: |
+    Handles switches between KNOW/Work container and personal profile. 
+    It also manages data sharing between them.
+    https://docs.samsungknox.com/dev/knox-sdk/container-data-sharing-policies.htm
+  id: com.sec.knox.switchknoxII
+  removal: recommended
+- description: |-
+    Service provider location
+    Not needed for location, I found something like that:
+    (This app enables your carrier to access your location for network improvement or other reasons)
+    This app is hidden so idk how useful it is.
+  id: com.sec.location.nfwlocationprivacy
+  removal: recommended
+- description: |-
+    Samsung Location SDK
+    It seems to only be used by Samsung (Galaxy) apps
+  id: com.sec.location.nsflp2
+  removal: recommended
+- description: |-
+    Auto Hotspot
+    Needed for hotspots probably.
+  id: com.sec.mhs.smarttethering
+  removal: expert
+- description: |-
+    MLDAP log
+    LDAP (Lightweight Directory Access Protocol; I don't know what the M means. Mobile?) is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an IP network.
+    Directory service refers to the collection of software, hardware, and processes that store and organize everyday items and network resources(folders, files, printers, users, groups, devices, telephone numbers...)
+    It looks like a database but it's different.
+    Directory services excel at fast lookups for rarely changing data (email, username etc...)
+    Differences between database and Directory Service : https://www.c-sharpcorner.com/article/directory-services-vs-rdbms/
+    LDAP uses a relatively simple, string-based query to extract information from Active Directory. LDAP can store and extract objects such as usernames and passwords in Active Directory, and share that object data throughout a network. 
+    Example of LDAP usage : https://stackoverflow.com/questions/239385/what-is-ldap-used-for/592339
+    
+    I don't know why and how Samsung uses LDAP. This package, according to its name only does logging.
+  id: com.sec.mldapchecker
+  removal: recommended
+- description: |
+    Name : SilentLogging
+    This package runs at startup and logs things (related to the modem ?). Seems Pretty shady to me (I don't like its orwellian name).
+  id: com.sec.modem.settings
+  removal: recommended
+- description: |-
+    OMADM
+    Open Mobile Alliance Device Management. A protocol for management of mobile devices.
+    https://en.wikipedia.org/wiki/OMA_Device_Management
+  id: com.sec.omadm
+  removal: expert
+- description: |-
+    OMADM
+    has activation things and firmware updates
+  id: com.sec.omadmspr
+  removal: expert
+- description: |-
+    OMADM Phone Interface?
+    OMADM = Open Mobile Alliance Device Management. A protocol for management of mobile devices.
+    https://en.wikipedia.org/wiki/OMA_Device_Management
+  id: com.sec.omadmspr.syncmlphoneif
+  removal: expert
+- description: 'Another test/debug app used to test the proper functioning of phone calls. On Samsung, both `com.sec.phone` & `com.sec.android.app.SecSetupWizard` must be enabled to be able to add new ESIMs to device. Otherwise menu will spin indefinitely.'
+  id: com.sec.phone
+  removal: advanced
+- description: |-
+    Assisted Dialing
+    I found mcc countrycode OTA lookup, not needed
+  id: com.sec.providers.assisteddialing
+  removal: recommended
+- description: |
+    Samsung Books (discontinued)
+    All-in-one e-Reading solution that offers instant access to thousands of e-reading contents.
+  id: com.sec.readershub
+  removal: recommended
+- description: |
+    Smart Card Manager
+    Smart Card enables communication with Secure Elements (SIM card, embedded Secure Elements, Mobile Security Card...)
+    These packages seem to be Samsung implementation.
+  id: com.sec.smartcard.manager
+  removal: recommended
+- description: |
+    Samsung Push Service (https://play.google.com/store/apps/details?id=com.sec.spp.push)
+    Provides updates and notifications for services exclusive to Samsung (more like Samsung ads).
+    https://www.samsunggeeks.com/2015/10/25/what-is-the-samsung-push-service/
+  id: com.sec.spp.push
+  removal: recommended
+- description: |
+    Seems to be related to Wifi-Calling on Samsung phone.
+  id: com.sec.sprint.wfcstub
+  removal: recommended
+- description: |-
+    SecVideoEngineService is arguably a Samsung video engine service (handling enconding/decoding?) for displaying video through Samsung apps.
+    3 permissions: RECORD_AUDIO, CAMERA, INTERACT_ACROSS_USERS_FULL
+    
+    Note: Removing it will break WiFi Calling.
+  id: com.sec.sve
+  removal: advanced
+- description: |
+    Language Pack for S-voice, the Samsung assistant (com.samsung.android.svoice)
+  id: com.sec.svoice.lang.en_GB
+  removal: recommended
+- description: |-
+    only found app name tcpdumpservice
+    theres no code
+  id: com.sec.tcpdumpservice
+  removal: recommended
+- description: |-
+    Samsung Wi-Fi Calling
+    Wi-Fi calling app for Samsung.
+    Wi-Fi calling may not work without the app
+  id: com.sec.unifiedwfc
+  removal: expert
+- description: |
+    USBSettings
+    Hidden settings. Lets you choose from ADB, MTP, RNDIS, ACM, DM (dial *#0808# to open)
+    Runs at startup
+  id: com.sec.usbsettings
+  removal: advanced
+- description: |
+    NSDSWebApp.
+    Virtual SIM is an application-enabled service that requires you to install an app to use a number. 
+    With this technology, it is possible for one to have numbers of different countries. 
+    Non Sim Device Solution (NSDS) is needed for VoLTE and VoWifi (Wifi Calling) if you have a virtual SIM. 
+    NSDS allows connecting non sim devices to IMS core: https://uk.linkedin.com/in/hemant-kumar-dewnarain-2b779679
+  id: com.sec.vsim.ericssonnsds.webapp
+  removal: recommended
+- description: |
+    VSim Service 
+    Lets you use a virtual sim
+    https://www.quora.com/What-is-VSIM-virtual-SIM-technology
+    Has a LOT of permissions (and involving IMS service)
+    Run at startup.
+    FYI : https://security.stackexchange.com/questions/223290/esim-vs-sim-card-what-is-more-secure
+  id: com.sec.vsimservice
+  removal: advanced
+- description: |
+    Samsung WatchON (discontinued)
+    It was a service allowing you to view programming information on the TV and choose programs directly from the phone.
+    https://en.wikipedia.org/wiki/Samsung_WatchON
+  id: com.sec.yosemite.phone
+  removal: recommended

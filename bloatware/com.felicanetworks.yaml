@@ -1,0 +1,16 @@
+---
+- description: Chinese felicanetworks
+  id: com.felicanetworks.mfc
+  removal: recommended
+- description: Setup Chinese felicanetworks
+  id: com.felicanetworks.mfm
+  removal: recommended
+- description: Chinese felicanetworks
+  id: com.felicanetworks.mfm.main
+  removal: recommended
+- description: Chinese felicanetworks
+  id: com.felicanetworks.mfs
+  removal: recommended
+- description: Chinese felicanetworks
+  id: com.felicanetworks.mfw.a.boot
+  removal: recommended

@@ -1,0 +1,288 @@
+---
+- description: DisplayCutout founded in code.
+  id: com.mediatek.FrameworkResOverlayExt
+  removal: unsafe
+- description: Nothing found in this app.
+  id: com.mediatek.MtkSettingsResOverlay
+- description: Nothing found in this app.
+  id: com.mediatek.SettingsProviderResOverlay
+  removal: unknown
+- description: It tests in camera something.
+  id: com.mediatek.aovtestapp
+  removal: recommended
+- description: |-
+    APM Service
+    has only logs
+  id: com.mediatek.apmonitor
+  removal: recommended
+- description: 'Well this code is hard to understand, it have only notification stuff and needed for ims wifi calling.'
+  id: com.mediatek.atci.service
+  removal: advanced
+- description: |
+    wifi data logger you don't want.
+  id: com.mediatek.atmwifimeta
+  removal: unknown
+- description: 'autodialer, have a lot useless code.'
+  id: com.mediatek.autodialer
+  removal: recommended
+- description: Issues warning when the battery is low or when the battery temperature is high.
+  id: com.mediatek.batterywarning
+  removal: expert
+- description: Bluetooth logging.
+  id: com.mediatek.bluetooth.dtt
+  removal: recommended
+- description: 'Useful in China where Google isn’t available, but not needed for Google users.'
+  id: com.mediatek.calendarimporter
+  removal: recommended
+- description: |
+    This is not the kind of feature expected from a Soc company.
+    If you remove this I guess you will not be able to record your calls from the stock dialer
+    Can someone share the apk and verify this?
+  id: com.mediatek.callrecorder
+  removal: unknown
+- description: Stock Camera app on some Mediatek phones.
+  id: com.mediatek.camera
+  removal: advanced
+- description: It have mtkradioex. These are used for corporate deployment/controlling of devices.
+  id: com.mediatek.capctrl.service
+  removal: expert
+- description: |-
+    Hidden operator configuration. it's Carrier Express app?
+    also in code there a lot stuff about Custom Operator.
+    I dont know why it should be useful when it only has notifications:
+    SIM card detected or Switching the carrier etc.
+    it's useless.
+  id: com.mediatek.carrierexpress
+  removal: recommended
+- description: This app have something to emergency.
+  id: com.mediatek.cellbroadcastuiresoverlay
+  removal: advanced
+- description: |-
+    Possibly related to user partition encryption/decryption.
+    A device should works flawlessly without it.
+  id: com.mediatek.dataprotection
+  removal: recommended
+- description: "A frontend to a Mediatek service that fully takes over Android's own Adaptive Battery management. Uninstalling this app will only remove the UI component, but not the system service that it's controlling. To completely disable Duraspeed you need to have it enabled first, open Duraspeed app via Settings, and set the toggle to 'Off'. Otherwise Duraspeed service will continue running despite there not being a Duraspeed entry in Settings which will lead to unexpected app freezes that affect FOSS apps such as Dialers/Phones and messengers."
+  id: com.mediatek.duraspeed
+  removal: expert
+- description: Useless camera calibration hidden app.
+  id: com.mediatek.emcamera
+  removal: recommended
+- description: |
+    Engineer mode you can access by dialing a secret code (*#*#3646633#*#* on some Xiaomi phones for instance)
+    It enables you to access the debug/logged data and some hidden firmware settings. 
+  id: com.mediatek.engineermode
+  removal: unknown
+- description: "it's only FCM(Firebase Cloud Messaging). No activities, google firebase. Not needed."
+  id: com.mediatek.entitlement.fcm
+  removal: recommended
+- description: Tests hardware things.
+  id: com.mediatek.factorymode
+  removal: recommended
+- description: |-
+    It have something to config AOD.
+    And power saving.
+  id: com.mediatek.frameworkresoverlay
+  removal: unsafe
+- description: |-
+    Generic Bootstrapping Architecture.
+    Has ims, X-TMUS-IMEI, bsf.msg.lab.t-mobile.com things to encrypted calls ims probably
+    (thinking by looking at the classes.dex code). Connects to site bsf.ims.mncXXX.pub.3gppnetwork.org.
+  id: com.mediatek.gba
+  removal: advanced
+- description: |-
+    Generic Bootstrapping Architecture. A ‘common ground’ of code used for many MediaTek apps.
+    Can be removed if all other MediaTek apps are removed.
+  id: com.mediatek.gbaservice
+  removal: unknown
+- description: |-
+    Have hidden activity and it's maybe for debug location requests, modem, VoWiFi and more.
+    Not useful.
+  id: com.mediatek.gnss.nonframeworklbs
+  removal: unknown
+- description: Hidden debug stuff.
+  id: com.mediatek.gnssdebugreport
+  removal: recommended
+- description: Info about gps and notifications. Probably not needed for location.
+  id: com.mediatek.gpslocationupdate
+  removal: recommended
+- description: |-
+    Mediatek's implementation of IMS (low-level implementation?)
+    https://www.programmersought.com/article/50164530665/
+    IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+  id: com.mediatek.ims
+  removal: expert
+- description: |-
+    Protocol Configuration Options service for IMS
+    IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling). This package enable automatic configuration pushed by your carrier. You could possibly remove it if you don't use IMS.
+  id: com.mediatek.ims.pco
+  removal: expert
+- description: 'Needed to support IMS, RCS probably.'
+  id: com.mediatek.ims.rcsua.service
+  removal: advanced
+- description: |-
+    LocationEM2
+    Another GPS status/testing app. Doesn’t stop GPS from working.
+  id: com.mediatek.lbs.em2.ui
+  removal: unknown
+- description: |
+    LPPE = LTE Positioning Protocol enhancements/extensions (LTE = "4G")
+    Positioning and assistance protocol between E-SMLC (mobile location center) and UE (User Equipement = phone)
+    https://www.gpsworld.com/wirelessexpert-advice-positioning-protocol-next-gen-cell-phones-11125/
+    I don't know the app has the permission to read SMS
+  id: com.mediatek.location.lppe.main
+  removal: expert
+- description: |-
+    Mtk Geofence
+    Only logs in code
+  id: com.mediatek.location.mtkgeofence
+  removal: unknown
+- description: |-
+    Mtk Nlp
+    Network Location Provider? This app has location permissions and no code.
+  id: com.mediatek.location.mtknlp
+  removal: expert
+- description: |-
+    MAGTApp
+    Unknown, has GameEventService, MAGTEventAppReceiver, but code doesn't look very useful.
+  id: com.mediatek.magtapp
+  removal: unknown
+- description: |
+    Mobile Device Management (MDM) allows company’s IT department to reach inside your phone in the background, allowing them to ensure 
+    your device is secure, know where it is, and remotely erase your data if the phone is stolen.
+    It's a way to ensure employees stay productive and do not breach corporate policies
+    You should NEVER have a MDM tool on your personal phone. Never.
+    https://blog.cdemi.io/never-accept-an-mdm-policy-on-your-personal-phone/
+    This package probably isn't a MDM tool on its own but you definitively don't need it on your phone.
+    Can someone share the apk?
+  id: com.mediatek.mdmconfig
+  removal: unknown
+- description: |-
+    It looks like debugging app.
+    But I found some words SUBSCRIBE_TRAP, OTA, VoLTE
+    Other data is a lot of debugging code so it's not needed.
+  id: com.mediatek.mdmlsample
+  removal: unknown
+- description: |-
+    it's for SmartScreen and display effects.
+    BUT I think it's not available and it's so bloated.
+  id: com.mediatek.miravision.ui
+  removal: unknown
+- description: 'Provides Voice message, Video message, Fax message, Text message in a messaging app?'
+  id: com.mediatek.mms.appservice
+  removal: advanced
+- description: Mediatek GPU Driver
+  id: com.mediatek.mt6853.gamedriver
+  removal: unsafe
+- description: |-
+    Mediatek Arm GPU Game Driver
+    GPU Game drivers for Mediatek MT6879CPU.
+  id: com.mediatek.mt6879.gamedriver
+  removal: unsafe
+- description: Mediatek GPU Driver
+  id: com.mediatek.mt6886.gamedriver
+  removal: unsafe
+- description: Arm GPU Game Driver
+  id: com.mediatek.mt6983.gamedriver
+  removal: unsafe
+- description: |
+    Logs debug data. Has a lot of permissions and run in background all the time.
+    Don't keep useless apps: reduce the attack surface
+    Vulnerability found in this app in 2016: https://nvd.nist.gov/vuln/detail/CVE-2016-10135
+  id: com.mediatek.mtklogger
+  removal: recommended
+- description: Logs debug data.
+  id: com.mediatek.mtklogger.proxy
+  removal: recommended
+- description: |-
+    Mediatek Network Location Provider
+    Provides periodic reports on the geographical location of the device. Each provider has a set of criteria under which it may be used. For example, some providers require GPS hardware and visibility to a number of satellites, while others require the use of the cellular radio, or access to a specific carrier's network, or to the internet.
+    I don't understand why this is needed; there already is one in 'com.google.android.gms'
+    I wonder if NLP can be replaced by https://github.com/microg/UnifiedNlp
+    I suggest testing if you get a better signal/battery performance with Mediatek NLP on or off.
+  id: com.mediatek.nlpservice
+  removal: expert
+- description: |-
+    omacp = OMA Client Provisioning. A protocol specified by the Open Mobile Alliance (OMA).
+    Configuration messages parser. Used for provisioning APN settings to devices via SMS.
+    In my case, it was automatic and I never needed configuration messages.
+    Maybe it's useful if carriers change their APN. But you can still change the config manually, it's not difficult.
+    Dunno why Mediatek handles this kind of things. Safe to remove. At worst, you'll need to manually config your APN.
+    OMACP can be abused:
+    https://research.checkpoint.com/2019/advanced-sms-phishing-attacks-against-modern-android-based-smartphones/
+    https://www.zdnet.com/article/samsung-huawei-lg-and-sony-phones-vulnerable-to-rogue-provisioning-messages/
+  id: com.mediatek.omacp
+  removal: expert
+- description: |-
+    Mobile anti-theft
+    It seems that people don't even have access to it, its app to remote phone lock, wipe data, fetch back anti-theft PIN.
+  id: com.mediatek.ppl
+  removal: recommended
+- description: 'App used to IMS, RCS. IP Voice Call.'
+  id: com.mediatek.presence
+  removal: advanced
+- description: |-
+    DRM provider (actually Beep Science is MediaTek’s default DRM vendor)
+    Probably required for some forms of DRM; disabling might break things like Netflix streaming, which relies on DRM to function.
+    https://en.wikipedia.org/wiki/Digital_rights_management
+  id: com.mediatek.providers.drm
+  removal: advanced
+- description: Set schedule power on & off.
+  id: com.mediatek.schpwronoff
+  removal: advanced
+- description: Testing sensors.
+  id: com.mediatek.sensorhub.ui
+  removal: recommended
+- description: |
+    This controls and imports contacts saved on a SIM card. Not needed if you don't store your contacts on the SIM card
+  id: com.mediatek.simprocessor
+  removal: advanced
+- description: it handles switching connection between network types. (4G/5G)
+  id: com.mediatek.smartratswitch.service
+  removal: expert
+- description: It have nothing in code.
+  id: com.mediatek.systemuiresoverlay
+  removal: unknown
+- description: config pip_corner_radius only found.
+  id: com.mediatek.systemuiwmshellresoverlay
+  removal: unsafe
+- description: |-
+    allows you to get information about the available 
+    SIMs/subscriptions and listen for changes or activity on the SIM cards, such as call or data activity or 
+    connected cell details. In addition, the API enables apps to create SMS messages and send them using 
+    a specific SIM card. it's not useful.
+  id: com.mediatek.telephony
+  removal: advanced
+- description: Hidden testing or logging app.
+  id: com.mediatek.thermalmanager
+  removal: recommended
+- description: |-
+    It's for voice commands like control music playing or voice control for alarm, camera.
+    But how to get access to it?
+    Probably you need that for voice recognition but not sure.
+    Maybe related to https://www.mediatek.com/products/smart-home/voice-assistant-devices
+  id: com.mediatek.voicecommand
+  removal: unknown
+- description: |-
+    It's for voice commands like control music playing or voice control for alarm, camera.
+    But how to get access to it?
+    Probably you need that for voice recognition but not sure.
+    Maybe related to https://www.mediatek.com/products/smart-home/voice-assistant-devices
+  id: com.mediatek.voiceunlock
+  removal: unknown
+- description: |-
+    According to olorin (https://www.olorin.me/2019/09/08/debloating-the-umidigi-f1-play/) it's a MediaTek’s default fingerprint app (and he removed it).
+    Can someone confirm what this package does?
+    Remember that any pre-installed apps you don't actually need just increase the surface attack.
+    Vulnerability found in 2019: https://nvd.nist.gov/vuln/detail/CVE-2019-15368
+    Any app co-located on the device could modify a system property through an exported interface without proper authorization.
+  id: com.mediatek.wfo.impl
+  removal: recommended
+- description: |-
+    YGPS
+    GPS test and bug report utilities, accessed via Engineer Mode. Not needed.
+  id: com.mediatek.ygps
+  removal: unknown
+- description: config zramWriteback = true. What is this used for?
+  id: com.mediatek.zramwritebackoverlay
+  removal: expert

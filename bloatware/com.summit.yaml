@@ -1,0 +1,6 @@
+---
+- description: |-
+    Summit IMS Service
+    A lot of logs and it's only for RCS messages. Anyway, it's a bad idea to use this app.
+  id: com.summit.motorola.rcs
+  removal: recommended

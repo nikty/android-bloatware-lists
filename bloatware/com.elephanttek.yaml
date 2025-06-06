@@ -1,0 +1,10 @@
+---
+- description: |-
+    Standard FaceUnlock functionality?
+    Unlock your device by simply looking at the display.
+    Face unlock is bad for security and privacy:
+    https://www.ubergizmo.com/2017/03/galaxy-s8-facial-unlock-photograph/
+    https://www.kaspersky.com/blog/face-unlock-insecurity/21618/
+    https://www.freecodecamp.org/news/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28/
+  id: com.elephanttek.faceunlock
+  removal: expert

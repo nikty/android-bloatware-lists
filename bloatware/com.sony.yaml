@@ -1,0 +1,59 @@
+---
+- description: |-
+    Screen calibration app
+    https://play.google.com/store/apps/details/Calman%20for%20BRAVIA?id=com.sony.dtv.calibrationmonitor&hl=en_US
+    Useful app, but can be removed if you don't need it.
+  id: com.sony.dtv.calibrationmonitor
+  removal: advanced
+- description: Used to configure eco friendly settings. Breaks some options in the settings app if removed.
+  id: com.sony.dtv.ecodashboard
+  removal: advanced
+- description: |-
+    Turns your tv into an accessory by showing pictures. This is different to the screensaver and won't affect it.
+    https://play.google.com/store/apps/details?id=com.sony.dtv.livingfit&hl=en_US
+  id: com.sony.dtv.livingfit
+  removal: recommended
+- description: Notification app which reminds you to use apps from Sony's ecosystem. Can be removed safely without breaking other notifications
+  id: com.sony.dtv.notificationcenter
+  removal: recommended
+- description: |-
+    Music app which streams from your files.
+    https://play.google.com/store/apps/details?id=com.sonyericsson.music&hl=en_US
+    Can be removed if you don't need it.
+  id: com.sony.dtv.osat.music
+  removal: recommended
+- description: Sony's promotion app with offers. You need an account to use it
+  id: com.sony.dtv.promos
+  removal: recommended
+- description: 'Allows you to view your reminders and timers but not add them? Can be removed safely'
+  id: com.sony.dtv.recapp
+  removal: recommended
+- description: |-
+    Allows you to control your TV with smart speaker e.g Alexa:
+    https://play.google.com/store/apps/details?id=com.sony.dtv.seeds.iot&hl=en_US
+  id: com.sony.dtv.seeds.iot
+  removal: recommended
+- description: App with documentation of how to use a smart TV. Removing it has no effect
+  id: com.sony.dtv.smarthelp
+  removal: recommended
+- description: Shows you bunch of popular subscription services and apps and redirects you to the play store. Better to use play store itself
+  id: com.sony.dtv.sonyselect
+  removal: recommended
+- description: |-
+    Sony's clock app.
+     Can be removed safely but on some Android Tv launchers it makes the Timer button not function. Not a deal breaker as the feature is pretty useless.
+  id: com.sony.dtv.timers
+  removal: recommended
+- description: Handles input settings. HDMI stops working if this is removed.
+  id: com.sony.dtv.tvx
+  removal: expert
+- description: |-
+    Sony's TV remote control app
+    https://play.google.com/store/apps/details?id=com.sony.tvsideview.phone
+  id: com.sony.tvsideview.phone
+  removal: recommended
+- description: |
+    Video & TV SideView (replaced by https://play.google.com/store/apps/details?id=com.sony.tvsideview.phone)
+    Lets you use your smartphone or tablet as a TV remote control for the home. 
+  id: com.sony.tvsideview.videoph
+  removal: recommended

@@ -1,0 +1,5 @@
+---
+- description: |
+    Yellow Pages (https://play.google.com/store/apps/details?id=com.yellowpages.android.ypmobile)
+  id: com.yellowpages.android.ypmobile
+  removal: recommended

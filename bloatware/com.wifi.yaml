@@ -1,0 +1,4 @@
+---
+- description: Wifi Rx Sens Test.
+  id: com.wifi.rxsenstest
+  removal: recommended

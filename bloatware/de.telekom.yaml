@@ -1,0 +1,8 @@
+---
+- description: |
+    AppEnabler
+    tsc = Telecom Service Center
+    Used to display ads in notifications panel.
+    )
+  id: de.telekom.tsc
+  removal: recommended

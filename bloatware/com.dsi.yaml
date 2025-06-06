@@ -1,0 +1,18 @@
+---
+- description: ANT+ plugin service (https://play.google.com/store/apps/details?id=com.dsi.ant.plugins.antplus)
+  id: com.dsi.ant.plugins.antplus
+  removal: recommended
+- description: |
+    I don't know why there is "sample" in the name. Is this package really useful to find ANT channels ? 
+  id: com.dsi.ant.sample.acquirechannels
+  removal: recommended
+- description: |-
+    ANT Radio Service Test. ANT HAL(Hardware Abstraction Layer) Server
+    ANT is a wireless protocol, similar to Bluetooth, that is mainly used for sport and fitness trackers.
+  id: com.dsi.ant.server
+  removal: recommended
+- description: |-
+    ANT Radio Service (https://play.google.com/store/apps/details?id=com.dsi.ant.service.socket)
+    ANT is a wireless protocol, similar to Bluetooth, that is mainly used for sport and fitness trackers.
+  id: com.dsi.ant.service.socket
+  removal: advanced

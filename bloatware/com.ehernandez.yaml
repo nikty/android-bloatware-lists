@@ -1,0 +1,6 @@
+---
+- description: |
+    Radio La Inolvidable Peru (no longer exist)
+    Spanish Radio app.
+  id: com.ehernandez.radiolainolvidable
+  removal: recommended

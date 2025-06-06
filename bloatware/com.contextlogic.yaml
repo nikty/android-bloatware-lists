@@ -1,0 +1,4 @@
+---
+- description: Wish Shopping (https://play.google.com/store/apps/details?id=com.contextlogic.wish)
+  id: com.contextlogic.wish
+  removal: recommended

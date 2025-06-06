@@ -1,0 +1,9 @@
+---
+- description: 'Dictionary app, only for japanese and korea'
+  id: com.diotek.diodict4.EDictionary
+  removal: recommended
+- description: |
+    Samsung dictionary from Diotek (Korean company)
+    http://en.diotek.com/
+  id: com.diotek.sec.lookup.dictionary
+  removal: recommended

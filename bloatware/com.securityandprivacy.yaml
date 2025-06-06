@@ -1,0 +1,6 @@
+---
+- description: |
+    Digital Secure (https://play.google.com/store/apps/details?id=com.securityandprivacy.android.verizon.vms&hl=en)
+    I don't know why this apps is released twice on the Play store under 2 different package name.
+  id: com.securityandprivacy.android.verizon.vms
+  removal: recommended

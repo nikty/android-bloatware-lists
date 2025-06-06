@@ -1,0 +1,11 @@
+---
+- description: |-
+    FactoryMode
+    Hardware testing things.
+  id: com.wtk.factory
+  removal: recommended
+- description: |-
+    StressTest
+    Testing Hardware things.
+  id: com.wtk.stresstest
+  removal: recommended

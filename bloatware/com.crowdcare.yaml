@@ -1,0 +1,9 @@
+---
+- description: |
+    Crowdcare is now Wysdom.AI
+    From their Twitter description: the easiest way for businesses to improve customer satisfaction, contain costs, 
+    and generate revenue by using #AI to power customer experiences.
+    Wysdom.AI has joined the Microsoft Partner Network in 2018
+    https://wysdom.ai/privacy-policy/ (not good)
+  id: com.crowdcare.agent.k
+  removal: recommended

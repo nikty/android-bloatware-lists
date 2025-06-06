@@ -1,0 +1,6 @@
+---
+- description: |-
+    ITC_Base
+    Hidden camera testing, also its Chinese.
+  id: com.itc.autotest
+  removal: recommended

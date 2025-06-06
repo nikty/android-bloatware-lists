@@ -1,0 +1,9 @@
+---
+- description: 'Uses Location permissions for VoWifi Special, rtc wifi signal.'
+  id: com.hisi.mapcon
+  removal: advanced
+- description: |-
+    SUPL20Services
+    Not needed for location and dont have code.
+  id: com.hisi.supl
+  removal: recommended

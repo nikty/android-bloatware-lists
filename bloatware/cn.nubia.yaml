@@ -1,0 +1,338 @@
+---
+- description: |-
+    ZAccountService
+    It's for Nubia Account.
+  id: cn.nubia.accounts
+  removal: recommended
+- description: 'Hidden advanced test bluetooth, WiFi'
+  id: cn.nubia.advanced
+  removal: recommended
+- description: "Has location permissions and it's for debugging, logs."
+  id: cn.nubia.aftersale
+  removal: recommended
+- description: We don't need antivirus if we have Play Protect.
+  id: cn.nubia.antivirus
+  removal: recommended
+- description: 'App Lock, Add Eyeprint'
+  id: cn.nubia.applockmanager
+  removal: recommended
+- description: |-
+    Healthy time management
+    App time limit.
+  id: cn.nubia.apptimelock
+  removal: recommended
+- description: 'Hidden camera, WiFi tests.'
+  id: cn.nubia.autoagingtest
+  removal: recommended
+- description: |-
+    Chinese useless frameworks.
+    Used to collect application behavior data to understand users.
+  id: cn.nubia.behaviordetection
+  removal: recommended
+- description: Needed for Bluetooth
+  id: cn.nubia.bluetooth.opp
+  removal: expert
+- description: |-
+    Boot Animation Info
+    Probably it's unsafe to remove.
+  id: cn.nubia.bootanimationinfo
+  removal: unsafe
+- description: |-
+    Browser
+    Stock Nubia Chinese browser.
+  id: cn.nubia.browser
+  removal: recommended
+- description: |-
+    Calendar
+    Stock Calendar app
+  id: cn.nubia.calendar.preset
+  removal: advanced
+- description: |-
+    ClockWidget
+    It has more permissions than it should have and DaemonService
+  id: cn.nubia.clock.widget.preset
+  removal: recommended
+- description: Nubia Cloud Manager
+  id: cn.nubia.cloud
+  removal: recommended
+- description: |-
+    Contacts
+    Stock Nubia Contacts
+  id: cn.nubia.contacts
+  removal: advanced
+- description: |-
+    control center
+    Provides a control panel for controlling the switching of
+    important functions in the system, such as data services, WiFi and other switches.
+  id: cn.nubia.controlcenter
+  removal: unsafe
+- description: Useless logs. Useless frameworks.
+  id: cn.nubia.contrycode
+  removal: recommended
+- description: |-
+    Backup
+    It's not the best choice for backup. Read Nubia privacy policy before.
+  id: cn.nubia.databackup
+  removal: recommended
+- description: |-
+    Clock
+    Stock Clock app for manage alarms.
+  id: cn.nubia.deskclock.preset
+  removal: advanced
+- description: It can be found in settings
+  id: cn.nubia.diyaod
+  removal: recommended
+- description: |-
+    App duplicator
+    it's duplicating app feature that can be found in settings
+  id: cn.nubia.doubleapp
+  removal: recommended
+- description: Needed for video wallpapers
+  id: cn.nubia.dynamicwallpaper
+  removal: advanced
+- description: |-
+    Smart Service Card
+    Smart Service Card, Smart sidebar.
+  id: cn.nubia.edge
+  removal: recommended
+- description: 'Useless logs, tracking. Useless frameworks.'
+  id: cn.nubia.entertainmenttoolbox
+  removal: recommended
+- description: It's just a system error dialog. It doesn't send data anywhere.
+  id: cn.nubia.error.dialog
+  removal: recommended
+- description: Nubia Chinese pay
+  id: cn.nubia.extcard
+  removal: recommended
+- description: Face unlock lock screen.
+  id: cn.nubia.faceid
+  removal: recommended
+- description: Hidden hardware tests.
+  id: cn.nubia.factory
+  removal: recommended
+- description: It has cooling fan activities.
+  id: cn.nubia.fan
+  removal: expert
+- description: "Ultra low latency? It's something for Nubia earphones."
+  id: cn.nubia.fastpair
+  removal: recommended
+- description: |-
+    File browser
+    It's for file browser probably. Has Chinese components.
+  id: cn.nubia.filebrowser
+  removal: advanced
+- description: |-
+    FileObserver
+    FileObserver? Has Chinese components.
+  id: cn.nubia.fileobserver
+  removal: advanced
+- description: 'Mainly used to manage application self-startup, convenient for users to adjust the policy of application self-startup.'
+  id: cn.nubia.forbid.selfstart.provider
+  removal: advanced
+- description: |-
+    Gallery
+    Stock gallery with Chinese trackers.
+  id: cn.nubia.gallery3d
+  removal: recommended
+- description: Wallpapers are displayed on the lock screen.
+  id: cn.nubia.gallerylockscreen
+  removal: advanced
+- description: It's a macro for the game. I think it's very useful if you're playing games.
+  id: cn.nubia.gamehelpmodule
+  removal: expert
+- description: |-
+    Red Magic Moment game recorder
+    I think it's very useful if you're playing games.
+  id: cn.nubia.gamehighlights
+  removal: expert
+- description: |-
+    Game Space Nubia
+    I think it's very useful if you're playing games.
+  id: cn.nubia.gamelauncher
+  removal: expert
+- description: |-
+    Game Notes
+    Game Notes? Probably an optional thing.
+  id: cn.nubia.gamenotes
+  removal: advanced
+- description: Needed for game optimization probably and also has something for Game Space
+  id: cn.nubia.gamepi
+  removal: expert
+- description: |-
+    Widget One-tap Cleanup
+    Useless Widget One-tap Cleanup. Useless frameworks.
+  id: cn.nubia.garbagecleanwidget
+  removal: recommended
+- description: It's for creating GIFs
+  id: cn.nubia.gif
+  removal: recommended
+- description: It has GPU settings so better keep that.
+  id: cn.nubia.gpu.drivers
+  removal: expert
+- description: |-
+    Mainly used to intercept harassing and fraudulent phone calls and text messages,
+    while the user can also customize the way to intercept.
+  id: cn.nubia.harassintercept
+  removal: recommended
+- description: 'Hidden? Heart Rate Detection'
+  id: cn.nubia.heartrate
+  removal: recommended
+- description: Quick Apps Preview for ads 3d. Has a lot of Chinese components.
+  id: cn.nubia.hybrid
+  removal: recommended
+- description: It's for personalized recommendations.
+  id: cn.nubia.identity
+  removal: recommended
+- description: |-
+    Mainly through the network to modify the basic data and functions of the self-developed application
+    module part of the cell phone system in the background. Also has neopush.
+  id: cn.nubia.jobdispatcher
+  removal: expert
+- description: "It's for gaming right? Useless frameworks."
+  id: cn.nubia.keymapcenter
+  removal: recommended
+- description: |-
+    Launcher
+    Stock Nubia Launcher.
+  id: cn.nubia.launcher
+  removal: expert
+- description: Better keep this for gaming.
+  id: cn.nubia.monitor
+  removal: expert
+- description: |-
+    Ringtones
+    Music Picker for nubia phones.
+  id: cn.nubia.musicpicker.preset
+  removal: expert
+- description: |-
+    File Manager
+    Nubia File Manager.
+  id: cn.nubia.myfile
+  removal: advanced
+- description: Not needed for notifications. Has a lot of permissions.
+  id: cn.nubia.neopush
+  removal: recommended
+- description: |-
+    App Store
+    Nubia App Store
+  id: cn.nubia.neostore
+  removal: recommended
+- description: Nubia data collection. It has a lot of permissions and it's spyware!
+  id: cn.nubia.owlsystem
+  removal: recommended
+- description: |-
+    Nubia Package Optimization
+    Nubia Package Optimization? Cleans cache and more
+  id: cn.nubia.packageoptimization
+  removal: advanced
+- description: Chinese pay Nubia
+  id: cn.nubia.paycomponent
+  removal: recommended
+- description: |-
+    PersistService
+    PersistService? In code I found it's for logs.
+  id: cn.nubia.persist
+  removal: recommended
+- description: Useless User Guide
+  id: cn.nubia.phonemanualintegrate.preset
+  removal: recommended
+- description: |-
+    Photo Editor
+    Photo Editor. It has Baidu location so better turn off network for this app.
+  id: cn.nubia.photoeditor
+  removal: advanced
+- description: Better keep this for power saving?
+  id: cn.nubia.powersaving
+  removal: expert
+- description: Useless frameworks
+  id: cn.nubia.processmanager
+  removal: recommended
+- description: Another component of Quick Apps Preview for ads 3d.
+  id: cn.nubia.quickappwebserver
+  removal: recommended
+- description: Useless quick search box
+  id: cn.nubia.quicksearchbox
+  removal: recommended
+- description: Probably it's for optimization
+  id: cn.nubia.ramdisk
+  removal: expert
+- description: |-
+    PersistService
+    PersistService? In code I found it's for logs.
+  id: cn.nubia.sar
+  removal: recommended
+- description: |-
+    It's not only security but it has a lot of useful settings.
+    Better keep this.
+  id: cn.nubia.security2
+  removal: expert
+- description: Hidden sensor calibration.
+  id: cn.nubia.sensor
+  removal: recommended
+- description: |-
+    Setup Wizard
+    You don't need it after first-boot setup.
+  id: cn.nubia.setupwizard
+  removal: recommended
+- description: |-
+    share video
+    Nubia share video. You can share video by this app probably.
+  id: cn.nubia.share
+  removal: advanced
+- description: It's for smart things
+  id: cn.nubia.smartrecognition
+  removal: recommended
+- description: 'Super Snap Shot, Screenshot'
+  id: cn.nubia.supersnap
+  removal: advanced
+- description: |-
+    System Update
+    Provides system updates for nubia
+  id: cn.nubia.systemupdate
+  removal: expert
+- description: Needed for theme apply
+  id: cn.nubia.theme.apply
+  removal: advanced
+- description: |-
+    Theme Manager
+    Stock Nubia Theme Manager
+  id: cn.nubia.thememanager
+  removal: advanced
+- description: Needed for screen cast
+  id: cn.nubia.touping
+  removal: advanced
+- description: Needed for upgrade service.
+  id: cn.nubia.upgradeservice
+  removal: expert
+- description: |-
+    Video Player
+    Nubia Video Player
+  id: cn.nubia.video
+  removal: advanced
+- description: |-
+    Virtual joystick
+    Virtual joystick? Useless logs, tracking. Useless frameworks.
+  id: cn.nubia.virtualgamehandle
+  removal: recommended
+- description: |-
+    Nubia Voice
+    Assistant things.
+  id: cn.nubia.voiceassist
+  removal: recommended
+- description: Another tool for logs.
+  id: cn.nubia.woodpecker
+  removal: recommended
+- description: |-
+    Yulorepage
+    Has only notifications thing.
+    Not very useful. It's something for China like yellow pages.
+  id: cn.nubia.yulorepage
+  removal: recommended
+- description: 'Backup App, Restore App'
+  id: cn.nubia.zappdatabackup
+  removal: recommended
+- description: |-
+    Icon handling
+    Icon handling? It's for theme icons probably
+  id: cn.nubia.ziconunity
+  removal: expert

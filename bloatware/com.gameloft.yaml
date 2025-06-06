@@ -1,0 +1,18 @@
+---
+- description: 'Asphalt 9: Legends'
+  id: com.gameloft.android.ANMP.GloftA9HM
+  removal: recommended
+- id: com.gameloft.android.GloftANPH
+  removal: recommended
+
+- id: com.gameloft.android.GloftDBMF
+  removal: recommended
+
+- id: com.gameloft.android.GloftDMKF
+  removal: recommended
+
+- id: com.gameloft.android.GloftPDMF
+  removal: recommended
+
+- id: com.gameloft.android.GloftSMIF
+  removal: recommended

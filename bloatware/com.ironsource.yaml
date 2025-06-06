@@ -1,0 +1,21 @@
+---
+- description: |
+    AppCloud (discontinued) from ironSource, an advertising company.
+    Worth reading : https://en.wikipedia.org/wiki/IronSource.
+  id: com.ironsource.appcloud.oobe
+  removal: recommended
+- description: |
+    Essentials apps
+    App which promotes some other apps (and encourages you to install them)
+    Developed by IronSource, a "next-generation advertising company" 
+    https://aura.ironsrc.com/ (app) | https://company.ironsrc.com/ (company)
+    When you try to read their privacy policy you arrive to an outstanding blank PDF file!
+    (http://www.ironsrc.com/wp-content/uploads/2019/03/ironSource-Privacy-Policy.pdf)
+  id: com.ironsource.appcloud.oobe.huawei
+  removal: recommended
+- description: |-
+    AppCloud (discontinued) from ironSource, an advertising company.
+    Worth reading:
+    https://en.wikipedia.org/wiki/IronSource
+  id: com.ironsource.appcloud.oobe.hutchison
+  removal: recommended

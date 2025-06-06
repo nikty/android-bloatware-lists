@@ -1,0 +1,9 @@
+---
+- description: Testing things to com.vivo.bsptest.
+  id: com.nttouchscreen.getdata
+  removal: recommended
+- description: |-
+    Novatek MP selftest
+    Testing things to com.vivo.bsptest.
+  id: com.nttouchscreen.mptest
+  removal: recommended

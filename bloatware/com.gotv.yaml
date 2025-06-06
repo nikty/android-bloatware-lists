@@ -1,0 +1,5 @@
+---
+- description: |
+    Football NFL (https://play.google.com/store/apps/details?id=com.gotv.nflgamecenter.us.lite)
+  id: com.gotv.nflgamecenter.us.lite
+  removal: recommended

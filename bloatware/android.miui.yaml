@@ -1,0 +1,17 @@
+---
+- description: |-
+    Config to default icons/placeholder widgets in MIUI launcher.
+    It's used only first time run MIUI launcher app like com.mi.globallayout.
+  id: android.miui.home.launcher.res
+  removal: advanced
+- description: |-
+    Refers to a specific package within the MIUI overlay,
+    The package contains various resources and components that are used to customize the appearance and behavior of the MIUI interface.
+    https://source.android.com/docs/core/runtime/rros
+  id: android.miui.overlay
+  removal: unsafe
+- description: |-
+    Config to default icons/placeholder widgets in MIUI launcher.
+    It's used only first time run MIUI launcher app like com.mi.globallayout.
+  id: android.miui.poco.launcher.res
+  removal: advanced

@@ -1,0 +1,4 @@
+---
+- description: Fairphone Camera app
+  id: com.fp.camera
+  removal: advanced

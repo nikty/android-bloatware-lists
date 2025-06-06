@@ -1,0 +1,25 @@
+---
+- description: Docomo Application Manager
+  id: com.nttdocomo.android.applicationmanager
+  removal: recommended
+- description: Docomo Launcher
+  id: com.nttdocomo.android.dhome
+  removal: advanced
+- description: 'FeliCa Remote security things, not needed'
+  id: com.nttdocomo.android.felicaremotelock
+  removal: recommended
+- description: Diagnostics things only in this japanese app
+  id: com.nttdocomo.android.iconcier_contents
+  removal: recommended
+- description: Docomo Initialization app
+  id: com.nttdocomo.android.initialization
+  removal: recommended
+- description: |-
+    rwpushcontroller
+    Another FeliCa Networks app, with japanese language
+    Useless frameworks
+  id: com.nttdocomo.android.rwpushcontroller
+  removal: recommended
+- description: Docomo App Market
+  id: com.nttdocomo.android.store
+  removal: recommended

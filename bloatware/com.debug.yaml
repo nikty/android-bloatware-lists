@@ -1,0 +1,7 @@
+---
+- description: |-
+    DebugLoggerUI
+    Similar to logcat, in some sense. Mostly focused on video graphics logging and network logging (includes Bluetooth). On some devices, it runs in the background (working non-cache RAM) even while not in use.
+    https://peterelst.com/what-is-debug-logger-ui-android
+  id: com.debug.loggerui
+  removal: unknown

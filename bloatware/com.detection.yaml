@@ -1,0 +1,7 @@
+---
+- description: It's used by bsptest (com.vivo.bsptest) for noise detection test.
+  id: com.detection.ts.noise_detection_apk
+  removal: recommended
+- description: It's used by bsptest (com.vivo.bsptest) for touch detection test.
+  id: com.detection.ts.touch_detection
+  removal: recommended

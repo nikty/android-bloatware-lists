@@ -1,0 +1,11 @@
+---
+- description: 'Chinese Keyboard to Miui China, replace Keyboard before remove.'
+  id: com.iflytek.inputmethod.miui
+  removal: recommended
+- description: |
+    Default voice input method from iflytek, a big chinese company (https://en.wikipedia.org/wiki/IFlytek)
+    IFLytek was implicated in human rights violations : 
+    https://asia.nikkei.com/Economy/Trade-war/US-sanctions-8-China-tech-companies-over-role-in-Xinjiang-abuses
+    Archive: https://web.archive.org/save/https://asia.nikkei.com/Economy/Trade-war/US-sanctions-8-China-tech-companies-over-role-in-Xinjiang-abuses
+  id: com.iflytek.speechsuite
+  removal: recommended

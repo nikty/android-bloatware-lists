@@ -1,0 +1,4 @@
+---
+- description: Custom power-saving mode
+  id: com.kyocera.ecomode
+  removal: unsafe

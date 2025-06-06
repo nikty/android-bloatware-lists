@@ -1,0 +1,8 @@
+---
+- description: |-
+    IQIYI (https://play.google.com/store/apps/details?id=com.qiyi.video)
+    Online video platform from Baidu (https://en.wikipedia.org/wiki/IQiyi).
+    I didn't know this is currently one of the largest online video sites in the world, 
+    with nearly 6 billion hours spent on its service each month, and over 500 million monthly active users.
+  id: com.qiyi.video
+  removal: recommended

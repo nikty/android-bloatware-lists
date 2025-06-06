@@ -1,0 +1,15 @@
+---
+- description: |-
+    Reads/writes to External Storage. Gets the IMEI, uses gps/wifi lots of activities (hardware tests?):
+    IMeiAndPcbCheck, DeviceListActivity, CheckSoftwareInfo, GpsActivity, BluetoothTest, BluetoothSearch, LteSarTest, NetworkSearch, DecryptionActivity
+  id: com.yha.engineersecret
+  removal: advanced
+- description: related to com.yha.runtime
+  id: com.yha.factory
+  removal: advanced
+- description: |-
+    RunTimeTest
+    Reads/writes to External Storage. Uses wifi, camera, sensors, mic, etc. Lots of activities (hardware tests?):
+    FlashTest, VibratorTest, WIFITest, Reboot, LCDTest, AudioLoop, VideoTest, CameraTest, Tester3dTeapot, FullMemTest, ScreenSaver.
+  id: com.yha.runtime
+  removal: advanced

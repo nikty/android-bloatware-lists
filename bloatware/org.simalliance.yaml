@@ -1,0 +1,30 @@
+---
+- description: |
+    The SmartCard API is a reference implementation of the SIMalliance Open Mobile API specification that enables Android applications 
+    to communicate with Secure Elements, (SIM card, embedded Secure Elements, Mobile Security Card or others)
+    https://github.com/seek-for-android/pool/wiki/SmartcardAPI
+    Safe to remove if you think you don't need this
+  id: org.simalliance.openmobileapi.service
+  removal: advanced
+- description: |
+    Open Mobile API ("interface") to access UICC secure elements
+    UICC stands for Universal Integrated Circuit Card.
+    It is a the physical and logical platform for the USIM and may contain additional USIMs and other applications.
+    (U)SIM is an application on the UICC.
+    https://bluesecblog.wordpress.com/2016/11/18/uicc-sim-usim/
+    Good read: https://arxiv.org/ftp/arxiv/papers/1601/1601.03027.pdf
+    Note2: The term SIM is widely used in the industry and especially with consumers to mean both SIMs and UICCs.
+    https://www.justaskgemalto.com/us/what-uicc-and-how-it-different-sim-card/
+  id: org.simalliance.openmobileapi.uicc1terminal
+  removal: advanced
+- description: |
+    Open Mobile API ("interface") to access UICC secure elements 
+    UICC stands for Universal Integrated Circuit Card.
+    It is a the physical and logical platform for the USIM and may contain additional USIMs and other applications.
+    (U)SIM is an application on the UICC.
+    https://bluesecblog.wordpress.com/2016/11/18/uicc-sim-usim/
+    Good read: https://arxiv.org/ftp/arxiv/papers/1601/1601.03027.pdf
+    Note2: The term SIM is widely used in the industry and especially with consumers to mean both SIMs and UICCs.
+    https://www.justaskgemalto.com/us/what-uicc-and-how-it-different-sim-card/
+  id: org.simalliance.openmobileapi.uicc2terminal
+  removal: advanced

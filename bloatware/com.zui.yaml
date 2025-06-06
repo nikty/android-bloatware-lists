@@ -1,0 +1,227 @@
+---
+- description: Useless config to Chinese location.
+  id: com.zui.android.overlay.common
+  removal: recommended
+- description: "Config to refresh rate 120? Better don't risk."
+  id: com.zui.android.overlay.product
+  removal: unsafe
+- description: |-
+    Find the phone
+    Find the phone. (Log out from account before remove)
+  id: com.zui.antitheft
+  removal: recommended
+- description: |-
+    Lenovo Browser
+    Stock Lenovo Browser with Chinese trackers.
+  id: com.zui.browser
+  removal: recommended
+- description: Hidden collecting user data.
+  id: com.zui.bugtogo
+  removal: recommended
+- description: Additional Call Settings also WiFi calling.
+  id: com.zui.callsettings
+  removal: advanced
+- description: |-
+    Lenovo ZUI Camera
+    Lenovo Stock Camera App
+  id: com.zui.camera
+  removal: advanced
+- description: It's for camera app or WiFi calling?
+  id: com.zui.camera.assistant
+  removal: advanced
+- description: |-
+    MakeAvatar
+    MakeAvatar? It's something for face recognition.
+  id: com.zui.camera.avatar
+  removal: recommended
+- description: Needed for camera settings?
+  id: com.zui.camera.plugin.dolphin
+  removal: advanced
+- description: |-
+    Lenovo Contacts
+    Stock Lenovo Contacts app
+  id: com.zui.contacts
+  removal: advanced
+- description: |-
+    Lenovo One
+    Connects phone to PC and more. Not needed.
+  id: com.zui.continuity
+  removal: recommended
+- description: "Removing will affect a lot of other ZUI functions like the game assistant, etc. so it's a bad idea."
+  id: com.zui.cores
+  removal: expert
+- description: 'Login to iCloud and sync contacts, calendars.'
+  id: com.zui.davdroid
+  removal: recommended
+- description: |-
+    Lenovo ZUI Clock
+    Stock Lenovo clock app.
+  id: com.zui.deskclock
+  removal: advanced
+- description: Overlay to theme icon Clock app.
+  id: com.zui.deskclock.overlay.lime
+  removal: recommended
+- description: Overlay to theme icon Clock app.
+  id: com.zui.deskclock.overlay.mostbeautiful
+  removal: recommended
+- description: Overlay to theme icon Clock app.
+  id: com.zui.deskclock.overlay.phantom
+  removal: recommended
+- description: Overlay to theme icon Clock app.
+  id: com.zui.deskclock.overlay.redstorm
+  removal: recommended
+- description: Overlay to theme icon Clock app.
+  id: com.zui.deskclock.overlay.steellegion
+  removal: recommended
+- description: Overlay to theme icon Clock app.
+  id: com.zui.deskclock.overlay.thinarmor
+  removal: recommended
+- description: Analytics and logs.
+  id: com.zui.deviceidservice
+  removal: recommended
+- description: File manager app
+  id: com.zui.filemanager
+  removal: advanced
+- description: 'Unused frameworks? Probably split screen for apps will not work, not tested.'
+  id: com.zui.freeform.sidebar
+  removal: advanced
+- description: |-
+    Gallery
+    Stock Gallery app for lenovo phones.
+  id: com.zui.gallery
+  removal: recommended
+- description: A lot of login things and Chinese.
+  id: com.zui.game.service
+  removal: recommended
+- description: "Badges? It's Chinese, so not needed."
+  id: com.zui.homesettings
+  removal: recommended
+- description: Lenovo Launcher ZUI HOME.
+  id: com.zui.launcher
+  removal: expert
+- description: I found only hidden privacy policy activity.
+  id: com.zui.legalinfo
+  removal: recommended
+- description: Stock Messaging App
+  id: com.zui.mms
+  removal: advanced
+- description: Overlay to theme icon Messages app.
+  id: com.zui.mms.overlay.mostbeautiful
+  removal: advanced
+- description: Needed for Network control
+  id: com.zui.net.data.monitor
+  removal: recommended
+- description: Network manager?
+  id: com.zui.networkaclr
+  removal: expert
+- description: |-
+    Input method for Lenovo One
+    It's input method for Lenovo One.
+  id: com.zui.oneime
+  removal: recommended
+- description: |-
+    Lenovo system update
+    Provides system updates.
+  id: com.zui.ota
+  removal: expert
+- description: Hidden testing hardware things.
+  id: com.zui.radioinfo
+  removal: recommended
+- description: |-
+    Security Center
+    Useless security app? You will lose optimization probably.
+  id: com.zui.safecenter
+  removal: expert
+- description: Overlay to theme icon Security app.
+  id: com.zui.safecenter.overlay.lime
+  removal: recommended
+- description: Overlay to theme icon Security app.
+  id: com.zui.safecenter.overlay.mostbeautiful
+  removal: recommended
+- description: Overlay to theme icon Security app.
+  id: com.zui.safecenter.overlay.phantom
+  removal: recommended
+- description: Overlay to theme icon Security app.
+  id: com.zui.safecenter.overlay.redstorm
+  removal: recommended
+- description: Overlay to theme icon Security app.
+  id: com.zui.safecenter.overlay.steellegion
+  removal: recommended
+- description: Overlay to theme icon Security app.
+  id: com.zui.safecenter.overlay.thinarmor
+  removal: recommended
+- description: Not needed for notifications and it's probably testing notification.
+  id: com.zui.sdac
+  removal: recommended
+- description: |-
+    Setup Wizard
+    Needed for first-boot setup.
+  id: com.zui.setupwizard
+  removal: recommended
+- description: |-
+    It should be named com.qualcomm.simcontacts.
+    It's hidden and not available for users.
+  id: com.zui.simcontacts
+  removal: recommended
+- description: 'Assistant Tracking, Logs.'
+  id: com.zui.tassistent
+  removal: recommended
+- description: Wallpaper to Theme App.
+  id: com.zui.theme.overlay.lime
+  removal: advanced
+- description: Wallpaper to Theme App.
+  id: com.zui.theme.overlay.mostbeautiful
+  removal: advanced
+- description: Wallpaper to Theme App.
+  id: com.zui.theme.overlay.phantom
+  removal: advanced
+- description: Wallpaper to Theme App.
+  id: com.zui.theme.overlay.redstorm
+  removal: advanced
+- description: Wallpaper to Theme App.
+  id: com.zui.theme.overlay.steellegion
+  removal: advanced
+- description: Wallpaper to Theme App.
+  id: com.zui.theme.overlay.thinarmor
+  removal: advanced
+- description: |-
+    Lenovo theme settings
+    Needed for theme settings.
+  id: com.zui.theme.settings
+  removal: expert
+- description: Third party useless frameworks.
+  id: com.zui.thirdparty.sdk
+  removal: recommended
+- description: It's for faceid and probably needed for face unlock lock screen.
+  id: com.zui.tuface
+  removal: recommended
+- description: Useless preview activity to earphones.
+  id: com.zui.udevice
+  removal: recommended
+- description: "It's for spying: app usage, device usage."
+  id: com.zui.userexperience
+  removal: recommended
+- description: Chinese payment
+  id: com.zui.wallet
+  removal: recommended
+- description: |-
+    Crop wallpaper
+    Wallpaper cropper.
+  id: com.zui.wallpapercropper
+  removal: advanced
+- description: Needed for wallpaper settings
+  id: com.zui.wallpapersetting
+  removal: advanced
+- description: |-
+    Weather
+    Stock weather app.
+  id: com.zui.weather
+  removal: advanced
+- description: |-
+    Lenovo One file transfer
+    Another app for Lenovo One things.
+  id: com.zui.wifip2p
+  removal: recommended
+- description: 'Hidden logs, package usage collector.'
+  id: com.zui.xlog
+  removal: recommended

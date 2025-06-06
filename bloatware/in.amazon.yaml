@@ -1,0 +1,5 @@
+---
+- description: |
+    Amazon India (https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping)
+  id: in.amazon.mShop.android.shopping
+  removal: recommended

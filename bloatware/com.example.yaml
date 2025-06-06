@@ -1,0 +1,25 @@
+---
+- description: |-
+    ChipsemiTpTest
+    Rawdata Value Test.
+  id: com.example.alpha.chipsemitptest
+  removal: recommended
+- description: (Bad) notepad app.
+  id: com.example.android.notepad
+  removal: advanced
+- description: Chinese hidden camera calibration.
+  id: com.example.calibrationmaster
+  removal: recommended
+- description: |-
+    Hidden app for testing:
+    Battery, WiFi, Bluetooth
+  id: com.example.myapplication
+  removal: recommended
+- description: 'Secret Code: 439. FTM/Custom Test, SAR test mode, OTA Test, ANT Switch/Select.'
+  id: com.example.rftuner
+  removal: recommended
+- description: |
+    Wifi Radio Frequency test
+    Probably used in factory. No hidden test menu to use it.
+  id: com.example.wifirftest
+  removal: recommended

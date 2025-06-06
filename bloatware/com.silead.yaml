@@ -1,0 +1,6 @@
+---
+- description: |-
+    Fingerprint silead manager
+    Hidden app for testing Fingerprint things. Not needed for normal users.
+  id: com.silead.fingerprint
+  removal: unknown

@@ -1,0 +1,4 @@
+---
+- description: Unknown app that has something to .android.UwbApp and NFC_SET_CONTROLLER_ALWAYS_ON permission.
+  id: com.qorvo.uwb.vendorservice
+  removal: expert

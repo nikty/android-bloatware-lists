@@ -1,0 +1,34 @@
+---
+- description: |-
+    Realme Music app
+    https://play.google.com/store/apps/details?id=com.realme.as.music
+  id: com.realme.as.music
+  removal: recommended
+- description: |
+    Find my phone client app
+  id: com.realme.findphone.client2
+  removal: recommended
+- description: |-
+    RealMe Link (https://play.google.com/store/apps/details?id=com.realme.link)
+    Companion app for various realme IoT devices. Useless if you don't have a realme watch/band
+  id: com.realme.link
+  removal: recommended
+- description: Hidden Logs App
+  id: com.realme.logtool
+  removal: recommended
+- description: |-
+    Combine captions
+    It's for partial screenshot, SaveLongshot.
+  id: com.realme.movieshot
+  removal: advanced
+- description: |-
+    Have useless ads and security checks.
+    Why do we need more security when Play Protect is already good?
+  id: com.realme.securitycheck
+  removal: recommended
+- description: |-
+    Sleep capsule
+    Feature for your phone where apps are locked at night to help you get a good night's sleep.
+    No one is probably using this.
+  id: com.realme.wellbeing
+  removal: recommended

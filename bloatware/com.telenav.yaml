@@ -1,0 +1,13 @@
+---
+- description: |
+    AT&T Navigator (https://play.google.com/store/apps/details?id=com.telenav.app.android.cingular)
+    Crappy GPS app provided by Telenav and rebranded by AT&T.
+    Worth reading : https://www.telenav.com/legal/policies-privacy-policy
+  id: com.telenav.app.android.cingular
+  removal: recommended
+- description: |
+    Scout GPS Navigation & Meet Up (https://play.google.com/store/apps/details?id=com.telenav.app.android.scout_us)
+    Bad GPS with bad chat features on top of that. 
+    https://www.scoutgps.com/
+  id: com.telenav.app.android.scout_us
+  removal: recommended

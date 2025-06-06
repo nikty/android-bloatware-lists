@@ -1,0 +1,6 @@
+---
+- description: |-
+    PlayStation app
+    https://play.google.com/store/apps/details?id=com.scee.psxandroid
+  id: com.scee.psxandroid
+  removal: recommended

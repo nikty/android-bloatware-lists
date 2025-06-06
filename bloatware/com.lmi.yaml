@@ -1,0 +1,7 @@
+---
+- description: |
+    Rescue Security by LogMeIn (https://www.logmeinrescue.com/)
+    Remote support app. Motorola made a partnership with LogMeIn : https://www.logmeinrescue.com/customer-stories/motorola
+    It enables motorola representatives to login and remotely control the device for technical support.
+  id: com.lmi.motorola.rescuesecurity
+  removal: recommended

@@ -1,0 +1,11 @@
+---
+- description: |
+    Caller ID from Cequint (https://www.cequint.com/)
+    https://www.fiercewireless.com/wireless/t-mobile-to-launch-caller-id-service-from-cequint
+    NOTE : Never trust a company which promotes call ID/spam blocking features.
+    https://itmunch.com/robocall-caught-sending-customers-confidential-data-without-consent/
+    #
+    Cequint was acquired by TNS (https://tnsi.com/)
+    That was not a good thing : https://www.geekwire.com/2013/earnouts-bad-cequint-execs-sue-parent-company/
+  id: com.cequint.ecid
+  removal: recommended

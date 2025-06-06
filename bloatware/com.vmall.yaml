@@ -1,0 +1,4 @@
+---
+- description: Vmall is online platform of Huawei. It's online shopping app.
+  id: com.vmall.client
+  removal: recommended

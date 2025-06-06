@@ -1,0 +1,75 @@
+---
+- description: |-
+    Super Battery Saver
+    Not sure if it's useful or not. Super power save.
+  id: com.bbk.SuperPowerSave
+  removal: recommended
+- description: |-
+    Vivo account
+    Vivo privacy policy is really bad: https://privacy.vivo.com/privacy
+    Note: Removing this will obviously break fuctions that require Vivo account authentication: accessibility, data backup etc.
+  id: com.bbk.account
+  removal: expert
+- description: |-
+    Vivo app store.
+    Note: apps from this store can still be upgraded with the built-in check upgrade feature even with this package removed
+  id: com.bbk.appstore
+  removal: advanced
+- description: |-
+    Default calendar app.
+    50 permissions for a calendar app. What could go wrong?
+    
+    Pithus analysis: https://beta.pithus.org/report/db107cb828a1ec9b7cbcd9fd86542da877fdf4cf947c18c8a48a2b09e568ad10
+  id: com.bbk.calendar
+  removal: advanced
+- description: |-
+    vivoCloud
+    Vivo cloud services.
+  id: com.bbk.cloud
+  removal: recommended
+- description: |-
+    FaceWake
+    It's used for face unlock.
+  id: com.bbk.facewake
+  removal: expert
+- description: |-
+    User experience service
+    Telemetry app.
+    Note:Disabling this will break trial version system upgrade feature.
+  id: com.bbk.iqoo.logsystem
+  removal: recommended
+- description: Vivo launcher.
+  id: com.bbk.launcher2
+  removal: expert
+- description: |-
+    Photo frame
+    Photo widget.
+  id: com.bbk.photoframewidget
+  removal: recommended
+- description: 'May be needed for the launcher, not sure.'
+  id: com.bbk.scene.databaseprovider
+  removal: expert
+- description: |-
+    SceneThemeLauncher
+    May be needed for the launcher, not sure.
+  id: com.bbk.scene.launcher.theme
+  removal: expert
+- description: |-
+    Vivo theme (https://play.google.com/store/apps/details?id=com.bbk.theme)
+    Lets you add new themes, fonts and wallpapers.
+    It has annoying notifications that cannot be disabled by going to the app settings. This app use 50 permissions and can install packages (REQUEST_INSTALL_PACKAGES)
+    Note: Removing this app will prevent you to change themes.
+    
+    Pithus analysis: https://beta.pithus.org/report/0f15055131637d3dbc55d3a49b8e79b4f76ca09871abf9eb43b5f88afde11800
+  id: com.bbk.theme
+  removal: recommended
+- description: |-
+    WallpaperRes
+    Vivo wallpapers. A lot of PNG wallpapers. Safe to remove if you don't need theme resources.
+  id: com.bbk.theme.resources
+  removal: expert
+- description: |-
+    System update
+    Provides system updates.
+  id: com.bbk.updater
+  removal: expert

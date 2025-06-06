@@ -1,0 +1,9 @@
+---
+- description: |-
+    Lenovo Universal Device Client
+    Another Mobile Device Management (MDM) allows company’s IT department to reach inside your phone in the background, allowing them to ensure
+    your device is secure, know where it is, and remotely erase your data if the phone is stolen.
+    It's a way to ensure employees stay productive and do not breach corporate policies
+    You should NEVER have a MDM tool on your personal phone.
+  id: udc.lenovo.com.udclient
+  removal: recommended

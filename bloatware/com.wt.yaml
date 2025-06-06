@@ -1,0 +1,11 @@
+---
+- description: |
+    Hidden app which associates an action (display logging info) to a secret code.
+    This secret codes have to be dialed from the Xiaomi dialer.
+  id: com.wt.secret_code_manager
+  removal: recommended
+- description: |-
+    theres something about updates but this apk size is too small
+    and includes some secret codes, founded in xiaomi.
+  id: com.wt.version_query
+  removal: recommended

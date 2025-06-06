@@ -1,0 +1,6 @@
+---
+- description: |-
+    Pandora (https://play.google.com/store/apps/details?id=com.pandora.android)
+    Very intrusive music and podcasts app. 17 permissions and 14 trackers: https://reports.exodus-privacy.eu.org/reports/com.pandora.android/latest/
+  id: com.pandora.android
+  removal: recommended

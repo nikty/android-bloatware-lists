@@ -1,0 +1,22 @@
+---
+- description: AlwaysOnDisplay
+  id: com.flyme.aod
+  removal: recommended
+- description: Speedtest and security things.
+  id: com.flyme.netadmin
+  removal: recommended
+- description: |-
+    System UI Ext
+    Looks like an important app, has webview activity only.
+  id: com.flyme.systemuiex
+  removal: expert
+- description: |-
+    System UI Tools
+    Looks like an important app. It has gameassist, drivemode, windowmode things.
+  id: com.flyme.systemuitools
+  removal: expert
+- description: |-
+    Phone services
+    It's just Usage data and it will be sent to cloud probably.
+  id: com.flyme.telecom.usagedata.service
+  removal: expert

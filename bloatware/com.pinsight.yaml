@@ -1,0 +1,13 @@
+---
+- description: |
+    App Stack 
+    Force-installed app by Sprint. Pinsight is an advertising company (https://pinsightmedia.com/)
+    Note : Sprint sold Pinsight to InMobi in 2018.
+    https://www.fiercewireless.com/wireless/sprint-sells-mobile-ad-biz-pinsight-media-to-inmobi
+  id: com.pinsight.dw
+  removal: recommended
+- description: |
+    App Spotlight
+    Makes you discover new apps from the Google Play store. The selection criteria is unknown.
+  id: com.pinsight.v1
+  removal: recommended

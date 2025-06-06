@@ -1,0 +1,6 @@
+---
+- description: |-
+    XShare
+    Its app for Transfer & Share files, also has ads.
+  id: com.infinix.xshare
+  removal: recommended

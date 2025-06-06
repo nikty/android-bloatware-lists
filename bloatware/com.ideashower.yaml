@@ -1,0 +1,9 @@
+---
+- description: |
+    Pocket (https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro)
+    Allows you to save an article or web page to remote servers for later reading
+    Was purchased by Mozilla in 2017 but is still close source for now.
+    https://getpocket.com/privacy
+    Open-source alternative : https://wallabag.org/
+  id: com.ideashower.readitlater.pro
+  removal: recommended

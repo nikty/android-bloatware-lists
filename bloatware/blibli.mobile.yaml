@@ -1,0 +1,7 @@
+---
+- description: |-
+    Blibli Belanja Online Mall
+    Chinese payment blipay
+    https://play.google.com/store/apps/details?id=blibli.mobile.commerce
+  id: blibli.mobile.commerce
+  removal: recommended

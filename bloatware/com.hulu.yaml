@@ -1,0 +1,9 @@
+---
+- description: |
+    Hulu (https://play.google.com/store/apps/details?id=com.hulu.plus&hl)
+    Netflix competitor.
+    FYI : Hulu is owned by Disney.
+    https://en.wikipedia.org/wiki/Hulu
+    https://www.digitaltrends.com/home-theater/hulu-vs-disney-plus/
+  id: com.hulu.plus
+  removal: recommended

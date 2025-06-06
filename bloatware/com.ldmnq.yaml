@@ -1,0 +1,6 @@
+---
+- description: |-
+    Built in launcher
+    Full of ads but not safe to disable unless you have another launcher
+  id: com.ldmnq.launcher3
+  removal: advanced

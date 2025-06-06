@@ -1,0 +1,86 @@
+---
+- description: |
+    AT&T Smart Wi-Fi (https://play.google.com/store/apps/details?id=com.att.android.attsmartwifi)
+    Finds and auto-connects to available hotspots to minimize cellular data consumption.
+    Auto-connects is not a good idea.
+    Worth reading : 
+    https://www.europol.europa.eu/activities-services/public-awareness-and-prevention-guides/risks-of-using-public-wi-fi
+    https://www.eff.org/deeplinks/2020/01/why-public-wi-fi-lot-safer-you-think
+    You are ok if you go on HTTPS websites.
+    Use a VPN if you want to hide the domain names you visit, avoid usage restriction (no P2P, blacklisted websites...) and encrypt HTTP traffic.
+    ==> https://thatoneprivacysite.net/choosing-the-best-vpn-for-you/
+  id: com.att.android.attsmartwifi
+  removal: recommended
+- description: |
+    AT&T Call Protect (https://play.google.com/store/apps/details?id=com.att.callprotect)
+    Spam call blocking app provided by Hiya 
+    NOTE : You should never trust spam blocking apps (https://itmunch.com/robocall-caught-sending-customers-confidential-data-without-consent/)
+  id: com.att.callprotect
+  removal: recommended
+- description: |
+    AT&T Sign in Helper (https://play.google.com/store/apps/details?id=com.att.csoiam.mobilekey)
+    Allows AT&T applications to securely authenticate on Android devices
+  id: com.att.csoiam.mobilekey
+  removal: recommended
+- description: |-
+    Device Unlock
+    Useless app from AT&T. it's only for unlock device.
+  id: com.att.deviceunlock
+  removal: recommended
+- description: |
+    Device Help (https://play.google.com/store/apps/details?id=com.att.dh)
+    Troubleshooting app.
+  id: com.att.dh
+  removal: recommended
+- description: |
+    DIRECTV Remote App (https://play.google.com/store/apps/details?id=com.att.dtv.shaderemote)
+    Lets you control DIRECTV HD receivers in your home that are connected to Internet, from your phone.
+    FYI : DIRECTV is a subsidiary of AT&T 
+    Worth reading : https://en.wikipedia.org/wiki/DirecTV#Consumer_protection_lawsuits_and_violations
+  id: com.att.dtv.shaderemote
+  removal: recommended
+- description: |
+    Carrier IQ / Device Health 
+    Gathers, stores and forwards diagnostic measurements on its behalf (see https://en.wikipedia.org/wiki/Carrier_IQ)
+    Great ! A rootkit : https://en.wikipedia.org/wiki/Carrier_IQ#Rootkit_discovery_and_media_attention
+  id: com.att.iqi
+  removal: recommended
+- description: |
+    AT&T Visual Voicemail (https://play.google.com/store/apps/details?id=com.att.mobile.android.vvm)
+    Lets you manage your voicemail directly from the app without the need to dial into your mailbox.
+  id: com.att.mobile.android.vvm
+  removal: recommended
+- description: |
+    AT&T Mobile Security (https://play.google.com/store/apps/details?id=com.att.mobilesecurity)
+    AT&T android antivirus.
+  id: com.att.mobilesecurity
+  removal: recommended
+- description: |
+    AT&T Mobile Transfer
+    Lets you transfert user data from an older AT&T phone to a new one.
+  id: com.att.mobiletransfer
+  removal: recommended
+- description: |
+    My AT&T (https://play.google.com/store/apps/details?id=com.att.myWireless)
+    Lets you manage your AT&T account.
+  id: com.att.myWireless
+  removal: recommended
+- description: |
+    AT&T Personal Cloud (https://play.google.com/store/apps/details?id=com.att.personalcloud)
+    Note: it's a paid extra feature and data are obviously not E2EE (i.e AT&T can access them)
+    Don't keep this app. It's a privacy nightmare and was poorly coded:
+    https://beta.pithus.org/report/bc54b5e2446ace90d9f992278d0ec320befe4983a76cb4fdcf47e565366e67b6
+  id: com.att.personalcloud
+  removal: recommended
+- description: |
+    AT&T TV (https://play.google.com/store/apps/details?id=com.att.tv)
+    Lets you Stream TV live and on demand from your phone.
+  id: com.att.tv
+  removal: recommended
+- description: |
+    AT&T WatchTV (https://play.google.com/store/apps/details?id=com.att.tv.watchtv)
+    Lets you stream TV live and VOD form your phone.
+    No it's not the same thing than AT&T TV. Yes it's a mess. 
+    Differences with AT&T TV : https://www.cordcuttersnews.com/att-tv-vs-att-tv-now-whats-the-difference/
+  id: com.att.tv.watchtv
+  removal: recommended

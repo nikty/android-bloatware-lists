@@ -1,0 +1,30 @@
+---
+- description: |
+    Opera Branding Provider
+    Don't know what it really does.
+  id: com.opera.branding
+  removal: recommended
+- description: |
+    Opera News Branding Provider
+    Don't know what it really does.
+  id: com.opera.branding.news
+  removal: recommended
+- description: |-
+    Opera Max (discontinued)
+    System-wide data-saving proxy that funnell all app data through Opera’s servers to compress images and videos
+  id: com.opera.max.oem
+  removal: recommended
+- description: |
+    Opera Max (discontinued)
+    System-wide data-saving proxy that funnell all app data through Opera’s servers to compress images and videos 
+  id: com.opera.max.preinstall
+  removal: recommended
+- description: |
+    Opera Mini web browser (https://play.google.com/store/apps/details?id=com.opera.mini.native)
+  id: com.opera.mini.native
+  removal: recommended
+- description: |
+    Opera Preinstall Data
+    Generates utm tracking stuff
+  id: com.opera.preinstall
+  removal: recommended

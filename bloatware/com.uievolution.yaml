@@ -1,0 +1,4 @@
+---
+- description: This hidden chinese app means nothing
+  id: com.uievolution.gguide.android
+  removal: recommended

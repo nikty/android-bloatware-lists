@@ -1,0 +1,131 @@
+---
+- description: |-
+    Smart Launcher
+    Stock Launcher app.
+  id: com.tcl.android.launcher
+  removal: expert
+- description: Another useless Chinese bookmarks icon overlay.
+  id: com.tcl.android.launcher.a_overlay
+  removal: recommended
+- description: |-
+    Launcher theme resources
+    It's needed for themes, probably not sure if it's an important app.
+  id: com.tcl.android.launchertheme.res
+  removal: expert
+- description: ''
+  id: com.tcl.android.launchertheme.res.overlay
+  removal: expert
+- description: ''
+  id: com.tcl.android.wallpaper.livepicker
+  removal: expert
+- description: ''
+  id: com.tcl.aota.a_overlay
+  removal: expert
+- description: ''
+  id: com.tcl.camera
+  removal: expert
+- description: ''
+  id: com.tcl.camera.a_overlay
+  removal: expert
+- description: ''
+  id: com.tcl.compass
+  removal: expert
+- description: ''
+  id: com.tcl.compass.a_overlay
+  removal: expert
+- description: ''
+  id: com.tcl.demopage
+  removal: expert
+- description: ''
+  id: com.tcl.entitlement
+  removal: expert
+- description: |-
+    Standard FaceUnlock functionality?
+    Unlock your device by simply looking at the display.
+    Face unlock is bad for security and privacy:
+    https://www.ubergizmo.com/2017/03/galaxy-s8-facial-unlock-photograph/
+    https://www.kaspersky.com/blog/face-unlock-insecurity/21618/
+    https://www.freecodecamp.org/news/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28/
+  id: com.tcl.faceunlock
+  removal: advanced
+- description: |-
+    Radio
+    Stock Radio app
+  id: com.tcl.fmradio
+  removal: advanced
+- description: Another useless icon overlay.
+  id: com.tcl.fmradio.a_overlay
+  removal: recommended
+- description: |-
+    System Update
+    Provides System Updates.
+  id: com.tcl.fota.system
+  removal: expert
+- description: ''
+  id: com.tcl.fota.system.a_overlay
+  removal: expert
+- description: ''
+  id: com.tcl.healthy
+  removal: expert
+- description: Useless frameworks.
+  id: com.tcl.keyguardcharginganimation
+  removal: recommended
+- description: Useless frameworks.
+  id: com.tcl.keyguardshortcut
+  removal: recommended
+- description: |-
+    Kids Mode
+    It's an app for limiting spending time on apps for kids probably.
+  id: com.tcl.kidsmode
+  removal: recommended
+- description: Another useless icon overlay.
+  id: com.tcl.logger.a_overlay
+  removal: recommended
+- description: ''
+  id: com.tcl.mibc.tclplus
+  removal: expert
+- description: ''
+  id: com.tcl.mibc.tclplus.a_overlay
+  removal: expert
+- description: ''
+  id: com.tcl.nfc.gsma.usermenu
+  removal: expert
+- description: ''
+  id: com.tcl.screenrecorder
+  removal: expert
+- description: ''
+  id: com.tcl.screenrecorder.a_overlay
+  removal: expert
+- description: ''
+  id: com.tcl.screenshotex
+  removal: expert
+- description: ''
+  id: com.tcl.sos
+  removal: expert
+- description: ''
+  id: com.tcl.tclswitch.a_overlay
+  removal: expert
+- description: |-
+    File Manager
+    Stock File Manager app
+  id: com.tcl.tct.filemanager
+  removal: advanced
+- description: |-
+    Weather
+    Stock Weather app for TCL Phones.
+  id: com.tcl.tct.weather
+  removal: advanced
+- description: |-
+    Token
+    it's for ECID number but it's safe to remove. Secret code 7383243.
+  id: com.tcl.token
+  removal: recommended
+- description: 'Support Centre, alcatel support. Safe to remove'
+  id: com.tcl.usercare
+  removal: recommended
+- description: Another useless icon overlay.
+  id: com.tcl.usercare.a_overlay
+  removal: recommended
+- description: ''
+  id: com.tcl.vzwintents
+  removal: expert

@@ -1,0 +1,6 @@
+---
+- description: |-
+    Samsung Gift Indonesia
+    Special application from Samsung that provides special offers and privileges for Indonesian users
+  id: com.srin.indramayu
+  removal: recommended

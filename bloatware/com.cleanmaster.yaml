@@ -1,0 +1,4 @@
+---
+- description: (discontinued) old clean master app that cleans phone.
+  id: com.cleanmaster.sdk
+  removal: recommended

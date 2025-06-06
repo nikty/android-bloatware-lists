@@ -1,0 +1,4 @@
+---
+- description: 'Semi touch test, debug.'
+  id: com.chsc.semitouchtester
+  removal: recommended

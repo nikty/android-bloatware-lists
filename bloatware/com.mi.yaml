@@ -1,0 +1,111 @@
+---
+- description: |
+    Assemble test
+    Hidden app used by the manufacturer to test various hardware components
+  id: com.mi.AutoTest
+  removal: recommended
+- description: |
+    Xiaomi Files Manager (https://play.google.com/store/apps/details?id=com.mi.android.globalFileexplorer)
+  id: com.mi.android.globalFileexplorer
+  removal: advanced
+- description: |-
+    Poco Launcher
+    System Launcher for POCO Phone, the way icons apps are organized and displayed.
+    If you remove this package you will loose navigation gestures and recent apps view.
+    https://play.google.com/store/apps/details?id=com.mi.android.globallauncher
+  id: com.mi.android.globallauncher
+  removal: expert
+- description: |-
+    Default App Vault package
+    Sends notifications and can't be uninstalled through the Apps tab. Can be downloaded back from Play Store if needed.
+  id: com.mi.android.globalminusscreen
+  removal: recommended
+- description: |
+    MI Vault aka the "assistant" you open swiping left from MI Home
+  id: com.mi.android.globalpersonalassistant
+  removal: recommended
+- description: |-
+    GamePal
+    In China language game mode tracing menu not available for users. Safe to remove.
+  id: com.mi.emapal
+  removal: recommended
+- description: |
+    Mi Community (https://play.google.com/store/apps/details?id=com.mi.global.bbs)
+    Xiaomi Forum app
+  id: com.mi.global.bbs
+  removal: recommended
+- description: |-
+    Poco Community
+    It's only a forum and community app for POCO phones.
+  id: com.mi.global.pocobbs
+  removal: recommended
+- description: |-
+    POCO Store
+    It's an official POCO online store.
+    https://play.google.com/store/apps/details?id=com.mi.global.pocostore
+  id: com.mi.global.pocostore
+  removal: recommended
+- description: |
+    Mi Store (https://play.google.com/store/apps/details?id=com.mi.global.shop)
+    Xiaomi app store
+  id: com.mi.global.shop
+  removal: recommended
+- description: |
+    Can't find info about this package
+    Probably used for displaying (useless) news
+  id: com.mi.globalTrendNews
+  removal: recommended
+- description: |-
+    Mi Browser
+    Privacy nightmare. You really should use something else.
+    https://www.xda-developers.com/xiaomi-mi-web-browser-pro-mint-collecting-browsing-data-incognito-mode/
+    
+    Note: Since MIUI 12, you can no longer uninstall this app. Disabling it still works fine.
+  id: com.mi.globalbrowser
+  removal: recommended
+- description: |-
+    Home Layout
+    Sets the default MIUI launcher to global layout instead of Chinese (or HyperOS) when you first launch the app or when cleaning the launcher data.
+    After removing this app there are several replacement widgets and no phone/message at the bottom.
+    Because Chinese MUI uses other apps and package names instead of just changing the default layout in the MIUI launcher code, they just threw the app in.
+  id: com.mi.globallayout
+  removal: advanced
+- description: |-
+    Xiaomi App Vault
+    https://play.google.com/store/apps/details?id=com.mi.android.globalminusscreen&gl=US
+  id: com.mi.globalminusscreen
+  removal: recommended
+- description: |-
+    Heart Rate
+    Hidden app, not available for users.
+    https://www.reddit.com/r/Xiaomi/comments/v0uhhx/found_hidden_heart_rate_app_in_miui_1304_i_opened/
+    In HyperOS, this app is deprecated and there are no hidden activities like in miui 14:
+    https://www.apkmirror.com/apk/xiaomi-inc/mi-health/mi-health-1-0-6-release/mi-health-1-0-6-android-apk-download/
+  id: com.mi.health
+  removal: recommended
+- description: |-
+    Mi Health. Xiaomi's health and fitness app. Tracks sleep, step count, BMI, and menstruation cycle. Includes heart rate monitoring support using the camera.
+    https://www.xda-developers.com/mi-health-xiaomi-fitness-app/
+    https://www.xda-developers.com/xiaomi-mi-health-app-gets-heart-rate-monitoring-support-using-camera/
+  id: com.mi.healthglobal
+  removal: recommended
+- description: |
+    Mi Live Assistant
+    I don't really know what it is. Maybe an old name for "com.mi.android.globalpersonalassistant"
+  id: com.mi.liveassistant
+  removal: recommended
+- description: |
+    Weird package related to the SetupWizard (the menu which assists you to setup your phone for the first time)
+    A user said he needed to remove this package to be able to properly apply a dark theme to the Settings app.
+  id: com.mi.setupwizardoverlay
+  removal: recommended
+- description: |
+    MI WebView
+    Xiaomi alternative to Google WebView
+    REMINDER : It is a system component for the Android operating system that allows Android apps to display content 
+    from the web directly inside an application. It's based on Chrome.
+    WARNING: Make to have another Webview before uninstalling it or some apps may not work properly
+    
+    .An open-source privacy oriented Webview is Bromite (https://www.bromite.org/system_web_view)
+  id: com.mi.webkit.core
+  removal: recommended

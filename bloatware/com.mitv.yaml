@@ -1,0 +1,27 @@
+---
+- description: |-
+    DownloadService
+    Unknown app that has many mitv frameworks.
+    But safe to remove.
+  id: com.mitv.download.service
+  removal: recommended
+- description: |-
+    MiLink
+    Miui screen casting service.
+  id: com.mitv.milinkservice
+  removal: advanced
+- description: |-
+    PatchWall
+    Is it a spyware app? People recommend removing it.
+  id: com.mitv.tvhome.atv
+  removal: recommended
+- description: |-
+    Mi Channel
+    Same app like a PatchWall.
+  id: com.mitv.tvhome.michannel
+  removal: recommended
+- description: |-
+    Mi TV Video Player
+    It's video player with google ads.
+  id: com.mitv.videoplayer
+  removal: advanced

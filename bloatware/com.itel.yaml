@@ -1,0 +1,4 @@
+---
+- description: This app is used for connection to TECNO Hipods.
+  id: com.itel.TWSService
+  removal: advanced

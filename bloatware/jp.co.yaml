@@ -1,0 +1,33 @@
+---
+- description: Something Japanese with useless code.
+  id: jp.co.daj.consumer.ifilter.aflauncher
+  removal: recommended
+- description: |-
+    iWnn IME
+    Japanese keyboard pre-installed on some Huawei phone's.
+  id: jp.co.omronsoft.iwnnime.ml
+  removal: recommended
+- description: Japanese Phrases app
+  id: jp.co.omronsoft.mushroom.CommonPhrase
+  removal: recommended
+- description: |
+    Japanese keyboard/IME (don't know why it's pre-installed on US/european devices)
+    Note : IME = input method editor 
+  id: jp.co.omronsoft.openwnn
+  removal: recommended
+- description: Skin Dark mode to Japanese Keyboard.
+  id: jp.co.omronsoft.wnnext.skin.std_dark_type2_HW
+  removal: recommended
+- description: Skin Light mode to Japanese Keyboard.
+  id: jp.co.omronsoft.wnnext.skin.std_light_type2_HW
+  removal: recommended
+- description: |-
+    NePLAYER
+    Japanese NePLAYER Lite for ASUS
+  id: jp.co.radius.neplayer_asus
+  removal: recommended
+- description: |-
+    eBookJapan
+    Not needed japanese.
+  id: jp.co.yahoo.android.ebookjapan.preinstall
+  removal: recommended

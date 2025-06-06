@@ -1,0 +1,8 @@
+---
+- description: |
+    UC Browser by Alibaba (https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+    !! Unsecure chinese web browser !!
+    https://www.quora.com/Whats-wrong-with-UC-Browser
+    https://www.digitalinformationworld.com/2019/05/url-spoofing-uc-browser-android.html
+  id: com.UCMobile.intl
+  removal: recommended

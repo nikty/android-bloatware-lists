@@ -1,0 +1,43 @@
+---
+- description: It has some important settings and configurations related to Android.
+  id: android.overlay.common
+  removal: unsafe
+- description: This overlay has got useless configs (?)
+  id: android.overlay.common.all_devices
+  removal: expert
+- description: "Brightness, screen configs. Better don't risk"
+  id: android.overlay.common.pong
+  removal: unsafe
+- description: "Brightness, screen configs. Better don't risk"
+  id: android.overlay.common.spacewar
+  removal: unsafe
+- description: "Found only in the bools.xml code, which shows the 'config Support dynamic Navigation Bar' 'true'."
+  id: android.overlay.dynamicNavBar
+  removal: expert
+- description: Useless overlay to setupwizard things
+  id: android.overlay.gms.region.all
+  removal: recommended
+- description: Useless overlay to setupwizard things
+  id: android.overlay.gms.region.eea
+  removal: recommended
+- description: Useless overlay to setupwizard things
+  id: android.overlay.gms.region.ind
+  removal: recommended
+- description: Useless overlay to setupwizard things
+  id: android.overlay.gms.region.row
+  removal: recommended
+- description: Maximum multi user config.
+  id: android.overlay.multiuser
+  removal: expert
+- description: Show Navigation Bar Config.
+  id: android.overlay.navbar
+  removal: expert
+- description: It has some important settings and configurations related to Android.
+  id: android.overlay.target
+  removal: unsafe
+- description: 'This overlay has only: strings.xml: select_cancel.'
+  id: android.overlay.vivoresrro
+  removal: recommended
+- description: This overlay has display configs
+  id: android.overlay.vrro
+  removal: unsafe

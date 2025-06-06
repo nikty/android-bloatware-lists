@@ -1,0 +1,99 @@
+---
+- description: |-
+    Sprint Music Plus (https://play.google.com/store/apps/details?id=com.sprint.android.musicplus2033)
+    Sprint’s official Music Store and player.
+  id: com.sprint.android.musicplus2033
+  removal: recommended
+- description: |
+    Sprint Music Plus (https://play.google.com/store/apps/details?id=com.sprint.android.musicplus2033)
+    Sprint’s official Music Store and player
+  id: com.sprint.android.musicplus2033.vpl
+  removal: recommended
+- description: |
+    My Sprint (https://play.google.com/store/apps/details?id=com.sprint.care)
+    Lets you manage your Sprint Account and pay your bill.
+  id: com.sprint.care
+  removal: recommended
+- description: |
+    Mobile Installer
+    Used by Sprint to (force) install/update Sprint apps.
+    https://community.sprint.com/t5/Samsung/How-to-stop-quot-Mobile-Installer-quot-from-pushing-apps-to/td-p/1036387
+  id: com.sprint.ce.updater
+  removal: recommended
+- description: |
+    Enhanced Caller ID
+    Enable you to hide name and phone number when you make phone calls
+    https://www.sprint.com/en/support/solutions/services/restrict-your-caller-id-information.html
+  id: com.sprint.ecid
+  removal: recommended
+- description: |
+    Sprint Spot (https://play.google.com/store/apps/details?id=com.sprint.fng)
+    Provides Sprint customers a way to discover and access apps, services, games, TV & video, music, and more.
+  id: com.sprint.fng
+  removal: recommended
+- description: |
+    Sprint Worldwide 
+    Just an help page for international travelers.
+  id: com.sprint.international.message
+  removal: recommended
+- description: |
+    Sprint Device Manager
+    Mobile Device Management (MDM) allows company’s IT department to reach inside your phone in the background, allowing them to ensure 
+    your device is secure, know where it is, and remotely erase your data if the phone is stolen.
+    You should NEVER install a MDM tool on your phone. Never.
+    https://onezero.medium.com/dont-put-your-work-email-on-your-personal-phone-ef7fef956c2f
+    https://blog.cdemi.io/never-accept-an-mdm-policy-on-your-personal-phone/
+  id: com.sprint.ms.cdm
+  removal: recommended
+- description: |
+    Caller ID
+    cnap = Caller Name Presentation (https://en.wikipedia.org/wiki/Calling_Name_Presentation)
+    Lets you change the name that is displayed on caller ID when making a call.
+    Strange is it the same thing than "com.sprint.ecid" ?
+  id: com.sprint.ms.cnap
+  removal: recommended
+- description: |
+    Sprint Hub (https://play.google.com/store/apps/details?id=com.sprint.ms.smf.services)
+    Enables Sprint features (including Wifi calling) and products for devices operating on the Sprint network.
+  id: com.sprint.ms.smf.services
+  removal: recommended
+- description: |
+    Carrier Setup Wizard
+    The first time you turn your device on, a Welcome screen is displayed. It guides you through the basics of setting up your device.
+    Here it handles the setup of Sprint features/services.
+  id: com.sprint.psdg.sw
+  removal: recommended
+- description: |
+    Safe & Found (https://play.google.com/store/apps/details?id=com.sprint.safefound)
+    Mobile safety and security application that helps protect and locate your "loved ones". 
+    You have the ability to track and manage smartphones, tablets and Tracker all in one app.
+    https://www.sprint.com/en/support/solutions/services/safe-and-found.html
+  id: com.sprint.safefound
+  removal: recommended
+- description: |
+    Safe & Found (https://play.google.com/store/apps/details?id=com.sprint.safefound)
+    Mobile safety and security application that helps protect and locate your "loved ones". 
+    You have the ability to track and manage smartphones, tablets and Tracker all in one app.
+    https://www.sprint.com/en/support/solutions/services/safe-and-found.html
+  id: com.sprint.safefound.vpl
+  removal: recommended
+- description: |
+    Doesn't exist anymore? Now Sprint Pay (https://play.google.com/store/apps/details?id=com.sprintpay)
+  id: com.sprint.topup
+  removal: recommended
+- description: |
+    Sprint ID
+    Provides mobile ID Packs featuring apps, ringers, wallpapers, widgets and more.
+    Can (and do) force install apps you disabled.
+  id: com.sprint.w.installer
+  removal: recommended
+- description: |
+    Old app Discover App (discontinued / new package name)
+    Lets you discover Sprint apps?
+  id: com.sprint.w.v8
+  removal: recommended
+- description: |-
+    My Sprint Launcher?
+    Apparently helps the user find new apps, in addition to some carrier-specific functionality.
+  id: com.sprint.zone
+  removal: recommended

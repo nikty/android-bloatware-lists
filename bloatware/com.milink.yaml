@@ -1,0 +1,7 @@
+---
+- description: |
+    UniPlay Service
+    MIUI screen casting service. 
+    If removed, you'll have to use Android's native casting services which can be accessed through a 3rd party app.
+  id: com.milink.service
+  removal: advanced

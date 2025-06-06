@@ -1,0 +1,5 @@
+---
+- description: |
+    Verizon Cloud (https://play.google.com/store/apps/details?id=com.vcast.mediamanager)
+  id: com.vcast.mediamanager
+  removal: recommended

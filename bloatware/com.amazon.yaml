@@ -1,0 +1,66 @@
+---
+- description: |
+    Amazon Assistant app. Nice spyware ! 
+    Shows you recommended products available on Amazon and price compare as you shop across the web.
+    NOTE : https://www.gadgetguy.com.au/amazon-assistant-spies-on-you/
+  id: com.amazon.aa
+  removal: recommended
+- description: |
+    Amazon Assistant Attribution. A spyware again !
+    Tracking tool. Allows sellers to measure the impact of media channels **off Amazon** on sales.
+    https://www.repricerexpress.com/amazon-attribution/
+  id: com.amazon.aa.attribution
+  removal: recommended
+- description: |-
+    Prime video
+    https://play.google.com/store/apps/details?id=com.amazon.amazonvideo.livingroom&hl=en&gl=US
+  id: com.amazon.amazonvideo.livingroom
+  removal: recommended
+- description: |-
+    Mobile Device Information Provider
+    Seems related to Kindle
+    https://forum.xda-developers.com/t/are-these-phones-preloaded-with-amazon-spyware.4260299/
+    https://www.reddit.com/r/AndroidQuestions/comments/89qy76/what_is_mobile_device_information_provider_app/
+  id: com.amazon.appmanager
+  removal: recommended
+- description: |
+    Amazon Prime Video (https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient)
+    VOD service from Amazon.
+    https://en.wikipedia.org/wiki/Prime_Video
+  id: com.amazon.avod.thirdpartyclient
+  removal: recommended
+- description: |
+    Amazon Photos (https://play.google.com/store/apps/details?id=com.amazon.clouddrive.photos)
+  id: com.amazon.clouddrive.photos
+  removal: recommended
+- description: |
+    Amazon App suite. Provides access to Amazon digital content
+  id: com.amazon.fv
+  removal: recommended
+- description: |
+    Amazon Kindle (https://play.google.com/store/apps/details?id=com.amazon.kindle)
+  id: com.amazon.kindle
+  removal: recommended
+- description: |
+    Amazon Shopping (https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping)
+  id: com.amazon.mShop.android
+  removal: recommended
+- description: |
+    Amazon Shopping (https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping)
+    Same package as com.amazon.mShop.android.
+  id: com.amazon.mShop.android.shopping
+  removal: recommended
+- description: |
+    Amazon Shopping (https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping)
+    Same package as com.amazon.mShop.android.
+  id: com.amazon.mShop.android.shopping.vpl
+  removal: recommended
+- description: |
+    Amazon Music (https://play.google.com/store/apps/details?id=com.amazon.mp3)
+    Amazon streaming app
+  id: com.amazon.mp3
+  removal: recommended
+- description: |
+    Amazon AppStore
+  id: com.amazon.venezia
+  removal: recommended

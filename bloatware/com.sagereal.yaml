@@ -1,0 +1,4 @@
+---
+- description: 'Secret code: 88. LCD, LCM Test.'
+  id: com.sagereal.lcmtest
+  removal: recommended

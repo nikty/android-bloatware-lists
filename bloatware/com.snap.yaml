@@ -1,0 +1,7 @@
+---
+- description: |-
+    Camera Kit
+    it's used for effects.
+    https://play.google.com/store/apps/details?id=com.snap.camerakit.plugin.v1
+  id: com.snap.camerakit.plugin.v1
+  removal: recommended

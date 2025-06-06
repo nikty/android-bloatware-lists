@@ -1,0 +1,7 @@
+---
+- description: HTC Lockscreen Theme.
+  id: com.htc.masthead
+  removal: advanced
+- description: HTC Weather
+  id: com.htc.weather
+  removal: advanced

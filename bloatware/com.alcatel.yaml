@@ -1,0 +1,6 @@
+---
+- description: |-
+    enjoy.now
+    It's an app for debugging and requires Google Play services.
+  id: com.alcatel.mcrm
+  removal: recommended

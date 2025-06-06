@@ -1,0 +1,4 @@
+---
+- description: 'Texture, a digital magazine service created by Rogers Media. Discontinued in 2019.'
+  id: com.nim.rogers
+  removal: recommended

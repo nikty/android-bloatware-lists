@@ -1,0 +1,6 @@
+---
+- description: |-
+    AliExpress shopping/marketplace.
+    https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd
+  id: com.alibaba.aliexpresshd
+  removal: recommended

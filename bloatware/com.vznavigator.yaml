@@ -1,0 +1,5 @@
+---
+- description: |
+    VZ Navigator (GPS app) (https://play.google.com/store/apps/details?id=com.vznavigator.Generic)
+  id: com.vznavigator.Generic
+  removal: recommended

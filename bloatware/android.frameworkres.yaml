@@ -1,0 +1,13 @@
+---
+- description: |-
+    Network overlay.
+    Overlays work by mapping resources defined in the overlay package to resources defined in the target package. When an app attempts to resolve the value of a resource in the target package, the value of the overlay resource the target resource is mapped to is returned instead.
+    https://source.android.com/docs/core/runtime/rros
+  id: android.frameworkres.overlay.Network
+  removal: unsafe
+- description: |-
+    A runtime resource overlay (RRO) is a package that changes the resource values of a target package at runtime. For example, an app installed on the system image might change its behavior based upon the value of a resource. Rather than hardcoding the resource value at build time, an RRO installed on a different partition can change the values of the app's resources at runtime.
+    RROs can be enabled or disabled. You can programmatically set the enable/disable state to toggle an RRO's ability to change resource values. RROs are disabled by default (however, static RROs are enabled by default).
+    https://source.android.com/docs/core/runtime/rros
+  id: android.frameworkres.overlay.display.product
+  removal: expert

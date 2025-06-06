@@ -1,0 +1,4 @@
+---
+- description: 'App that actually doesnt do anything? Remove it doesnt affect on your widgets.'
+  id: huawei.android.widget
+  removal: recommended

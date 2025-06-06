@@ -1,0 +1,6 @@
+---
+- description: |-
+    Some kind of theme overlay for Nokia devices?
+    Some users claim to not see any differences when removed.
+  id: com.data.overlay.base.s600ww
+  removal: expert

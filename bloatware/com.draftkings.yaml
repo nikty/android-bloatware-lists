@@ -1,0 +1,7 @@
+---
+- description: |-
+    DraftKings - Daily Fantasy Sports for Cash
+    App has been removed from the Playstore.
+    Worth reading : https://en.wikipedia.org/wiki/DraftKings
+  id: com.draftkings.dknativermgGP.vpl
+  removal: recommended

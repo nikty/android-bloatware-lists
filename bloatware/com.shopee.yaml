@@ -1,0 +1,6 @@
+---
+- description: |
+    Shopee 2.2 (https://play.google.com/store/apps/details?id=com.shopee.id)
+    official app from Shopee, an e-commerce online shopping platform in Southeast Asian.
+  id: com.shopee.id
+  removal: recommended

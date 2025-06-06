@@ -1,0 +1,6 @@
+---
+- description: |
+    Game of Thrones: Conquest (https://play.google.com/store/apps/details?id=com.wb.goog.got.conquest)
+    Mobile game
+  id: com.wb.goog.got.conquest
+  removal: recommended

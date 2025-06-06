@@ -1,0 +1,6 @@
+---
+- description: |
+    Updater for the zdnex25's theme
+    https://www.deviantart.com/zdunex25/gallery/26889741/themes
+  id: pl.zdunex25.updater
+  removal: recommended

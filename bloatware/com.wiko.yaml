@@ -1,0 +1,7 @@
+---
+- description: Provides first time app install for Wiko mobile
+  id: com.wiko.packageinstaller
+  removal: recommended
+- description: Support app for Wiko mobile
+  id: com.wiko.services
+  removal: advanced

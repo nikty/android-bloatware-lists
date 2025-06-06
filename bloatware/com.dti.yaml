@@ -1,0 +1,41 @@
+---
+- description: |-
+    it's used to choose app install? A lot trackers, permissions.
+    Useless.
+  id: com.dti.amx
+  removal: recommended
+- description: |
+    AT&T App Select
+    I guess it lets you choose AT&T apps to install.
+    It has a LOT of permissions : https://knowledge.protektoid.com/apps/com.dti.att/7a36d4f5f00bae044566221400719c75ea2f4f33bc2578a7f8210f36d718a8d6
+    Someone knows what "dti" is/means ?
+  id: com.dti.att
+  removal: recommended
+- description: |-
+    Bouygues AppCloud
+    it's probably for install apps but it's useless and have ads and a lot permissions.
+  id: com.dti.bouyguestelecom
+  removal: recommended
+- description: "it's app for installing recommended apps? it's only used on first-boot setup and it's useless."
+  id: com.dti.cricket
+  removal: recommended
+- description: |-
+    Mobile Services Manager
+    it's something for install apps but it's useless and a lot permissions.
+  id: com.dti.motorola
+  removal: recommended
+- description: |-
+    Mobile Services Manager
+    Digital Turbine app, pre-install some apps/games to your phone and its made by advertising company.
+  id: com.dti.samsung
+  removal: recommended
+- description: |-
+    Mobile Service Manager
+    It's a system app that can't be opened but keeps running in the background. It can install/uninstall apps without notifying you, access internet, run at the boot of the system, kill background processes, ads and other permissions.
+    it's only bloatware, OTA updates work the same without it. Uninstalling didn't give any negative side-effects.
+  id: com.dti.tim
+  removal: recommended
+- description: |
+    Installs sponsored apps automatically on Tracfone and affiliated carriers (Straight Talk, Total Wireless, etc) 
+  id: com.dti.tracfone
+  removal: recommended

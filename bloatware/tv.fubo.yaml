@@ -1,0 +1,6 @@
+---
+- description: |
+    fuboTV (https://play.google.com/store/apps/details?id=tv.fubo.mobile)
+    Lets you Watch live Sports, TV Shows, Movies & News
+  id: tv.fubo.mobile.vpl
+  removal: recommended

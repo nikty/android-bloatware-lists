@@ -1,0 +1,4 @@
+- id: com.kms.free
+  description: |
+    Kaspersky Free
+  removal: recommended

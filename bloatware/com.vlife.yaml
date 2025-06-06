@@ -1,0 +1,6 @@
+---
+- description: |-
+    live wallpaper
+    Needed for live wallpapers.
+  id: com.vlife.vivo.wallpaper
+  removal: advanced

@@ -1,0 +1,8 @@
+---
+- description: |-
+    Refers to the Runtime Resource Overlay (RRO) framework that is built into the AOSP.
+    RRO allows for the dynamic modification of an app's resources at runtime,
+    Enabling the customization of the app's appearance and behavior without modifying its source code
+    https://source.android.com/docs/core/runtime/rros
+  id: android.aosp.overlay
+  removal: unsafe

@@ -1,0 +1,20 @@
+---
+- description: |
+    https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth
+  id: org.codeaurora.bluetooth
+  removal: expert
+- description: it's app without code.
+  id: org.codeaurora.btmultisim
+  removal: recommended
+- description: |
+    Saves GPS logs.
+  id: org.codeaurora.gps.gpslogsave
+  removal: recommended
+- description: |-
+    IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+    Runs in the background as part of the system, with Google's IMS(com.google.android.ims, "Carrier Services") disabled, I haven't checked if it'd run with Carrier Services enabled.
+  id: org.codeaurora.ims
+  removal: advanced
+- description: Needed for 5G?
+  id: org.codeaurora.qti.nrNetworkSettingApp
+  removal: expert

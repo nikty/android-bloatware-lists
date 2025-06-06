@@ -1,0 +1,7 @@
+---
+- description: |-
+    Dolby
+    Runs in the background as part of the system. Runs even if disabled.
+    "Optimizes system audio performance" or something like that. This is likely the backend audio service, possibly applying settings from com.oneplus.sound.tuner ("Dolby Atmos") to the audio processing.
+  id: com.dolby.daxservice
+  removal: expert

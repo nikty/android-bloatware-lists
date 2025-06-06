@@ -1,0 +1,68 @@
+---
+- description: Font
+  id: com.monotype.android.font.applemint
+  removal: recommended
+- description: Font
+  id: com.monotype.android.font.chococooky
+  removal: recommended
+- description: Font
+  id: com.monotype.android.font.cooljazz
+  removal: recommended
+- description: |-
+    Felbridge FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.felbridge
+  removal: recommended
+- description: Font
+  id: com.monotype.android.font.foundation
+  removal: recommended
+- description: |-
+    ManropeRegular FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.manroperegular
+  removal: recommended
+- description: |-
+    MfinancehkBold FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.mfinancehkbold
+  removal: recommended
+- description: |-
+    Myinghei18030m FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.myinghei18030m
+  removal: recommended
+- description: |-
+    Myuppymediumtc FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.myuppymediumtc
+  removal: recommended
+- description: |-
+    OxaniumRegular FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.oxaniumregular
+  removal: recommended
+- description: |-
+    RajdhaniMedium FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.rajdhanimedium
+  removal: recommended
+- description: Font
+  id: com.monotype.android.font.rosemary
+  removal: recommended
+- description: |
+    Samsung One font
+  id: com.monotype.android.font.samsungone
+  removal: recommended
+- description: |-
+    SamsungSans font
+    Font
+  id: com.monotype.android.font.samsungsans
+  removal: recommended
+- description: |-
+    Syndor FlipFont
+    Changes the user interface font on your phone.
+  id: com.monotype.android.font.syndor
+  removal: recommended
+- description: Font
+  id: com.monotype.android.font.tinkerbell
+  removal: recommended

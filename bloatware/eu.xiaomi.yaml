@@ -1,0 +1,12 @@
+---
+- description: |-
+    Xiaomi.eu Extension
+    Calendar app things. Only for China.
+  id: eu.xiaomi.ext
+  removal: recommended
+- description: |-
+    Inject fields
+    Fields name of device info like which os version or security date.
+    Not sure if it's needed.
+  id: eu.xiaomi.module.inject
+  removal: advanced

@@ -1,0 +1,11 @@
+---
+- description: |-
+    Clock
+    Stock ZTE Clock App
+  id: zte.com.cn.alarmclock
+  removal: advanced
+- description: |-
+    File Manager
+    Stock File Manager
+  id: zte.com.cn.filer
+  removal: advanced

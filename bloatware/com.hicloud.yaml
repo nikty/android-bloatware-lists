@@ -1,0 +1,9 @@
+---
+- description: |
+    Huawei Phone Clone (https://play.google.com/store/apps/details?id=com.hicloud.android.clone)
+    171 Permissions (https://reports.exodus-privacy.eu.org/fr/reports/144565/)
+    Data migration application between Huawei phones.
+    Keep in mind that all your data will be synchronised in the Huawei cloud and collected by the company.
+    https://cloud.huawei.com/privacyStatementTransit
+  id: com.hicloud.android.clone
+  removal: recommended

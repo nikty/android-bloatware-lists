@@ -1,0 +1,4 @@
+---
+- description: 'Calibration, Test Camera things.'
+  id: com.reallytek.wg
+  removal: recommended

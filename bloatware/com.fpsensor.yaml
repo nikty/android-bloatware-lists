@@ -1,0 +1,6 @@
+---
+- description: |-
+    Fingerprint sensor test tool
+    Hidden testing Fingerprint not available for normal users.
+  id: com.fpsensor.fpSensorExtensionSvc2
+  removal: recommended

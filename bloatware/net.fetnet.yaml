@@ -1,0 +1,7 @@
+---
+- description: |-
+    Streaming service
+    Registered members can watch the movies, dramas, variety shows and animations
+    https://play.google.com/store/apps/details?id=net.fetnet.fetvod
+  id: net.fetnet.fetvod
+  removal: recommended

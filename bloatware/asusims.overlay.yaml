@@ -1,0 +1,12 @@
+---
+- description: Not needed overlay for hide documentsui icon. No effects after remove.
+  id: asusims.overlay.aosp.documentsui
+  removal: recommended
+- description: |-
+    It have important configs better dont risk.
+    Important configs to android.
+  id: asusims.overlay.common
+  removal: unsafe
+- description: Not needed overlay for hide documentsui icon. No effects after remove.
+  id: asusims.overlay.documentsui
+  removal: recommended

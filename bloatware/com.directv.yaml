@@ -1,0 +1,13 @@
+---
+- description: |
+    DIRECTV (https://play.google.com/store/apps/details?id=com.directv.dvrscheduler)
+    Offical app from DIRECTV (subsidiary of AT&T)
+    Lets you watch Live TV, recorded shows, VODs and schedule recordings on your DVR
+    Worth reading : https://en.wikipedia.org/wiki/DirecTV#Consumer_protection_lawsuits_and_violations
+  id: com.directv.dvrscheduler
+  removal: recommended
+- description: |-
+    DIRECTV Remote
+    Official app from DIRECTV (subsidiary of AT&T). With the DIRECTV Remote for AT&T Samsung devices, control of your favorite DIRECTV shows is just a swipe away. Swipe down from the status bar at the top of your screen to automatically connect and control your DIRECTV receivers, it's that simple.
+  id: com.directv.promo.shade
+  removal: recommended

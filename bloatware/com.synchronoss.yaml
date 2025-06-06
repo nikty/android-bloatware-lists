@@ -1,0 +1,6 @@
+---
+- description: |
+    AT&T Ready2Go (discontinued)
+    Its purpose was to help you migrating your data to your new Android device.
+  id: com.synchronoss.dcs.att.r2g
+  removal: recommended

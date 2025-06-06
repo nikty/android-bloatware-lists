@@ -1,0 +1,119 @@
+---
+- description: |-
+    Accessory Framework
+    Quick device connect feature. Can be disabled via hidden setting (Settings -> Search 'App Enhancement Services' -> Quick device connect) if not wanted.
+    Allows you to search for nearby devices and connect to them without having to go through the Bluetooth or WiFi Direct settings' Ghosh! 32 permissions just for this?
+    
+    Pithus analysis: https://beta.pithus.org/report/cc0ba95f0d0867ba6d883275cd2f6c4aa252ebc874f15f1ee240bb5bac330578
+  id: com.heytap.accessory
+  removal: advanced
+- description: Needed for OTA Updates also causes bootloop on some phones after uninstall.
+  id: com.heytap.appplatform
+  removal: unsafe
+- description: |-
+    Oppo Browser
+    Rebranded HeyTap browser for Oppo. Full of ads and spams you in notifications. You should never use this browser
+    HeyTap's terrible privacy policy: https://brand.heytap.com/eu/privacy.html
+  id: com.heytap.browser
+  removal: recommended
+- description: |-
+    Screencast
+    Phone casting (casting phone screen to other devices).
+  id: com.heytap.cast
+  removal: expert
+- description: |-
+    HeyTap Cloud
+    Bad privacy policy: https://muc.heytap.com/document/heytap/oversea/privacyPolicy/privacyPolicy_en-US.html
+    Why does the app need `REQUEST_INSTALL_PACKAGES` (can install packages)?
+    Pithus analysis: https://beta.pithus.org/report/dbf265db47f8632453bb83ef51ea1d921413c02a8d24c989345896de83704a75
+  id: com.heytap.cloud
+  removal: recommended
+- description: Useless frameworks for theming. Maybe needed for premium
+  id: com.heytap.colorfulengine
+  removal: recommended
+- description: "Some tools for stock browser (not Chrome), but it's Chinese and probably unused"
+  id: com.heytap.datamigration
+  removal: recommended
+- description: 'Most likely used to track your habits from IoT HeyTap devices [TO BE CONFIRMED]'
+  id: com.heytap.habit.analysis
+  removal: recommended
+- description: HeyTap Melody App used to manage Oppo Bluetooth Earphones.
+  id: com.heytap.headset
+  removal: advanced
+- description: |-
+    Mobile Services
+    Mobile services (removal may not be able to log in to OPPO account).
+  id: com.heytap.htms
+  removal: expert
+- description: |-
+    DistUI
+    Needed for broadcast
+  id: com.heytap.linker
+  removal: expert
+- description: |-
+    Heytap/Oppo app store.There is no benefit of using this app store and you should not keep a privileged app with as many permissions.
+    
+    https://developers.oppomobile.com/newservice/capability?pagename=app_store
+    Pithus analysis: https://beta.pithus.org/report/3a2a10af9310411d814fd6dd252adec1ab0c06adf32a675b7534c3edc0e534bf
+  id: com.heytap.market
+  removal: recommended
+- description: System messages with trackers
+  id: com.heytap.mcs
+  removal: recommended
+- description: |-
+    Default Oppo Music App with insecure WebView Implementation (execution of user controlled code in WebView is an important security hole.
+    Has also weird permissions (QUERY_ALL_PACKAGES and BLUETOOTH?)
+    
+    https://beta.pithus.org/report/befa0ec0616c553632379f069453b0ca74ee29fd1428b9fce19c1657e6f97d8b
+  id: com.heytap.music
+  removal: recommended
+- description: |-
+    My devices
+    My devices (showing headphones and such)
+  id: com.heytap.mydevices
+  removal: expert
+- description: |-
+    OpenID
+    Device logos and advertisements; uninstallation causes anomalies in cloud drive functionality
+  id: com.heytap.openid
+  removal: recommended
+- description: |-
+    Lock Screen Magazine
+    Lock Screen Magazine provides high-quality wallpapers and allows users to customize their lock screens. Every time you wake your screen, the wallpaper automatically changes.
+    https://play.google.com/store/apps/details?id=com.heytap.pictorial
+  id: com.heytap.pictorial
+  removal: recommended
+- description: |-
+    Global Search
+    Realme. This will remove the single swipe from top to bottom search that has lots of Chinese in it.
+  id: com.heytap.quicksearchbox
+  removal: recommended
+- description: |-
+    Breeno Voice
+    Breeno assistant.
+  id: com.heytap.speechassist
+  removal: recommended
+- description: |-
+    HeySynergy
+    Another thing related to broadcast
+  id: com.heytap.synergy
+  removal: expert
+- description: |-
+    Theme Store with 73 permissions! (including CAMERA, CALL_PHONE, READ_CONTACTS, REQUEST_INSTALL_PACKAGES...) and 2 trackers.
+    
+    Pithus analysis: https://beta.pithus.org/report/e8c4fc2bae420cf5f094ce914f25accdede5152f9d801db6eb32a4020a7726b2
+  id: com.heytap.themestore
+  removal: recommended
+- description: |-
+    Login service for various HeyTap related services like HeyTap Cloud etc.
+    Needed if you want to join Early Access Testing for new ColorOS/RealmeUI
+    
+    [APK NEEDED]
+  id: com.heytap.usercenter
+  removal: advanced
+- description: overlay needed to usercenter app has resources
+  id: com.heytap.usercenter.overlay
+  removal: advanced
+- description: Video player with Chinese tracking.
+  id: com.heytap.yoli
+  removal: recommended

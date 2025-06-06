@@ -1,0 +1,4 @@
+---
+- description: App for Hardware Testing Things.
+  id: com.mmigroup.fmradio
+  removal: recommended

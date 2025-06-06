@@ -1,0 +1,6 @@
+---
+- description: |-
+    Telcel app, Advertising company to get promotions.
+    https://play.google.com/store/apps/details?id=com.telcel.contenedor
+  id: com.telcel.contenedor
+  removal: recommended

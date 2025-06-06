@@ -1,0 +1,4 @@
+---
+- description: it's installer advertising company app.
+  id: com.inmobi.installer
+  removal: recommended

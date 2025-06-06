@@ -1,0 +1,6 @@
+---
+- description: |-
+    Netcon
+    it's unneccessary
+  id: com.tran.netcon
+  removal: recommended

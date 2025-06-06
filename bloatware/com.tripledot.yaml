@@ -1,0 +1,11 @@
+---
+- description: |-
+    Solitaire (https://play.google.com/store/apps/details?id=com.tripledot.solitaire)
+    Preinstalled game on some Samsung phones. 30 permissions, 23 trackers: https://reports.exodus-privacy.eu.org/reports/com.tripledot.solitaire/latest/
+  id: com.tripledot.solitaire
+  removal: recommended
+- description: |-
+    Woodoku (https://play.google.com/store/apps/details?id=com.tripledot.woodoku)
+    Preinstalled game on some Samsung phones.28 permissions, 24 trackers: https://reports.exodus-privacy.eu.org/reports/com.tripledot.woodoku/latest/
+  id: com.tripledot.woodoku
+  removal: recommended

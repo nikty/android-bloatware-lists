@@ -1,0 +1,91 @@
+---
+- description: 'Hidden offline OTA update. You can get it by typing in dialer: *#*#682*#*#'
+  id: com.nothing.OfflineOTAUpgradeApp
+  removal: recommended
+- description: Nothing agreement privacy policy. I'm not sure when it will be needed.
+  id: com.nothing.agreement
+  removal: recommended
+- description: |-
+    App locker
+    Optional app for locking apps.
+  id: com.nothing.applocker
+  removal: recommended
+- description: |-
+    Nothing System Service
+    Not sure if you need this.
+  id: com.nothing.appservice
+  removal: expert
+- description: Needed for connection?
+  id: com.nothing.bpf
+  removal: expert
+- description: |-
+    Camera
+    Nothing stock camera
+  id: com.nothing.camera
+  removal: advanced
+- description: |-
+    NothingCardService
+    WARNING: breaks Nothing Widgets when switching to dark or light mode.
+  id: com.nothing.cardservice
+  removal: advanced
+- description: Audio EQ (equalizer). Some 3rd-party music apps can use it to provide you EQ features.
+  id: com.nothing.dirac
+  removal: advanced
+- description: Audio EQ (equalizer). Some 3rd-party music apps can use it to provide you EQ features.
+  id: com.nothing.dirac.DMP
+  removal: advanced
+- description: Hidden diagnostics without activity frameworks with Qualcomm.
+  id: com.nothing.enginnerservice
+  removal: recommended
+- description: Useless frameworks and collection data.
+  id: com.nothing.experience
+  removal: recommended
+- description: Experimental features like CONNECT TO TESLA
+  id: com.nothing.experimental
+  removal: recommended
+- description: Needed for glyph notifications?
+  id: com.nothing.glyphnotification
+  removal: expert
+- description: |-
+    Nothing Widgets
+    Widgets that can be found in homescreen.
+  id: com.nothing.hearthstone
+  removal: advanced
+- description: |-
+    Launcher
+    Stock launcher
+  id: com.nothing.launcher
+  removal: expert
+- description: Useless overlay to recent activity
+  id: com.nothing.launcher.overlay.config
+  removal: recommended
+- description: Hidden tool for logs.
+  id: com.nothing.logkit
+  removal: recommended
+- description: It's for battery optimization
+  id: com.nothing.proxy
+  removal: expert
+- description: |-
+    Nothing X
+    It's something for earphones and testing.
+  id: com.nothing.smartcenter
+  removal: recommended
+- description: |-
+    Sound recorder
+    Sound recorder app.
+  id: com.nothing.soundrecorder
+  removal: advanced
+- description: I think it's an important app
+  id: com.nothing.systemuitool
+  removal: unsafe
+- description: 'Breaks the Glyph API, Composer and other apps that rely on the Glyph feature will not work anymore.'
+  id: com.nothing.thirdparty
+  removal: expert
+- description: Needed for basic wallpapers
+  id: com.nothing.wallpapersstub
+  removal: advanced
+- description: |-
+    Weather
+    Nothing Weather
+  id: com.nothing.weather
+  removal: recommended

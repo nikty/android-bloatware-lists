@@ -1,0 +1,7 @@
+---
+- description: |-
+    AHA Games
+    Mobile game store. Full of trackers and has CAMERA and RECORD_AUDIO permissions. Displays intrusive game ads on HIOS launcher and random popups.
+    Pithus Analysis: https://beta.pithus.org/report/f5346d1388aff293bc84b481c3a9823cc3bf76ffc241fcf455754b86028f22b9
+  id: net.bat.store
+  removal: recommended

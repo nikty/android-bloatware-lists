@@ -1,0 +1,9 @@
+---
+- description: |
+    Speech recognition app for the Vlingo personal assistant
+    Vlingo : https://en.wikipedia.org/wiki/Vlingo
+    FYI : In January 2012 AndroidPit discovered that Vlingo sent packets of information containing the users GPS co-ordinates,
+    IMEI (unique device identifier), contact list and the title of every song stored on the device back to Nuance without.
+    Source : https://www.androidpit.com/Vlingo-Privacy-Breach
+  id: com.vlingo.midas
+  removal: recommended

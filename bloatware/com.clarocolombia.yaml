@@ -1,0 +1,6 @@
+---
+- description: |-
+    Claro
+    It's something to install apps, but it's an advertising company.
+  id: com.claroColombia.contenedor
+  removal: recommended

@@ -1,0 +1,8 @@
+---
+- description: |
+    Samsung KMS agent service a client application for Android devices to support eSE-based (embedded secure element) mobile-NFC Services.
+    https://developer.samsung.com/ese/overview.html
+    KMS = Key Management System
+    KNOX feature (https://en.wikipedia.org/wiki/Samsung_Knox)
+  id: com.skms.android.agent
+  removal: recommended

@@ -1,0 +1,28 @@
+---
+- description: |
+    Mi Pay (https://play.google.com/store/apps/details?id=com.mipay.in.wallet)
+    Contactless NFC-based mobile payment system that supports credit, debit and public transportation cards in China.
+    https://www.mi-pay.com/
+    #
+    .in = Mi Pay for India
+    .id = My Pay for Indonesia
+  id: com.mipay.wallet
+  removal: recommended
+- description: |
+    Mi Pay (https://play.google.com/store/apps/details?id=com.mipay.in.wallet)
+    Contactless NFC-based mobile payment system that supports credit, debit and public transportation cards in China.
+    https://www.mi-pay.com/
+    #
+    .in = Mi Pay for India
+    .id = My Pay for Indonesia
+  id: com.mipay.wallet.id
+  removal: recommended
+- description: |
+    Mi Pay (https://play.google.com/store/apps/details?id=com.mipay.in.wallet)
+    Contactless NFC-based mobile payment system that supports credit, debit and public transportation cards in China.
+    https://www.mi-pay.com/
+    #
+    .in = Mi Pay for India
+    .id = My Pay for Indonesia
+  id: com.mipay.wallet.in
+  removal: recommended
