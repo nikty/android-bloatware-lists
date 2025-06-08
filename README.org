@@ -14,6 +14,24 @@ Based on [[https://github.com/Universal-Debloater-Alliance/universal-android-deb
 - Do not attempt to be a security expert (we are not).
 - Consider uninstalling Google Play and using F-Droid instead: https://f-droid.org
 
+* File organization and naming conventions
+
+The lists are in YAML files inside [./bloatware/](./bloatware) directory.
+
+Most YAML files are named using the first two elements of the Android app ID.
+
 * Contributing
 
 Please consider adding any missing apps.
+
+1. Check if app is listed in this repository
+   #+begin_src
+     $ grep -r APP_ID .
+   #+end_src
+2. Add package entry to appropriate file in following format:
+   #+begin_src yaml
+     - id: APP_ID
+       description: |
+         Describe what this package does.
+       removal: recommended # If this app is obviously not needed.
+   #+end_src
