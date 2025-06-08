@@ -1,5 +1,17 @@
 #+TITLE: Lists of Android (bloatware) apps
 
+#+begin_quote
+bloatware (/uncountable/)
+
+1. (/computing/, /informal/) Software that is packed with too many
+   features and therefore slow or unwieldy; software that is
+   inefficiently designed and occupies an excessive amount of memory
+   or disk space.
+2. (/computing/) *Unwanted pre-installed software, especially on a smartphone*. 
+
+-- https://en.wiktionary.org/wiki/bloatware
+#+end_quote
+
 This is an attempt to categorize bloatware apps that are installed on
 Android phones.
 
