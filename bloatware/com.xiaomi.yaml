@@ -106,7 +106,7 @@
     System Apps Updater
     WARNING: Disable System app updates (but not firmware updates)
   id: com.xiaomi.discover
-  removal: unknown
+  removal: recommended
   category:
     - update
 - description: |-
