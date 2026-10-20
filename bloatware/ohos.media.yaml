@@ -3,4 +3,4 @@
     MediaLibrary
     has hwddmp components `com.huawei.hwddmp` debugging errors, remote device manager that depends on Huawei account
   id: ohos.media.medialibrary
-  removal: recommended
+  removal: safe

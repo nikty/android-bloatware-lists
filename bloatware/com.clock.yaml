@@ -1,0 +1,6 @@
+- description: |-
+    KeepTesting2.9.42
+    WARNING: Each boot, the system randomly decides whether to perform checks or not. If a check is attempted while the app is missing, the device won't boot past the OEM's logo until restart. Teseted for Android 15, Blackview Tab 60 WiFi.
+  id: com.clock.pt1.keeptesting
+  removal: risky
+

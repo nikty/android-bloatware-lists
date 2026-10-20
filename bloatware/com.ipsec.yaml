@@ -1,0 +1,10 @@
+- description: |-
+    Has internet access and does nothing. Possibly for an IPSec service and dependency of the LG VPN? Not really sure.
+  id: com.ipsec.service
+  removal: caution
+
+- description: |-
+    LG VPN. Doesn't seem to affect VPN functionality, and LG doesn't run a VPN, afaik.
+  id: com.ipsec.vpnclient
+  removal: safe
+

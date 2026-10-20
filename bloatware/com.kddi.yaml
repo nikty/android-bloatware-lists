@@ -1,0 +1,7 @@
+- description: |-
+    +Message
+    A Japanese messaging and e-mail app.
+    https://play.google.com/store/apps/details?id=com.kddi.android.cmail
+  id: com.kddi.android.cmail
+  removal: safe
+

@@ -1,0 +1,5 @@
+- description: |-
+    Cyanogenmod file manager, safe to remove if you use another one.
+  id: com.cyanogenmod.filemanager
+  removal: caution
+

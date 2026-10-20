@@ -1,0 +1,5 @@
+- description: |-
+    Completely empty package. Useless.
+  id: com.fixmo.isa
+  removal: safe
+

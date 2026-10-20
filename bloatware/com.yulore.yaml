@@ -1,4 +1,4 @@
 ---
 - description: Chinese payment things.
   id: com.yulore.framework
-  removal: recommended
+  removal: safe

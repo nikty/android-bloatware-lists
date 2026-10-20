@@ -1,0 +1,6 @@
+- description: |-
+    Bell Push to Talk app. Apparently the 'most advanced carrier-grade Push-to-talk coomunicates technology available today.' (doubt). Realistically, no one is using this, safe to remove.
+     https://play.google.com/store/apps/details?id=com.bell.ptt
+  id: com.bell.ptt
+  removal: safe
+

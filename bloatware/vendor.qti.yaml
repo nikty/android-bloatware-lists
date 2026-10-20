@@ -4,7 +4,7 @@
     permissions uses: access wifi state, quary all packages, package usage stats.
     So hidden network stats, more about it is this code is just logs, takes apm, wifi, bt status.
   id: vendor.qti.data.txpwradmin
-  removal: advanced
+  removal: caution
 - description: |-
     CACertApp
     Occasionally runs in the background.
@@ -12,13 +12,13 @@
     CACert is a community-driven CA that issues certificates to the public at large for free. CA = Certificate Authority, an entity that certifies the ownership of a public key that can be used for secure communications.
     Probably a bad idea to disable; could mess with device security.
   id: vendor.qti.hardware.cacert.server
-  removal: unsafe
+  removal: critical
 - description: Needed for IMS.
   id: vendor.qti.imsdatachannel
-  removal: advanced
+  removal: caution
 - description: IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling). Also have RCS.
   id: vendor.qti.imsrcs
-  removal: expert
+  removal: risky
 - description: |-
     Used for VoLTE/VoWifi (Wifi-calling)
     IwLAN = Interworking wLAN.
@@ -26,7 +26,7 @@
     It means your phone will use the Wi-Fi connection instead of the cellular data connection.
     https://en.wikipedia.org/wiki/Mobile_data_offloading
   id: vendor.qti.iwlan
-  removal: advanced
+  removal: caution
 - description: It's for debugging and logs. But in the code I see VDebug. Vivo probably uses Qualcomm for some features.
   id: vendor.qti.qesdk.sysservice
-  removal: recommended
+  removal: safe

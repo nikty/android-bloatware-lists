@@ -1,0 +1,15 @@
+- description: |-
+    Not exactly sure what this is. Trying to launch mainActivity, you get a Chinese error message, but you can see a java error saying it's trying to connect to s2.sv.wxjyun.cn, which is a non-existent URL. No issues when removing this so it's safe to remove.
+  id: com.nbbsw.compatiblemark
+  removal: safe
+
+- description: |-
+    The com.nbbsw.mmi_test package is likely associated with the Mobile Management Interface (MMI) testing tools provided by the OEM, possibly used for diagnostic and testing purposes to check various hardware and software functions of the device. Removing this package might impact the ability to perform certain diagnostic tests or troubleshooting functions provided by the OEM. While its removal should not affect the basic operation of the device, it could limit access to some specific testing tools or functionalities, which might be used for device maintenance or troubleshooting.
+  id: com.nbbsw.mmi_test
+  removal: caution
+
+- description: |-
+    The com.nbbsw.theme package is likely related to theme management or customization features provided by the OEM, allowing users to apply and manage themes or visual styles on the device. Since many third-party launchers and theme apps available on Google Play offer similar or enhanced customization options, removing this package is generally recommended.
+  id: com.nbbsw.theme
+  removal: safe
+

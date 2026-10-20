@@ -1,0 +1,7 @@
+- description: |-
+    Bigme HiBreak Pro app to unlock the phone with your face.
+    This app frequently connected to lp.xl-ads.com in the past, which caused security concerns on Reddit in relation to the BadBox 2.0 botnet and Bigme to issue a firmware upgrade that changes the usage of that domain.
+    If disabled, face unlock won't work and the option to activate it in the settings will crash Bigme's settings app.
+  id: com.xsyt.faceregister
+  removal: risky
+

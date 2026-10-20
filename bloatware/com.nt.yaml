@@ -1,24 +1,24 @@
 ---
 - description: Useless overlay to nothing gmsconfig safetycenter
   id: com.nt.android.overlay.gmsconfig.safetycenter
-  removal: recommended
+  removal: safe
 - description: Useless overlay to nothing gmsconfig settings
   id: com.nt.android.overlay.gmsconfig.settings
-  removal: recommended
+  removal: safe
 - description: Useless overlay to nothing gmsconfig settingsprovider
   id: com.nt.android.overlay.gmsconfig.settingsprovider
-  removal: recommended
+  removal: safe
 - description: 'Hidden USB Diag Switch, adb diagnostics.'
   id: com.nt.diagswitch
-  removal: recommended
+  removal: safe
 - description: Needed for face recognition.
   id: com.nt.facerecognition
-  removal: recommended
+  removal: safe
 - description: 'Hidden grant permissions. You can get it by typing in dialer: *#*#3424*#*#'
   id: com.nt.grantpermission
-  removal: recommended
+  removal: safe
 - description: |-
     Led Light Test
     You can get it by typing in dialer: *#*#533*#*#
   id: com.nt.ledlighttest
-  removal: recommended
+  removal: safe

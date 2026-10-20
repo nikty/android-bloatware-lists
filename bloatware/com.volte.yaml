@@ -3,4 +3,4 @@
     VoLTEconfig
     VoLTE config. Probably hidden and not needed. Looks like a Chinese.
   id: com.volte.config
-  removal: recommended
+  removal: safe

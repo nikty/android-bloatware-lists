@@ -1,22 +1,27 @@
 ---
 - description: Chinese keyboard closed-source
   id: com.sohu.inputmethod.sogou.meizu
-  removal: advanced
+  removal: caution
 - description: |-
     Chinese keyboard Closed-source (install other keyboard before removing this)
     Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
   id: com.sohu.inputmethod.sogou.nubia
-  removal: recommended
+  removal: safe
 - description: |
     Sogou keyboard for chinese only.
   id: com.sohu.inputmethod.sogou.xiaomi
-  removal: recommended
+  removal: safe
 - description: |
     Default keyboard
   id: com.sohu.inputmethod.sogouoem
-  removal: expert
+  removal: risky
 - description: |-
     HiMoviePlayerPlus
     Weird app without any code and there's nothing in Main Activity.
   id: com.sohu.sohuvideo.emplayer
-  removal: recommended
+  removal: safe
+- description: |-
+    Keyboard app used in some Chinese phones. There is a report that this keyboard might have contained security vulnerabilities in the past: https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/
+  id: com.sohu.inputmethod.sogou.oem
+  removal: safe
+

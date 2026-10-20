@@ -5,30 +5,30 @@
     Note : This app is developed by Asurion, a US company whose business is to sell insurances.
     All US carriers use Asurion for the phone insurances.
   id: com.asurion.android.mobilerecovery.att
-  removal: recommended
+  removal: safe
 - description: |-
     Sprint Protect
     Support app (see com.asurion.android.protech.att)
   id: com.asurion.android.mobilerecovery.sprint
-  removal: recommended
+  removal: safe
 - description: |-
     Sprint Protect
     Support app (see com.asurion.android.protech.att)
   id: com.asurion.android.mobilerecovery.sprint.vpl
-  removal: recommended
+  removal: safe
 - description: |
     AT&T ProTech (https://play.google.com/store/apps/details?id=com.asurion.android.protech.att)
     Help and support app. Lets you call or chat with a live U.S.-based AT&T ProTech support "expert".
     Note : This app is developed by Asurion, a US company whose business is to sell insurances.
     All US carriers use Asurion for the phone insurances.
   id: com.asurion.android.protech.att
-  removal: recommended
+  removal: safe
 - description: |
     Verizon Digital Secure (https://play.google.com/store/apps/details?id=com.asurion.android.verizon.vms)
     Note : This app is developed by Asurion, a US company whose business is to sell insurances.
     All US carriers use Asurion for the phone insurances.
   id: com.asurion.android.verizon.vms
-  removal: recommended
+  removal: safe
 - description: |
     Sprint Protect
     Support app (see com.asurion.android.protech.att)
@@ -37,11 +37,11 @@
     Lets you call or chat with live tech experts ! Maybe you will find the love of your life ! 
     Note : See note above.
   id: com.asurion.home.sprint
-  removal: recommended
+  removal: safe
 - description: |
     Tech Expert (for VPL devices/employees) ?
     Now "Sprint Complete" (see below).
     Note : This app is developed by Asurion, a US company whose business is to sell insurances.
     All US carriers use Asurion for the phone insurances.
   id: com.asurion.home.sprint.vpl
-  removal: recommended
+  removal: safe

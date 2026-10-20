@@ -1,0 +1,5 @@
+- description: |-
+    The Game Space App, often found in custom ROMs. If you don't need it or don't play games, it's safe to remove.
+  id: io.chaldeaprjkt.gamespace
+  removal: caution
+

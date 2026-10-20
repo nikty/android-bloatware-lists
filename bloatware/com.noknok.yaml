@@ -1,0 +1,5 @@
+- description: |-
+    Part of the FIDO authentication for fingerprint
+  id: com.noknok.android.mfac.service
+  removal: risky
+

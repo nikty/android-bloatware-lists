@@ -1,0 +1,5 @@
+- description: |-
+    Rogers NHL app. Just opens a 404 page in the web browser. Useless.
+  id: com.nhl.gcl.canada
+  removal: safe
+

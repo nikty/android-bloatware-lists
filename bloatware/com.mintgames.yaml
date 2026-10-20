@@ -1,0 +1,10 @@
+- description: |-
+    Tile Fun. A causal game pre-installed on Xiaomi Poco devices.
+  id: com.mintgames.triplecrush.tile.fun
+  removal: safe
+
+- description: |-
+    Word Scenery Crossword. A causal game pre-installed on Xiaomi Poco devices.
+  id: com.mintgames.wordtrip
+  removal: safe
+

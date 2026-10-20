@@ -1,0 +1,10 @@
+- description: |-
+    Completely empty package. Useless.
+  id: com.siso.app.generic
+  removal: safe
+
+- description: |-
+    Completely empty package. Useless.
+  id: com.siso.app.genericprintservice
+  removal: safe
+

@@ -1,0 +1,5 @@
+- description: |-
+    The com.simalliance.openmobileapi.eseterminal package is part of the Open Mobile API framework, which provides services for accessing and managing Secure Elements (SEs) on the device, such as SIM cards or embedded secure elements. This package specifically handles communication with the ESE (Embedded Secure Element) terminal. Removing this package might affect the device's ability to interact with certain secure services or applications that rely on the SE framework. While it is not crucial for basic device functionality, it may impact specific features related to secure transactions or services.
+  id: com.simalliance.openmobileapi.eseterminal
+  removal: risky
+

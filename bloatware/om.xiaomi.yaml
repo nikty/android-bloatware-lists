@@ -3,4 +3,4 @@
     Polaris
     Beidou satellite navigation system. Only for China.
   id: om.xiaomi.gnss.polaris
-  removal: recommended
+  removal: safe

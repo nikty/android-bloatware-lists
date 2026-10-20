@@ -3,19 +3,19 @@
     This app wanna include ads to your gallery only.
     Founded only ads and crashlytics components.
   id: fr.bouyguestelecom.agent.custo
-  removal: recommended
+  removal: safe
 - description: |
     Espace Client (https://play.google.com/store/apps/details?id=fr.bouyguestelecom.ecm.android)
     Lets you manage your Bouygues account.
   id: fr.bouyguestelecom.ecm.android
-  removal: recommended
+  removal: safe
 - description: |
     B.tv (https://play.google.com/store/apps/details?id=fr.bouyguestelecom.tv.android)
     Lets you watch TV from your phone.
   id: fr.bouyguestelecom.tv.android
-  removal: recommended
+  removal: safe
 - description: |-
     This app wants to inject ads into your gallery.
     Found only ads and crashlytics components.
   id: fr.bouyguestelecom.vvmandroid
-  removal: recommended
+  removal: safe

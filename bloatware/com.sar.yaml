@@ -1,0 +1,10 @@
+- description: |-
+    !!! WARNING !!! DO NOT DELETE THIS PACKAGE, EVEN IF YOU ENABLED REMOVAL OF UNSAFE PACKAGES. THIS PACKAGE WON'T BOOTLOOP YOUR DEVICE, BUT ITS REMOVAL MAKES THE PHONE MORE DANGEROUS BECAUSE OF INCONTROLLABLE RADIO-FREQUENCY ENERGY EMITTING.
+    SarReduce Service (Specific Absorption Rate)
+    This package adjusts the level of radio-frequency energy basing on where and what mode the phone is, found on Lenovo devices mostly.
+    Absolutely not safe to remove; Danger for health. The device won't be lowering the emitted radio-frequency energy while close to body. Networks, such as Wi-Fi, Bluetooth and Mobile Data are also very likely to become unstable.
+    WARNING: Removing other core/important system services might influence or break the behavior of this package. BE CAREFUL.
+    Also, removing this package might violate the SAR (Specific Absorption Rate) law in EU.
+  id: com.sar.main
+  removal: critical
+

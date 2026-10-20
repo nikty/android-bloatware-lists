@@ -2,4 +2,4 @@
 - description: |
     ParkMobile - Find Parking (https://play.google.com/store/apps/details?id=net.sharewire.parkmobilev2)
   id: net.sharewire.parkmobilev2
-  removal: recommended
+  removal: safe

@@ -3,4 +3,4 @@
     Hidden super-menu accessible by dialing *#*#64633#*#*
     This menu lists all the others hidden test/debug apps.
   id: com.factory.mmigroup
-  removal: recommended
+  removal: safe

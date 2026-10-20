@@ -1,9 +1,9 @@
 ---
 - description: Chinese ads click tracking
   id: com.opos.ads
-  removal: recommended
+  removal: safe
 - description: |-
     Hot Apps
     Generate app folders on home screen that recommended sponsored apps and games.
   id: com.opos.cs
-  removal: recommended
+  removal: safe

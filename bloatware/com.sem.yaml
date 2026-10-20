@@ -4,4 +4,4 @@
     Call home (172.217.168.14 --> Google IP). Needs NFC permission.
     This package is maybe used to test NFC.
   id: com.sem.factoryapp
-  removal: recommended
+  removal: safe

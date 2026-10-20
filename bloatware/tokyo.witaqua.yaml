@@ -1,0 +1,6 @@
+- description: |-
+    LineageOS Updater rebranded for the WitAqua custom ROM.
+    Not safe to remove; could break Updater UI on devices with WitAqua ROMs.
+  id: tokyo.witaqua.updater
+  removal: risky
+

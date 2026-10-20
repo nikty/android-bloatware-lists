@@ -3,8 +3,14 @@
     Yandex' browser
     May be installed with Samsung firmware update to comply with http://publication.pravo.gov.ru/Document/View/0001202011230051 if you're Russian. Can be installed manually from Google Play.
   id: com.yandex.browser
-  removal: recommended
+  removal: safe
 - id: com.yandex.searchapp
   description: |
     Yandex Search
-  removal: recommended
+  removal: safe
+- description: |-
+    Yandex' Search App
+    Russian search app, similar to the Google search bar that appears on the phone's home screen.
+  id: com.yandex.searchapp
+  removal: safe
+

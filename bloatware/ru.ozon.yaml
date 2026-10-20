@@ -1,0 +1,5 @@
+- description: |-
+    Ozon, russian marketplace, preinstalled by russian law from 2019
+  id: ru.ozon.app.android
+  removal: safe
+

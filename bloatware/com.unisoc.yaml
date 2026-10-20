@@ -3,14 +3,26 @@
     Unisoc Home Screen
     Partner Customization launcher.
   id: com.unisoc.launcher.customization
-  removal: recommended
+  removal: safe
 - description: |-
     Local System Update
     Needed for system updates.
   id: com.unisoc.localeupdate
-  removal: expert
+  removal: risky
 - description: |-
     LockAssistant
     Runs before the user unlocks the device (direct-boot aware). Reads IMEI, SMS, call log, uses gps/wifi. Unisoc is a CPU manufacturer. Related to package `com.android.unisoc.telephony.server`.
   id: com.unisoc.phone
-  removal: expert
+  removal: risky
+- description: |-
+    Unknown purpose, likely spyware. Can't be pulled with ADB. Uninstalling it doesn't seem to break anything for Android 10 GO, S21 Plus 2021_EEA.
+  id: com.unisoc.keyboxchecker
+  removal: safe
+
+- description: |-
+    StorageClearManager
+    Uninstalling it doesn't seem to break anything for Android 10 GO, S21 Plus 2021_EEA.
+    https://www.virustotal.com/gui/file/478e3ac5a3f7a69b73ae34d58ac246507deb0fdec439f9f5f6c7a2b28d450ae0
+  id: com.unisoc.storageclearmanager
+  removal: safe
+

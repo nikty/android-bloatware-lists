@@ -1,7 +1,7 @@
 ---
 - description: ''
   id: com.hiya.axolotl.tcl
-  removal: expert
+  removal: risky
 - description: |-
     also called android-ss-service-lib (Samsung-exclusive)
     Third-party that provides caller profile information to help consumers identify incoming calls and block unwanted ones.
@@ -13,4 +13,4 @@
     Have a look at their privacy policy. That's... pretty scary : https://hiya.com/fr/hiya-data-policy
     Needed for Samsung Smart Call (com.samsung.android.smartcallprovider)
   id: com.hiya.star
-  removal: recommended
+  removal: safe

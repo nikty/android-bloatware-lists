@@ -1,68 +1,73 @@
 ---
 - description: Font
   id: com.monotype.android.font.applemint
-  removal: recommended
+  removal: safe
 - description: Font
   id: com.monotype.android.font.chococooky
-  removal: recommended
+  removal: safe
 - description: Font
   id: com.monotype.android.font.cooljazz
-  removal: recommended
+  removal: safe
 - description: |-
     Felbridge FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.felbridge
-  removal: recommended
+  removal: safe
 - description: Font
   id: com.monotype.android.font.foundation
-  removal: recommended
+  removal: safe
 - description: |-
     ManropeRegular FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.manroperegular
-  removal: recommended
+  removal: safe
 - description: |-
     MfinancehkBold FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.mfinancehkbold
-  removal: recommended
+  removal: safe
 - description: |-
     Myinghei18030m FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.myinghei18030m
-  removal: recommended
+  removal: safe
 - description: |-
     Myuppymediumtc FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.myuppymediumtc
-  removal: recommended
+  removal: safe
 - description: |-
     OxaniumRegular FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.oxaniumregular
-  removal: recommended
+  removal: safe
 - description: |-
     RajdhaniMedium FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.rajdhanimedium
-  removal: recommended
+  removal: safe
 - description: Font
   id: com.monotype.android.font.rosemary
-  removal: recommended
+  removal: safe
 - description: |
     Samsung One font
   id: com.monotype.android.font.samsungone
-  removal: recommended
+  removal: safe
 - description: |-
     SamsungSans font
     Font
   id: com.monotype.android.font.samsungsans
-  removal: recommended
+  removal: safe
 - description: |-
     Syndor FlipFont
     Changes the user interface font on your phone.
   id: com.monotype.android.font.syndor
-  removal: recommended
+  removal: safe
 - description: Font
   id: com.monotype.android.font.tinkerbell
-  removal: recommended
+  removal: safe
+- description: |-
+    Roboto Font
+  id: com.monotype.android.font.roboto
+  removal: caution
+

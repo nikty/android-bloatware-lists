@@ -1,0 +1,5 @@
+- description: |-
+    Litres, russian bookstore service, preinstalled by russian law from 2019
+  id: ru.litres.android
+  removal: safe
+

@@ -5,4 +5,9 @@
     Enabling the customization of the app's appearance and behavior without modifying its source code
     https://source.android.com/docs/core/runtime/rros
   id: android.aosp.overlay
-  removal: unsafe
+  removal: critical
+- description: |-
+    Likely an important overlay for telephony services and com.android.providers.telephony. Not safe to delete.
+  id: android.aosp.overlay.telephony
+  removal: critical
+

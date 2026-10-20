@@ -1,0 +1,10 @@
+- description: |-
+    Block Blast. A causal game pre-installed on Xiaomi Poco devices.
+  id: com.block.juggle
+  removal: safe
+
+- description: |-
+    Block Puzzle Guardian. A causal game pre-installed on Xiaomi Poco devices.
+  id: com.block.puzzle.game.hippo.mi
+  removal: safe
+

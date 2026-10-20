@@ -1,0 +1,5 @@
+- description: |-
+    Basing on APK inspection, this is a framework package that powers all the system UI on ZTE, Nubia, Axon & Blade devices. Totally not safe to remove, it's as important as 'android'
+  id: androidzte
+  removal: critical
+

@@ -3,393 +3,393 @@
     Updater Launcher
     Remove if you dont need it Launcher updates.
   id: com.asus.UpdateLauncher
-  removal: recommended
+  removal: safe
 - description: |-
     Always-on Display
     AOD will be not available after remove.
   id: com.asus.alwayson
-  removal: recommended
+  removal: safe
 - description: Not needed gif to Always-on Display
   id: com.asus.alwayson.res.overlay
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Config Updater
     It may have something to do with app updater but no activities.
   id: com.asus.appupdater
-  removal: expert
+  removal: risky
 - description: |-
     Back tap
     it's for Accessibility component feature.
     Back tap will not be available in settings after remove.
   id: com.asus.asusbacktap
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Opti Flex
     it's something for settings? Still unknown.
   id: com.asus.asusoptiflex
-  removal: expert
+  removal: risky
 - description: |-
     Settings ASUS Backup
     Can be removed if ASUS Backup are not used.
   id: com.asus.asussettingsbackuphelper
-  removal: recommended
+  removal: safe
 - description: |-
     SMMI TEST
     Testing hardware things.
   id: com.asus.atd.smmitest
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS AudioWizard
     Needed for sound effects.
   id: com.asus.audiowizard
-  removal: recommended
+  removal: safe
 - description: |-
     Calculator - unit converter (https://play.google.com/store/apps/details?id=com.asus.calculator)
     Has more permissions than a Calculator app reasonably should have.
     Connects to a few Google and currency exchange-rate servers.
     https://beta.pithus.org/report/817514371bbdb76ec52da4c8456bbc116deec179603099deabbe6fcce6f6ccdb
   id: com.asus.calculator
-  removal: recommended
+  removal: safe
 - description: 'Stock ASUS camera app. It has Google Analytics, so better disable internet for this app.'
   id: com.asus.camera
-  removal: advanced
+  removal: caution
 - description: useless overlay for cellbroadcast
   id: com.asus.cellbroadcastreceiver.overlay
-  removal: recommended
+  removal: safe
 - description: useless overlay for cellbroadcast
   id: com.asus.cellbroadcastservice.overlay
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Config Updater
     Some people have removed this. Needed for ASUS autoupdate apps probably, also found debugging code.
   id: com.asus.configupdater
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Contacts
     Stock ASUS Contacts app. Contains Google trackers.
   id: com.asus.contacts
-  removal: advanced
+  removal: caution
 - description: |-
     ASUS Digital Clock & Widget
     Contains google analytics.
   id: com.asus.deskclock
-  removal: advanced
+  removal: caution
 - description: |-
     ASUS Dialer
     Contains Google trackers.
   id: com.asus.dialer
-  removal: advanced
+  removal: caution
 - description: |-
     System update
     System updates for ASUS
   id: com.asus.dm
-  removal: expert
+  removal: risky
 - description: |-
     Asus Easy Mode (https://play.google.com/store/apps/details?id=com.asus.easylauncher)
     Alternative launcher with bigger icons and simpler interface
   id: com.asus.easylauncher
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Burst shot viewer
     ASUS Photo viewer, Trim Service. Contains Google Analytics.
   id: com.asus.ephotoburst
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Face Unlock Service
     Needed for face unlock.
     Face unlock will not work after remove.
   id: com.asus.faceunlockservice
-  removal: advanced
+  removal: caution
 - description: |-
     File Manager
     Stock ASUS file manager app.
   id: com.asus.filemanager
-  removal: advanced
+  removal: caution
 - description: |-
     Focus app
     Needed for optimization, probably.
   id: com.asus.focusapplistener
-  removal: expert
+  removal: risky
 - description: Stock Gallery app. Contains Google Analytics.
   id: com.asus.gallery
-  removal: recommended
+  removal: safe
 - description: |-
     Game genie
     Probably useful for gaming.
     https://play.google.com/store/apps/details?id=com.asus.gamewidget
   id: com.asus.gamewidget
-  removal: expert
+  removal: risky
 - description: |-
     Game genie service
     Game genie service needed for (`com.asus.gamewidget`)
     It's probably useful for gaming.
   id: com.asus.gamewidget.service
-  removal: expert
+  removal: risky
 - description: |-
     HardwareStub Services
     Has components for optimization game.
   id: com.asus.hardwarestub
-  removal: expert
+  removal: risky
 - description: |-
     High Brightness Mode
     It can be found probably in settings. Still unknown.
   id: com.asus.hbm
-  removal: expert
+  removal: risky
 - description: |-
     My Asus (https://play.google.com/store/apps/details?id=com.asus.ia.asusapp)
     Asus service center (support + store)
   id: com.asus.ia.asusapp
-  removal: recommended
+  removal: safe
 - description: |-
     Image search
     it's so bloated.
   id: com.asus.imagesearch
-  removal: recommended
+  removal: safe
 - description: Founded debugs and benchmark blocker.
   id: com.asus.ims.benchmarkblocker
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.brightnessservice
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.configmanager
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.devicepolicymanager
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.evtlog
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.extdispctrl
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.forcedark
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.freeform
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.observer
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.packageinstallerproxy
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.phykeyctrl
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.pointerproxy
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.powerctrl
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.rogproxy
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.smartread
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.twinapps
-  removal: recommended
+  removal: safe
 - description: 'Not needed, unused frameworks'
   id: com.asus.ims.watermark
-  removal: recommended
+  removal: safe
 - description: Not needed 'Do not cover the top of the screen'
   id: com.asus.inadvertentTouch
-  removal: recommended
+  removal: safe
 - description: |-
     KeyStatusTool
     KeyStatusTool? All of this code means nothing.
   id: com.asus.key_status
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Launcher
     Contains Google Firebase Analytics.
   id: com.asus.launcher
-  removal: expert
+  removal: risky
 - description: |-
     Demo Mode
     Enables retail demonstration mode. it's not a feature for normal users.
   id: com.asus.livedemoservice
-  removal: recommended
+  removal: safe
 - description: |-
     Lockscreen
     It should be important for lockscreen.
   id: com.asus.lockscreen2
-  removal: expert
+  removal: risky
 - description: |-
     Log Tool
     Captured logs, Generate Log, Report Log.
   id: com.asus.loguploader
-  removal: recommended
+  removal: safe
 - description: |-
     Bug Reporter Proxy
     Logs without activity.
     Not needed another logs from loguploader.
   id: com.asus.loguploaderproxy
-  removal: recommended
+  removal: safe
 - description: |-
     Unused frameworks? AI optimization?
     Resources have vision_model and something encrypted.
     This app is large (338MB).
   id: com.asus.mlmodel
-  removal: expert
+  removal: risky
 - description: |-
     Mobile Manager
     Not sure to keep it or not.
     https://play.google.com/store/apps/details?id=com.asus.mobilemanager
   id: com.asus.mobilemanager
-  removal: expert
+  removal: risky
 - description: |-
     Mobile Manager Service
     Looks like a unused framework, but not sure.
   id: com.asus.mobilemanagerservice
-  removal: expert
+  removal: risky
 - description: |-
     NextApp
     Unused frameworks? It has something to training AI? everything is encrypted.
   id: com.asus.nextapp
-  removal: expert
+  removal: risky
 - description: |-
     NextAppCore
     Useless frameworks? It has something to training AI? everything is encrypted.
   id: com.asus.nextappcore
-  removal: expert
+  removal: risky
 - description: |-
     OpenBeta2
     Beta program server that collects a lot of data.
   id: com.asus.openbeta2
-  removal: recommended
+  removal: safe
 - description: |-
     Power Master
     It's for power-saving and may be important.
     Important app to powersaving.
   id: com.asus.powersaver
-  removal: unsafe
+  removal: critical
 - description: |-
     SAR Protection
     Security thing.
   id: com.asus.sarprotection
-  removal: recommended
+  removal: safe
 - description: |-
     Screen recorder
     App for screen recording.
   id: com.asus.screenrecorder
-  removal: advanced
+  removal: caution
 - description: |-
     Setup Wizard
     It's needed only for first-boot setup.
   id: com.asus.setupwizard
-  removal: recommended
+  removal: safe
 - description: |-
     SmartCover
     Used for smart features.
   id: com.asus.smartcover
-  removal: recommended
+  removal: safe
 - description: |-
     Smart key
     Used for smart features.
   id: com.asus.smartkey
-  removal: recommended
+  removal: safe
 - description: |-
     Smart Reading
     It's app for smart reading
   id: com.asus.smartreading
-  removal: recommended
+  removal: safe
 - description: |-
     ASUS Sound recorder (https://play.google.com/store/apps/details?id=com.asus.soundrecorder)
     Connects to Google Analytics and some Asus servers, which is a bit sketchy for a sound recording app..
     https://beta.pithus.org/report/f4cf38e1c35a04c3579fa198d2abd3ef1ff7be79633d6d3f2bc69c8a69164e1d
   id: com.asus.soundrecorder
-  removal: recommended
+  removal: safe
 - description: |-
     Asus Splendid
     Optional app for adjust your screen for your own viewing pleasure.
     https://play.google.com/store/apps/details?id=com.asus.splendid
   id: com.asus.splendid
-  removal: recommended
+  removal: safe
 - description: |-
     Stitch image
     It's for the stock gallery app.
   id: com.asus.stitchimage.service
-  removal: recommended
+  removal: safe
 - description: |-
     Device Health
     Device Health? It collects your data.
   id: com.asus.sysmonitor
-  removal: recommended
+  removal: safe
 - description: |-
     AsusBoost
     It's probably an important app. It has booster services and memory cleaner service.
   id: com.asus.system.api
-  removal: expert
+  removal: risky
 - description: |-
     System color scheme
     Needed for changing wallpapers?
   id: com.asus.systemcolor
-  removal: expert
+  removal: risky
 - description: |-
     ASUS Task Manager widget
     Task manager widget to System optimization
   id: com.asus.taskwidget
-  removal: recommended
+  removal: safe
 - description: overlay to default config ims.
   id: com.asus.teleserv.overlay.odm
-  removal: expert
+  removal: risky
 - description: |-
     Theme AsusUI
     Stock System Theme
     System may not work after removing it.
   id: com.asus.theme.color.asusui
-  removal: unsafe
+  removal: critical
 - description: |-
     Rog Theme
     Stock System Theme
     System may not work after removing it.
   id: com.asus.theme.color.rog
-  removal: unsafe
+  removal: critical
 - description: Needed for change theme apps?
   id: com.asus.themeservice
-  removal: expert
+  removal: risky
 - description: |-
     Tips
     Tips for smart features and more.
   id: com.asus.tips
-  removal: recommended
+  removal: safe
 - description: Twin Apps for duplicate apps.
   id: com.asus.twinapps
-  removal: recommended
+  removal: safe
 - description: |-
     Twin Apps Service
     Needed for Twin Apps for duplicate apps.
   id: com.asus.twinappsservice
-  removal: recommended
+  removal: safe
 - description: |-
     ZenUI Help (https://play.google.com/store/apps/details?id=com.asus.userfeedback)
     Customer service app that provides FAQs, Mobile care service, user feedback, and public forums.
     Lots of telemetry (insecure on top of that):
     https://beta.pithus.org/report/e80a1fa70adc097fc9817720b5c8c81cfd156a76e6d062759b2bc3d6937a97e7
   id: com.asus.userfeedback
-  removal: recommended
+  removal: safe
 - description: |-
     Tru2Life
     it's app for color modes.
   id: com.asus.visualmaster
-  removal: expert
+  removal: risky
 - description: |-
     ASUS Weather
     it's for weather. Have Firebase Analytics.
   id: com.asus.weathertime
-  removal: recommended
+  removal: safe
 - description: |-
     overlay to wifi configs better dont risk.
     Important configs to WiFi.
   id: com.asus.wifi.resources.overlay
-  removal: unsafe
+  removal: critical
 - description: |-
     Gestures
     Needed for Gestures.
   id: com.asus.zenmotion
-  removal: recommended
+  removal: safe

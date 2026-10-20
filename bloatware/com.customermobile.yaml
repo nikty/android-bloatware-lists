@@ -5,4 +5,4 @@
     This leaves the overall device and configuration vulnerable.
     https://thehackernews.com/2024/08/google-pixel-devices-shipped-with.html
   id: com.customermobile.preload.vzw
-  removal: recommended
+  removal: safe

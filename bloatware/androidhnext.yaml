@@ -1,0 +1,7 @@
+- description: |-
+    EMUI Graphical User Interface:
+    https://fixyourandroid.com/about/androidhwext
+    The framework responsible for the themes (even the standard one) of EMUI to launch. Also, it's the core for the Themes app. REMOVING IT CAUSES A BOOTLOOP!
+  id: androidhnext
+  removal: critical
+

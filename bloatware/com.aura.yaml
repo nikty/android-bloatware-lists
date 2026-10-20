@@ -3,23 +3,23 @@
     AT&T Hub
     App from AT&T. Installs apps on oobe and its maded by advertising company 'ironSource'.
   id: com.aura.jet.att
-  removal: recommended
+  removal: safe
 - description: |-
     AppCloud
     App from AT&T. Installs apps on oobe and its maded by advertising company 'ironSource'.
   id: com.aura.oobe.att
-  removal: recommended
+  removal: safe
 - description: |-
     Appcloud
     Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some Xiaomi phones
     Safe to remove.
   id: com.aura.oobe.kbdi
-  removal: recommended
+  removal: safe
 - description: |-
     MotoApps
     It's something to install apps, but it's an advertising company.
   id: com.aura.oobe.motorola
-  removal: recommended
+  removal: safe
 - description: |-
     AppCloud
     It offers the "Aura Out-Of-the-Box Experience" (OOBE)
@@ -31,7 +31,7 @@
     Has way too many permissions.
     See https://github.com/0x192/universal-android-debloater/issues/278
   id: com.aura.oobe.samsung
-  removal: recommended
+  removal: safe
 - description: |-
     AppCloud
     It offers the "Aura Out-Of-the-Box Experience" (OOBE)
@@ -43,11 +43,64 @@
     Has way too many permissions.
     See https://github.com/0x192/universal-android-debloater/issues/278
   id: com.aura.oobe.samsung.gl
-  removal: recommended
+  removal: safe
 - description: |-
     Vodafone AppBox
     It is some kind of post-install recommended apps setup from the carrier.
     Asks for your age and gender and then recommends you to install popular apps.
     Developped by IronSource, an Israeli advertising company.
   id: com.aura.oobe.vodafone
-  removal: recommended
+  removal: safe
+- description: |-
+    Provides an Out Of The Box experience. You can disable it via Settings > Apps > Three dots > Show system > App selector. It has a T-Mobile icon
+  id: com.aura.oobe.deutsche
+  removal: safe
+
+- description: |-
+    AppCloud
+    Seems to exist to try to get you to download games and another testimonial.
+  id: com.aura.oobe.kddi
+  removal: safe
+
+- description: |-
+    Aura from Unity
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some Lenovo
+    Safe to remove.
+  id: com.aura.oobe.lenovo
+  removal: safe
+
+- description: |-
+    Aura from Unity
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some Motorola
+    Safe to remove.
+  id: com.aura.oobe.ml
+  removal: safe
+
+- description: |-
+    Aura from Unity
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some docomo carrier phones
+    Safe to remove.
+  id: com.aura.oobe.ntt
+  removal: safe
+
+- description: |-
+    Aura from Unity
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some Rakuten Mobile carrier phones
+    Safe to remove.
+  id: com.aura.oobe.rakuten
+  removal: safe
+
+- description: |-
+    Aura from Unity
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some SoftBank carrier phones
+    Safe to remove.
+  id: com.aura.oobe.softbank
+  removal: safe
+
+- description: |-
+    Aura from Unity
+    Persistent notification until you click on it and agree to install games. Sort of game cloud pre-installed in some Nothing & CMF Phone
+    Safe to remove.
+  id: com.aura.oobe.solutions
+  removal: safe
+

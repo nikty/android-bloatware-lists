@@ -3,7 +3,7 @@
     Qusetionnaire
     Logs and testing things.
   id: com.idea.questionnaire
-  removal: recommended
+  removal: safe
 - description: '[NEED MORE INFO / NEED APK] Quizz app from MobileIdea company?'
   id: com.idea.questionnare
-  removal: recommended
+  removal: safe

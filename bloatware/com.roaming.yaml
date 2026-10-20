@@ -3,9 +3,9 @@
     gsim = Global SIM? (SIM = Subscriber Identity Module, as in SIM-card)
     Considering the "roaming" context that's my best guess.
   id: com.roaming.android.gsimbase
-  removal: advanced
+  removal: caution
 - description: |-
     gsim = Global SIM? (SIM = Subscriber Identity Module, as in SIM-card)
     Considering the "roaming" context that's my best guess.
   id: com.roaming.android.gsimcontentprovider
-  removal: advanced
+  removal: caution

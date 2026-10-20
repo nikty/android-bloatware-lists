@@ -1,4 +1,9 @@
 - id: ru.vk.store
   description: |
     VK social network
-  removal: recommended
+  removal: safe
+- description: |-
+    Rustore, russian app market, preinstalled by russian law from 2019
+  id: ru.vk.store
+  removal: safe
+

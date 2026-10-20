@@ -5,4 +5,4 @@
     This app was pre-installed on phone not served by that carrier (América Móvil) from South America. 
     Normally you should not have this app anymore because it was removed by Nokia during an Android 10 update.
   id: co.sitic.pp
-  removal: recommended
+  removal: safe

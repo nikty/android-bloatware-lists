@@ -1,33 +1,71 @@
 ---
 - description: Something Japanese with useless code.
   id: jp.co.daj.consumer.ifilter.aflauncher
-  removal: recommended
+  removal: safe
 - description: |-
     iWnn IME
     Japanese keyboard pre-installed on some Huawei phone's.
   id: jp.co.omronsoft.iwnnime.ml
-  removal: recommended
+  removal: safe
 - description: Japanese Phrases app
   id: jp.co.omronsoft.mushroom.CommonPhrase
-  removal: recommended
+  removal: safe
 - description: |
     Japanese keyboard/IME (don't know why it's pre-installed on US/european devices)
     Note : IME = input method editor 
   id: jp.co.omronsoft.openwnn
-  removal: recommended
+  removal: safe
 - description: Skin Dark mode to Japanese Keyboard.
   id: jp.co.omronsoft.wnnext.skin.std_dark_type2_HW
-  removal: recommended
+  removal: safe
 - description: Skin Light mode to Japanese Keyboard.
   id: jp.co.omronsoft.wnnext.skin.std_light_type2_HW
-  removal: recommended
+  removal: safe
 - description: |-
     NePLAYER
     Japanese NePLAYER Lite for ASUS
   id: jp.co.radius.neplayer_asus
-  removal: recommended
+  removal: safe
 - description: |-
     eBookJapan
     Not needed japanese.
   id: jp.co.yahoo.android.ebookjapan.preinstall
-  removal: recommended
+  removal: safe
+- description: |-
+    Anshin-Filter for docomo (https://www.docomo.ne.jp/service/anshin_filter/0)
+    Carrier-provided parental controls. Terrible.
+    Causes excessive battery drain on both parent and child devices due to heavy background polling, and a ton of other issues.
+    If you care about your child's better well-being, digital experience and parent-child relationships, consider using alternative services such as Google Family link.
+    Strongly recommended to uninstall.
+  id: jp.co.nttdocomo.anshinmode
+  removal: safe
+
+- description: |-
+    docomo mail
+    Carrier mail app. Safe to remove.
+  id: jp.co.nttdocomo.carriermail
+  removal: safe
+
+- description: |-
+    docomo location information
+    Provides "Keitai-Osagashi Service" (Mobile Phone Finder Service) and "imadoco search" (parental tracking) by docomo.
+    com.nttdocomo.android.docomoset is needed to launch settings screen.
+    Safe to remove, but you may want to check https://mydocomo.docomo.ne.jp for subscriptions and "imadoco search" Opt-Out at https://spf.spmode.ne.jp/location/posinfo_sp (spf.spmode.ne.jp is only accessible via mobile network).
+    Google's "Find Hub" and "Family Link" are free and better alternatives integrated with Android.
+  id: jp.co.nttdocomo.lcsapp
+  removal: safe
+
+- description: |-
+    Disaster kit (https://www.docomo.ne.jp/info/disaster/disaster_kit/)
+    A dedicated app for docomo's safety registration service used during major emergencies. It allows users to post and search for safety status.
+    NOTE: This is not related to the core functionality of Area Mail (early warning). For checking Area Mail history, you can find it in system settings.
+    Safe to remove; use web171.jp, Disaster Message Dial (171) or LINE's safety status feature instead for about safety status.
+  id: jp.co.nttdocomo.saigaiban
+  removal: safe
+
+- description: |-
+    Provides a feature called "Mushroom" that is a phrase table shared between Japanese keyboards.
+    Japanese keyboards still work without this.
+  id: jp.co.omronsoft.mushroom.commonphrase
+  removal: safe
+

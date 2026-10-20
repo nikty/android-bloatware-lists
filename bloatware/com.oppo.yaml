@@ -1,156 +1,161 @@
 ---
 - description: Useless frameworks
   id: com.oppo.atlas
-  removal: recommended
+  removal: safe
 - description: Test BLE Tx and Rx channel
   id: com.oppo.bttestmode
-  removal: recommended
+  removal: safe
 - description: |-
     Camera
     Oppo stock camera app
   id: com.oppo.camera
-  removal: advanced
+  removal: caution
 - description: I found logs in code. This app means nothing.
   id: com.oppo.criticallog
-  removal: recommended
+  removal: safe
 - description: Has something related to IMS SMS
   id: com.oppo.ctautoregist
-  removal: advanced
+  removal: caution
 - description: Only Hello world! found in app also things to com.orange.aura.oobe
   id: com.oppo.customize
-  removal: recommended
+  removal: safe
 - description: |-
     EM NR5G
     5G Disable Mode, Probably needed for mobile data internet.
   id: com.oppo.em5g
-  removal: expert
+  removal: risky
 - description: 'Engineer mode (hardware tests), uses a dialer code, safe to disable'
   id: com.oppo.engineermode
-  removal: advanced
+  removal: caution
 - description: Related to com.oppo.engineermode. This application likely doesn't work without that app.
   id: com.oppo.engineermode.camera
-  removal: advanced
+  removal: caution
 - description: Related to com.oppo.engineermode. This application likely doesn't work without that app.
   id: com.oppo.engineermode.network
-  removal: advanced
+  removal: caution
 - description: |
     Fingerprint sensort test
   id: com.oppo.fingerprints.fingerprintsensortest
-  removal: recommended
+  removal: safe
 - description: 'I found only: Hello World!. This app means nothing.'
   id: com.oppo.freefallingmonitor
-  removal: recommended
+  removal: safe
 - description: 'I found in code only words Vodafone email, email setup wizard. Not needed overlay'
   id: com.oppo.gmail.overlay
-  removal: recommended
+  removal: safe
 - description: 'Some health function, needed for the correct work of fitness trackers and pedometers from realme. When deleted, it does not seem to affect the operation of the phone.'
   id: com.oppo.healthservice
-  removal: recommended
+  removal: safe
 - description: A lot of tracking for demo game ads
   id: com.oppo.instant.local.service
-  removal: recommended
+  removal: safe
 - description: |-
     OPPO Home
     Oppo stock launcher
   id: com.oppo.launcher
-  removal: expert
+  removal: risky
 - description: |-
     OppoLFEHer
     DCS service, another thing related to scanning. Bloated
   id: com.oppo.lfeh
-  removal: recommended
+  removal: safe
 - description: "It's an app without activities, and in the code, I found it's for Set Mode Daemon Point, but how can we use that? I guess it's for testing, so remove it."
   id: com.oppo.localservice
-  removal: recommended
+  removal: safe
 - description: Location works without.
   id: com.oppo.locationpicker
-  removal: recommended
+  removal: safe
 - description: ''
   id: com.oppo.logkit
-  removal: recommended
+  removal: safe
 - description: Hidden logs hardware without activities.
   id: com.oppo.logkitsdservice
-  removal: recommended
+  removal: safe
 - description: 'Probably same as "com.oem.oemlogkit", which is a shady logging package on Oneplus devices.'
   id: com.oppo.logkitservice
-  removal: recommended
+  removal: safe
 - description: |
     Oppo App Market
   id: com.oppo.market
-  removal: recommended
+  removal: safe
 - description: 'Empty app. I only found: hello world!'
   id: com.oppo.mimosiso
-  removal: recommended
+  removal: safe
 - description: 'Oppo Dolby service equalizer, but only for Chinese apps'
   id: com.oppo.multimedia.dolby
-  removal: recommended
+  removal: safe
 - description: |
     Oppo Music app
   id: com.oppo.music
-  removal: recommended
+  removal: safe
 - description: |-
     RadioInfo
     Only has radioinfo activity. Not needed
   id: com.oppo.nw
-  removal: recommended
+  removal: safe
 - description: Oppo User Manual
   id: com.oppo.operationManual
-  removal: recommended
+  removal: safe
 - description: Battery monitoring
   id: com.oppo.oppopowermonitor
-  removal: recommended
+  removal: safe
 - description: |-
     Software update
     Software update OTA
   id: com.oppo.ota
-  removal: expert
+  removal: risky
 - description: Voice wake-up manager?
   id: com.oppo.ovoicemanager
-  removal: recommended
+  removal: safe
 - description: |-
     Oppo Bookmarks
     Oppo default browser customization. Injects Oppo bookmarks
   id: com.oppo.partnerbrowsercustomizations
-  removal: recommended
+  removal: safe
 - description: Useless logs
   id: com.oppo.qualityprotect
-  removal: recommended
+  removal: safe
 - description: |
     Single swipe from top to bottom search that has lots of Chinese in it
   id: com.oppo.quicksearchbox
-  removal: recommended
+  removal: safe
 - description: App has only icon and means nothing.
   id: com.oppo.resmonitor
-  removal: recommended
+  removal: safe
 - description: Monitors the broadcast action events (BOOT_COMPLETED)
   id: com.oppo.rftoolkit
-  removal: advanced
+  removal: caution
 - description: |
     Payment Protection
   id: com.oppo.securepay
-  removal: recommended
+  removal: safe
 - description: This app means nothing. There's only logs.
   id: com.oppo.smartvolume
-  removal: recommended
+  removal: safe
 - description: Emergency Alert service by clicking power button 5 times. It will automatically call contacts (and/or send a SMS) you designated as emergency contacts
   id: com.oppo.sos
-  removal: advanced
+  removal: caution
 - description: Useless time zone calibration
   id: com.oppo.tzupdate
-  removal: recommended
+  removal: safe
 - description: After-sales service assistance tools
   id: com.oppo.usageDump
-  removal: recommended
+  removal: safe
 - description: |-
     Oppo WebView enables Android apps to display web content within the app itself, based on Chrome.
     No root? Don't uninstall.
     Root? If you delete WebView, make sure to install a replacement.
     Many third-party apps, such as banks, VPNs, GitHub, Discord and Reddit use web-based content and will crash without it.
   id: com.oppo.webview
-  removal: expert
+  removal: risky
 - description: Wifi Rf Test
   id: com.oppo.wifirf
-  removal: recommended
+  removal: safe
 - description: 'Wi-Fi RF, RX test'
   id: com.oppo.wifitest
-  removal: recommended
+  removal: safe
+- description: |-
+    Just bloatware for account details and marketing of OPPO. Cannot log into OPPO/HeyTap account after disabling. Safe to disable if OPPO account is not used.
+  id: com.oppo.usercenter
+  removal: caution
+

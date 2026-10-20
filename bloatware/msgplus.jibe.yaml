@@ -3,4 +3,4 @@
     Messaging Plus. Messings using the RCS protocol (https://en.wikipedia.org/wiki/Rich_Communication_Services)
      	Related to Google Jibe (https://jibe.google.com/)
   id: msgplus.jibe.sca.vpl
-  removal: recommended
+  removal: safe

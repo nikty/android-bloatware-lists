@@ -1,0 +1,10 @@
+- description: |-
+    Samsung's Find My Mobile service for tracking your phone if you lost it. Unsure of the difference(s) between this and com.fmm.ds. Can lead to logcat spam in some cases.
+  id: com.fmm.dm
+  removal: caution
+
+- description: |-
+    Samsung's Find My Mobile service for tracking your phone if you lost it. Unsure of the difference(s) between this and com.fmm.dm, however this one doesn't logcat spam unlike com.fmm.dm.
+  id: com.fmm.ds
+  removal: caution
+

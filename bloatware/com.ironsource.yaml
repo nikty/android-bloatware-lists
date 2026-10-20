@@ -3,7 +3,7 @@
     AppCloud (discontinued) from ironSource, an advertising company.
     Worth reading : https://en.wikipedia.org/wiki/IronSource.
   id: com.ironsource.appcloud.oobe
-  removal: recommended
+  removal: safe
 - description: |
     Essentials apps
     App which promotes some other apps (and encourages you to install them)
@@ -12,10 +12,10 @@
     When you try to read their privacy policy you arrive to an outstanding blank PDF file!
     (http://www.ironsrc.com/wp-content/uploads/2019/03/ironSource-Privacy-Policy.pdf)
   id: com.ironsource.appcloud.oobe.huawei
-  removal: recommended
+  removal: safe
 - description: |-
     AppCloud (discontinued) from ironSource, an advertising company.
     Worth reading:
     https://en.wikipedia.org/wiki/IronSource
   id: com.ironsource.appcloud.oobe.hutchison
-  removal: recommended
+  removal: safe

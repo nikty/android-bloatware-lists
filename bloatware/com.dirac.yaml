@@ -3,4 +3,4 @@
     Dirac Control Service
     For audio control, not sure if it's useful.
   id: com.dirac.acs
-  removal: expert
+  removal: risky

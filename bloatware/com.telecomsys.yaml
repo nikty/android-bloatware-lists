@@ -3,4 +3,4 @@
     Verizon Location Agent
     Location tracking (does not impact GPS function if deleted, don't worry)
   id: com.telecomsys.directedsms.android.SCG
-  removal: recommended
+  removal: safe

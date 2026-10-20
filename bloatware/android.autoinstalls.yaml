@@ -3,52 +3,63 @@
     PlayAutoInstalls
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.Nothing.Pong
-  removal: recommended
+  removal: safe
 - description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.TCL.PAI
-  removal: recommended
+  removal: safe
 - description: |-
     PlayAutoInstalls
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.asus.pai
-  removal: recommended
+  removal: safe
 - description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.google.sabrina
-  removal: recommended
+  removal: safe
 - description: |-
     PlayAutoInstalls
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.lge.device
-  removal: recommended
+  removal: safe
 - description: |-
     Device configuration for Motorola
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
     A layout?
   id: android.autoinstalls.config.motorola.layout
-  removal: recommended
+  removal: safe
 - description: |-
     Device configuration
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.oneplus
-  removal: recommended
+  removal: safe
 - description: |-
     PlayAutoInstalls
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.oppo
-  removal: recommended
+  removal: safe
 - description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.samsung
-  removal: recommended
+  removal: safe
 - description: |-
     PlayAutoInstalls
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.transsion.device
-  removal: recommended
+  removal: safe
 - description: |-
     PlayAutoInstalls
     AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.vivo.devices
-  removal: recommended
+  removal: safe
 - description: AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
   id: android.autoinstalls.config.xioami.mibox3
-  removal: recommended
+  removal: safe
+- description: |-
+    App that configures preinstalled apps and initial preferences on Xiaomi Redmi Note 5 / Xiaomi Redmi Note 5 Pro (as their both's codename is whyred).
+    Only needed on device setup, dormant and useless afterwards. It's restored automatically in case of a factory reset. Safe to delete.
+  id: android.autoinstalls.config.Xiaomi.whyred
+  removal: safe
+
+- description: |-
+    Auto-install configuration for Google apps on Nexus devices.
+  id: android.autoinstalls.config.google.nexus
+  removal: caution
+

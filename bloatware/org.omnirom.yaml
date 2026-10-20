@@ -1,0 +1,5 @@
+- description: |-
+    OmniRom customization app. It lets you change the header image on the quick settings panel and the wallpaper for custom ROMs. It's included in custom ROMs mostly for the quick settings header images as the wallpaper activity is not normally accessible.
+  id: org.omnirom.omnistyle
+  removal: risky
+

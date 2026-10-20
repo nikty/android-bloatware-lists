@@ -1,0 +1,8 @@
+- description: |-
+    This malware disguises itself as an update app, tracks the user and installs malware in the background.
+    https://www.virustotal.com/gui/file/0aefcffd253e575474dbbbf1f60d77cfaa679c0abe3241d0ee397fbbb2ad9924/details
+    https://www.malwarebytes.com/blog/news/2021/04/pre-installed-auto-installer-threat-found-on-android-mobile-devices-in-germany
+    https://thehackernews.com/2021/04/pre-installed-malware-dropper-found-on.html
+  id: com.redstone.ota.ui
+  removal: safe
+

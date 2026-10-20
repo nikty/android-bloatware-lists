@@ -1,0 +1,5 @@
+- description: |-
+    Pre-installed Indian shopping bloatware with ads. (https://play.google.com/store/apps/details?id=com.flipkart.android)
+  id: com.flipkart.android
+  removal: safe
+

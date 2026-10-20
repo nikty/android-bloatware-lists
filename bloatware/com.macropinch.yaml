@@ -1,0 +1,6 @@
+- description: |-
+    Weather
+    https://play.google.com/store/apps/details?id=com.macropinch.swan
+  id: com.macropinch.swan
+  removal: safe
+

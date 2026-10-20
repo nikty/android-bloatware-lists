@@ -3,4 +3,4 @@
     SecurityPlugin
     It cant be uninstalled.
   id: com.scorpio.securitycom
-  removal: unsafe
+  removal: critical

@@ -1,0 +1,6 @@
+- description: |-
+    AOSPA's Dolby Atmos App on custom ROMs for Xiaomi phones. Providers support for Dolby Atmos on devices with Xiaomi hardware running custom ROMs.
+    Removing it just removes the Dolby Atmos feature and its app. Safe to remove if you don't need it.
+  id: co.aospa.dolby.xiaomi
+  removal: caution
+

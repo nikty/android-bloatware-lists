@@ -4,4 +4,9 @@
     https://en.wikipedia.org/wiki/Polaris_Office
     https://play.google.com/store/apps/details?id=com.infraware.office.link
   id: com.infraware.polarisoffice5
-  removal: recommended
+  removal: safe
+- description: |-
+    A dumbed down version of Polaris Office Editor 5 (which is a Microsoft Office like app).
+  id: com.infraware.polarisviewer5
+  removal: safe
+

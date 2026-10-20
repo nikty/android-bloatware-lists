@@ -1,0 +1,5 @@
+- description: |-
+    Remote management app installed by Bell on some devices. Has access to almost every permission so probably best to remove this.
+  id: com.communitake.remotecontrolservice
+  removal: safe
+

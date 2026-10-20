@@ -1,0 +1,5 @@
+- description: |-
+    Claims to be related to the fingerprint sensor and has fingerprint permissions. Fingerprint sensor still works fine with it removed, however.
+  id: com.crucialtec.uaf
+  removal: safe
+

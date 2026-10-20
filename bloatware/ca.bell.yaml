@@ -4,4 +4,9 @@
     Developped by Bell Canada, it is a home screen widget which shows advertisements, promotions, news, sports & entertainment.
     https://play.google.com/store/apps/details?id=ca.bell.wt.android.tunesappswidget
   id: ca.bell.wt.android.tunesappswidget
-  removal: recommended
+  removal: safe
+- description: |-
+    Bell's 'award winning' (no source) app for managing your Bell account and services. Useless, especially if you don't use Bell. (https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile). Note that Bell violates section F.1 of the Canadian Wireless Code by selling locked devices. If you use Bell, switch carriers if possible! Don't support lawbreaking companies.
+  id: ca.bell.selfserve.mybellmobile
+  removal: safe
+

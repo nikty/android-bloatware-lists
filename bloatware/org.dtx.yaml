@@ -3,4 +3,4 @@
     DtxService
     Ant Dtx Service, unknown app, but safe to remove, probably useful in China.
   id: org.dtx.aidl.manager
-  removal: recommended
+  removal: safe

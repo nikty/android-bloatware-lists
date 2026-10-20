@@ -4,9 +4,9 @@
     
     Pithus analysis: https://beta.pithus.org/report/dcb4acac003896077eaaeb8c7dc770d3171891784d98f7127f8495a3dec9954d
   id: com.tblenovo.center
-  removal: recommended
+  removal: safe
 - description: |-
     Useless Lenovo Tips app used by Lenovo to display un-dismissable and un-mutable ads in notifications.
     https://news.ycombinator.com/item?id=28382081
   id: com.tblenovo.lenovotips
-  removal: recommended
+  removal: safe

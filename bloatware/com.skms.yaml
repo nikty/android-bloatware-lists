@@ -5,4 +5,4 @@
     KMS = Key Management System
     KNOX feature (https://en.wikipedia.org/wiki/Samsung_Knox)
   id: com.skms.android.agent
-  removal: recommended
+  removal: safe

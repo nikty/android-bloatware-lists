@@ -2,4 +2,4 @@
 - description: |
     Briefing app (https://play.google.com/store/apps/details?id=flipboard.boxer.app)
   id: flipboard.boxer.app
-  removal: recommended
+  removal: safe

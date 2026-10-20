@@ -3,9 +3,9 @@
     Fairphone activation service
     https://forum.fairphone.com/t/telemetry-spyware-list-of-privacy-threats-on-fp3-android-9/55179/74
   id: com.fairphone.activator
-  removal: recommended
+  removal: safe
 - description: |-
     My Fairphone app
     https://www.fairphone.com/en/2021/12/20/my-fairphone-app/
   id: com.fairphone.myfairphone
-  removal: advanced
+  removal: caution

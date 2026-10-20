@@ -1,0 +1,5 @@
+- description: |-
+    Samsung's Factory Mode app for hardware testing and diagnostics.
+  id: mobile.miki
+  removal: caution
+

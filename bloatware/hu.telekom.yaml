@@ -3,9 +3,9 @@
     Telekom
     App for subscriptions, so bloated (a lot spying) and from T-Mobile
   id: hu.telekom.telekomapp
-  removal: recommended
+  removal: safe
 - description: |-
     Mobile shopping
     App for watch tv on phone, so bloated (a lot spying) and from T-Mobile
   id: hu.telekom.telekomtv
-  removal: recommended
+  removal: safe

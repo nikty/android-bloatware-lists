@@ -5,7 +5,7 @@
     Handles things related to OTA system updates?
     Safe to disable, but might break OTA updates.
   id: cn.oneplus.nvbackup
-  removal: expert
+  removal: risky
 - description: |-
     TCMA = Tiered Contention Multiple Access
     Runs on boot.
@@ -14,7 +14,7 @@
     https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_avoidance
     https://patents.google.com/patent/US20020163933A1
   id: cn.oneplus.oem_tcma
-  removal: advanced
+  removal: caution
 - description: |-
     TCMA = Tiered Contention Multiple Access
     Runs on boot.
@@ -23,17 +23,17 @@
     https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_avoidance
     https://patents.google.com/patent/US20020163933A1
   id: cn.oneplus.oemtcma
-  removal: advanced
+  removal: caution
 - description: |-
     OPMmsLocation
     Determines your location when sending SMS/MMS?
     China-only? ("cn" is China's country code)
   id: cn.oneplus.opmms
-  removal: recommended
+  removal: safe
 - description: |-
     Shot On OnePlus
     Accessible through the Wallpapers selection menu.
     Provides photos uploaded by OnePlus users, allowing you to set them as your wallpaper.
     Each day, one new photo appears within the application.
   id: cn.oneplus.photos
-  removal: recommended
+  removal: safe

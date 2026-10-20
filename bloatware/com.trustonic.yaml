@@ -3,7 +3,7 @@
     TEE = Trusted Execution Environment
     See below
   id: com.trustonic.teeservice
-  removal: expert
+  removal: risky
 - description: |-
     tuiService (Trusted User Interface) is a security layer by Trustonic.
     Allows a "Trusted App" to interact directly with the user, completely isolated from the device OS.
@@ -24,4 +24,4 @@
     https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
     https://medium.com/taszksec/unbox-your-phone-part-i-331bbf44c30c
   id: com.trustonic.tuiservice
-  removal: expert
+  removal: risky

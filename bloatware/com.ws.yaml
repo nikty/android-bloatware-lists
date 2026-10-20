@@ -6,4 +6,4 @@
     Works along with com.sec.android.soagent
     Required on Samsung Smartphones for OTA.
   id: com.ws.dm
-  removal: expert
+  removal: risky

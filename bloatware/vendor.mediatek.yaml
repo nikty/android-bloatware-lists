@@ -1,4 +1,4 @@
 ---
 - description: 'iWlan service, not sure if needed.'
   id: vendor.mediatek.iwlanservice
-  removal: expert
+  removal: risky

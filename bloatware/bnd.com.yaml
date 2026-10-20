@@ -1,0 +1,6 @@
+- description: |-
+    Hardware Check
+    WARNING: Uninstalling it breaks the App info Settings page on Android 15, Blackview Tab 60 WiFi. It  has an internet permission and can install other apps in the background, which means it's a backdoor! Please remove its permissions, block its internet access using NetGuard or check if uninstalling it breaks anything related to the Settings app.
+  id: bnd.com
+  removal: risky
+

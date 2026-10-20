@@ -1,0 +1,12 @@
+- description: |-
+    App to control OmniPod insulin pumps. Preinstalled on the OmniPod DASH and OmniPod 5 PDMs. If you're seeing this package you're probably on a modded PDM, so you almost certainly know what this is and it's absolutely unsafe to remove if you're actively using OmniPod.
+    https://play.google.com/store/apps/details?id=com.insulet.myblue.pdm
+  id: com.insulet.myblue.pdm
+  removal: critical
+
+- description: |-
+    Additional package needed to control pods on the OmniPod DASH PDM. Doesn't seem to be present on OmniPod 5. See com.insulet.myblue.pdm
+     tl;dr: needed to control your insulin pump, absolutely do not remove this.
+  id: com.insulet.myblue.pdmsystem
+  removal: critical
+

@@ -1,0 +1,5 @@
+- description: |-
+    Open source web browser designed to fit E-ink devices, https://github.com/plateaukao/einkbro
+  id: Info.Plateau.Einkbro
+  removal: caution
+

@@ -2,8 +2,8 @@
 - description: |
     CNN Breaking US & World News app (https://play.google.com/store/apps/details?id=com.cnn.mobile.android.phone)
   id: com.cnn.mobile.android.phone
-  removal: recommended
+  removal: safe
 - description: |
     CNN Edge panel. Twitter trends, and news from CNN.
   id: com.cnn.mobile.android.phone.edgepanel
-  removal: recommended
+  removal: safe

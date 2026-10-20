@@ -1,0 +1,21 @@
+- description: |-
+    This malware is capable of sending malicious messages via WhatsApp, opening new tabs in the default web browser to game websites, downloading more malicious apps, and possibly other malicious behaviors.
+    The malicious WhatsApp messages are most likely in order to further spread the infection to other mobile devices.
+    https://www.malwarebytes.com/blog/news/2021/04/pre-installed-auto-installer-threat-found-on-android-mobile-devices-in-germany
+  id: com.wagd.gem
+  removal: safe
+
+- description: |-
+    This malware is capable of sending malicious messages via WhatsApp, opening new tabs in the default web browser to game websites, downloading more malicious apps, and possibly other malicious behaviors.
+    The malicious WhatsApp messages are most likely in order to further spread the infection to other mobile devices.
+    https://www.malwarebytes.com/blog/news/2021/04/pre-installed-auto-installer-threat-found-on-android-mobile-devices-in-germany
+  id: com.wagd.smarter
+  removal: safe
+
+- description: |-
+    This malware is capable of sending malicious messages via WhatsApp, opening new tabs in the default web browser to game websites, downloading more malicious apps, and possibly other malicious behaviors.
+    The malicious WhatsApp messages are most likely in order to further spread the infection to other mobile devices.
+    https://www.malwarebytes.com/blog/news/2021/04/pre-installed-auto-installer-threat-found-on-android-mobile-devices-in-germany
+  id: com.wagd.xiaoan
+  removal: safe
+

@@ -3,39 +3,51 @@
     it's used to choose app install? A lot trackers, permissions.
     Useless.
   id: com.dti.amx
-  removal: recommended
+  removal: safe
 - description: |
     AT&T App Select
     I guess it lets you choose AT&T apps to install.
     It has a LOT of permissions : https://knowledge.protektoid.com/apps/com.dti.att/7a36d4f5f00bae044566221400719c75ea2f4f33bc2578a7f8210f36d718a8d6
     Someone knows what "dti" is/means ?
   id: com.dti.att
-  removal: recommended
+  removal: safe
 - description: |-
     Bouygues AppCloud
     it's probably for install apps but it's useless and have ads and a lot permissions.
   id: com.dti.bouyguestelecom
-  removal: recommended
+  removal: safe
 - description: "it's app for installing recommended apps? it's only used on first-boot setup and it's useless."
   id: com.dti.cricket
-  removal: recommended
+  removal: safe
 - description: |-
     Mobile Services Manager
     it's something for install apps but it's useless and a lot permissions.
   id: com.dti.motorola
-  removal: recommended
+  removal: safe
 - description: |-
     Mobile Services Manager
     Digital Turbine app, pre-install some apps/games to your phone and its made by advertising company.
   id: com.dti.samsung
-  removal: recommended
+  removal: safe
 - description: |-
     Mobile Service Manager
     It's a system app that can't be opened but keeps running in the background. It can install/uninstall apps without notifying you, access internet, run at the boot of the system, kill background processes, ads and other permissions.
     it's only bloatware, OTA updates work the same without it. Uninstalling didn't give any negative side-effects.
   id: com.dti.tim
-  removal: recommended
+  removal: safe
 - description: |
     Installs sponsored apps automatically on Tracfone and affiliated carriers (Straight Talk, Total Wireless, etc) 
   id: com.dti.tracfone
-  removal: recommended
+  removal: safe
+- description: |-
+    This package is preinstalled on devices made by cellphone manufacturer BLU, installs unwanted games and other non-essential stuff. Its name 'Mobile Services' makes it scary to remove, but I highly recommend removing it. No damage foukd after removal (did so in at least two different models of Blu phones).
+  id: com.dti.blu
+  removal: safe
+
+- description: |-
+    O2 & Telefonica carrier bloat. Runs in background, updates, maintains and installs Telefonica carrier apps and services, and is totally useless if you don't use this carrier.
+    O2 and Telefonica are only available in Latin America, Brazil, Spain, Germany and UK, but it's often preinstalled on EU, Global and possibly other ROMs, as countries where this carrier is present use these ROMs. Safe to delete.
+    Presumably works together with com.xiaomi.entitlement.o2. It's also a package safe to remove if you don't use the carriers mentioned earlier.
+  id: com.dti.telefonica
+  removal: safe
+

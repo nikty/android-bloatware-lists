@@ -1,4 +1,4 @@
 ---
 - description: 'Hidden camera tests, calibration.'
   id: com.westalgo.factorycamera
-  removal: recommended
+  removal: safe

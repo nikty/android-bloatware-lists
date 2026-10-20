@@ -1,0 +1,5 @@
+- description: |-
+    Companion for the Evernote app, seems to drain battery.
+  id: com.evernote.promohelper
+  removal: safe
+

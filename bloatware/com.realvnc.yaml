@@ -5,4 +5,4 @@
     Not sure having a remote control app installed as a system app is a good idea
     This application is no longer maintained, besides.
   id: com.realvnc.android.remote
-  removal: recommended
+  removal: safe

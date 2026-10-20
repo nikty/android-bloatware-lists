@@ -7,4 +7,4 @@
     BHIM = Bharat Interface for Money : https://en.wikipedia.org/wiki/BHIM
     UPI = Unified Payement Interface : https://en.wikipedia.org/wiki/Unified_Payments_Interface
   id: com.phonepe.app
-  removal: recommended
+  removal: safe

@@ -3,21 +3,21 @@
     Regulatory & safety
     Useless data collection and security. Also Chinese things, PDF View.
   id: com.jrdcom.Elabel
-  removal: recommended
+  removal: safe
 - description: Useless overlay code for this bloatware app
   id: com.jrdcom.Elabel.a_overlay
-  removal: recommended
+  removal: safe
 - description: ''
   id: com.jrdcom.Elabel.overlay
-  removal: expert
+  removal: risky
 - description: ''
   id: com.jrdcom.filemanager
-  removal: expert
+  removal: risky
 - description: ''
   id: com.jrdcom.filemanager.a_overlay
-  removal: expert
+  removal: risky
 - description: |-
     TCL My Sites shortcut
     Stub for mysites.glance.com.
   id: com.jrdcom.urlreservedapp1
-  removal: recommended
+  removal: safe

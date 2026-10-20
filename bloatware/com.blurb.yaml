@@ -3,4 +3,4 @@
     Blurb Checkout 
     Provides book purchase and checkout for Samsung’s Story Album app (discontinued)
   id: com.blurb.checkout
-  removal: recommended
+  removal: safe

@@ -6,4 +6,13 @@
     FYI: Digital Turbine is an advertising company.
     [HELP: CAN SOMEONE UPLOAD THE APK?]
   id: com.digitalturbine.toolbar
-  removal: recommended
+  removal: safe
+- description: |-
+    Essentials
+    This application results in fullscreen advertisements upon unlocking the device.
+    https://play.google.com/store/apps/details?id=com.digitalturbine.android.apps.news.att&hl=en_US
+    https://www.virustotal.com/gui/file/a7625586ea2d21efcb76b528c5ad66c9cf77e74a52029cabcd415deff5b5107d/details
+    https://reports.exodus-privacy.eu.org/en/reports/com.digitalturbine.android.apps.news.att/latest/
+  id: com.digitalturbine.android.apps.news.att
+  removal: safe
+

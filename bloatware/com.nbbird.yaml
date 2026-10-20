@@ -1,0 +1,5 @@
+- description: |-
+    The com.nbbird.hardwareinfo package is likely associated with providing detailed information about the device’s hardware components, such as CPU, GPU, memory, and other system specifications. This app might be used for diagnostics or detailed hardware monitoring specific to the device. Removing it might disable access to this hardware information and could affect the ability to view detailed system diagnostics. However, it generally does not affect core system functionality and should not cause bootloop issues.
+  id: com.nbbird.hardwareinfo
+  removal: caution
+

@@ -1,0 +1,5 @@
+- description: |-
+    The com.nuumobile.agingtest package is used for running diagnostic tests related to hardware aging or wear, likely provided by the OEM. Since this package is mainly for diagnostic purposes and does not impact the core functionality of the device, it is safe to remove.
+  id: com.nuumobile.agingtest
+  removal: safe
+

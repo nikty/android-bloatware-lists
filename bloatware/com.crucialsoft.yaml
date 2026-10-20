@@ -1,0 +1,10 @@
+- description: |-
+    Doesn't seem to do anything, but has permissions to read and write storage. Safe to remove.
+  id: com.crucialsoft.asm
+  removal: safe
+
+- description: |-
+    Does absolutely nothing. Despite the package name saying 'Fido', it is unrelated to Fido, it is an LG package. Safe to remove.
+  id: com.crucialsoft.fido.client
+  removal: safe
+

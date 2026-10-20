@@ -1,0 +1,6 @@
+- description: |-
+    National ID app based on a unique 12 digit number and biometrics information. Privately mandated by Government of India to be pre-installed on devices.
+    Source: https://www.reuters.com/world/china/indias-proposal-preload-national-id-app-aadhaar-phones-faced-pushback-2026-03-19/
+  id: in.gov.uidai.pehchaan
+  removal: safe
+

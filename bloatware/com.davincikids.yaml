@@ -1,0 +1,7 @@
+- description: |-
+    Davinci Media
+    A 2 star streaming service.
+    https://play.google.com/store/apps/details?id=com.davincikids.tv
+  id: com.davincikids.tv
+  removal: safe
+

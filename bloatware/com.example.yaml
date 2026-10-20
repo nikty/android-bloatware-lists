@@ -3,23 +3,29 @@
     ChipsemiTpTest
     Rawdata Value Test.
   id: com.example.alpha.chipsemitptest
-  removal: recommended
+  removal: safe
 - description: (Bad) notepad app.
   id: com.example.android.notepad
-  removal: advanced
+  removal: caution
 - description: Chinese hidden camera calibration.
   id: com.example.calibrationmaster
-  removal: recommended
+  removal: safe
 - description: |-
     Hidden app for testing:
     Battery, WiFi, Bluetooth
   id: com.example.myapplication
-  removal: recommended
+  removal: safe
 - description: 'Secret Code: 439. FTM/Custom Test, SAR test mode, OTA Test, ANT Switch/Select.'
   id: com.example.rftuner
-  removal: recommended
+  removal: safe
 - description: |
     Wifi Radio Frequency test
     Probably used in factory. No hidden test menu to use it.
   id: com.example.wifirftest
-  removal: recommended
+  removal: safe
+- description: |-
+    Bigme HiBreak Pro calendar optimized for e-ink displays.
+    Check that you have this phone before disabling! The package name is generic.
+  id: com.example.test
+  removal: caution
+

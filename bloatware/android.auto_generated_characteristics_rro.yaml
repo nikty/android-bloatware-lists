@@ -1,0 +1,5 @@
+- description: |-
+    Automatically generated RRO characteristics for Android customization.
+  id: android.auto_generated_characteristics_rro
+  removal: risky
+

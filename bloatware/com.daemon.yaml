@@ -3,4 +3,4 @@
     Shelper
     Tracking, monitoring, logs
   id: com.daemon.shelper
-  removal: recommended
+  removal: safe

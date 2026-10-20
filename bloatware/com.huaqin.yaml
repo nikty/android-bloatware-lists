@@ -3,18 +3,18 @@
     Radio app from huaqin a chinese company
     NOTE : Transistor [https://f-droid.org/en/packages/org.y20k.transistor/] is much better
   id: com.huaqin.FM
-  removal: recommended
+  removal: safe
 - description: Tests hardware things.
   id: com.huaqin.batteryinfo
-  removal: recommended
+  removal: safe
 - description: |-
     btlogger
     cit bluetooth logging
   id: com.huaqin.btlogger
-  removal: recommended
+  removal: safe
 - description: 'Debugging logs Wifi, Bluetooth'
   id: com.huaqin.clearefs
-  removal: recommended
+  removal: safe
 - description: |
     Secret logging menu only accessible by dialing using a "secret code" (*#*#CODE#*#*)
     You can use any of these code : "995995", "996996", "9434", "334334", "5959", "477477"
@@ -23,7 +23,7 @@
     #
     FYI Huaqin is a Chinese mobile phone research and development company.
   id: com.huaqin.diaglogger
-  removal: recommended
+  removal: safe
 - description: |
     Hidden test app (dial *#*#64663#*#*)
     Used by technician in factory to test the hardware. Not intented to be run by end-users. 
@@ -32,12 +32,12 @@
     programmatically disable and enable Wi-Fi, Bluetooth, and GPS silently (and without the corresponding access permission)
     https://nvd.nist.gov/vuln/detail/CVE-2019-15340
   id: com.huaqin.factory
-  removal: recommended
+  removal: safe
 - description: |-
     I found in code useless permissions BAN_BROADCAST and hello world!
     This app means nothing.
   id: com.huaqin.pocketbanreceiver
-  removal: recommended
+  removal: safe
 - description: |
     SetTransmitPower
     I can't access the apk but I'm pretty sure it is another hidden test app not meant to be used by end-user
@@ -45,12 +45,12 @@
     SAR = Specific Absorption Rate (https://en.wikipedia.org/wiki/Specific_absorption_rate)
     XDA users removed this without any issues. To be 100% sure it would be good to test the SAR without this package (just in case)
   id: com.huaqin.sar
-  removal: recommended
+  removal: safe
 - description: |-
     It have something like sar sensor, idk if it's for testing
     but mainactivity have chinese words and sar is for radio regulations?
   id: com.huaqin.sarcontroller
-  removal: recommended
+  removal: safe
 - description: ShutdownAfterScreenOff10MinutesService. Not needed
   id: com.huaqin.shutdownservice
-  removal: recommended
+  removal: safe

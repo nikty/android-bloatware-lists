@@ -3,9 +3,9 @@
     FinShell Pay (https://play.google.com/store/apps/details?id=com.finshell.fin)
     Provides various Payment and Financial Services. Pretty bad privacy policy: https://rwallet.finshell.co.in/html/user/privacy_policy.html
   id: com.finshell.fin
-  removal: recommended
+  removal: safe
 - description: |-
     Finshell wallet
     Wallet app by Finshell.
   id: com.finshell.wallet
-  removal: recommended
+  removal: safe

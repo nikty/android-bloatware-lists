@@ -3,9 +3,9 @@
     FactoryMode
     Hardware testing things.
   id: com.wtk.factory
-  removal: recommended
+  removal: safe
 - description: |-
     StressTest
     Testing Hardware things.
   id: com.wtk.stresstest
-  removal: recommended
+  removal: safe

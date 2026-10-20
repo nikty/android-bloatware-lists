@@ -2,12 +2,12 @@
 - description: |
     Google Chrome Beta (https://play.google.com/store/apps/details?id=com.chrome.beta)
   id: com.chrome.beta
-  removal: recommended
+  removal: safe
 - description: |
     Google Chrome Canary (Nightly build) (https://play.google.com/store/apps/details?id=com.chrome.canary)
   id: com.chrome.canary
-  removal: recommended
+  removal: safe
 - description: |
     Google Chrome (developer)	(https://play.google.com/store/apps/details?id=com.chrome.dev)
   id: com.chrome.dev
-  removal: recommended
+  removal: safe

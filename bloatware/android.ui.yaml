@@ -1,0 +1,6 @@
+- description: |-
+    An overlay that customizes Android UI for the China Telecom operator (3rd largest operator in China).
+    Safe to remove if you don't live in china or don't use/plan to use this carrier. Often present on ROMs and devices outside of China.
+  id: android.ui.overlay.ct
+  removal: caution
+

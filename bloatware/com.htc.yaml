@@ -1,7 +1,13 @@
 ---
 - description: HTC Lockscreen Theme.
   id: com.htc.masthead
-  removal: advanced
+  removal: caution
 - description: HTC Weather
   id: com.htc.weather
-  removal: advanced
+  removal: caution
+- description: |-
+    BV Family
+    Blackiew's application for access to their store, website, feedback and other things. Can track like a browser.
+  id: com.htc.blackviewhome
+  removal: safe
+

@@ -1,0 +1,139 @@
+- description: |-
+    Hi Doki
+  id: com.blackview.ai.doki
+  removal: safe
+
+- description: |-
+    ImageX
+  id: com.blackview.ai.imagex
+  removal: safe
+
+- description: |-
+    Soundle
+  id: com.blackview.ai.soundle
+  removal: safe
+
+- description: |-
+    VidGen
+  id: com.blackview.ai.vidgen
+  removal: safe
+
+- description: |-
+    System Message
+    Adware, sends unwanted promotional notifications.
+    Try disabling instead of uninstalling in case that breaks the App info Settings page.
+    https://www.reddit.com/r/blackview/comments/1mo441x/get_rid_of_system_notification_that_contains_ads/
+  id: com.blackview.apkupgrade
+  removal: caution
+
+- description: |-
+    Rec. Apps
+    This adware provides a widget that allows you to install sponsored apps like Temu. Can be disabled via Settings.
+  id: com.blackview.app.cloudfolder
+  removal: safe
+
+- description: |-
+    AppsEdge
+  id: com.blackview.appsedge
+  removal: safe
+
+- description: |-
+    SmartArt
+    Provides AI slop wallpapers, mobile games and news to Blackview devices. Can be disabled via Settings.
+    https://www.blackview.hk/privacy
+    https://www.virustotal.com/gui/file-analysis/YTg5NWU0ZTVkNzFiMDk4NjliZjdlNWQ0NjNjNDk5Yjk6MTc2MjAwNTk1OA==
+  id: com.blackview.artorial.client
+  removal: safe
+
+- description: |-
+    cplog
+  id: com.blackview.cplog
+  removal: safe
+
+- description: |-
+    DKGame Center
+  id: com.blackview.dokegamecenter
+  removal: safe
+
+- description: |-
+    EasyShare
+  id: com.blackview.easytrans
+  removal: safe
+
+- description: |-
+    Moving Assistant/Data Migration Assistant
+    App used to transfer data from one device to another.
+    WARNING: Uninstalling it breaks the App info Settings page on Android 15, Blackview Tab 60 WiFi.
+    Try disabling instead of uninstalling in case that happens.
+  id: com.blackview.filetrans
+  removal: caution
+
+- description: |-
+    Cold Room
+  id: com.blackview.frozenapp
+  removal: safe
+
+- description: |-
+    Game mode
+  id: com.blackview.gamemode
+  removal: safe
+
+- description: |-
+    DKHelper
+    Try disabling instead of uninstalling in case that breaks the App info Settings page.
+  id: com.blackview.helper
+  removal: caution
+
+- description: |-
+    BvLauncher
+    Blackview's launcher app.
+    DON'T REMOVE IF YOU HAVEN'T INSTALLED ANOTHER LAUNCHER!
+    https://www.blackview.hk/privacy
+  id: com.blackview.launcher
+  removal: risky
+
+- description: |-
+    Notebook
+  id: com.blackview.note
+  removal: safe
+
+- description: |-
+    Search Centre
+    Can be disabled via Settings.
+  id: com.blackview.searchcenter
+  removal: safe
+
+- description: |-
+    Surfline
+    Backview's Safari ripoff with ads. They didn't even bother to remove Chrome, probably because they knew you won't use it. Can be disabled via Settings.
+    https://www.blackview.hk/privacy
+  id: com.blackview.surfline
+  removal: safe
+
+- description: |-
+    'System Manager'
+    A pre-installed 'task killer', which ironically slows down the system. It also has internet and install apps permisions by default, making it a potential backdoor.
+    Although 'systemmanager' might sound important, disabling it will significantly reduce scroll stuttering. Try disabling instead of uninstalling in case that breaks the App info Settings page.
+  id: com.blackview.systemmanager
+  removal: caution
+
+- description: |-
+    User's Manual
+  id: com.blackview.useguide
+  removal: safe
+
+- description: |-
+    User feedback
+    Requires agreeing to a Privacy Policy (that allows Blackview to sell your location to data brokers) to send feedback to Blackview. Can be disabled via Settings.
+    https://www.blackview.hk/privacy
+    https://www.virustotal.com/gui/file-analysis/NWNjODQ4OWEwZjU5MzkzZTFmN2MxNjkwMzcyZTExNjc6MTc2MjAwNzkxNQ==
+  id: com.blackview.userfeedback
+  removal: safe
+
+- description: |-
+    Weather
+    Blackview's weather app. Can be disabled via Settings.
+    https://www.blackview.hk/privacy
+  id: com.blackview.weather
+  removal: safe
+

@@ -1,4 +1,4 @@
 ---
 - description: Chinese know.
   id: com.zhihu.android
-  removal: recommended
+  removal: safe

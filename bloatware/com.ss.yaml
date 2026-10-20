@@ -1,7 +1,7 @@
 ---
 - description: Chinese app NEWS Toutiao.
   id: com.ss.android.article.news
-  removal: recommended
+  removal: safe
 - description: Chinese TikTok.
   id: com.ss.android.ugc.aweme
-  removal: recommended
+  removal: safe

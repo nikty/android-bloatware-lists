@@ -1,0 +1,5 @@
+- description: |-
+    App called XRZWebExport on the Bigme HiBreak Pro. Does not show up in the app list when enabled.
+  id: com.b300.xrz.web
+  removal: safe
+

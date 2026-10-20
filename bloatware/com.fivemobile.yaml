@@ -1,0 +1,6 @@
+- description: |-
+    App for managing your Rogers account.
+    Rogers violates section F.1 of Canada's Wireless Code, they refuse to unlock devices sold before December 1, 2017, even if it doesn't affect you, don't support practices like this! Switch to another carrier (such as Telus) if possible.
+  id: com.fivemobile.myaccount
+  removal: safe
+

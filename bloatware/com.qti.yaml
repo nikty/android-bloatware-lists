@@ -3,26 +3,26 @@
     Backup Agent
     hidden app for chinese phones backups SMS,MMS,Contacts
   id: com.qti.backupagent
-  removal: recommended
+  removal: safe
 - description: |-
     Conference call service for digital signal (SIP/VoIP).
     it's hidden and no one uses it.
   id: com.qti.confuridialer
-  removal: recommended
+  removal: safe
 - description: |-
     I found only: DCF Allows an application to share content using Bluetooth.
     The application is only allowed to broadcast the content as it already has access to remote devices. These things are not available for users.
     Qualcomm only said these things, but where is the code?
     This app is without code so it's safe to remove.
   id: com.qti.dcf
-  removal: recommended
+  removal: safe
 - description: |-
     Starts process when plugged into a PC (with debugging on, haven't tried off) and then runs until stopped.
     Diagnostic services Presumably tests to collect hardware data.
     size of this package is 12 KB and have Diag_OnBoot, QTIDiagServices
     have permission: RECEIVE_BOOT_COMPLETED
   id: com.qti.diagservices
-  removal: recommended
+  removal: safe
 - description: |-
     Data Power Manager for the radio?
     Used to improve energy efficiency?
@@ -30,27 +30,27 @@
     dpm hal server, read procid
     it's still unknown.
   id: com.qti.dpmserviceapp
-  removal: expert
+  removal: risky
 - description: |-
     LTE Broadcast Manager
     Runs on boot, but not in the background beyond that.
   id: com.qti.ltebc
-  removal: advanced
+  removal: caution
 - description: 'Has powersaving things, device idle mode changer to screen on/off.'
   id: com.qti.pasrservice
-  removal: expert
+  removal: risky
 - description: |-
     dialer, dialing service, for phone calls.
     Has IMS things, optimizations?, its weird that calling works after remove, has code related to 'com.qualcomm.qcrilmsgtunnel',
     China Mobile Communications Corporation(China Mobile) SIM card things.
   id: com.qti.phone
-  removal: expert
+  removal: risky
 - description: "it's for powersaving? have more debugging stuff than powersaving."
   id: com.qti.powermodule
-  removal: expert
+  removal: risky
 - description: 'Sim card things about detected or switching, some chinese phones uses qualcomm names apps instead of normal'
   id: com.qti.primarycardcontroller
-  removal: unsafe
+  removal: critical
 - description: |-
     QCC
     Have a lot of stuff about logs, testing framework for Android with Robolectric, LTE Broadcast.
@@ -58,43 +58,48 @@
     Have png file qdma = Qualcomm Device Management and Analytics.
     So it's only spyware.
   id: com.qti.qcc
-  removal: recommended
+  removal: safe
 - description: |-
     Sends you a message when you reach a specified data limit?
     Contains a service, but I've never it run. But I've also never run out of data or used the Android data warning system. WARNING: on HyperOS, disabling this package results in the mobile networks section to break as well as SIMs showing no service.
   id: com.qti.qualcomm.datastatusnotification
-  removal: expert
+  removal: risky
 - description: |-
     Device Info
     Hidden device info activity not available for users.
     it's safe to remove and you will not lose device info in settings.
   id: com.qti.qualcomm.deviceinfo
-  removal: recommended
+  removal: safe
 - description: 'Useless network statistics, package usage.'
   id: com.qti.qualcomm.mstatssystemservice
-  removal: recommended
+  removal: safe
 - description: |-
     Allows the application to directly affect the device's display paramter.
     Well I only know the no one app uses it.
   id: com.qti.service.colorservice
-  removal: recommended
+  removal: safe
 - description: |-
     Service Level Agreement (SLA) protocol that analyzes network performance, quality of service, 
     and provides users with various parameters of network quality of service, 
     such as: jitter delay, file transfer rate, TCP latency. BUT it's placebo.
     uses permission com.miui.analytics.onetrack.TRACK_EVENT also have a lot chinese stuff.
   id: com.qti.slaservice
-  removal: recommended
+  removal: safe
 - description: |-
     Qualcomm Display Color Management tool
     Attempts to "make colors look vibrant and true to life". No idea if it actually does something useful or if it's only some garbage dynamic color tuning (they tend to destroy colors).
     Contains a service, but I've never seen it run on my Oneplus 9. Could be tied to color "improvement" settings in Settings->Display (all of which are off for me).
   id: com.qti.snapdragon.qdcm_ff
-  removal: recommended
+  removal: safe
 - description: |
     Smart-Divert
     If enabled, diverts your calls to another number.
     You can choose to divert all calls, divert on no reply or divert when the line is busy.
     Where can you enable/disable this feature? 
   id: com.qti.xdivert
-  removal: recommended
+  removal: safe
+- description: |-
+    Seems to be linked with Verizon internal tests but many sources including XDA developers suggest getting rid
+  id: com.qti.vzw.ims.internal.tests
+  removal: risky
+

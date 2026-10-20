@@ -1,0 +1,8 @@
+- description: |-
+    Torque Launcher
+    Default launcher for BlueStacks. Has ads.
+    DON'T REMOVE IF YOU HAVEN'T INSTALLED ANOTHER LAUNCHER!
+    https://play.google.com/store/apps/details?id=com.uncube.launcher3&hl=en-US
+  id: com.uncube.launcher3
+  removal: risky
+

@@ -2,4 +2,4 @@
 - description: |
     ShareChat (https://play.google.com/store/apps/details?id=in.mohalla.sharechat)
   id: in.mohalla.sharechat
-  removal: recommended
+  removal: safe

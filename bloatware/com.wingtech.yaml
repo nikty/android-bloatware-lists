@@ -1,15 +1,15 @@
 ---
 - description: 'Cit App to show Battery info, Secret Code:6485'
   id: com.wingtech.catchlog
-  removal: recommended
+  removal: safe
 - description: |-
     SarTest
     Secret code: 332.
   id: com.wingtech.sartest
-  removal: recommended
+  removal: safe
 - description: Stability Test. Tests hardware things.
   id: com.wingtech.stability
-  removal: recommended
+  removal: safe
 - description: |
     WTStandardTest
     Wingtech is a chinese Original Design Manufacturer (ODM) involved in the manufacturing of Xiaomi devices.
@@ -17,4 +17,4 @@
     you don't need as an end-user.
     Can someone share the apk just to be 100% sure?
   id: com.wingtech.standard
-  removal: recommended
+  removal: safe

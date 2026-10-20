@@ -1,0 +1,7 @@
+- description: |-
+    FactoryApp
+    OEM hardware diagnostic tool for manufacturing/service testing (camera, Bluetooth, WiFi, FM radio, telephony, battery, flashlight). Requires broad system permissions (reboot, audio/phone mods, secure settings).
+    Not for end-users; safe to remove to reduce bloat.
+  id: com.val.hardware
+  removal: safe
+

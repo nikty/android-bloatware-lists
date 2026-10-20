@@ -5,7 +5,7 @@
     https://github.com/seek-for-android/pool/wiki/SmartcardAPI
     Safe to remove if you think you don't need this
   id: org.simalliance.openmobileapi.service
-  removal: advanced
+  removal: caution
 - description: |
     Open Mobile API ("interface") to access UICC secure elements
     UICC stands for Universal Integrated Circuit Card.
@@ -16,7 +16,7 @@
     Note2: The term SIM is widely used in the industry and especially with consumers to mean both SIMs and UICCs.
     https://www.justaskgemalto.com/us/what-uicc-and-how-it-different-sim-card/
   id: org.simalliance.openmobileapi.uicc1terminal
-  removal: advanced
+  removal: caution
 - description: |
     Open Mobile API ("interface") to access UICC secure elements 
     UICC stands for Universal Integrated Circuit Card.
@@ -27,4 +27,9 @@
     Note2: The term SIM is widely used in the industry and especially with consumers to mean both SIMs and UICCs.
     https://www.justaskgemalto.com/us/what-uicc-and-how-it-different-sim-card/
   id: org.simalliance.openmobileapi.uicc2terminal
-  removal: advanced
+  removal: caution
+- description: |-
+    Needed for NFC payments (e.g. Google Wallet) on older Android versions.
+  id: org.simalliance.openmobileapi.eseterminal
+  removal: caution
+

@@ -2,4 +2,4 @@
 - description: |
     An accessibility feature for visually impaired people
   id: com.bjbyhd.screenreader_huawei
-  removal: recommended
+  removal: safe

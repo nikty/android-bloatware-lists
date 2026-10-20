@@ -1,0 +1,5 @@
+- description: |-
+    Jewels Blast. A causal game pre-installed on Xiaomi Poco devices.
+  id: com.jewelsblast.ivygames.Adventure.free
+  removal: safe
+

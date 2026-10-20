@@ -4,4 +4,4 @@
     RROs can be enabled or disabled. You can programmatically set the enable/disable state to toggle an RRO's ability to change resource values. RROs are disabled by default (however, static RROs are enabled by default).
     https://source.android.com/docs/core/runtime/rros
   id: android.framework.res.rro.oneplus
-  removal: expert
+  removal: risky

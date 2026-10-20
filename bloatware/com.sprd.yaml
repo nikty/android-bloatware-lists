@@ -1,65 +1,87 @@
 ---
 - description: 'Needed for IMS, WiFi Calling.'
   id: com.sprd.ImsConnectionManager
-  removal: expert
+  removal: risky
 - description: |-
     AutoSLT
     Useless camera tests.
   id: com.sprd.autoslt
-  removal: recommended
+  removal: safe
 - description: 'Camera calibration, tests.'
   id: com.sprd.cameracalibration
-  removal: recommended
+  removal: safe
 - description: 'Secret code: 83785. CameraIPControl, has some camera features for testing.'
   id: com.sprd.cameraipcontrol
-  removal: recommended
+  removal: safe
 - description: Hidden camera dump logs.
   id: com.sprd.camta
-  removal: recommended
+  removal: safe
 - description: Testing Hardware Components
   id: com.sprd.engineermode
-  removal: recommended
+  removal: safe
 - description: Blacklist Calls.
   id: com.sprd.firewall
-  removal: advanced
+  removal: caution
 - description: 'Flashlight Control, not sure how useful it is.'
   id: com.sprd.flashcontrol
-  removal: advanced
+  removal: caution
 - description: "For WiFi speed? Has useless logs. I ran a speed test with it enabled and disabled, I don't see anything different if not my internet is slightly better now along with other apps being disabled,"
   id: com.sprd.linkturbo
-  removal: recommended
+  removal: safe
 - description: |-
     YLog
     Hidden logs
   id: com.sprd.logmanager
-  removal: recommended
+  removal: safe
 - description: OTA Config and Settings.
   id: com.sprd.omacp
-  removal: expert
+  removal: risky
 - description: Overlay to 'com.sprd.sprdnote' png icons.
   id: com.sprd.overlay.sprdnote
-  removal: advanced
+  removal: caution
 - description: |-
     Photos Types Storage
     Bokeh, portrait, FDR, AI photo.
   id: com.sprd.providers.photos
-  removal: advanced
+  removal: caution
 - description: |-
     camera agent
     Another app for testing camera things.
   id: com.sprd.quickcamera
-  removal: recommended
+  removal: safe
 - description: Hidden logs in code only.
   id: com.sprd.srmi
-  removal: recommended
+  removal: safe
 - description: |-
     UserAgent Setting
     UserAgent Setting? Useless frameworks.
   id: com.sprd.uasetting
-  removal: recommended
+  removal: safe
 - description: 'Set UPLMN? Useless frameworks.'
   id: com.sprd.uplmnsettings
-  removal: recommended
+  removal: safe
 - description: Hidden testing hardware and it has a lot of secret codes.
   id: com.sprd.validationtools
-  removal: recommended
+  removal: safe
+- description: |-
+    Unisoc's hidden aging test. Uninstalling it doesn't seem to break anything for Android 10 GO, S21 Plus 2021_EEA.
+  id: com.sprd
+  removal: safe
+
+- description: |-
+    PowerSaveModeLauncher
+    Unisoc's default home app/launcher for Ultra saving mode connects to the internet. May oddly appear as disabled to UADng and NetGuard.
+    https://www.virustotal.com/gui/file/787a4de0bc440c62bde9bf913c6f9ba188307d850e1ee6fb575ad62950cfbdc1
+  id: com.sprd.powersavemodelauncher
+  removal: critical
+
+- description: |-
+    RuntimeTest
+  id: com.sprd.runtime
+  removal: safe
+
+- description: |-
+    Another update app by Zhantang, this one seems to provide updates unlike other app com.redstone.ota.ui, which is a dropper. Removing it after your update support ends is probably the safest option.
+  id: com.sprd.systemupdate
+  removal: caution
+

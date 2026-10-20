@@ -3,7 +3,7 @@
     Gallery
     Stock Gallery app
   id: com.tclhz.gallery
-  removal: advanced
+  removal: caution
 - description: ''
   id: com.tclhz.gallery.a_overlay
-  removal: expert
+  removal: risky

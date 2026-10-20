@@ -1,4 +1,12 @@
 ---
 - description: Apple Tv app on android Tv. Can be removed without any problem
   id: com.apple.atve.sony.appletv
-  removal: recommended
+  removal: safe
+- description: |-
+    Apple TV
+    Factory-installed Apple TV app. Reverts to factory-version when uninstalled by normal means.
+    (Shipped with Philips Android TVs, but may be present on other devices as well.)
+    https://play.google.com/store/apps/details?id=com.apple.atve.androidtv.appletv
+  id: com.apple.atve.androidtv.appletv
+  removal: safe
+

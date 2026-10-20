@@ -1,0 +1,56 @@
+- description: |-
+    Wrapper around ChatGPT used on Bigme HiBreak Pro.
+  id: com.xrz.ai
+  removal: safe
+
+- description: |-
+    Chinese book store on the Bigme HiBreak Pro.
+  id: com.xrz.bookmall
+  removal: safe
+
+- description: |-
+    App that collects epub files and other documents to read on the Bigme HiBreak Pro.
+    Can work together with xReader to act as a libary.
+  id: com.xrz.bookself
+  removal: safe
+
+- description: |-
+    Translator on the Bigme HiBreak Pro.
+  id: com.xrz.btranslate
+  removal: safe
+
+- description: |-
+    Dictionary provided on the Bigme HiBreak Pro (XDict). Requires to download the dictionaries manually in the app's settings.
+  id: com.xrz.dictapp
+  removal: safe
+
+- description: |-
+    xReader, used by Bigme HiBreak Pro. In the state of my phone, this app crashes and does not provide useful functionality.
+  id: com.xrz.ebook
+  removal: safe
+
+- description: |-
+    Document scan app on the Bigme HiBreak Pro. Does not show up in the app list.
+  id: com.xrz.scandoc
+  removal: safe
+
+- description: |-
+    Voice Recorder app on the Bigme HiBreak Pro.
+  id: com.xrz.soundrecord
+  removal: safe
+
+- description: |-
+    Video player of the Bigme HiBreak Pro.
+  id: com.xrz.video
+  removal: safe
+
+- description: |-
+    Bigme HiBreak Pro app that doesn't show up in the app list. Likely used as voice to text application. Installed as the DaWoYuJi.apk.
+  id: com.xrz.voice.text
+  removal: safe
+
+- description: |-
+    eBook reader app used on the Bigme HiBreak Pro.
+  id: com.xrz.xreaderV3
+  removal: safe
+

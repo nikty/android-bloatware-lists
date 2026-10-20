@@ -1,0 +1,5 @@
+- description: |-
+    Pre-installed parental control bloatware with ads. (https://play.google.com/store/apps/details?id=com.sencatech.iwawa.iwawahome)
+  id: com.sencatech.iwawa.iwawahome
+  removal: safe
+

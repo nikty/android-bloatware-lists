@@ -1,0 +1,5 @@
+- description: |-
+    Purpose of this app is completely unknown, but it eats battery and data and is safe to remove.
+  id: service.odtcfactory.sec.com.odtcfactoryservice
+  removal: safe
+

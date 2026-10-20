@@ -1,4 +1,9 @@
 ---
 - description: Another fingerprint sensor test tool but Chinese.
   id: com.focaltech.fingerprint
-  removal: recommended
+  removal: safe
+- description: |-
+    Related to `com.focaltech.fingerprint`. Seems like a debugging activity triggered by dialing an MMI code
+  id: com.focaltech.fpsensormmitest
+  removal: safe
+

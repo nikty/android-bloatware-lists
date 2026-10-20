@@ -1,4 +1,9 @@
 ---
 - description: Looks like useless BUT you risk bootloop phone.
   id: android.ext.services
-  removal: unsafe
+  removal: critical
+- description: |-
+    Android Shared Library, removing may cause a bootloop.
+  id: android.ext.shared
+  removal: critical
+

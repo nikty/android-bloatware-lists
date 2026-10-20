@@ -4,4 +4,4 @@
     Language Updater from site http://samsungresources.visionobjects.com/
     But it's tracker. I guess it's to Handwriting Service but not needed.
   id: com.visionobjects.resourcemanager
-  removal: recommended
+  removal: safe

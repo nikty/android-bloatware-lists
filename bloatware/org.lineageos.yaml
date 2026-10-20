@@ -1,0 +1,52 @@
+- description: |-
+    LineageOS Camera App.
+    Safe to remove if you've replaced it with another app.
+    Otherwise there will be no camera app on your device.
+  id: org.lineageos.aperture
+  removal: caution
+
+- description: |-
+    LineageOS PDF Viewer App.
+    Safe to remove if you don't need it or have replaced it with another app.
+  id: org.lineageos.camelot
+  removal: safe
+
+- description: |-
+    LineageOS Calendar App.
+    Safe to remove if you've replaced it with another app.
+    Otherwise there will be no calendar app on your device.
+  id: org.lineageos.etar
+  removal: caution
+
+- description: |-
+    LineageOS Gallery App.
+    Safe to remove if you've replaced it with another app.
+    Otherwise there will be no gallery app on your device.
+  id: org.lineageos.glimpse
+  removal: caution
+
+- description: |-
+    LineageOS Browser App, based on chromium.
+    Safe to remove if you don't need it or have replaced it with another app.
+    Otherwise there will be no browser app on your device.
+  id: org.lineageos.jelly
+  removal: safe
+
+- description: |-
+    LineageOS Voice Recorder App.
+    Safe to remove if you don't need it or have replaced it with another app.
+  id: org.lineageos.recorder
+  removal: safe
+
+- description: |-
+    LineageOS Music App.
+    Safe to remove if you don't need it or have replaced it with another app.
+  id: org.lineageos.twelve
+  removal: safe
+
+- description: |-
+    Waydroid Updater
+    https://www.virustotal.com/gui/file/543f8eb038c052c4a00a6f3fdda026f2cec327a435c81f62d8738412c748510b/details
+  id: org.lineageos.waydroidupdater
+  removal: risky
+

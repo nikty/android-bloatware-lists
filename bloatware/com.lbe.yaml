@@ -3,9 +3,9 @@
     Permission manager
     Lets you monitor apps permission requests.
   id: com.lbe.security.miui
-  removal: unsafe
+  removal: critical
 - description: |-
     Something about WiFi calling "vowifi", "volte", "notification on keyguard"
     It's unused.
   id: com.lbe.security.miui.customizedregion.overlay
-  removal: recommended
+  removal: safe

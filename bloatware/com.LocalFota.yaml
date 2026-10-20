@@ -1,0 +1,5 @@
+- description: |-
+    Required to install OTA updates on older Samsung devices.
+  id: com.LocalFota
+  removal: caution
+

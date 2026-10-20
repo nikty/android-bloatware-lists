@@ -1,25 +1,142 @@
 ---
 - description: Docomo Application Manager
   id: com.nttdocomo.android.applicationmanager
-  removal: recommended
+  removal: safe
 - description: Docomo Launcher
   id: com.nttdocomo.android.dhome
-  removal: advanced
+  removal: caution
 - description: 'FeliCa Remote security things, not needed'
   id: com.nttdocomo.android.felicaremotelock
-  removal: recommended
+  removal: safe
 - description: Diagnostics things only in this japanese app
   id: com.nttdocomo.android.iconcier_contents
-  removal: recommended
+  removal: safe
 - description: Docomo Initialization app
   id: com.nttdocomo.android.initialization
-  removal: recommended
+  removal: safe
 - description: |-
     rwpushcontroller
     Another FeliCa Networks app, with japanese language
     Useless frameworks
   id: com.nttdocomo.android.rwpushcontroller
-  removal: recommended
+  removal: safe
 - description: Docomo App Market
   id: com.nttdocomo.android.store
-  removal: recommended
+  removal: safe
+- description: |-
+    Likely a placeholder for docomo's corporate MDM service. Empty package and disabled by default on consumer devices.
+  id: com.nttdocomo.android.anmane2
+  removal: safe
+
+- description: |-
+    Anshin-security (https://www.docomo.ne.jp/service/anshin_security/)
+    docomo's security suite providing virus scanning, spam call/email prevention and so on.
+    Safe to remove, but you may want to check https://mydocomo.docomo.ne.jp for subscriptions. Frequently bundled with device insurance service.
+  id: com.nttdocomo.android.anshinsecurity
+  removal: safe
+
+- description: |-
+    APN switching control
+    Resource-only stub. Safe to remove.
+    May potentially cause tethering issues on legacy (pre-2016) models due to docomo's APN-switching requirements?
+  id: com.nttdocomo.android.apnsw
+  removal: safe
+
+- description: |-
+    Backup feature for application of docomo's service, mainly provides schedule/memo's cloud sync function.
+  id: com.nttdocomo.android.databackup
+  removal: safe
+
+- description: |-
+    Recommended usage tips
+    Intrusive. Provide "helpful hints" based on user activity, but behaving like adware by showing frequent pop-ups.
+    Requires high-level permissions such as Accessibility and "Draw over other apps" (overlay) to monitor user actions.
+    It's not enabled by default, but uninstalling recommended for a cleaner, more private experience.
+  id: com.nttdocomo.android.devicehelp
+  removal: safe
+
+- description: |-
+    d-menu
+    Web page shortcut and notification receiver.
+  id: com.nttdocomo.android.dmenu2
+  removal: safe
+
+- description: |-
+    docomo service/cloud Settings
+    Adds a "docomo service/cloud" entry to the system Settings app. Simple navigation screen providing entry points to docomo-specific app settings, such as d-account and docomo application manager.
+    Essential for launching d-account settings.
+    Safe to remove if you don't use any docomo service.
+  id: com.nttdocomo.android.docomoset
+  removal: caution
+
+- description: |-
+    docomo LIVE UX
+    docomo's default home screen (launcher).
+    Safe to remove ONLY IF another launcher is installed. Certain devices such as dtab may not have any other home screen apps preinstalled.
+    docomo application manager (com.nttdocomo.android.applicationmanager) must be installed to use this.
+  id: com.nttdocomo.android.homezozo
+  removal: caution
+
+- description: |-
+    d ACCOUNT Settings
+    Account Settings for d-account, includes an authentication component for other docomo apps.
+    Safe to remove if you don't use any docomo services, but ensure you check your login method as you may need this app for two-step authentication when logging in from other devices.
+  id: com.nttdocomo.android.idmanager
+  removal: caution
+
+- description: |-
+    my daiz (https://www.docomo.ne.jp/service/mydaiz/)
+    docomo's information (e.g. weather, news) app. Also displays a mascot (looks like tofu) on docomo LIVE UX. Requires lots of permissions.
+  id: com.nttdocomo.android.mascot
+  removal: safe
+
+- description: |-
+    +Message
+    A messaging app using a carrier-customized RCS implementation by Softbank, au, and docomo. It adds LINE-like features to the standard SMS/RCS.
+    Safe to remove, but recommended to have an alternative SMS app for OTPs.
+    Google Messages is a simpler and more standard alternative.
+  id: com.nttdocomo.android.msg
+  removal: safe
+
+- description: |-
+    SmartNews for docomo
+    News app. Special version of SmartNews for docomo user.
+  id: com.nttdocomo.android.mymagazine
+  removal: safe
+
+- description: |-
+    Office Link Settings
+    Provides "Office Link" service (docomo's enterprise internal line service). Typically accessed through the settings menu of the OEM Phone app.
+    Safe to remove.
+  id: com.nttdocomo.android.networkservice
+  removal: safe
+
+- description: |-
+    A background platform service that manages docomo's proprietary IP push notification system.
+    Safe to remove if you don't need to receive docomo's service notifications.
+  id: com.nttdocomo.android.pf.dcmippushaggregator
+  removal: safe
+
+- description: |-
+    Omakase-lock (https://www.docomo.ne.jp/service/lock/)
+    Remote device lock service. Allows docomo customer support to lock your device upon request.
+    Safe to remove. Google's "Find Hub" are better-integrated alternatives including NFC (=FeliCa) remote lock.
+    NOTE: To uninstall this, open settings > App permission > Special app access > Device admin apps and disable this app (May vary depending on your device).
+    For FeliCa remote lock, a separate package (com.nttdocomo.android.felicaremotelock) is used.
+  id: com.nttdocomo.android.remotelock
+  removal: safe
+
+- description: |-
+    Schedule & Memo
+    2 different apps in one package; docomo's schedule and memo apps.
+  id: com.nttdocomo.android.schedulememo
+  removal: safe
+
+- description: |-
+    Remote Wipe (https://www.docomo.ne.jp/service/initialization/)
+    Allows docomo customer support to wipe your device upon request. This does NOT clear data inside the FeliCa chip.
+    Safe to remove. Google's "Find Hub" or oem provided services are better-integrated alternatives.
+    NOTE: To uninstall this, open settings > App permission > Special app access > Device admin apps and disable this app (May vary depending on your device).
+  id: com.nttdocomo.android.wipe
+  removal: safe
+

@@ -3,56 +3,56 @@
     Orange Manual Selector
     Makes unnecessary notifications
   id: com.orange.aura.oobe
-  removal: recommended
+  removal: safe
 - description: |
     Mail Orange (https://play.google.com/store/apps/details?id=com.orange.mail.fr)
   id: com.orange.mail.fr
-  removal: recommended
+  removal: safe
 - description: |
     Lets you access to your Orange account
   id: com.orange.miorange
-  removal: recommended
+  removal: safe
 - description: |
     Ma Livebox (https://play.google.com/store/apps/details?id=com.orange.mylivebox.fr)
     Lets you manage your livebox from your phone.
   id: com.orange.mylivebox.fr
-  removal: recommended
+  removal: safe
 - description: |
     My Sosh (https://play.google.com/store/apps/details?id=com.orange.mysosh)
     Lets you access to your Sosh account
   id: com.orange.mysosh
-  removal: recommended
+  removal: safe
 - description: |
     Orange Et Moi (https://play.google.com/store/apps/details?id=com.orange.orangeetmoi)
     Orange customer space
   id: com.orange.orangeetmoi
-  removal: recommended
+  removal: safe
 - description: |
     TV d'Orange (https://play.google.com/store/apps/details?id=com.orange.owtv)
     Lets you watch TV/VOD on your phone.
   id: com.orange.owtv
-  removal: recommended
+  removal: safe
 - description: |
     Transfert de données (https://play.google.com/store/apps/details?id=com.orange.tdd)
     Lets you transfer wirelessly: contacts, SMS, call log, calendar, photos, videos, audio files, etc., all from your old Android
   id: com.orange.tdd
-  removal: recommended
+  removal: safe
 - description: |
     Handles Orange apps updates.
   id: com.orange.update
-  removal: recommended
+  removal: safe
 - description: |
     Obviously related to update...
   id: com.orange.update.OrangeUpdateApplication
-  removal: recommended
+  removal: safe
 - description: |
     Messagerie vocale visuelle (https://play.google.com/store/apps/details?id=com.orange.vvm)
     Lets you manage your voicemail with an app.
   id: com.orange.vvm
-  removal: recommended
+  removal: safe
 - description: |
     Mon Réseau (https://play.google.com/store/apps/details?id=com.orange.wifiorange)
     Lets you measure your speed connection and find better Orange wifi hotspots.
     Informs you also about near network incidents.
   id: com.orange.wifiorange
-  removal: recommended
+  removal: safe

@@ -2,15 +2,15 @@
 - description: |
     Netflix app (https://play.google.com/store/apps/details?id=com.netflix.mediaclient)
   id: com.netflix.mediaclient
-  removal: recommended
+  removal: safe
 - description: |-
     Netflix app
     https://play.google.com/store/apps/details?id=com.netflix.ninja&hl=en_US
   id: com.netflix.ninja
-  removal: recommended
+  removal: safe
 - description: |-
     Apk file name: By_3rd_NetflixActivationOverSeas
     Some form of activation of Netflix account, subscription or app? Might be what puts the Netflix app icon on the homescreen. Not sure.
     Netflix app works without this.
   id: com.netflix.partner.activation
-  removal: recommended
+  removal: safe

@@ -2,7 +2,12 @@
 - description: |
     Legacy Hancom Office Editor (Korean alternative to Microsoft Office). Featured in Samsung and LG phones
   id: com.hancom.office.editor.hidden
-  removal: recommended
+  removal: safe
 - description: (discontinued) old Hancom Office Viewer
   id: com.hancom.office.viewer
-  removal: recommended
+  removal: safe
+- description: |-
+    Proprietary office suite, primarly targeted towards Korean users. This version, typically preinstalled on old Samsung devices, is no longer maintained
+  id: com.hancom.office.editor
+  removal: safe
+

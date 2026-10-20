@@ -1,4 +1,9 @@
 - id: ru.ivi.client
   description: IVI (online video streaming service)
-  removal: recommended
+  removal: safe
   
+- description: |-
+    Ivi, russian video service, preinstalled by russian law from 2019
+  id: ru.ivi.client
+  removal: safe
+

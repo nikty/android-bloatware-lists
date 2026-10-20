@@ -3,4 +3,4 @@
     ram test
     Hidden ram test. Tests ram size.
   id: com.hxy.ramtest
-  removal: recommended
+  removal: safe

@@ -2,4 +2,4 @@
 - description: |
     AVG Antivirus (https://play.google.com/store/apps/details?id=com.s.antivirus) for Sony Xperia.
   id: com.s.antivirus
-  removal: recommended
+  removal: safe

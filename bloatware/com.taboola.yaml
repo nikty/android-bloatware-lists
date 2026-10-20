@@ -1,4 +1,11 @@
 ---
 - description: 'Random wallpaper on lock screen (as i saw it personalizes it too). You need to open this app to make it work and when you swipe from right to left, it opens a menu on the right where random news appears.'
   id: com.taboola.scoop
-  removal: recommended
+  removal: safe
+- description: |-
+    Intrusive background module (Taboola) that keeps pushing a lock-screen stories feed — spam-ads and irrelevant articles (often from foreign/hostile sources).
+    Runs in background, uses data, nags user until it is enabled. No system function — safe to remove.
+    https://techissuestoday.com/motorola-lock-screen-ads-articles/
+  id: com.taboola.mip
+  removal: safe
+

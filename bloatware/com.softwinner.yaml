@@ -3,7 +3,12 @@
     File Manager of SoftWinner
     Can be disabled via system settings.
   id: com.softwinner.explore
-  removal: recommended
+  removal: safe
 - description: 'Possibly related to the firmware updater, since the updater has a similar name'
   id: com.softwinner.service
-  removal: advanced
+  removal: caution
+- description: |-
+    DragonAtt
+  id: com.softwinner.dragonatt
+  removal: safe
+

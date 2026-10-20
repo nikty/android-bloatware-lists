@@ -2,27 +2,27 @@
 - description: |
     Secure payment
   id: com.nearme.atlas
-  removal: recommended
+  removal: safe
 - description: |
     Default web browser
   id: com.nearme.browser
-  removal: recommended
+  removal: safe
 - description: Package needed by com.nearme.statistics.rom to run service in background at every boot even though the app has been uninstalled
   id: com.nearme.deamon
-  removal: recommended
+  removal: safe
 - description: |-
     Game Center
     Acts like QooApp that has a game forum, news, etc. Contains trackers.
   id: com.nearme.gamecenter
-  removal: recommended
+  removal: safe
 - description: A lot of tracking for demo game ads
   id: com.nearme.instant.platform
-  removal: recommended
+  removal: safe
 - description: |-
     Update Service
     Probably it's only for notifications. Anyway, better remove it if you want to remove updates too.
   id: com.nearme.romupdate
-  removal: expert
+  removal: risky
 - description: |-
     User Experience Program
      Collect user data and sends them to Oppo. Intrusive and starts at boot
@@ -32,11 +32,11 @@
     
     Pithus analysis: https://beta.pithus.org/report/5e06191ac6f8aefd39642f6341ee4897039815f5059dbe093a7bd2fe1e20c038
   id: com.nearme.statistics.rom
-  removal: recommended
+  removal: safe
 - description: Theme store
   id: com.nearme.themespace
-  removal: recommended
+  removal: safe
 - description: |
     Themes store
   id: com.nearme.themestore
-  removal: recommended
+  removal: safe

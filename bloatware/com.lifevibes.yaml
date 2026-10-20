@@ -1,0 +1,5 @@
+- description: |-
+    Video trimmer used by the default Samsung Gallery app on some older Samsung devices.
+  id: com.lifevibes.trimapp
+  removal: caution
+

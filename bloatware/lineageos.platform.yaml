@@ -1,0 +1,5 @@
+- description: |-
+    LineageOS System
+  id: lineageos.platform
+  removal: critical
+

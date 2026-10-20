@@ -1,0 +1,5 @@
+- description: |-
+    Allows to transfer files on the Bigme HiBreak Pro via Wi-Fi by exposing a web interface on the local network that you can access from another device on the same network.
+  id: com.ebook.wifitransferbook
+  removal: safe
+

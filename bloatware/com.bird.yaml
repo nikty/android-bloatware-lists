@@ -1,0 +1,5 @@
+- description: |-
+    The com.bird.motionrecognition package is likely related to motion recognition features on your device, such as gesture controls or other motion-based functionalities. This package may be specific to the OEM and provide unique functionalities not found in standard Android builds. While removing it might disable certain gesture or motion-based features, it should not impact core system functionalities.
+  id: com.bird.motionrecognition
+  removal: risky
+

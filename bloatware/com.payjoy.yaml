@@ -1,7 +1,7 @@
 ---
 - description: It's for lock device and probably safe mode.
   id: com.payjoy.access
-  removal: recommended
+  removal: safe
 - description: It's for lock device and probably safe mode.
   id: com.payjoy.permission
-  removal: recommended
+  removal: safe

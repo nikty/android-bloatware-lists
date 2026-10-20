@@ -3,23 +3,23 @@
     FingerprintExtensionService
     Needed for fingerprint sensor test.
   id: com.fingerprints.extension.service
-  removal: recommended
+  removal: safe
 - description: |-
     Sensor Test Tool
     Provides hidden fingerprint test menu. Type *#806# in OnePlus dialer to open.
   id: com.fingerprints.fingerprintsensortest
-  removal: recommended
+  removal: safe
 - description: Fingerprint test
   id: com.fingerprints.fpctest
-  removal: recommended
+  removal: safe
 - description: it's hidden image collection of fingerprint and sensor test.
   id: com.fingerprints.imagecollection
-  removal: recommended
+  removal: safe
 - description: |-
     Optical Test Tool
     Testing things.
   id: com.fingerprints.optical
-  removal: recommended
+  removal: safe
 - description: |
     Sensor Test Tool
     Hidden test app used to test working of the fingerprint sensors.
@@ -27,4 +27,9 @@
   removal: unknown
 - description: 'Fingerprint test, fingerprint authentication.'
   id: com.fingerprints.serviceext
-  removal: recommended
+  removal: safe
+- description: |-
+    Fido Alliance fingerprint. It is possible that ASM stands for Authentication Service Module/Application Security Module
+  id: com.fingerprints.fido.asm
+  removal: caution
+

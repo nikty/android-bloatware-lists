@@ -27,4 +27,4 @@
     Refers to the system package that handles secret codes.
     Secret codes are special sequences of numbers and symbols that can be entered on a phone's keypad to access hidden features or information.
   id: com.longcheertel.secretcode
-  removal: advanced
+  removal: caution

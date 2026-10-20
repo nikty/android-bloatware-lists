@@ -1,10 +1,10 @@
 ---
 - description: Verizon IMS service.
   id: com.shannon.imsservice
-  removal: advanced
+  removal: caution
 - description: 'Needed for RCS, IMS.'
   id: com.shannon.qualifiednetworksservice
-  removal: advanced
+  removal: caution
 - description: Verizon RCS service.
   id: com.shannon.rcsservice
-  removal: advanced
+  removal: caution

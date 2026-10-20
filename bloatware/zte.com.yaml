@@ -3,9 +3,9 @@
     Clock
     Stock ZTE Clock App
   id: zte.com.cn.alarmclock
-  removal: advanced
+  removal: caution
 - description: |-
     File Manager
     Stock File Manager
   id: zte.com.cn.filer
-  removal: advanced
+  removal: caution

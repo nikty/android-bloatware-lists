@@ -3,18 +3,18 @@
     FIDO UAF1.0 ASM
     Related to app fingerprint unlocking and payments. Safe to remove if you don't use password-less authentication to access online services.
   id: com.fido.asm
-  removal: advanced
+  removal: caution
 - description: |-
     FIDO UAF1.0 ASM
     Related to app fingerprint unlocking and payments. Safe to remove if you don't use passwordless authentication to access online services.
     'com.fido.asm' is the same app.
   id: com.fido.fido2client
-  removal: advanced
+  removal: caution
 - description: |-
     FIDO UAF1.0 Client
     Probably related to FIDO digital key gadget (Client), probably safe to remove if you don't have any.
   id: com.fido.uafclient
-  removal: advanced
+  removal: caution
 - description: |-
     UAF client for FIDO.
     Fido is a set of open technical specifications for mechanisms of authenticating users to online services that do not depend on passwords.
@@ -24,4 +24,4 @@
     https://developers.google.com/identity/fido/android/native-apps
     Safe to remove if you don't use password-less authentication to access online services.
   id: com.fido.xiaomi.uafclient
-  removal: advanced
+  removal: caution

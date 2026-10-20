@@ -5,4 +5,4 @@
     Sounds great, but it's closed source and "normal" devs can't use it for their apps.
     See "com.trustonic.tuiservice"
   id: com.gd.mobicore.pa
-  removal: advanced
+  removal: caution

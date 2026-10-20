@@ -1,0 +1,7 @@
+- description: |-
+    Red Bull TV
+    A 1 star streaming service owned by a company that sells electronic cigars and energy drinks to the youth. Can be uninstalled via Settings.
+    https://play.google.com/store/apps/details?id=com.nousguide.android.rbtv
+  id: com.nousguide.android.rbtv
+  removal: safe
+

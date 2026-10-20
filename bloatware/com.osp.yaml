@@ -6,4 +6,4 @@
     Settings app will crash if removed on Android 11/OneUI 3.0+ (https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/39)
     This issue happens only if you are running Android 11. If not, you can can (and should) remove this package!
   id: com.osp.app.signin
-  removal: advanced
+  removal: caution

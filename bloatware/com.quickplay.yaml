@@ -1,0 +1,5 @@
+- description: |-
+    App for watching your Bell Fibe TV on the go. Useless, especially if you don't use Bell. (https://play.google.com/store/apps/details?id=com.quickplay.android.bellmediaplayer). Note that Bell violates section F.1 of the Canadian Wireless Code by selling locked devices. If you use Bell, switch carriers if possible! Don't support lawbreaking companies.
+  id: com.quickplay.android.bellmediaplayer
+  removal: safe
+

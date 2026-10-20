@@ -1,0 +1,5 @@
+- description: |-
+    Completely empty package. Useless.
+  id: com.epson.mobilephone.samsungprintservice
+  removal: safe
+

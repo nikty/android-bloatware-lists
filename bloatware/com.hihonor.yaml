@@ -1,0 +1,540 @@
+- description: |-
+    Scrolling screenshot feature
+  id: com.hihonor.HnMultiScreenShot
+  removal: caution
+
+- description: |-
+    Assistant Basic Services
+    Seems to be a dependency of Honor Lens. Safe to remove.
+  id: com.hihonor.aipluginengine
+  removal: safe
+
+- description: |-
+    Air link service, it's probably needed for Wireless Projection.
+    No activities, only more debugging stuff, location things, logs
+  id: com.hihonor.airlink
+  removal: caution
+
+- description: |-
+    Floating/Navigation dock (also called NaviDot).
+    https://consumer.huawei.com/en/support/how-to/detail-troubleshooting/en-us00310067/
+  id: com.hihonor.android.FloatTasks
+  removal: safe
+
+- description: |-
+    HnChrService
+    Honor Call History Record.
+  id: com.hihonor.android.chr
+  removal: safe
+
+- description: |-
+    Honor's stock radio player. Remove if FM isn't relevant for you.
+  id: com.hihonor.android.fmradio
+  removal: safe
+
+- description: |-
+    HnAps
+    Manages Intelligent Resolution and changing screen resolution in settings.
+    Intelligent Resolution will be not available and changing screen resolution in settings.
+  id: com.hihonor.android.hnaps
+  removal: critical
+
+- description: |-
+    hnupgradeguide
+    it's guide menu at first start Honor App Market.
+  id: com.hihonor.android.hnupgradeguide
+  removal: safe
+
+- description: |-
+    Honor Share features.
+    File transfer tool between Honor mobiles, using Bluetooth connection and WiFi Direct technology.
+  id: com.hihonor.android.instantshare
+  removal: safe
+
+- description: |-
+    Component of Honor sharing
+    May break the sharing function in several applications (in particular, apps will crash).
+  id: com.hihonor.android.internal.app
+  removal: caution
+
+- description: |-
+    Honor launcher app.
+    It's basically the home screen, the way icons apps are organized and displayed.
+    DON'T REMOVE THIS IF YOU DIDN'T INSTALL ANOTHER LAUNCHER !
+    You will need this package for the recent apps feature to work, and will completely break the gestural navigation bar.
+  id: com.hihonor.android.launcher
+  removal: risky
+
+- description: |-
+    MirrorShare feature (Miracast rebranded by Honor)
+    Used to mirror screen of you smartphone on a TV.
+  id: com.hihonor.android.mirrorshare
+  removal: safe
+
+- description: |-
+    ProjectMenu
+    Hidden settings not available for users. ProjectMenu interface: phone *#*#2846579#*#*
+    https://www.99mediasector.com/open-project-menu-huawei-device-huawei-code/
+  id: com.hihonor.android.projectmenu
+  removal: safe
+
+- description: |-
+    Honor's Theme manager.
+    Disabling it will prevent you from changing themes.
+  id: com.hihonor.android.thememanager
+  removal: caution
+
+- description: |-
+    Wi-Fi Direct feature.
+    Note: Wifi direct enables devices to establish a direct Wi-Fi connection (without a router) over which the two can send and receive files.
+  id: com.hihonor.android.wfdft
+  removal: caution
+
+- description: |-
+    HONOR's App store.
+    Safe to remove.
+    NOTE: Installed apps via this store will no longer auto-update after removal.
+  id: com.hihonor.appmarket
+  removal: safe
+
+- description: |-
+    HnAssetSync
+    Needed for HiCloud, Cloud syncing.
+  id: com.hihonor.assetsync
+  removal: safe
+
+- description: |-
+    It's for 'com.hihonor.securityserver' for start this service app.
+    Needed for HiCloud sync security.
+  id: com.hihonor.assetsyncservice
+  removal: safe
+
+- description: |-
+    AI Suggestions
+    Didn't find any issues when removing it.
+  id: com.hihonor.assistant
+  removal: safe
+
+- description: |-
+    Auto Install apk from mcc
+    Auto Install apk from mcc? it's only information and logs.
+  id: com.hihonor.autoinstallapkfrommcc
+  removal: safe
+
+- description: |-
+    Dependency of YOYO Assistant and Honor AI ? Didn't notice anything when removed.
+  id: com.hihonor.awareness
+  removal: safe
+
+- description: |-
+    BehaviorAuth
+    It seems to be related to verifying the authenticity of user behavior and enhancing password security. User can disable it so it's safe to remove.
+    https://www.android-hilfe.de/forum/huawei-p30-p30-pro-p30-lite.3510/was-ist-die-behaviorauth-app-fuer-das-p30.1008750.html
+  id: com.hihonor.behaviorauth
+  removal: safe
+
+- description: |-
+    Contact import via blueooth on Honor devices, probably safe to remove if you don't plan using this function.
+  id: com.hihonor.bluetooth
+  removal: caution
+
+- description: |-
+    Honor Browser component.
+  id: com.hihonor.browserhomepage
+  removal: safe
+
+- description: |-
+    Honor's calculator app.
+    Safe to remove.
+  id: com.hihonor.calculator
+  removal: safe
+
+- description: |-
+    Honor's calendar app.
+    Safe to remove.
+  id: com.hihonor.calendar
+  removal: safe
+
+- description: |-
+    Safe to remove, but not recommended, as other camera apps are not much better than this one.
+  id: com.hihonor.camera
+  removal: caution
+
+- description: |-
+    HnCoAuthService
+    Applock, lockscreen password, face recognition things, fingerprint, not sure if it's worth removing it.
+    Needed for manual apk installation.
+  id: com.hihonor.coauthservice
+  removal: risky
+
+- description: |-
+    HONOR Favourites space.
+    Safe to remove if you're not using it.
+  id: com.hihonor.collectcenter
+  removal: safe
+
+- description: |-
+    Honor's compass app. Safe to remove.
+  id: com.hihonor.compass
+  removal: safe
+
+- description: |-
+    Honor's contacts app.
+    Safe to remove.
+  id: com.hihonor.contacts
+  removal: safe
+
+- description: |-
+    Huawei Contacts sync
+    My guess (can't have the apk on hand) is this enables you to synchronise your contacts with your Huawei account.
+  id: com.hihonor.contacts.sync
+  removal: safe
+
+- description: |-
+    DDMP
+    Has a lot frameworks.
+    Uninstalling breaks calling app even if you disable.
+    It does not cause bootloop but removing is highly not recommended.
+    Not only breaks the dialer app, but causes lag in whole system too.
+  id: com.hihonor.ddmp
+  removal: critical
+
+- description: |-
+    Honor Clock App.
+  id: com.hihonor.deskclock
+  removal: caution
+
+- description: |-
+    Honor Smart diagnosis (discontinued?)
+    Useless features and run in background.
+  id: com.hihonor.detectrepair
+  removal: safe
+
+- description: |-
+    TrustedDeviceAuth
+    I guess it's for authentication keys
+  id: com.hihonor.deviceauth
+  removal: caution
+
+- description: |-
+    Dual card management
+    It's sim card management in Honor settings.
+    After removing, sim card management in settings will not work.
+  id: com.hihonor.dsdscardmanager
+  removal: critical
+
+- description: |-
+    UAF client for FIDO.
+    Fido is a set of open technical specifications for mechanisms of authenticating users to online services that do not depend on passwords.
+    https://fidoalliance.org/specs/u2f-specs-1.0-bt-nfc-id-amendment/fido-glossary.html
+    https://fidoalliance.org/specs/fido-v2.0-rd-20170927/fido-overview-v2.0-rd-20170927.html
+    The UAF protocol is designed to enable online services to offer passwordless and multi-factor security by allowing users to register their device to the online service and using a local authentication mechanism such as iris or fingerprint recognition.
+    https://developers.google.com/identity/fido/android/native-apps
+    Safe to remove if you don't use password-less authentication to access online services.
+  id: com.hihonor.fido.uafclient
+  removal: caution
+
+- description: |-
+    Honor's file manager.
+    It is not the system one so it's safe to remove.
+  id: com.hihonor.filemanager
+  removal: safe
+
+- description: |-
+    Probably safe to remove if you don't play games.
+    Has window show, keybind set and more things.
+  id: com.hihonor.game.kitserver
+  removal: caution
+
+- description: |-
+    Honor Game Suite (HiGame).
+    Mobile game app store.
+    https://club.hihonor.com/in/topic/16341/detail.htm
+  id: com.hihonor.gameassistant
+  removal: safe
+
+- description: |-
+    hiview
+    Removing this doesn't remove access to the picture attributes, so what does it actually do?
+    It's the same as (com.hihonor.hiviewtunnel), which is useless.
+    It has 19 permissions, Crash App Dialog, logs. So do not trust these apps.
+  id: com.hihonor.hiview
+  removal: safe
+
+- description: |-
+    This displays details/attributes of pictures in the gallery (ISO, exposure time, etc.).
+  id: com.hihonor.hiviewtunnel
+  removal: caution
+
+- description: |-
+    FIDO UAF Authenticator-Specific Module.
+    See 'com.hihonor.fido.uafclient' for FIDO explaination.
+    The UAF Authenticator-Specific Module (ASM) is a software interface on top of UAF authenticators which gives a standardized way for FIDO UAF clients to detect and access the functionality of UAF authenticators and hides internal communication complexity from FIDO UAF Client.
+    https://fidoalliance.org/specs/fido-uaf-v1.0-ps-20141208/fido-uaf-asm-api-v1.0-ps-20141208.html
+  id: com.hihonor.hnasm
+  removal: caution
+
+- description: |-
+    Honor Multi-Window dock
+    Probably fine to remove if you're not using Honor Multi-Window features.
+  id: com.hihonor.hndockbar
+  removal: caution
+
+- description: |-
+    Payment related service. Safe to remove.
+  id: com.hihonor.hnpanpayservice
+  removal: safe
+
+- description: |-
+    A one-time setup app that is no longer needed
+  id: com.hihonor.hnstartupguide
+  removal: safe
+
+- description: |-
+    App Prioritizer. Prioritizes apps to avoid slowdown
+    Up to you but there is apparently no noticeable difference when deleted?
+    System will start lagging a little bit (you will notice it while scrolling and on some animations, for example scrolling installed apps), battery consumption will become slightly higher and battery stats will disappear soon. At the same time, logcat will be full of errors like: PowerKit: PG Server is not found. calling pid xxxx.
+  id: com.hihonor.iaware
+  removal: caution
+
+- description: |-
+    iConnect
+    Hidden menu 'install PCAssistant' when connected to PC? I have never seen it. Safe to remove.
+  id: com.hihonor.iconnect
+  removal: safe
+
+- description: |-
+    Honor Mobile Services
+    Honor’s alternative to Google Play Services. Needed to access advanced Honor features.
+    A Honor ID is required to access services, like Themes. This may break an app like InPost Mobile, see:
+    https://github.com/0x192/universal-android-debloater/issues/477
+    See more about Honor Mobile Services: https://www.xda-developers.com/huawei-hms-core-android-alternative-google-play-services-gms/
+  id: com.hihonor.id
+  removal: caution
+
+- description: |-
+    Audio 3D effects found in the settings. Safe to remove if you don't use these settings.
+    Causes an audio glitch after the first reboot following the uninstallation or disabling of this package.
+    When you start or resume playing any audio content in any media application, the sound volume initially sets to maximum for half a second, then normalizes.
+    Affects only external audio devices with any connection type.
+  id: com.hihonor.imedia.sws
+  removal: safe
+
+- description: |-
+    Face recognition and fingerprint authentication. Probably a bad idea to remove.
+  id: com.hihonor.keychain
+  removal: critical
+
+- description: |-
+    As of writing this, Honor phones cannot be rooted.
+    This Backup application is probably able to backup more than any other 3rd party backup app.
+  id: com.hihonor.koBackup
+  removal: caution
+
+- description: |-
+    Location Based Services
+    Location-based services (LBS) are applications or services that utilize location data from a user's device, such as a smartphone or GPS, to provide relevant information, directions, or recommendations tailored to their specific location. These services rely on a combination of technologies, including Global Positioning System (GPS), Wi-Fi, cellular networks, and sensors, to determine a user's position accurately.
+    NOTE: Can cause bootloops on some devices.
+    The primary goal of LBS is to offer personalized and context-aware experiences based on a user's geographical location. This can include services like:
+    1. Navigation and Mapping, 2. Location-Based Advertising, 3. Social Networking, 4. Emergency Services, 5. IoT Asset Tracking
+    https://forum.huawei.com/enterprise/en/location-based-services/thread/703168442200375296-667213855346012160
+  id: com.hihonor.lbs
+  removal: risky
+
+- description: |-
+    App kinda like Google Lens, used for scanning QR Codes and more.
+    Safe to remove.
+  id: com.hihonor.lens
+  removal: safe
+
+- description: |-
+    Windows Phone Link Service. Safe to remove.
+  id: com.hihonor.linktowindowsservice
+  removal: safe
+
+- description: |-
+    Magic Pictorial/Magazine unlock.
+    Safe to remove if you're not using it.
+  id: com.hihonor.magazine
+  removal: safe
+
+- description: |-
+    MMITest
+    Hidden hardware tests. Safe to remove.
+  id: com.hihonor.mmitest
+  removal: safe
+
+- description: |-
+    Gesture Service
+    Not very useful gestures available in settings.
+  id: com.hihonor.motionservice
+  removal: caution
+
+- description: |-
+    HnNearby
+    Needed for Honor Share features. (com.hihonor.android.instantshare)
+    Honor Share features may not work after remove.
+    Needed to show a preview of recently opened apps in task manager. I agree, makes no sense, but that's what it is.
+  id: com.hihonor.nearby
+  removal: caution
+
+- description: |-
+    Honor's notepad app.
+    Safe to remove.
+  id: com.hihonor.notepad
+  removal: safe
+
+- description: |-
+    Designed to block unwanted calls.
+  id: com.hihonor.numberidentity
+  removal: safe
+
+- description: |-
+    Provisioning message
+    Used for provisioning APN settings to devices via SMS. I think you shouldnt touch it if you want sms messages.
+  id: com.hihonor.omacp
+  removal: risky
+
+- description: |-
+    OTA Updates for Honor devices. Probably unsafe to remove.
+  id: com.hihonor.ouc
+  removal: risky
+
+- description: |-
+    HiSuite service. Used by HiSuite PC software.
+    HiSuite enables you to backup your data and restore them from/to your phone.
+    https://consumer.huawei.com/en/support/hisuite/
+  id: com.hihonor.pcassistant
+  removal: safe
+
+- description: |-
+    Found help app permissions - only link to Google site in code, overlay to permission things like buttons, dialogs, etc.
+    But it's not needed?
+  id: com.hihonor.permissioncontroller.overlay
+  removal: risky
+
+- description: |-
+    My Honor.
+    https://play.google.com/store/apps/details?id=com.hihonor.phoneservice&hl=fr
+  id: com.hihonor.phoneservice
+  removal: safe
+
+- description: |-
+    Honor's photos app.
+    Safe to remove.
+  id: com.hihonor.photos
+  removal: safe
+
+- description: |-
+    Task killer app in EMUI 9+ (Android 9+).
+    Task killer apps tend to do more harm than help as they clear cached RAM for no good reason, removing the battery and time savings involved in caching. In addition to the obvious issues with background functionality like notifications.
+    From issue#104.
+    System will start lagging a little bit (you will notice it while scrolling and on some animations, for example scrolling installed apps), battery consumption will become slightly higher and battery stats will disappear soon. At the same time, logcat will be full of errors like: PowerKit: PG Server is not found. calling pid xxxx.
+  id: com.hihonor.powergenie
+  removal: risky
+
+- description: |-
+    Print service
+  id: com.hihonor.printservice
+  removal: caution
+
+- description: |-
+    RemotePassword
+    remotepassword: errors, invalid, null, errors generally
+    also subscribe info, device info. Better remove that.
+  id: com.hihonor.remotepassword
+  removal: safe
+
+- description: |-
+    Stock screen recorder
+    Useful only in pre-Android Pie for having system audio recording without root.
+  id: com.hihonor.screenrecorder
+  removal: caution
+
+- description: |-
+    HONOR Search.
+    https://www.honor.com/sa-en/support/content/en-us15829481/
+    Safe to remove if you're not using it.
+  id: com.hihonor.search
+  removal: safe
+
+- description: |-
+    Fusion Search Service
+    Needed for searching? 
+    also found trackers components that connects to Honor servers unnecessarily.
+  id: com.hihonor.searchservice
+  removal: safe
+
+- description: |-
+    HnSecurityPluginBase
+    Antivirus Service supports bad antiviruses, HnLog, not needed
+  id: com.hihonor.securitypluginbase
+  removal: safe
+
+- description: |-
+    HnSecurityServer
+    Not needed app without code and useless assets to spying apps.
+    Needed for face unlock, black screen will be shown if you remove this package (?). Doesn't apply to all devices
+  id: com.hihonor.securityserver
+  removal: risky
+
+- description: |-
+    Smart screenshots
+    Needed for screenshots.
+  id: com.hihonor.smartshot
+  removal: risky
+
+- description: |-
+    Honor's audio recording app.
+    Safe to remove.
+  id: com.hihonor.soundrecorder
+  removal: safe
+
+- description: |-
+    Honor Cloud & Network Synergy.
+    Seems to be related to B2B (Business To Business) cloud stuff.
+    https://www.huawei.com/en/press-events/news/2016/10/Cloud-Network-Synergy-Whitepaper
+  id: com.hihonor.synergy
+  removal: safe
+
+- description: |-
+    System apps update
+    Unless you want to manually update system apps, do not remove.
+  id: com.hihonor.systemappsupdater
+  removal: risky
+
+- description: |-
+    System Manager
+    Honor's stock phone cleaner. Consumes a lot of battery power for useless 'security' checks.
+     NOTE: breaks the functionality of closing and cleaning background apps.
+    This is more than a phone cleaner, you will lose a lot of settings like battery and notifications management if you remove this.
+     WARNING: apparently needed for managing app permissions, not safe to remove.
+  id: com.hihonor.systemmanager
+  removal: critical
+
+- description: |-
+    Honor System Services
+    It depends on (com.hihonor.systemmanager).
+    Needed for navigation with a fingerprint reader that is on a Huawei Mate 10, but fingerprint unlock will still work if you remove it.
+  id: com.hihonor.systemserver
+  removal: risky
+
+- description: |-
+    Device authentication service
+    The app's usage is unknown, but it can be removed if apps such as com.hihonor.id, com.hihonor.appmarket are also removed. This is what I found while exploring the APK: Huawei Mobile Services?, managing installation and updates of AppGallery.
+    Huawei HWID account may be inaccessible without this app.
+  id: com.hihonor.trustcircle
+  removal: safe
+
+- description: |-
+    Honor's video editing app.
+    Safe to remove.
+  id: com.hihonor.videoeditor
+  removal: safe
+
+- description: |-
+    PredefinedEapSim
+    Needed for WiFi to work properly? WiFi may not work (?)
+  id: com.hihonor.wifieapsimplmn
+  removal: risky
+

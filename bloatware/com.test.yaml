@@ -1,4 +1,10 @@
 ---
 - description: 'LTE, VoLTE testing app'
   id: com.test.LTEfunctionality
-  removal: recommended
+  removal: safe
+- description: |-
+    Bigme HiBreak Pro app to submit log reports when user requests it. Uploads Android and kernel logs to a Chinese cloud (Baidu). If uninstalled, Log Report button in the settings will not open a pop-up.
+    Check that you have this phone before disabling! The package name is generic.
+  id: com.test.logcollect
+  removal: caution
+

@@ -3,9 +3,9 @@
     UnionPay
     Only for China.
   id: com.unionpay.tsmservice
-  removal: recommended
+  removal: safe
 - description: |-
     UnionPay
     Only for China.
   id: com.unionpay.tsmservice.mi
-  removal: recommended
+  removal: safe

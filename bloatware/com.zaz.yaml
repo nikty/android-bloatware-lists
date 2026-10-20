@@ -5,4 +5,4 @@
     It has the Camera and microphone permissions and use the Google Translate API for the translations.
     Pithus analysis: https://beta.pithus.org/report/fdd787d96c3e069f983320c84c32fc6b8cdf205df17244d190b181edf0c14f68
   id: com.zaz.translate
-  removal: recommended
+  removal: safe

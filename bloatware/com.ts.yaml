@@ -1,4 +1,4 @@
 ---
 - description: ''
   id: com.ts.setupwizard.overlay.overlay
-  removal: expert
+  removal: risky

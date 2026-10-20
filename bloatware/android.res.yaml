@@ -1,0 +1,10 @@
+- description: |-
+    An overlay that draws over android. Find out more by running: adb shell cmd overlay list, to see other packages
+  id: android.res.overlay_305
+  removal: critical
+
+- description: |-
+    An overlay that draws over android. Find out more by running: adb shell cmd overlay list, to see other packages
+  id: android.res.overlay_310_311
+  removal: critical
+
